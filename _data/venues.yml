@@ -1,0 +1,35 @@
+"ESEC/FSE":
+  url: https://www.esec-fse.org/
+  color: "#128a21"
+
+"ICSE":
+  url: http://www.icse-conferences.org/
+  color: "#3498db"
+
+"ISSRE":
+  url: https://en.wikipedia.org/wiki/ISSRE
+  color: "#B284BE"
+
+"ICSME":
+  url: https://conferences.computer.org/icsm/
+  color: "#e7a41b"
+
+"INS":
+  url: https://www.sciencedirect.com/journal/information-sciences
+  color: " #f4d03f"
+
+
+"ICMLA":
+  url: https://www.icmla-conference.org/
+  color: "#e74c3c"
+
+
+"TSE":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32
+  color: "#5bf21f"
+
+"Submitted":
+  color: "#aab7b8"
+
+"Preprint":
+  color: "#aab7b8"

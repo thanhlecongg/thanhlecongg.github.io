@@ -27,12 +27,6 @@
 
 }
 
-@inproceedings{nguyen2023gnninfer,
-  abbr = {Ongoing},
-  author={Nguyen*, Thanh-Dat and Le-Cong, Thanh and Nguyen, ThanhVu H. and Le, Xuan-Bach D. and Huynh, Quyet-Thang},
-  title={GNN-Infer: Property Inference for Graph Neural Networks}, 
-  year={Ongoing},
-}
 
 @inproceedings{le2022autopruner,
   abbr = {ESEC/FSE},
@@ -41,8 +35,10 @@
   booktitle={2022 ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, Research Track},
   year={2022},
   selected = {true},
-  organization={ACM}
-
+  organization={ACM},
+  code = {https://github.com/soarsmu/AutoPruner/},
+  abstract={Constructing a static call graph requires trade-offs between soundness and precision. Program analysis techniques for constructing call graphs are unfortunately usually imprecise. To address this problem, researchers have recently proposed call graph pruning empowered by machine learning to post-process call graphs constructed by static analysis. A machine learning model is built to capture information from the call graph by extracting structural features for use in a random forest classifier. It then removes edges that are predicted to be false positives. Despite the improvements shown by machine learning models, they are still limited as they do not consider the source code semantics and thus often are not able to effectively distinguish true and false positives. In this paper, we present a novel call graph pruning technique, AutoPruner, for eliminating false positives in call graphs via both statistical semantic and structural analysis. Given a call graph constructed by traditional static analysis tools, AutoPruner takes a Transformer-based approach to capture the semantic relationships between the caller and callee functions associated with each edge in the call graph. To do so, AutoPruner fine-tunes a model of code that was pre-trained on a large corpus to represent source code based on descriptions of its semantics. Next, the model is used to extract semantic features from the functions related to each edge in the call graph. AutoPruner uses these semantic features together with the structural features extracted from the call graph to classify each edge via a feed-forward neural network. Our empirical evaluation on a benchmark dataset of real-world programs shows that AutoPruner outperforms the state-of-the-art baselines, improving on F-measure by up to 13% in identifying false-positive edges in a static call graph.},
+  pdf={https://www.researchgate.net/publication/363363373_AutoPruner_Transformer-Based_Call_Graph_Pruning},
 }
 
 @inproceedings{nguyen2022vulcurator,
@@ -52,7 +48,11 @@
   booktitle={2022 ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, Tool Demos Track},
   year={2022},
   selected = {true},
-  organization={ACM}
+  organization={ACM},
+  code = {https://github.com/ntgiang71096/VFDetector},
+  abstract={Open-source software (OSS) vulnerability management process is important nowadays, as the number of discovered OSS vulnerabilities is increasing over time. Monitoring vulnerability-fixing commits is a part of the standard process to prevent vulnerability exploitation. Manually detecting vulnerability-fixing commits is, however, time consuming due to the possibly large number of commits to review. Recently, many techniques have been proposed to automatically detect vulnerability-fixing commits using machine learning. These solutions either: (1) did not use deep learning, or (2) use deep learning on only limited sources of information. This paper proposes VulCurator, a tool that leverages deep learning on richer sources of information, including commit messages, code changes and issue reports for vulnerability-fixing commit classifica- tion. Our experimental results show that VulCurator outperforms the state-of-the-art baselines up to 16.1% in terms of F1-score. VulCurator tool is publicly available at https://github.com/ntgiang71096/VFDetector and https://zenodo.org/record/7034132#.Yw3MN-xBzDI, with a demo video at https://youtu.be/uMlFmWSJYOE.},
+  pdf={https://www.researchgate.net/publication/363363305_VulCurator_A_Vulnerability-Fixing_Commit_Detector}
+
 }
 
 @inproceedings{nguyen2022ffl,
@@ -62,7 +62,10 @@
   booktitle={2022 IEEE 38th International Conference on Software Maintenance and Evolution, Research Track},
   year={2022},
   selected = {true},
-  organization={IEEE}
+  organization={IEEE},
+  code = {https://github.com/FFL2022/FFL},
+  abstract={Fault localization has been used to provide feedback for incorrect student programs since locations of faults can be a valuable hint for students about what caused their programs to crash. Unfortunately, existing fault localization techniques for student programs are limited because they usually consider either the program's syntax or semantics alone. This motivates the new design of fault localization techniques that use both semantic and syntactical information of the program. In this paper, we introduce FFL  (\underline{F}ine grained \underline{F}ault \underline{L}ocalization), a novel technique using syntactic and semantic reasoning for localizing bugs in student programs. The novelty in FFL that allows it to capture both syntactic and semantic of a program is three-fold:  (1) A fine-grained graph-based representation of a program that is adaptive for statement-level fault localization; (2) an effective and efficient model to leverage the designed  representation for fault-localization task and (3) a node-level training objective that allows deep learning model to learn from fine-grained syntactic patterns. We compare FFL's effectiveness with state-of-the-art fault localization techniques for student programs (NBL, Tarantula, Ochiai and DStar) on two real-world datasets: Prutor and Codeflaws. Experimental results show that FFL successfully localizes bug for 84.6\% out of 2136 programs on Prutor and 83.1\% out of 780 programs on Codeflaws concerning the top-10 suspicious statements.  FFL also remarkably outperforms the best baselines by 197\%, 104\%, 70\%, 22\% on Codeflaws dataset and 10\%, 17\%, 15\% and 8\% on Prutor dataset, in term of \textit{top-1}, \textit{top-3}, \textit{top-5}, \textit{top-10}, respectively.},
+  pdf={}
 }
 
 @inproceedings{nguyen2022gnninfer,
@@ -75,7 +78,9 @@
   number={},
   selected = {true},
   pages={116-120},
-   organization={IEEE}
+  abstract={Graph Neural Networks (GNNs) have recently emerged as a robust framework for graph-structured data. They have been applied to many problems such as knowledge graph analysis, social networks recommendation, and even Covid19 detection and vaccine developments. However, unlike other deep neural networks such as Feed Forward Neural Networks (FFNNs), few analyses such as verification and property inferences exist, potentially due to dynamic behaviors of GNNs, which can take arbitrary graphs as input, whereas FFNNs which only take fixed size numerical vectors as inputs. This paper proposes an approach to analyze GNNs by converting them into FFNNs and reusing existing FFNNs analyses. We discuss various designs to ensure the scalability and accuracy of the conversions. We illustrate our method on a study case of node classification. We believe that our approach opens new research directions for understanding and analyzing GNNs. },
+  pdf={https://arxiv.org/pdf/2201.00115.pdf},
+  organization={IEEE}
 }
 
 @inproceedings{le2021usability,
@@ -86,6 +91,8 @@
   pages={173--183},
   year={2021},
   selected = {true},
+  abstract={With the recent explosive growth of mobile devices such as smartphones or tablets, guaranteeing consistent web appearance across all environments has become a significant problem. This happens simply because it is hard to keep track of the web appearance on different sizes and types of devices that render the web pages. Therefore, fixing the inconsistent appearance of web pages can be difficult, and the cost incurred can be huge, e.g., poor user experience and financial loss due to it. Recently, automated web repair techniques have been proposed to automatically resolve inconsistent web page appearance, focusing on improving usability. However, generated patches tend to disrupt the webpage's layout, rendering the repaired webpage aesthetically unpleasing, e.g., distorted images or misalignment of components. In this paper, we propose an automated repair approach for web pages based on meta-heuristic algorithms that can assure both usability and aesthetics. The key novelty that empowers our approach is a novel fitness function that allows us to optimistically evolve buggy web pages to find the best solution that optimizes both usability and aesthetics at the same time. Empirical evaluations show that our approach is able to successfully resolve mobile-friendly problems in 94% of the evaluation subjects, significantly outperforming state-of-the-art baseline techniques in terms of both usability and aesthetics.},
+  pdf={https://www.researchgate.net/publication/357552910_Usability_and_Aesthetics_Better_Together_for_Automated_Repair_of_Web_Pages},
   organization={IEEE}
 }
 
@@ -96,6 +103,9 @@
   booktitle={2020 19th IEEE International Conference on Machine Learning and Applications (ICMLA)},
   pages={1440--1445},
   year={2020},
+  code = {https://github.com/thanhlecongg/SAFL},
+  abstract={In the last decades, scene text recognition has gainedworldwide attention from both the academic community andactual users due to its importance in a wide range of applications.Despite achievements in optical character recognition, scenetext recognition remains challenging due to inherent problemssuch as distortions or irregular layout. Most of the existingapproaches mainly leverage recurrence or convolution-basedneural networks. However, while recurrent neural networks(RNNs) usually suffer from slow training speed due to sequentialcomputation and encounter problems as vanishing gradient orbottleneck, CNN endures a trade-off between complexity andperformance. In this paper, we introduce SAFL, a self-attention-based neural network model with the focal loss for scene textrecognition, to overcome the limitation of the existing approaches.The use of focal loss instead of negative log-likelihood helps themodel focus more on low-frequency samples training. Moreover,to deal with the distortions and irregular texts, we exploit SpatialTransformerNetwork (STN) to rectify text before passing to therecognition network. We perform experiments to compare theperformance of the proposed model with seven benchmarks.The numerical results show that our model achieves the bestperformance. (2) (PDF) SAFL: A Self-Attention Scene Text Recognizer with Focal Loss.},
+  pdf={https://www.researchgate.net/publication/349568754_SAFL_A_Self-Attention_Scene_Text_Recognizer_with_Focal_Loss},
   organization={IEEE}
 }
 
@@ -107,6 +117,9 @@
   volume={540},
   pages={325--344},
   year={2020},
+  code = {https://github.com/thanhlecongg/MFLTGA},
+  abstract={Linkage Tree Genetic Algorithm (LTGA) is an effective Evolutionary Algorithm (EA) to solve complex problems using the linkage information between problem variables. LTGA performs well in various kinds of single-task optimization and yields promising results in comparison with the canonical genetic algorithm. However, LTGA is an unsuitable method for dealing with multi-task optimization problems. On the other hand, Multifactorial Optimization (MFO) can simultaneously solve independent optimization problems, which are encoded in a unified representation to take advantage of the process of knowledge transfer. In this paper, we introduce Genetic Algorithm (MF-LTGA) by combining the main features of both LTGA and MFO. MF-LTGA is able to tackle multiple optimization tasks at the same time, each task learns the dependency between problem variables from the shared representation. This knowledge serves to determine the high-quality partial solutions for supporting other tasks in exploring the search space. Moreover, MF-LTGA speeds up convergence because of knowledge transfer of relevant problems. We demonstrate the effectiveness of the proposed algorithm on two benchmark problems: Clustered Shortest-Path Tree Problem and Deceptive Trap Function. In comparison to LTGA and existing methods, MF-LTGA outperforms in quality of the solution or in computation time.},
+  pdf={https://www.researchgate.net/publication/342268039_A_Multifactorial_Optimization_Paradigm_for_Linkage_Tree_Genetic_Algorithm},
   publisher={Elsevier}
 }
 
@@ -115,5 +128,7 @@ abbr = {Preprint},
 title={Unsupervised Learning of Node Embeddings by Detecting Communities},
 author={Chi Thang Duong and Dung Hoang and Truong Giang Le Ba and Thanh Le Cong and Hongzhi Yin and Matthias Weidlich and Quoc Viet Hung Nguyen and Karl Aberer},
 year={2020},
+abstract={We present Deep MinCut (DMC), an unsupervised approach to learn node embeddings for graph-structured data. It derives node representations based on their membership in communities. As such, the embeddings directly provide interesting insights into the graph structure, so that the separate node clustering step of existing methods is no longer needed. DMC learns both, node embeddings and communities, simultaneously by minimizing the mincut loss, which captures the number of connections between communities. Striving for high scalability, we also propose a training process for DMC based on minibatches. We provide empirical evidence that the communities learned by DMC are meaningful and that the node embeddings are competitive in different node classification benchmarks.},
+pdf={https://openreview.net/pdf?id=Byl3K2VtwB},
 url={https://openreview.net/forum?id=Byl3K2VtwB}
 }

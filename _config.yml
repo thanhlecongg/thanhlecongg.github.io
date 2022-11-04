@@ -6,7 +6,7 @@ title: Thanh Le-Cong # the website title (if blank, full name will be used inste
 first_name: Thanh
 middle_name:
 last_name: Le-Cong
-email: tlecong@student.unimelb.edu.au
+email: thanh.lecong@student.unimelb.edu.au
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   My personal website.
 footer_text: >

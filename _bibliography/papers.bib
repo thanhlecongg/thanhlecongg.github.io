@@ -86,7 +86,7 @@
   selected = {true},
   pages={116-120},
   abstract={Graph Neural Networks (GNNs) have recently emerged as a robust framework for graph-structured data. However, unlike other deep neural networks such as Feed Forward Neural Networks (FFNNs), few analyses such as verification and property inferences exist, potentially due to dynamic behaviors of GNNs, which can take arbitrary graphs as input, whereas FFNNs which only take fixed size numerical vectors as inputs. This paper proposes an approach to analyze GNNs by converting them into FFNNs and reusing existing FFNNs analyses. We discuss various designs to ensure the scalability and accuracy of the conversions. We illustrate our method on a study case of node classification. We believe that our approach opens new research directions for understanding and analyzing GNNs.},
-  pdf={https://arxiv.org/pdf/2201.00115.pdf},
+  pdf={ICSE_GNNInfer.pdf},
   organization={IEEE}
 }
 
@@ -99,7 +99,7 @@
   year={2021},
   selected = {true},
   abstract={With the recent explosive growth of mobile devices such as smartphones or tablets, guaranteeing consistent web appearance across all environments has become a significant problem. This happens simply because it is hard to keep track of the web appearance on different sizes and types of devices that render the web pages. Therefore, fixing the inconsistent appearance of web pages can be difficult, and the cost incurred can be huge, e.g., poor user experience and financial loss due to it. In this paper, we propose an automated repair approach for web pages based on meta-heuristic algorithms that can assure both usability and aesthetics. The key novelty that empowers our approach is a novel fitness function that allows us to optimistically evolve buggy web pages to find the best solution that optimizes both usability and aesthetics at the same time. Empirical evaluations show that our approach is able to successfully resolve mobile-friendly problems in 94% of the evaluation subjects, significantly outperforming state-of-the-art baseline techniques in terms of both usability and aesthetics.},
-  pdf={https://www.researchgate.net/publication/357552910_Usability_and_Aesthetics_Better_Together_for_Automated_Repair_of_Web_Pages},
+  pdf={ISSRE21},
   organization={IEEE}
 }
 
@@ -112,13 +112,13 @@
   year={2020},
   code = {https://github.com/thanhlecongg/SAFL},
   abstract={In the last decades, scene text recognition has gainedworldwide attention from both the academic community andactual users due to its importance in a wide range of applications.Despite achievements in optical character recognition, scenetext recognition remains challenging due to inherent problemssuch as distortions or irregular layout. Most of the existingapproaches mainly leverage recurrence or convolution-basedneural networks. However, while recurrent neural networks(RNNs) usually suffer from slow training speed due to sequentialcomputation and encounter problems as vanishing gradient orbottleneck, CNN endures a trade-off between complexity andperformance. In this paper, we introduce SAFL, a self-attention-based neural network model with the focal loss for scene textrecognition, to overcome the limitation of the existing approaches.The use of focal loss instead of negative log-likelihood helps themodel focus more on low-frequency samples training. Moreover,to deal with the distortions and irregular texts, we exploit SpatialTransformerNetwork (STN) to rectify text before passing to therecognition network. We perform experiments to compare theperformance of the proposed model with seven benchmarks.The numerical results show that our model achieves the bestperformance. (2) (PDF) SAFL: A Self-Attention Scene Text Recognizer with Focal Loss.},
-  pdf={https://www.researchgate.net/publication/349568754_SAFL_A_Self-Attention_Scene_Text_Recognizer_with_Focal_Loss},
+  pdf={ICMLA_SAFL.pdf},
   organization={IEEE}
 }
 
 @article{huynh2020multifactorial,
   abbr = {INS},
-  title={A multifactorial optimization paradigm for linkage tree genetic algorithm},
+  title={A Multifactorial Optimization Paradigm for Linkage Tree Genetic Algorithm},
   author={Huynh, Thi Thanh Binh and Pham, Dinh Thanh and Tran, Ba Trung and Le-Cong, Thanh and Le, Minh Hai Phong and Swami, Ananthram and Bui, Thu Lam},
   journal={Information Sciences},
   volume={540},
@@ -126,16 +126,7 @@
   year={2020},
   code = {https://github.com/thanhlecongg/MFLTGA},
   abstract={Linkage Tree Genetic Algorithm (LTGA) is an effective Evolutionary Algorithm (EA) to solve complex problems using the linkage information between problem variables. LTGA performs well in various kinds of single-task optimization and yields promising results in comparison with the canonical genetic algorithm. However, LTGA is an unsuitable method for dealing with multi-task optimization problems. On the other hand, Multifactorial Optimization (MFO) can simultaneously solve independent optimization problems, which are encoded in a unified representation to take advantage of the process of knowledge transfer. In this paper, we introduce Genetic Algorithm (MF-LTGA) by combining the main features of both LTGA and MFO. MF-LTGA is able to tackle multiple optimization tasks at the same time, each task learns the dependency between problem variables from the shared representation. This knowledge serves to determine the high-quality partial solutions for supporting other tasks in exploring the search space. Moreover, MF-LTGA speeds up convergence because of knowledge transfer of relevant problems. We demonstrate the effectiveness of the proposed algorithm on two benchmark problems: Clustered Shortest-Path Tree Problem and Deceptive Trap Function. In comparison to LTGA and existing methods, MF-LTGA outperforms in quality of the solution or in computation time.},
-  pdf={https://www.researchgate.net/publication/342268039_A_Multifactorial_Optimization_Paradigm_for_Linkage_Tree_Genetic_Algorithm},
+  pdf={InfSci_MFLTGA.pdf},
   publisher={Elsevier}
 }
 
-@misc{duong2020unsupervised,
-abbr = {Preprint},
-title={Unsupervised Learning of Node Embeddings by Detecting Communities},
-author={Chi Thang Duong and Dung Hoang and Truong Giang Le Ba and Thanh Le Cong and Hongzhi Yin and Matthias Weidlich and Quoc Viet Hung Nguyen and Karl Aberer},
-year={2019},
-abstract={We present Deep MinCut (DMC), an unsupervised approach to learn node embeddings for graph-structured data. It derives node representations based on their membership in communities. As such, the embeddings directly provide interesting insights into the graph structure, so that the separate node clustering step of existing methods is no longer needed. DMC learns both, node embeddings and communities, simultaneously by minimizing the mincut loss, which captures the number of connections between communities. Striving for high scalability, we also propose a training process for DMC based on minibatches. We provide empirical evidence that the communities learned by DMC are meaningful and that the node embeddings are competitive in different node classification benchmarks.},
-pdf={https://openreview.net/pdf?id=Byl3K2VtwB},
-url={https://openreview.net/forum?id=Byl3K2VtwB}
-}

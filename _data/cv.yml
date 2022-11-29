@@ -11,6 +11,14 @@
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D Student in Engineering and IT
+      institution: The Univerisity of Melbourne, Melbourne, Victoria, Australia
+      year: 2023-Now
+      description:
+        - Advised by Dr. <a href="https://xuanbachle.github.io/">Bach Le</a> and Prof. <a href="https://people.eng.unimelb.edu.au/tobym/">Toby Murray</a>
+        - Awarded Melbourne Graduated Scholarship
+
+
     - title: B.Eng. in Information Technology
       institution: Hanoi Univeristy of Science and Technology (HUST), Hanoi, Vietnam
       year: 2016-2021
@@ -51,6 +59,9 @@
   contents:
     - year: 2022
       items: 
+        - Melbourne Graduate Scholarship (~400K AUD)
+    - year: 2022
+      items: 
         - HUST Best Thesis Award
     - year: 2021
       items: 
@@ -73,12 +84,14 @@
         - Second Prize (Top 30 nationwide) of Mathematics in National Mathematics Olympiad for High School Students, 2016 
     
     
+- title: Professional Services
+  type: list
+  contents:
+    - <u>External Reviewer/ Program Committee:</u> ICSE (2023), SAC (2022).
 
-    
-      
-
-# - title: Professional Services
-#   type: list
-#   contents:
-#     - <u>Journal Reviewer:</u> JMLR.
-#     - <u>Conference Reviewer/ Program Committee:</u> NeurIPS (2021,2022), ICML (2021,2022), ICLR (2022,2023), AISTATS (2022,2023), AAAI (2023).
+- title: Mentored Students
+  type: time_table
+  contents:
+    - year: 2021-2022
+      items: 
+          - <u>Duc Minh Luong</u>, Bachelor Thesis on "The development of Fault Localization for Student Programs"

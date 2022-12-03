@@ -1,25 +1,15 @@
-# Contributing to al-folio
-Thank you for considering to contribute to al-folio!
+All contributions, including merge requests, feature requests, ideas, design tweaks, etc. are welcome. 
+I welcome all input, from sharing your own implementations of code to general thoughts and ideas. Just open a new issue!
 
+## Feature Requests
 
-## Pull Requests
-We welcome your pull requests (PRs).
-For minor fixes (e.g., documentation improvements), feel free to submit a PR directly.
-If you would like to implement a new feature or a bug, please make sure you (or someone else) has opened an appropriate issue first; in your PR, please mention the issue it addresses.
+Feature requests are always welcome! If Jekyll can do it and if the theme's design would work well with it, then I would love to add it. Of course, 
+code submission via a merge/pull request is great, but not necessary.
 
+## Bug Reports
 
-## Issues
-We use GitHub issues to track bugs and feature requests.
-Before submitting an issue, please make sure:
+If you encounter any issues with these themes on any devices, please submit a bug report with the device type and a detailed description of what 
+the issue that you're encountering is.
+<br /><br />
 
-1. You have read [the FAQ section](https://github.com/alshedivat/al-folio#faq) of the README and your question is NOT addressed there.
-2. You have done your best to ensure that your issue is NOT a duplicate of one of [the previous issues](https://github.com/alshedivat/al-folio/issues).
-3. Your issue is either a bug (unexpected/undesirable behavior) or a feature request.
-If it is just a question, please ask it in the [Discussions](https://github.com/alshedivat/al-folio/discussions) forum.
-
-When submitting an issue, please make sure to use the appropriate template.
-
-
-## License
-By contributing to al-folio, you agree that your contributions will be licensed
-under the LICENSE file in the root directory of the source tree.
+*Thank you*

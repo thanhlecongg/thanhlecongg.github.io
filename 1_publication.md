@@ -44,7 +44,7 @@ nav-menu: true
 Deep Neural Networks (DNNs) have recently emerged as a powerful framework for solving complex real-world problems, including safety-critical tasks such as autonomous driving, finance, and medical diagnosis. Despite their popularity, it has been shown that DNNs can be vulnerable and unreliable. Ensuring the reliability and trustworthiness of DNNs thus becomes an increasingly challenging and essential task. Towards this, researchers recently have developed DNNs analyses, e.g., verification or testing, to provide insights into the behaviors of DNNs.
 In this talk, we will study property inference – a new research direction on DNNs analysis. First, I introduce the property inference for deep neural networks. Then, I present the first work on the research direction, Prophecy, which automatically infers the formal properties of feed-forward neural networks and gets introduced at ASE 2019. Finally, GNN-Infer, a new property inference technique introduced at ICSE 2022, is presented towards discovering formal properties for graph neural networks.
 
-### AutoPruner: Transformer-based Call Graph Pruning - [SOLA-Weekly Seminars](https://www.software-lab.org/) - November 2022
+### AutoPruner: Transformer-based Call Graph Pruning - [SOLA Weekly Seminars](https://www.software-lab.org/) - November 2022
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/VP6535R2QvQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 

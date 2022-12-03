@@ -2,7 +2,7 @@
 layout: post
 title: Contact Me
 description: Collaboration and Communication
-image: assets/images/contact_is.webp
+image: assets/images/banner.jpg
 nav-menu: true
 ---
 

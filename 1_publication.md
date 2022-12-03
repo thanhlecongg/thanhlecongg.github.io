@@ -2,7 +2,7 @@
 layout: post
 title: Publications
 description: Peer-reviewed papers, talks, and open sources
-image: assets/images/page_publications.jpg
+image: assets/images/253418.jpg
 nav-menu: true
 ---
 

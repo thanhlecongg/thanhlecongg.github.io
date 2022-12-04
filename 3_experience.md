@@ -1,0 +1,31 @@
+---
+layout: post_no_img
+title: Experiences
+description: Working, Teaching and Mentoring Experiences
+image: assets/images/391240.webp
+nav-menu: true
+---
+
+## Working Experiences
+
+#### Research Engineer, [SOAR@Singapore Management University](https://soarsmu.github.io/), Jan 2022 - Dec 2022
+*Funded by the National Satellite of Excellence in Trustworthy Software Systems*
+- Advisor: Prof. David Lo
+- Topic: Uncovering Vulnerabilities in Machine Learning Frameworks via Software Composition Analysis and Directed Grammar-Based Fuzzing
+
+#### Research Assistant, [BKAI@Hanoi University of Science and Technology](https://bkai.ai/), July 2019 - Dec 2021
+- Advisor: Prof. Huynh Quyet Thang
+- Topic: Automated Program Repair.
+
+
+#### Visiting Scholar, [IIIS@Griffith University](https://www.griffith.edu.au/institute-integrated-intelligent-systems), July 2019
+*Funded by the Griffith University Internal Grant.*
+- Advisor: Dr. Henry Nguyen
+- Topic: Credibility Analysis in Social Media.
+
+
+#### Research Assistant, [MSOLab@Hanoi University of Science and Technology](http://mso.soict.hust.edu.vn/), March 2017 - June 2019
+*Partially funded by the U.S. Army Combat Capabilities Development Command Pacific and Army Research Laboratory*
+- Advisor: Prof. Huynh Thi Thanh Binh
+- Topic: Multitasking Evolutionary Algorithms for Optimizing Artificial Neural Network and Graph-based Models.
+

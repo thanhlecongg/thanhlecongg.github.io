@@ -1,0 +1,37 @@
+---
+layout: post
+title: Achievements
+description: Awards, Honours and Scholarship
+image: assets/images/pngtree-technology-achievements-future-black-gold-atmosphere-background-picture-image_1003827.png
+nav-menu: true
+---
+
+## Grants & Scholarships
+
+#### 1. Melbourne Graduate Scholarship 
+- **Details:** The Melbourne Research Scholarship was established by the University of Melbourne and is offered to high-achieving students undertaking research study;
+- **Amount:** ~400.000 AUD.
+
+#### 2. HUST Scholarship for Excellence Academic Performance
+- **Details:** The HUST Scholarship was established offered to top 1% students achieve excellence academic performance in an acdemic year;
+- **Amount:** ~1000 AUD.
+
+#### 3. VIASM Scholarship for High School Students
+- The VIASM Scholarship was established offered to high-achieving students undertaking Mathematical study; 
+- **Amount:** ~1000 AUD.
+
+## Awards
+#### 1. Best Thesis Award
+*Awarded by Hanoi University of Science and Technology*
+
+#### 2. Best Presentation Award in Thesis Defense
+*Awarded by  Hanoi University of Science and Technology*
+
+#### 3. Winner in IEEE WCCI competition on Evolutionary Multi-task Optimization
+*Awarded by IEEE*
+
+#### 4. First Prize (Top 10 nationwide) in Vietnam Mathematics Olympiad for University 
+*Awarded by Vietnam Mathematical Society*
+
+#### 5. Second Prize (Top 30 nationwide) in National Mathematics Olympiad for High School Students
+*Awarded by Vietnam Ministry of Education*

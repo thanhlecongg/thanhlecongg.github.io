@@ -1,7 +1,7 @@
 ---
 title: Lastest News
 layout: allposts
-description: 'What is news?'
+description: 'Lastest News, Posts and Blogs?'
 image: assets/images/949834.jpg
 nav-menu: true
 ---

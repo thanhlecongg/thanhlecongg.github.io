@@ -18,7 +18,7 @@ Hi! I’m Thanh Le-Cong (Lê Công Thành in Vietnamese), a Ph.D. Student at [CI
 ## Education
 
 #### Ph.D Student, [CIS@The University of Melbourne](https://cis.unimelb.edu.au), Feb 2023 - Now
-- Funded by the Melbourne Graduate Scholarship*
+*Funded by the Melbourne Research Scholarship*
 - Advisor: Dr. Bach Le and Prof. Toby Murray
 
 #### BSc, [SOICT@Hanoi University of Science and Technology](https://soict.hust.edu.vn/), Sep 2016 - Sep 2021

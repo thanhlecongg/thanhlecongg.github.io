@@ -7,20 +7,21 @@ nav-menu: true
 ---
 
 ## Publications
+*<sup>+</sup> denotes equal contribution*
+
+### 2023
+1. Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, David Lo, *"Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"*, In the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track ([PDF](), [Code]() [Dataset]()).
 
 ### 2022
-
 1. **Thanh Le-Cong**, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le, Thang Huynh Quyet, *"AutoPruner: Transformer-Based Call Graph Pruning"*, In the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track 2022 ([PDF](./pdf/FSE_AutoPruner.pdf), [Code](https://github.com/soarsmu/AutoPruner) [Dataset](https://zenodo.org/record/6369874#.YjWzmi8RppR)).
 
 2. Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, and Bach Le, David Lo, *"VulCurator: A Vulnerability-Fixing Commit Detector"*, In the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Tool Demos Track ([PDF](./pdf/VulCurator.pdf), [Code and Dataset](https://github.com/ntgiang71096/VFDetector)).
 
 3. Thanh-Dat Nguyen, **Thanh Le-Cong**, Duc-Minh Luong, and Van-Hai Duong, Bach Le, David Lo, Quyet-Thang Huynh, *"FFL: Fine grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning"*, In the IEEE 38th International Conference on Software Maintenance and Evolution (ICSME) 2022, Research Track ([PDF](./pdf/ICSME_FFL.pdf), [Code and Dataset](https://github.com/FFL2022/FFL)).
 
-4. Thanh-Dat Nguyen, **Thanh Le-Cong**, ThanhVu H. Nguyen, and Bach Le, Quyet-Thang Huynh, *"Toward the Analysis of Graph Neural Networks"*, In the IEEE/ACM 44th International Conference on Software Engineering (ICSE) 2022, New Ideas and Emerging Results (NIER) Track, ([PDF](./pdf/ICSE_GNNInfer.pdf)). 
-
+4. Thanh-Dat Nguyen<sup>+</sup>, <strong>Thanh Le-Cong</strong><sup>+</sup>, ThanhVu H. Nguyen, and Bach Le, Quyet-Thang Huynh, *"Toward the Analysis of Graph Neural Networks"*, In the IEEE/ACM 44th International Conference on Software Engineering (ICSE) 2022, New Ideas and Emerging Results (NIER) Track, ([PDF](./pdf/ICSE_GNNInfer.pdf)). 
 
 ### 2021
-
 1. **Thanh Le-Cong**, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen, *"Usability and Aesthetics: Better Together for Automated Repair of Web Pages"*, In the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ISSRE) 2021, Research Track ([PDF](./pdf/ISSRE21.pdf))
 
 

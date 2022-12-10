@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Publications
+title: Research
 description: Peer-reviewed papers, Talks, and Open sources
 image: assets/images/253418.jpg
 nav-menu: true

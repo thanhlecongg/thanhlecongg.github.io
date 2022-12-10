@@ -10,7 +10,7 @@ nav-menu: true
 *<sup>+</sup> denotes equal contribution*
 
 ### 2023
-1. Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, David Lo, *"Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"*, In the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track ([PDF](), [Code]() [Dataset]()).
+1. Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, David Lo, *"Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"*, In the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track ([PDF](), [Code](https://github.com/soarsmu/Chronos) [Dataset](https://figshare.com/articles/software/Chronos-ICSE23/20787805)).
 
 ### 2022
 1. **Thanh Le-Cong**, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le, Thang Huynh Quyet, *"AutoPruner: Transformer-Based Call Graph Pruning"*, In the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track 2022 ([PDF](./pdf/FSE_AutoPruner.pdf), [Code](https://github.com/soarsmu/AutoPruner) [Dataset](https://zenodo.org/record/6369874#.YjWzmi8RppR)).
@@ -32,8 +32,9 @@ nav-menu: true
 2. Thi Thanh Binh Huynh, Dinh Thanh Pham, Ba Trung Tran, **Thanh Le-Cong**, Minh Hai Phong Le, Ananthram Swami, Thu Lam Bui. *“A multifactorial optimization paradigm for linkage tree genetic algorithm”*, Information Sciences (2020). 
 
 ## Open Sources
-1. "AutoPruner: Transformer-based Call Graph Pruning". [Code](https://github.com/soarsmu/AutoPruner) [Dataset](https://zenodo.org/record/6369874#.YjWzmi8RppR)
-1. "Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning" [Code and Dataset](https://github.com/thanhlecongg/Invalidator)
+1. "Chronos: Zero-Shot Identification of Libraries from Vulnerability Reports". [Code](https://github.com/soarsmu/Chronos) [Dataset](https://figshare.com/articles/software/Chronos-ICSE23/20787805)
+2. "AutoPruner: Transformer-based Call Graph Pruning". [Code](https://github.com/soarsmu/AutoPruner) [Dataset](https://zenodo.org/record/6369874#.YjWzmi8RppR)
+3. "Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning" [Code and Dataset](https://github.com/thanhlecongg/Invalidator)
 
 
 ## Talks

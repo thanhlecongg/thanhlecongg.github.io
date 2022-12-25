@@ -10,10 +10,11 @@ nav-menu: true
 *<sup>+</sup> denotes equal contribution*
 
 ### 2023
+1. **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui, Quyet Thang Huynh *"Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"*, IEEE Transaction on Software Engineering (TSE - Minor Revision), 2023 ([PDF](), [Code]() [Dataset]()).
 
-1. Ratnadira Widyasari, Zhao Zhipeng, **Thanh Le-Cong**, Hong Jin Kang, David Lo, *"Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go?"*, In the IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track ([PDF](), [Code]() [Dataset]()).
+2. Ratnadira Widyasari, Zhao Zhipeng, **Thanh Le-Cong**, Hong Jin Kang, David Lo, *"Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go?"*, In the IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track ([PDF](), [Code]() [Dataset]()).
 
-2. Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, David Lo, *"Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"*, In the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track ([PDF](), [Code](https://github.com/soarsmu/Chronos) [Dataset](https://figshare.com/articles/software/Chronos-ICSE23/20787805)).
+3. Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, David Lo, *"Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"*, In the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track ([PDF](), [Code](https://github.com/soarsmu/Chronos) [Dataset](https://figshare.com/articles/software/Chronos-ICSE23/20787805)).
 
 
 

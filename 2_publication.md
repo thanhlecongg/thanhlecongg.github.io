@@ -9,6 +9,8 @@ nav-menu: true
 ## Publications
 *<sup>+</sup> denotes equal contribution*
 
+**Summary:** ICSE x 2, ESEC/FSE x 2, SANER x 1, ICSME x 1, ISSRE x 1
+
 ### 2023
 1. **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui, Quyet Thang Huynh *"Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"*, IEEE Transactions on Software Engineering (TSE - Minor Revision), 2023 ([PDF](coming_soon.html), [Code](coming_soon.html) [Dataset](coming_soon.html)).
 

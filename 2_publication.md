@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Research
+title: Publications
 description: Peer-reviewed papers, Talks, and Open sources
-image: assets/images/253418.jpg
+image: assets/images/page_publications.jpg
 nav-menu: true
 ---
 
@@ -10,11 +10,11 @@ nav-menu: true
 *<sup>+</sup> denotes equal contribution*
 
 ### 2023
-1. **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui, Quyet Thang Huynh *"Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"*, IEEE Transaction on Software Engineering (TSE - Minor Revision), 2023 ([PDF](), [Code]() [Dataset]()).
+1. **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui, Quyet Thang Huynh *"Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"*, IEEE Transactions on Software Engineering (TSE - Minor Revision), 2023 ([PDF](coming_soon.html), [Code](coming_soon.html) [Dataset](coming_soon.html)).
 
-2. Ratnadira Widyasari, Zhao Zhipeng, **Thanh Le-Cong**, Hong Jin Kang, David Lo, *"Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go?"*, In the IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track ([PDF](), [Code]() [Dataset]()).
+2. Ratnadira Widyasari, Zhao Zhipeng, **Thanh Le-Cong**, Hong Jin Kang, David Lo, *"Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go?"*, In the IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track ([PDF](coming_soon.html), [Code](coming_soon.html) [Dataset](coming_soon.html)).
 
-3. Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, David Lo, *"Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"*, In the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track ([PDF](), [Code](https://github.com/soarsmu/Chronos) [Dataset](https://figshare.com/articles/software/Chronos-ICSE23/20787805)).
+3. Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, David Lo, *"Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"*, In the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track ([PDF](coming_soon.html), [Code](https://github.com/soarsmu/Chronos) [Dataset](https://figshare.com/articles/software/Chronos-ICSE23/20787805)).
 
 
 
@@ -45,14 +45,15 @@ nav-menu: true
 
 ## Talks
 
-### Property Inference for DNN - [BK.AI Seminar Series](https://bkai.ai/seminar-property-inference-for-dnn/)/[VNU-UET RD320 Seminar Series](https://www.facebook.com/rd320uet/) - August 2022
+### Property Inference for DNN 
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ysF-mC566js" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+*[BK.AI Seminar Series](https://bkai.ai/seminar-property-inference-for-dnn/) & [VNU-UET RD320 Seminar Series](https://www.facebook.com/rd320uet/) - August 2022*
 
 Deep Neural Networks (DNNs) have recently emerged as a powerful framework for solving complex real-world problems, including safety-critical tasks such as autonomous driving, finance, and medical diagnosis. Despite their popularity, it has been shown that DNNs can be vulnerable and unreliable. Ensuring the reliability and trustworthiness of DNNs thus becomes an increasingly challenging and essential task. Towards this, researchers recently have developed DNNs analyses, e.g., verification or testing, to provide insights into the behaviors of DNNs.
 In this talk, we will study property inference – a new research direction on DNNs analysis. First, I introduce the property inference for deep neural networks. Then, I present the first work on the research direction, Prophecy, which automatically infers the formal properties of feed-forward neural networks and gets introduced at ASE 2019. Finally, GNN-Infer, a new property inference technique introduced at ICSE 2022, is presented towards discovering formal properties for graph neural networks.
 
-### AutoPruner: Transformer-based Call Graph Pruning - [SOLA Weekly Seminars](https://www.software-lab.org/) - November 2022
+### AutoPruner: Transformer-based Call Graph Pruning 
+*[ESEC/FSE 2022](https://2022.esec-fse.org/) & [SOLA Weekly Seminars](https://www.software-lab.org/) - November 2022* 
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/VP6535R2QvQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 

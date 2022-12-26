@@ -29,3 +29,7 @@ nav-menu: true
 - Advisor: Prof. Huynh Thi Thanh Binh
 - Topic: Multitasking Evolutionary Algorithms for Optimizing Artificial Neural Network and Graph-based Models.
 
+## Mentoring Experiences
+
+- Luong Duc Minh, on his Bachelor thesis on "The development of Fault Localization on Student Programs" (co-mentor with Prof. Huynh Quyet Thang)
+

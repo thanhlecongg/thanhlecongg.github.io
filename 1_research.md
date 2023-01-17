@@ -42,7 +42,7 @@ nav-menu: true
                 <p>
                 My current focus on this theme is <i>patch overfitting problem,</i> in which APR-generated patches can satisfy APR-defined correctness specifications, e.g. test suites, but is still incorrect. As unreliable overfitting patches cause developers to lose trust in APR tools, patch overfitting is a important problem to enhance trustworthiness of APR systems.
                 To address this problem, I have proposed an automated method to reason the correctness of APR-generated patches via program invariants and code representations 
-                <a href="./pdf/TSE_Invalidator.pdf"> [TSE'23-A]</a>.
+                <a href="./pdf/TSE_Invalidator.pdf"> [TSE'23-Invalidator]</a>, <a href="coming_soon.html"> [PatchZero]</a>.
                 </p>
 			</div>
 		</div>
@@ -64,9 +64,9 @@ nav-menu: true
                 <p>
                 Towards this goal, my colleagues and I have designed a comprehensive array of novel automated solutions that leveraged data-driven approaches to support developers and security practitioners in various tasks including: 
                  <ul>
-                    <li>Identifying vulnerability-fixing commits <a href="./pdf/VulCurator.pdf"> [ESEC/FSE'22-B</a>, <a href="coming_soon.html"> TSE'23-B</a>]</li>
-                    <li>Identifying affected libraries from vulnerability reports <a href="./pdf/ICSE_Chronos.pdf"> [ICSE'23]</a></li>
-                    <li>Reducing false positives in call graph analysis [<a href="./pdf/FSE_AutoPruner.pdf">ESEC/FSE'22-A</a>]</li>
+                    <li>Identifying vulnerability-fixing commits <a href="./pdf/VulCurator.pdf"> [ESEC/FSE'22-VulCurator</a>, <a href="coming_soon.html">Midas</a>]</li>
+                    <li>Identifying affected libraries from vulnerability reports <a href="./pdf/ICSE_Chronos.pdf"> [ICSE'23-Chronos]</a></li>
+                    <li>Reducing false positives in call graph analysis [<a href="./pdf/FSE_AutoPruner.pdf">ESEC/FSE'22-AutoPruner</a>]</li>
                 </ul> 
                 </p>
 			</div>

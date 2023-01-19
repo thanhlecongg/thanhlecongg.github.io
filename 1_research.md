@@ -64,8 +64,8 @@ nav-menu: true
                 <p>
                 Towards this goal, my colleagues and I have designed a comprehensive array of novel automated solutions that leveraged data-driven approaches to support developers and security practitioners in various tasks including: 
                  <ul>
-                    <li>Identifying vulnerability-fixing commits <a href="./pdf/VulCurator.pdf"> [VulCurator (ESEC/FSE'22)</a>, <a href="coming_soon.html"> Midas (TSE - Under Submission)]</a></li>
-                    <li>Identifying affected libraries from vulnerability reports <a href="./pdf/ICSE_Chronos.pdf"> [Chronos (ICSE'23)]</a></li>
+                    <li>Identifying vulnerability-fixing commits [<a href="./pdf/VulCurator.pdf"> VulCurator (ESEC/FSE'22)</a>, <a href="coming_soon.html"> Midas (TSE - Under Submission)</a>]</li>
+                    <li>Identifying affected libraries from vulnerability reports [<a href="./pdf/ICSE_Chronos.pdf"> Chronos (ICSE'23)</a>]</li>
                     <li>Call graph analysis [<a href="./pdf/FSE_AutoPruner.pdf">AutoPruner (ESEC/FSE'22)</a>]</li>
                 </ul> 
                 </p>

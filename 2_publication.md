@@ -11,6 +11,12 @@ nav-menu: true
 
 **Summary:** ICSE x 2, ESEC/FSE x 2, SANER x 1, ICSME x 1, ISSRE x 1
 
+<a href="#current" class="button next scrolly">2023</a>
+<a href="#last" class="button next scrolly">2022</a>
+<a href="#prior" class="button next scrolly">Prior</a>
+
+<section id="current">
+</section>
 ### 2023
 1. **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui, Quyet Thang Huynh *"Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"*, IEEE Transactions on Software Engineering (TSE - Minor Revision), 2023 ([PDF](./pdf/TSE_Invalidator.pdf), [Code](https://github.com/thanhlecongg/Invalidator) [Dataset](https://zenodo.org/record/7475916)).
 
@@ -19,7 +25,8 @@ nav-menu: true
 3. Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, David Lo, *"Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"*, In the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track ([PDF](./pdf/ICSE_Chronos.pdf), [Code](https://github.com/soarsmu/Chronos) [Dataset](https://figshare.com/articles/software/Chronos-ICSE23/20787805)).
 
 
-
+<section id="last">
+</section>
 ### 2022
 1. **Thanh Le-Cong**, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le, Thang Huynh Quyet, *"AutoPruner: Transformer-Based Call Graph Pruning"*, In the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track 2022 ([PDF](./pdf/FSE_AutoPruner.pdf), [Code](https://github.com/soarsmu/AutoPruner) [Dataset](https://zenodo.org/record/6369874#.YjWzmi8RppR)).
 
@@ -29,15 +36,14 @@ nav-menu: true
 
 4. Thanh-Dat Nguyen<sup>+</sup>, <strong>Thanh Le-Cong</strong><sup>+</sup>, ThanhVu H. Nguyen, and Bach Le, Quyet-Thang Huynh, *"Toward the Analysis of Graph Neural Networks"*, In the IEEE/ACM 44th International Conference on Software Engineering (ICSE) 2022, New Ideas and Emerging Results (NIER) Track, ([PDF](./pdf/ICSE_GNNInfer.pdf)). 
 
-### 2021
+<section id="prior">
+</section>
+### Prior
 1. **Thanh Le-Cong**, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen, *"Usability and Aesthetics: Better Together for Automated Repair of Web Pages"*, In the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ISSRE) 2021, Research Track ([PDF](./pdf/ISSRE21.pdf))
 
+2. Bao Hieu Tran, **Thanh Le-Cong**, Huu Manh Nguyen, Duc Anh Le, Thanh Hung Nguyen, Phi Le Nguyen. *“SAFL: A Self-Attention Scene Text Recognizer with Focal Loss.”* In the 19th IEEE International Conference on Machine Learning and Applications (ICMLA) 2020, Special Issues on Deep Learning. 
 
-### Prior
-
-1. Bao Hieu Tran, **Thanh Le-Cong**, Huu Manh Nguyen, Duc Anh Le, Thanh Hung Nguyen, Phi Le Nguyen. *“SAFL: A Self-Attention Scene Text Recognizer with Focal Loss.”* In the 19th IEEE International Conference on Machine Learning and Applications (ICMLA) 2020, Special Issues on Deep Learning. 
-
-2. Thi Thanh Binh Huynh, Dinh Thanh Pham, Ba Trung Tran, **Thanh Le-Cong**, Minh Hai Phong Le, Ananthram Swami, Thu Lam Bui. *“A multifactorial optimization paradigm for linkage tree genetic algorithm”*, Information Sciences (2020). 
+3. Thi Thanh Binh Huynh, Dinh Thanh Pham, Ba Trung Tran, **Thanh Le-Cong**, Minh Hai Phong Le, Ananthram Swami, Thu Lam Bui. *“A multifactorial optimization paradigm for linkage tree genetic algorithm”*, Information Sciences (2020). 
 
 ## Open Sources
 1. "Chronos: Zero-Shot Identification of Libraries from Vulnerability Reports". [Code](https://github.com/soarsmu/Chronos) [Dataset](https://figshare.com/articles/software/Chronos-ICSE23/20787805)

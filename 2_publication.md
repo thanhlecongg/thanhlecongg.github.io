@@ -18,17 +18,19 @@ nav-menu: true
 <section id="current">
 </section>
 ### 2023
-1. **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui, Quyet Thang Huynh *"Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"*, IEEE Transactions on Software Engineering (TSE - Minor Revision), 2023 ([PDF](./pdf/TSE_Invalidator.pdf), [Code](https://github.com/thanhlecongg/Invalidator) [Dataset](https://zenodo.org/record/7475916)).
 
-2. Ratnadira Widyasari, Zhao Zhipeng, **Thanh Le-Cong**, Hong Jin Kang, David Lo, *"Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go?"*, In the IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track ([PDF](coming_soon.html), [Code](coming_soon.html) [Dataset](coming_soon.html)).
+1. **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui, Quyet Thang Huynh *"Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"*, IEEE Transactions on Software Engineering (TSE - Minor Revision), 2023 ([PDF](./pdf/TSE_Invalidator.pdf), [Code](https://github.com/thanhlecongg/Invalidator), [Dataset](https://zenodo.org/record/7475916)).
 
-3. Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, David Lo, *"Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"*, In the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track ([PDF](./pdf/ICSE_Chronos.pdf), [Code](https://github.com/soarsmu/Chronos) [Dataset](https://figshare.com/articles/software/Chronos-ICSE23/20787805)).
+2. Ratnadira Widyasari, Zhao Zhipeng, **Thanh Le-Cong**, Hong Jin Kang, David Lo, *"Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go?"*, In the IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track ([PDF](./pdf/SANER23_GithubTopic.pdf), [Code and Dataset](https://figshare.com/s/dc6d69629442c6ac3bbb)).
+
+3. Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, David Lo, *"Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"*, In the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track ([PDF](./pdf/ICSE_Chronos.pdf), [Code](https://github.com/soarsmu/Chronos), [Dataset](https://figshare.com/articles/software/Chronos-ICSE23/20787805)).
 
 
 <section id="last">
 </section>
 ### 2022
-1. **Thanh Le-Cong**, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le, Thang Huynh Quyet, *"AutoPruner: Transformer-Based Call Graph Pruning"*, In the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track 2022 ([PDF](./pdf/FSE_AutoPruner.pdf), [Code](https://github.com/soarsmu/AutoPruner) [Dataset](https://zenodo.org/record/6369874#.YjWzmi8RppR)).
+
+1. **Thanh Le-Cong**, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le, Thang Huynh Quyet, *"AutoPruner: Transformer-Based Call Graph Pruning"*, In the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track 2022 ([PDF](./pdf/FSE_AutoPruner.pdf), [Code](https://github.com/soarsmu/AutoPruner), [Dataset](https://zenodo.org/record/6369874#.YjWzmi8RppR)).
 
 2. Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, and Bach Le, David Lo, *"VulCurator: A Vulnerability-Fixing Commit Detector"*, In the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Tool Demos Track ([PDF](./pdf/VulCurator.pdf), [Code and Dataset](https://github.com/ntgiang71096/VFDetector)).
 

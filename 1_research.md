@@ -17,7 +17,7 @@ nav-menu: true
 		</header>
 		<p> Software is eating the world but more software means more complexity. In the current decade, software no longer operate in isolation, but interact with other one and execute in increasingly intricate ecosystem. As a result, there are more and more onerous burden of developing and maintaining software systems on software developers. To reduce the increasingly burden, we need better ways to support developers on their daily tasks. 
         </p> 
-        <p> My research interests lie on the task of detecting, managing and fixing bugs/vulnerability, which <a href="https://www.jbs.cam.ac.uk/insight/2013/research-by-cambridge-mbas-for-tech-firm-undo-finds-software-bugs-cost-the-industry-316-billion-a-year/"> cost ~50% of the programming time of a software developer on average</a>. My research goal is to create automated solutions that leverage technological advances, e.g. Artificial Intelligence (AI) or Automated Reasoning to support developer in bug/vulnerability detection, management and repair. Towards the goal, my current focus of research includes but is not limited to: <a href="#two-one" class="next scrolly">Trustworthiness of Automated Program Repair</a> and <a href="#two-two" class="next scrolly">Vulnerability Management in Software Supply Chain</a>.
+        <p> My research interests lie on the task of detecting, managing and fixing bugs/vulnerability, which <a href="https://www.jbs.cam.ac.uk/insight/2013/research-by-cambridge-mbas-for-tech-firm-undo-finds-software-bugs-cost-the-industry-316-billion-a-year/"> cost ~50% of the programming time of a software developer on average</a>. My research goal is to create automated solutions that leverage technological advances, e.g. Artificial Intelligence (AI) or Automated Reasoning to support developer in bug/vulnerability detection, management and repair. Towards the goal, my current focus of research includes but is not limited to: <a href="#two-one" class="next scrolly">Automated Program Repair</a> and <a href="#two-two" class="next scrolly">Vulnerability Management</a>.
         </p>
 	</div>
 </section>
@@ -31,7 +31,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Trustworthiness of Automated Program Repair</h3>
+					<h3>Automated Program Repair</h3>
 				</header>
 				<p>
                 Automated Program Repair is an emerging technology to alleviate the onerous burden of manually fixing bugs on developers. A substantial number of APR techniques have been proposed over the years with several breakthroughs that inspired potential practical adoption of APR. Unfortunately, <a href="https://arxiv.org/pdf/2108.13064.pdf"> developer's trust on APR-generated patches is still a challenge </a> for achieving greater adoption of APR on industry. 
@@ -57,7 +57,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Vulnerability Management in Software Supply Chain</h3>
+					<h3>Vulnerability Management</h3>
 				</header>
 				<p>Modern software development involves the heavy use of APIs and third-party components. The reliance increase security risks of software system as the API and third-party components can contain exploitable vulnerabilities. 
                 </p>

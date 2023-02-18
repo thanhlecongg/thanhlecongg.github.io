@@ -8,6 +8,11 @@ nav-menu: true
 
 ## Working Experiences
 
+#### Graduate Researchers, [CIS@The University of Melbourne](https://cis.unimelb.edu.au/), Feb 2023 - Now
+*Funded by the Melbourne Research Scholarship*
+- Advisor: Dr. Bach Le and Prof. Toby Murray
+- Topic: Trustworthiness of Automated Program Repair
+
 #### Research Engineer, [SOAR@Singapore Management University](https://soarsmu.github.io/), Jan 2022 - Dec 2022
 *Funded by the National Satellite of Excellence in Trustworthy Software Systems*
 - Advisor: Prof. David Lo

@@ -11,15 +11,25 @@ nav-menu: true
 
 **Summary:** ICSE x 2, ESEC/FSE x 2, SANER x 1, ICSME x 1, ISSRE x 1
 
-<a href="#current" class="button next scrolly">2023</a>
+<!-- <a href="#current" class="button next scrolly">2023</a>
 <a href="#last" class="button next scrolly">2022</a>
-<a href="#prior" class="button next scrolly">Prior</a>
+<a href="#prior" class="button next scrolly">Prior</a> -->
 
 <section id="current">
 </section>
-### 2023
 
-1. **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui, Quyet Thang Huynh *"Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"*, IEEE Transactions on Software Engineering (TSE - Minor Revision), 2023 ([PDF](./pdf/TSE_Invalidator.pdf), [Code](https://github.com/thanhlecongg/Invalidator), [Dataset](https://zenodo.org/record/7475916)).
+### In Submission
+
+1. Zhou, Xin, Bowen Xu, Kisub Kim, DongGyun Han, **Thanh Le-Cong**, Junda He, Bach Le, and David Lo. "PatchZero: Zero-Shot Automatic Patch Correctness Assessment." Submitted to IEEE Transactions on Software Engineering ([PDF](https://arxiv.org/pdf/2303.00202.pdf)).
+
+2. Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E.
+Hassan, Xuan-Bach D. Le, and David Lo, *"MiDas: Multi-Granularity Detector for Vulnerability Fixes"*, Submitted to IEEE Transactions on Software Engineering (Major Revision).
+
+3. **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui, Quyet Thang Huynh *"Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"*, IEEE Transactions on Software Engineering (Minor Revision) ([PDF](./pdf/TSE_Invalidator.pdf), [Code](https://github.com/thanhlecongg/Invalidator), [Dataset](https://zenodo.org/record/7475916)).
+
+
+
+### 2023
 
 2. Ratnadira Widyasari, Zhao Zhipeng, **Thanh Le-Cong**, Hong Jin Kang, David Lo, *"Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go?"*, In the IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track ([PDF](./pdf/SANER23_GithubTopic.pdf), [Code and Dataset](https://figshare.com/s/dc6d69629442c6ac3bbb)).
 

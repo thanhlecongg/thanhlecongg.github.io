@@ -8,7 +8,7 @@ nav-menu: true
 
 ## Working Experiences
 
-#### Graduate Researchers, [CIS@The University of Melbourne](https://cis.unimelb.edu.au/), Feb 2023 - Now
+#### Graduate Researcher, [CIS@The University of Melbourne](https://cis.unimelb.edu.au/), Feb 2023 - Now
 *Funded by the Melbourne Research Scholarship*
 - Advisor: Dr. Bach Le and Prof. Toby Murray
 - Topic: Trustworthiness of Automated Program Repair

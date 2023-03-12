@@ -28,29 +28,29 @@ Hassan, Bach Le, and David Lo, *"MiDas: Multi-Granularity Detector for Vulnerabi
 ### 2023
 1. **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui, Quyet Thang Huynh *"Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"*, IEEE Transactions on Software Engineering (Just Accepted) ([PDF](./pdf/TSE_Invalidator.pdf), [Code](https://github.com/thanhlecongg/Invalidator), [Dataset](https://zenodo.org/record/7475916)).
 
-2. Ratnadira Widyasari, Zhao Zhipeng, **Thanh Le-Cong**, Hong Jin Kang, David Lo, *"Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go?"*, In the IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track ([PDF](./pdf/SANER23_GithubTopic.pdf), [Code and Dataset](https://figshare.com/s/dc6d69629442c6ac3bbb)).
+2. Ratnadira Widyasari, Zhao Zhipeng, **Thanh Le-Cong**, Hong Jin Kang, David Lo, *"Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go?"*, IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track ([PDF](./pdf/SANER23_GithubTopic.pdf), [Code and Dataset](https://figshare.com/s/dc6d69629442c6ac3bbb)).
 
-3. Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, David Lo, *"Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"*, In the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track ([PDF](./pdf/ICSE_Chronos.pdf), [Code](https://github.com/soarsmu/Chronos), [Dataset](https://figshare.com/articles/software/Chronos-ICSE23/20787805)).
+3. Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, David Lo, *"Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports"*, IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track ([PDF](./pdf/ICSE_Chronos.pdf), [Code](https://github.com/soarsmu/Chronos), [Dataset](https://figshare.com/articles/software/Chronos-ICSE23/20787805)). <img src="./assets/images/artifacts_available-removebg-preview.png"  width="30" height="30"> <img src="./assets/images/artifacts_evaluated_functional-removebg-preview.png"  width="30" height="30">
 
 
 <section id="last">
 </section>
 ### 2022
 
-1. **Thanh Le-Cong**, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le, Thang Huynh Quyet, *"AutoPruner: Transformer-Based Call Graph Pruning"*, In the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track 2022 ([PDF](./pdf/FSE_AutoPruner.pdf), [Code](https://github.com/soarsmu/AutoPruner), [Dataset](https://zenodo.org/record/6369874#.YjWzmi8RppR)).
+1. **Thanh Le-Cong**, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le, Thang Huynh Quyet, *"AutoPruner: Transformer-Based Call Graph Pruning"*, ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track 2022 ([PDF](./pdf/FSE_AutoPruner.pdf), [Code](https://github.com/soarsmu/AutoPruner), [Dataset](https://zenodo.org/record/6369874#.YjWzmi8RppR)). <img src="./assets/images/artifacts_available-removebg-preview.png"  width="30" height="30"> <img src="./assets/images/artifacts_evaluated_functional-removebg-preview.png"  width="30" height="30">
 
-2. Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, and Bach Le, David Lo, *"VulCurator: A Vulnerability-Fixing Commit Detector"*, In the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Tool Demos Track ([PDF](./pdf/VulCurator.pdf), [Code and Dataset](https://github.com/ntgiang71096/VFDetector)).
+2. Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, and Bach Le, David Lo, *"VulCurator: A Vulnerability-Fixing Commit Detector"*, ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Tool Demos Track ([PDF](./pdf/VulCurator.pdf), [Code and Dataset](https://github.com/ntgiang71096/VFDetector)).
 
-3. Thanh-Dat Nguyen, **Thanh Le-Cong**, Duc-Minh Luong, and Van-Hai Duong, Bach Le, David Lo, Quyet-Thang Huynh, *"FFL: Fine grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning"*, In the IEEE 38th International Conference on Software Maintenance and Evolution (ICSME) 2022, Research Track ([PDF](./pdf/ICSME_FFL.pdf), [Code and Dataset](https://github.com/FFL2022/FFL)).
+3. Thanh-Dat Nguyen, **Thanh Le-Cong**, Duc-Minh Luong, and Van-Hai Duong, Bach Le, David Lo, Quyet-Thang Huynh, *"FFL: Fine grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning"*, IEEE 38th International Conference on Software Maintenance and Evolution (ICSME) 2022, Research Track ([PDF](./pdf/ICSME_FFL.pdf), [Code and Dataset](https://github.com/FFL2022/FFL)).
 
 4. Thanh-Dat Nguyen<sup>+</sup>, <strong>Thanh Le-Cong</strong><sup>+</sup>, ThanhVu H. Nguyen, and Bach Le, Quyet-Thang Huynh, *"Toward the Analysis of Graph Neural Networks"*, In the IEEE/ACM 44th International Conference on Software Engineering (ICSE) 2022, New Ideas and Emerging Results (NIER) Track, ([PDF](./pdf/ICSE_GNNInfer.pdf)). 
 
 <section id="prior">
 </section>
 ### Prior
-1. **Thanh Le-Cong**, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen, *"Usability and Aesthetics: Better Together for Automated Repair of Web Pages"*, In the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ISSRE) 2021, Research Track ([PDF](./pdf/ISSRE21.pdf))
+1. **Thanh Le-Cong**, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen, *"Usability and Aesthetics: Better Together for Automated Repair of Web Pages"*, IEEE 32th International Symposium on Software Reliability Engineering (ISSRE) 2021, Research Track ([PDF](./pdf/ISSRE21.pdf))
 
-2. Bao Hieu Tran, **Thanh Le-Cong**, Huu Manh Nguyen, Duc Anh Le, Thanh Hung Nguyen, Phi Le Nguyen. *“SAFL: A Self-Attention Scene Text Recognizer with Focal Loss.”* In the 19th IEEE International Conference on Machine Learning and Applications (ICMLA) 2020, Special Issues on Deep Learning. 
+2. Bao Hieu Tran, **Thanh Le-Cong**, Huu Manh Nguyen, Duc Anh Le, Thanh Hung Nguyen, Phi Le Nguyen. *“SAFL: A Self-Attention Scene Text Recognizer with Focal Loss.”* IEEE 19th International Conference on Machine Learning and Applications (ICMLA) 2020, Special Issues on Deep Learning. 
 
 3. Thi Thanh Binh Huynh, Dinh Thanh Pham, Ba Trung Tran, **Thanh Le-Cong**, Minh Hai Phong Le, Ananthram Swami, Thu Lam Bui. *“A multifactorial optimization paradigm for linkage tree genetic algorithm”*, Information Sciences (2020). 
 

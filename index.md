@@ -35,3 +35,14 @@ show_tile: false
 - Advisor: Prof. Huynh Quyet Thang
 - Topic: The development of Automated Patch Validation for Program Repair.
 
+## Featured Publications
+*<sup>+</sup> denotes equal contribution*
+
+**[TSE'23] Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning** by <u>Thanh Le-Cong</u>, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui and Quyet Thang Huynh at IEEE Transactions on Software Engineering (Just Accepted) ([PDF](./pdf/TSE_Invalidator.pdf), [Code](https://github.com/thanhlecongg/Invalidator), [Dataset](https://zenodo.org/record/7475916)).
+
+
+**[ICSE'23] Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports** by Yunbo Lyu<sup>+</sup>, <u>Thanh Le-Cong</u><sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li and David Lo at the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track ([PDF](./pdf/ICSE_Chronos.pdf), [Code](https://github.com/soarsmu/Chronos), [Dataset](https://figshare.com/articles/software/Chronos-ICSE23/20787805)). <img src="./assets/images/artifacts_available-removebg-preview.png"  width="30" height="30"> <img src="./assets/images/artifacts_evaluated_functional-removebg-preview.png"  width="30" height="30">
+
+**[ESEC/FSE'22] AutoPruner: Transformer-Based Call Graph Pruning** by <u>Thanh Le-Cong</u>, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le and Thang Huynh Quyet at the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Research Track 2022 ([PDF](./pdf/FSE_AutoPruner.pdf), [Code](https://github.com/soarsmu/AutoPruner), [Dataset](https://zenodo.org/record/6369874#.YjWzmi8RppR)). <img src="./assets/images/artifacts_available-removebg-preview.png"  width="30" height="30"> <img src="./assets/images/artifacts_evaluated_functional-removebg-preview.png"  width="30" height="30">
+
+

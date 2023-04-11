@@ -1,17 +1,17 @@
 # site settings
-title: Le-Cong
-subtitle: Thanh
+title: Thanh
+subtitle: Le-Cong
 email: congthanh.le@student.unimelb.edu.au
 description: Ph.D. Student in Software Engineering <br /> at <a href='https://www.unimelb.edu.au/'>The University of Melbourne</a>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thanhlecongg.github.io" # the base hostname & protocol for your site
 author:
-street_address: Melbourne Connect, 700 Swanston Street
+street_address: Desk 2.075, Level 2, Melbourne Connect, 700 Swanston Street
 city: Melbourne
 state: VIC
 zip_code: 3053
 country: Australia
-phone: (61) 0401595578
+phone: (61) 0403054496
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

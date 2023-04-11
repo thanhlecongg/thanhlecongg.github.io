@@ -36,11 +36,16 @@ nav-menu: true
 
 ## Professional Services
 
+- Reviewer/Program Commitee: KSE'23
 - Sub-Reviewer: ICSE'23, SAC'23, KSE'22
 - Student Volunteer: ICSE'23
 
 
 ## Mentoring Experiences
 
-- Luong Duc Minh, on his Bachelor thesis on "The development of Fault Localization on Student Programs" (co-mentor with Prof. Huynh Quyet Thang)
+- Ngoc-Tan Bui, research intern about Defect Prediction (co-mentor with Prof. David Lo and Dr. Bach Le)
+- Huu-Hung Nguyen, research intern working on Code Summarization (co-mentor with Prof. David Lo and Dr. Bach Le)
+- Duc-Minh Luong, undergraduate student working on Fault Localization (co-mentor with Prof. Huynh Quyet Thang)
+
+
 

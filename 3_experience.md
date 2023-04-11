@@ -43,7 +43,7 @@ nav-menu: true
 
 ## Mentoring Experiences
 
-- Ngoc-Tan Bui, research intern about Defect Prediction (co-mentor with Prof. David Lo and Dr. Bach Le)
+- Ngoc-Tan Bui, research intern working on Defect Prediction (co-mentor with Prof. David Lo and Dr. Bach Le)
 - Huu-Hung Nguyen, research intern working on Code Summarization (co-mentor with Prof. David Lo and Dr. Bach Le)
 - Duc-Minh Luong, undergraduate student working on Fault Localization (co-mentor with Prof. Huynh Quyet Thang)
 

@@ -23,11 +23,15 @@ nav-menu: true
 
 1. **[TSE-Review] PatchZero: Zero-Shot Automatic Patch Correctness Assessment.** *by Xin Zhou, Bowen Xu, Kisub Kim, DongGyun Han, **Thanh Le-Cong**, Junda He, Bach Le, and David Lo* submitted to IEEE Transactions on Software Engineering <a href="https://arxiv.org/pdf/2303.00202.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30">.
 
-2. **[TSE-Review] MiDas: Multi-Granularity Detector for Vulnerability Fixes** *by Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Bach Le, and David Lo* submitted to IEEE Transactions on Software Engineering (Minor Revision).
+2. **[Under-Review] Code Quality Issues in ChatGPT-Generated Code.** *Liu Yue, **Thanh Le-Cong**, Ratnadira Widyasari, Chakkrit Tantithamthavorn, Li Li, Bach Le, David Lo* submitted to IEEE Transactions on Software Engineering 
+<!-- <a href="https://arxiv.org/pdf/2303.00202.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30">. -->
 
 3. **[Under-Review] GNN-Infer: Property Inference for Graph Neural Networks** *by Thanh-Dat Nguyen, **Thanh Le-Cong**, Bach Le, David Lo, ThanhVu H. Nguyen*, Under Review.
 
 ### 2023
+
+2. **[TSE'23] MiDas: Multi-Granularity Detector for Vulnerability Fixes** *by Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, Ratnadira Widyasari, Chengran Yang, Zhipeng Zhao, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Bach Le, and David Lo* IEEE Transactions on Software Engineering.
+- (One-line Abstract) Identifying vulnerability fixes by analyzing multi-granularity of code changes. 
 
 1. **[TSE'23] Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning** *by **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui and Quyet Thang Huynh* at the IEEE Transactions on Software Engineering <a href="./pdf/TSE_Invalidator.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/thanhlecongg/Invalidator"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/7475916"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 - (One-line Abstract) Reasoning about the correctness of APR-generated patches via program invariants and code representation learning.
@@ -63,22 +67,25 @@ via zero-shot learning and domain-specific pre/post-processing.
 <section id="prior">
 </section>
 
+
 ### Prior
 
 1. **Usability and Aesthetics: Better Together for Automated Repair of Web Pages** *by **Thanh Le-Cong**, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen* at the IEEE 32th International Symposium on Software Reliability Engineering (ISSRE) 2021, Research Track  <a href="./pdf/ISSRE21.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>
 - (One-line Abstract) Automatically repairing mobile-unfrienly webpages using Evolutionary Optimization.
 
-2. Bao Hieu Tran, **Thanh Le-Cong**, Huu Manh Nguyen, Duc Anh Le, Thanh Hung Nguyen, Phi Le Nguyen. *“SAFL: A Self-Attention Scene Text Recognizer with Focal Loss.”* IEEE 19th International Conference on Machine Learning and Applications (ICMLA) 2020, Special Issues on Deep Learning. 
+<!-- 2. Bao Hieu Tran, **Thanh Le-Cong**, Huu Manh Nguyen, Duc Anh Le, Thanh Hung Nguyen, Phi Le Nguyen. *“SAFL: A Self-Attention Scene Text Recognizer with Focal Loss.”* IEEE 19th International Conference on Machine Learning and Applications (ICMLA) 2020, Special Issues on Deep Learning. 
 - (One-line Abstract) Automatically recognizing text in natural images using Transformer models with Focal Loss/
 
 3. Thi Thanh Binh Huynh, Dinh Thanh Pham, Ba Trung Tran, **Thanh Le-Cong**, Minh Hai Phong Le, Ananthram Swami, Thu Lam Bui. *“A multifactorial optimization paradigm for linkage tree genetic algorithm”*, Information Sciences (2020). 
-- (One-line Abstract) A new multitasking optimization algorithms based on likage tree genetic algorithm.
+- (One-line Abstract) A new multitasking optimization algorithms based on likage tree genetic algorithm. -->
+
 
 ## Open Sources
 3. "Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning" <a href="https://github.com/thanhlecongg/Invalidator"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/7475916"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 3. "VulCurator: A Vulnerability-Fixing Commit Detector" <a href="https://github.com/ntgiang71096/VFDetector"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/6792205#.YsG03-xByw4"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 2. "AutoPruner: Transformer-based Call Graph Pruning". <a href="https://github.com/soarsmu/AutoPruner"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/6369874#.YjWzmi8RppR"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 1. "Chronos: Zero-Shot Identification of Libraries from Vulnerability Reports". <a href="https://github.com/soarsmu/Chronos"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://figshare.com/articles/software/Chronos-ICSE23/20787805"><img src="./assets/images/dataset.png" width="30" height="30"></a>
+
 
 
 

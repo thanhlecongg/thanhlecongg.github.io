@@ -18,11 +18,8 @@ Some use tips for PhD students collected by [ICSE'23 Student Mentoring Workshop]
 ### Job Search
 
 - [The two-body academic job search](https://medium.com/swlh/the-two-body-academic-job-search-f7ea766a1627), by James Davis
-
 - [How to Get a Letter of Recommendation](https://disi.unitn.it/~massacci/instructions-for-references.html), by Fabio Massacci
-
 - [Materials for academic job-hunting 1.0](https://medium.com/@shuruiz/materials-for-academic-job-hunting-1-0-44dafd52b6bd), by Shurui Zhou
-
 - [Academia, Industry, and Everything in between. A (non-exhaustive) list of job opportunities for PhD students and Postdocs](https://yixue-zhao.medium.com/academia-industry-and-everything-in-between-af522e74a9eb?source=friends_link&sk=a1b97c70b819c6eb18f9803e0de1b0fc), by Yixue Zhao
 
 ### Academic Well-being

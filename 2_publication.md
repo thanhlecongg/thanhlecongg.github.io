@@ -30,7 +30,7 @@ nav-menu: true
 
 ### 2023
 
-2. **[TSE'23] MiDas: Multi-Granularity Detector for Vulnerability Fixes** *by Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, Ratnadira Widyasari, Chengran Yang, Zhipeng Zhao, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Bach Le, and David Lo* IEEE Transactions on Software Engineering.
+2. **[TSE'23] MiDas: Multi-Granularity Detector for Vulnerability Fixes** *by Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, Ratnadira Widyasari, Chengran Yang, Zhipeng Zhao, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Bach Le, and David Lo* IEEE Transactions on Software Engineering <a href="./pdf/TSE_Midas.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/soarsmu/midas"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/5565182"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 - (One-line Abstract) Identifying vulnerability fixes by analyzing multi-granularity of code changes. 
 
 1. **[TSE'23] Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning** *by **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui and Quyet Thang Huynh* at the IEEE Transactions on Software Engineering <a href="./pdf/TSE_Invalidator.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/thanhlecongg/Invalidator"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/7475916"><img src="./assets/images/dataset.png" width="30" height="30"></a>.

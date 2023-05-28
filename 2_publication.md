@@ -16,7 +16,7 @@ nav-menu: true
 
 **Note:**
 - *<sup>+</sup> denotes equal contribution*;
-<!-- - Names of students mentored by me are underlined; -->
+- Names of students mentored by me are underlined;
 - My name (**Thanh Le-Cong**) is bolded in the publications below.
 
 <section id="journal">

@@ -97,6 +97,13 @@ via zero-shot learning and domain-specific pre/post-processing.
 
 
 ## Talks
+### CHRONOS: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports
+
+*[ICSE 2023](https://conf.researchr.org/home/icse-2023) - May 2023* <a href="./pdf/ICSE_Chronos_slide.pdf"><img src="assets/images/ppt_symbol.png" width="30" height="30"></a> 
+
+Tools that alert developers about library vulnerabilities depend on accurate, up-to-date vulnerability databases which are maintained by security researchers. These databases record the libraries related to each vulnerability. However, the vulnerability reports may not explicitly list every library and human analysis is required to determine all the relevant libraries. Human analysis may be slow and expensive, which motivates the need for automated approaches. Researchers and practitioners have proposed to automatically identify libraries from vulnerability reports using extreme multi-label learning (XML).
+
+While state-of-the-art XML techniques showed promising performance, their experiment settings do not practically fit what happens in reality. Previous studies randomly split the vulnerability reports data for training and testing their models without considering the chronological order of the reports. This may unduly train the models on chronologically newer reports while testing the models on chronologically older ones. However, in practice, one often receives chronologically new reports, which may be related to previously unseen libraries. Under this practical setting, we observe that the performance of current XML techniques declines substantially, e.g., F1 decreased from 0.7 to 0.24 under experiments without and with consideration of chronological order of vulnerability reports. In this talk, I present Chronos, a novel library identification approach introduced at ICSE 2023 for automatically suggesting vulnerable libraries using zero-shot learning along with two task-specific mechanism: data enhancement and time-aware adjustment. In our experiments, CHRONOS achieves an average F1-score of 0.75, 3x better than the best XML-based approach. Task-specific mechanism improve CHRONOS over the vanilla zero-shot learning model by 27% in average F1.
 
 ### Property Inference for DNN 
 

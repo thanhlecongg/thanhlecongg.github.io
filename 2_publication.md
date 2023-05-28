@@ -62,7 +62,7 @@ via zero-shot learning and domain-specific pre/post-processing.
 - Acceptance Rate: 27%
 - (One-line Abstract) Automatically repairing mobile-unfrienly webpages using Evolutionary Optimization.
 
-2. **SAFL: A Self-Attention Scene Text Recognizer with Focal Loss** *Bao Hieu Tran<sup>+</sup>, <strong>Thanh Le-Cong</strong><sup>+</sup>, Huu Manh Nguyen, Duc Anh Le, Thanh Hung Nguyen, Phi Le Nguyen* at the IEEE 19th International Conference on Machine Learning and Applications (ICMLA) 2020, Special Issues on Deep Learning <a href="https://arxiv.org/pdf/2201.00132.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/thanhlecongg/SAFL"><img src="./assets/images/sourcecode.png" width="30" height="30"></a>. 
+2. **[ICMLA'20] SAFL: A Self-Attention Scene Text Recognizer with Focal Loss** *Bao Hieu Tran<sup>+</sup>, <strong>Thanh Le-Cong</strong><sup>+</sup>, Huu Manh Nguyen, Duc Anh Le, Thanh Hung Nguyen, Phi Le Nguyen* at the IEEE 19th International Conference on Machine Learning and Applications (ICMLA) 2020, Special Issues on Deep Learning <a href="https://arxiv.org/pdf/2201.00132.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/thanhlecongg/SAFL"><img src="./assets/images/sourcecode.png" width="30" height="30"></a>. 
 - Acceptance Rate: 25%
 - (One-line Abstract) Automatically recognizing text in natural images using Transformer model with Focal Loss
 

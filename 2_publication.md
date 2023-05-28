@@ -32,7 +32,7 @@ Note
 
 3. **[Under-Review] GNN-Infer: Property Inference for Graph Neural Networks** *by Thanh-Dat Nguyen, **Thanh Le-Cong**, Bach Le, David Lo, ThanhVu H. Nguyen*, Under Review.
 
-4. **[Under-Review] Can Code Summarization Succeed with Unseen Projects?** *by <u>Hung Nguyen</u>, **Thanh Le-Cong**, Hung Le, Loc Nguyen, Bach Le, Quyet-Thang Huynh, David Lo*, Under Review.
+4. **[Under-Review] Can Code Summarization Succeed with Unseen Projects?** *by <u>Hung Nguyen</u>, **Thanh Le-Cong**, <u>Hung Le</u>, <u>Loc Nguyen</u>, Bach Le, Quyet-Thang Huynh, David Lo*, Under Review.
 
 ### 2023
 

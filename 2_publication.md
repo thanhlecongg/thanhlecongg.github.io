@@ -83,8 +83,7 @@ via zero-shot learning and domain-specific pre/post-processing.
 
 1. **PatchZero: Zero-Shot Automatic Patch Correctness Assessment.** *by Xin Zhou, Bowen Xu, Kisub Kim, DongGyun Han, **Thanh Le-Cong**, Junda He, Bach Le, and David Lo* submitted to IEEE Transactions on Software Engineering <a href="https://arxiv.org/pdf/2303.00202.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30">.
 
-2. **Code Quality Issues in ChatGPT-Generated Code.** *Liu Yue, **Thanh Le-Cong**, Ratnadira Widyasari, Chakkrit Tantithamthavorn, Li Li, Bach Le, David Lo* submitted to IEEE Transactions on Software Engineering 
-<a href="https://arxiv.org/pdf/2303.00202.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30">.
+2. **Code Quality Issues in ChatGPT-Generated Code.** *Liu Yue, **Thanh Le-Cong**, Ratnadira Widyasari, Chakkrit Tantithamthavorn, Li Li, Bach Le, David Lo*, Under Review.
 
 3. **GNN-Infer: Property Inference for Graph Neural Networks** *by Thanh-Dat Nguyen, **Thanh Le-Cong**, Bach Le, David Lo, ThanhVu H. Nguyen*, Under Review.
 

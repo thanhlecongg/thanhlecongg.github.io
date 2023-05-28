@@ -7,7 +7,11 @@ nav-menu: true
 ---
 
 ## Publications
-*<sup>+</sup> denotes equal contribution*
+
+Note 
+- *<sup>+</sup> denotes equal contribution*;
+- Names of students mentored by me are underlined;
+- My name (**Thanh Le-Cong**) is bolded in the publications below.
 
 <!-- <img src="assets/images/summary_pub_year.png"> -->
 <!-- **Summary:**  ICSE x 2, ESEC/FSE x 2, TSEx 1, SANER x 1, ICSME x 1, ISSRE x 1 -->
@@ -27,6 +31,8 @@ nav-menu: true
 <!-- <a href="https://arxiv.org/pdf/2303.00202.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30">. -->
 
 3. **[Under-Review] GNN-Infer: Property Inference for Graph Neural Networks** *by Thanh-Dat Nguyen, **Thanh Le-Cong**, Bach Le, David Lo, ThanhVu H. Nguyen*, Under Review.
+
+4. **[Under-Review] Can Code Summarization Succeed with Unseen Projects?** *by <u>Hung Nguyen</u>, **Thanh Le-Cong**, Hung Le, Loc Nguyen, Bach Le, Quyet-Thang Huynh, David Lo*, Under Review.
 
 ### 2023
 

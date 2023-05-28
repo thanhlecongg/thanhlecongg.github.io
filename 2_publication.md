@@ -8,76 +8,62 @@ nav-menu: true
 
 ## Publications
 
-Note: 
+**Summary:**  ICSE x 2, ESEC/FSE x 2, TSEx 2, SANER x 1, ICSME x 1, ISSRE x 1
+
+<a href="#journal" class="button next scrolly">Journal Papers</a>
+<a href="#conf" class="button next scrolly">Conference Paper</a>
+<a href="#short" class="button next scrolly">Short/Workshop Papers</a>
+
+**Note:**
 - *<sup>+</sup> denotes equal contribution*;
-- Names of students mentored by me are underlined;
+<!-- - Names of students mentored by me are underlined; -->
 - My name (**Thanh Le-Cong**) is bolded in the publications below.
 
-<!-- <img src="assets/images/summary_pub_year.png"> -->
-<!-- **Summary:**  ICSE x 2, ESEC/FSE x 2, TSEx 1, SANER x 1, ICSME x 1, ISSRE x 1 -->
-
-<!-- <a href="#current" class="button next scrolly">2023</a>
-<a href="#last" class="button next scrolly">2022</a>
-<a href="#prior" class="button next scrolly">Prior</a> -->
-
-<section id="current">
+<section id="journal">
 </section>
 
-### In Submission
+### Journal Papers
 
-1. **[TSE-Review] PatchZero: Zero-Shot Automatic Patch Correctness Assessment.** *by Xin Zhou, Bowen Xu, Kisub Kim, DongGyun Han, **Thanh Le-Cong**, Junda He, Bach Le, and David Lo* submitted to IEEE Transactions on Software Engineering <a href="https://arxiv.org/pdf/2303.00202.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30">.
-
-2. **[Under-Review] Code Quality Issues in ChatGPT-Generated Code.** *Liu Yue, **Thanh Le-Cong**, Ratnadira Widyasari, Chakkrit Tantithamthavorn, Li Li, Bach Le, David Lo* submitted to IEEE Transactions on Software Engineering 
-<!-- <a href="https://arxiv.org/pdf/2303.00202.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30">. -->
-
-3. **[Under-Review] GNN-Infer: Property Inference for Graph Neural Networks** *by Thanh-Dat Nguyen, **Thanh Le-Cong**, Bach Le, David Lo, ThanhVu H. Nguyen*, Under Review.
-
-4. **[Under-Review] Can Code Summarization Succeed with Unseen Projects?** *by <u>Hung Nguyen</u>, **Thanh Le-Cong**, <u>Hung Le</u>, <u>Loc Nguyen</u>, Bach Le, Quyet-Thang Huynh, David Lo*, Under Review.
-
-### 2023
-
-2. **[TSE'23] MiDas: Multi-Granularity Detector for Vulnerability Fixes** *by Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, Ratnadira Widyasari, Chengran Yang, Zhipeng Zhao, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Bach Le, and David Lo* IEEE Transactions on Software Engineering <a href="./pdf/TSE_Midas.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/soarsmu/midas"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/5565182"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
+1. **[TSE'23] MiDas: Multi-Granularity Detector for Vulnerability Fixes** *by Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, Ratnadira Widyasari, Chengran Yang, Zhipeng Zhao, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Bach Le, and David Lo* IEEE Transactions on Software Engineering <a href="./pdf/TSE_Midas.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/soarsmu/midas"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/5565182"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 - (One-line Abstract) Identifying vulnerability fixes by analyzing multi-granularity of code changes. 
 
 1. **[TSE'23] Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning** *by **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui and Quyet Thang Huynh* at the IEEE Transactions on Software Engineering <a href="./pdf/TSE_Invalidator.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/thanhlecongg/Invalidator"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/7475916"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 - (One-line Abstract) Reasoning about the correctness of APR-generated patches via program invariants and code representation learning.
 
-2. **[SANER'23] Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go** *by Ratnadira Widyasari, Zhao Zhipeng, **Thanh Le-Cong**, Hong Jin Kang and David Lo* at the IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track <a href="./pdf/SANER23_GithubTopic.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://figshare.com/s/dc6d69629442c6ac3bbb"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://figshare.com/s/dc6d69629442c6ac3bbb"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
+<section id="conf">
+</section>
+
+### 2022
+
+1. **[SANER'23] Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go** *by Ratnadira Widyasari, Zhao Zhipeng, **Thanh Le-Cong**, Hong Jin Kang and David Lo* at the IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track <a href="./pdf/SANER23_GithubTopic.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://figshare.com/s/dc6d69629442c6ac3bbb"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://figshare.com/s/dc6d69629442c6ac3bbb"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 - (One-line Abstract) An exploration study about the effectiveness of XML techniques on Github Topic Recommendation.
 
-3. **[ICSE'23] Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports** *by Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li and David Lo* at the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track <a href="./pdf/ICSE_Chronos.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/soarsmu/Chronos"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://figshare.com/articles/software/Chronos-ICSE23/20787805"><img src="./assets/images/dataset.png" width="30" height="30"></a>. 
+1. **[ICSE'23] Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports** *by Yunbo Lyu<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li and David Lo* at the IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track <a href="./pdf/ICSE_Chronos.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/soarsmu/Chronos"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://figshare.com/articles/software/Chronos-ICSE23/20787805"><img src="./assets/images/dataset.png" width="30" height="30"></a>. 
 - (One-line Abstract) Practically identifying vulnerable libraries from vulnerability reports 
 via zero-shot learning and domain-specific pre/post-processing.   
 - **Note:** Our replication package was evaluated as Available
 <img src="./assets/images/artifacts_available-removebg-preview.png"  width="30" height="30"> and Functional <img src="./assets/images/artifacts_evaluated_functional-removebg-preview.png"  width="30" height="30">.
 
-
-<section id="last">
-</section>
-
-### 2022
-
 1. **[ESEC/FSE'22] AutoPruner: Transformer-Based Call Graph Pruning** *by **Thanh Le-Cong**, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le and Thang Huynh Quyet* at the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Research Track <a href="./pdf/FSE_AutoPruner.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/soarsmu/AutoPruner"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/6369874#.YjWzmi8RppR"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 - (One-line Abstract) Pruning false positives in static call graph via code features learned by Large Language Model and syntactic features extracted from original call graph.   
 - **Note:** Our replication package was evaluated as Available <img src="./assets/images/artifacts_available-removebg-preview.png"  width="30" height="30"> and Functional<img src="./assets/images/artifacts_evaluated_functional-removebg-preview.png"  width="30" height="30">
 
-2. **[ESEC/FSE'22] VulCurator: A Vulnerability-Fixing Commit Detector** *by Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, and Bach Le and David Lo* at the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Tool Demos Track <a href="./pdf/VulCurator.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/ntgiang71096/VFDetector"><img src="./assets/images/sourcecode.png" width="30" height="30"></a>.
-- (One-line Abstract) Identifying vulnerability-fixing commits by applying Large Language Model on multiple sources including code changes, commit messages and related issues.   
-
-3. **[ICSME'22] FFL: Fine grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning** *by Thanh-Dat Nguyen, **Thanh Le-Cong**, Duc-Minh Luong, and Van-Hai Duong, Bach Le, David Lo and Quyet-Thang Huynh* at the IEEE 38th International Conference on Software Maintenance and Evolution (ICSME) 2022, Research Track <a href="./pdf/ICSME_FFL.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/FFL2022/FFL"><img src="./assets/images/sourcecode.png" width="30" height="30"></a>
+1. **[ICSME'22] FFL: Fine grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning** *by Thanh-Dat Nguyen, **Thanh Le-Cong**, Duc-Minh Luong, and Van-Hai Duong, Bach Le, David Lo and Quyet-Thang Huynh* at the IEEE 38th International Conference on Software Maintenance and Evolution (ICSME) 2022, Research Track <a href="./pdf/ICSME_FFL.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/FFL2022/FFL"><img src="./assets/images/sourcecode.png" width="30" height="30"></a>
 - (One-line Abstract) Automatically identifying fault locations in student programs by applying Graph Neural Network on a fine-grained graph-based representation of program which combines AST with test coverage information.
 
-4. **[ICSE'22] Toward the Analysis of Graph Neural Networks** *by Thanh-Dat Nguyen<sup>+</sup>, <strong>Thanh Le-Cong</strong><sup>+</sup>, ThanhVu H. Nguyen, Bach Le and Quyet-Thang Huynh* at the IEEE/ACM 44th International Conference on Software Engineering (ICSE) 2022, New Ideas and Emerging Results (NIER) Track, <a href="./pdf/ICSE_GNNInfer.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>.
-- (One-line Abstract) Discovering formal properties of GNNs by converting them into FFNNs and reusing existing FFNNs analyses.
+1. **[ISSRE'21] Usability and Aesthetics: Better Together for Automated Repair of Web Pages** *by **Thanh Le-Cong**, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen* at the IEEE 32th International Symposium on Software Reliability Engineering (ISSRE) 2021, Research Track  <a href="./pdf/ISSRE21.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>
+- (One-line Abstract) Automatically repairing mobile-unfrienly webpages using Evolutionary Optimization.
 
-<section id="prior">
+<section id="short">
 </section>
-
 
 ### Prior
 
-1. **Usability and Aesthetics: Better Together for Automated Repair of Web Pages** *by **Thanh Le-Cong**, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen* at the IEEE 32th International Symposium on Software Reliability Engineering (ISSRE) 2021, Research Track  <a href="./pdf/ISSRE21.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>
-- (One-line Abstract) Automatically repairing mobile-unfrienly webpages using Evolutionary Optimization.
+1. **[ESEC/FSE'22] VulCurator: A Vulnerability-Fixing Commit Detector** *by Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, and Bach Le and David Lo* at the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Tool Demos Track <a href="./pdf/VulCurator.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/ntgiang71096/VFDetector"><img src="./assets/images/sourcecode.png" width="30" height="30"></a>.
+- (One-line Abstract) Identifying vulnerability-fixing commits by applying Large Language Model on multiple sources including code changes, commit messages and related issues. 
+
+1. **[ICSE'22] Toward the Analysis of Graph Neural Networks** *by Thanh-Dat Nguyen<sup>+</sup>, <strong>Thanh Le-Cong</strong><sup>+</sup>, ThanhVu H. Nguyen, Bach Le and Quyet-Thang Huynh* at the IEEE/ACM 44th International Conference on Software Engineering (ICSE) 2022, New Ideas and Emerging Results (NIER) Track, <a href="./pdf/ICSE_GNNInfer.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>.
+- (One-line Abstract) Discovering formal properties of GNNs by converting them into FFNNs and reusing existing FFNNs analyses.
 
 <!-- 2. Bao Hieu Tran, **Thanh Le-Cong**, Huu Manh Nguyen, Duc Anh Le, Thanh Hung Nguyen, Phi Le Nguyen. *“SAFL: A Self-Attention Scene Text Recognizer with Focal Loss.”* IEEE 19th International Conference on Machine Learning and Applications (ICMLA) 2020, Special Issues on Deep Learning. 
 - (One-line Abstract) Automatically recognizing text in natural images using Transformer models with Focal Loss/
@@ -85,6 +71,16 @@ via zero-shot learning and domain-specific pre/post-processing.
 3. Thi Thanh Binh Huynh, Dinh Thanh Pham, Ba Trung Tran, **Thanh Le-Cong**, Minh Hai Phong Le, Ananthram Swami, Thu Lam Bui. *“A multifactorial optimization paradigm for linkage tree genetic algorithm”*, Information Sciences (2020). 
 - (One-line Abstract) A new multitasking optimization algorithms based on likage tree genetic algorithm. -->
 
+<!-- ### In Submission
+
+1. **[TSE-Review] PatchZero: Zero-Shot Automatic Patch Correctness Assessment.** *by Xin Zhou, Bowen Xu, Kisub Kim, DongGyun Han, **Thanh Le-Cong**, Junda He, Bach Le, and David Lo* submitted to IEEE Transactions on Software Engineering <a href="https://arxiv.org/pdf/2303.00202.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30">.
+
+2. **[Under-Review] Code Quality Issues in ChatGPT-Generated Code.** *Liu Yue, **Thanh Le-Cong**, Ratnadira Widyasari, Chakkrit Tantithamthavorn, Li Li, Bach Le, David Lo* submitted to IEEE Transactions on Software Engineering 
+<a href="https://arxiv.org/pdf/2303.00202.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30">.
+
+3. **[Under-Review] GNN-Infer: Property Inference for Graph Neural Networks** *by Thanh-Dat Nguyen, **Thanh Le-Cong**, Bach Le, David Lo, ThanhVu H. Nguyen*, Under Review.
+
+4. **[Under-Review] Can Code Summarization Succeed with Unseen Projects?** *by <u>Hung Nguyen</u>, **Thanh Le-Cong**, <u>Hung Le</u>, <u>Loc Nguyen</u>, Bach Le, Quyet-Thang Huynh, David Lo*, Under Review. -->
 
 ## Open Sources
 1. "MiDas: Multi-granularity Detector for Vulnerability Fixes". <a href="https://github.com/soarsmu/midas"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/5565182#.Yv3lHuxBxO8"><img src="./assets/images/dataset.png" width="30" height="30"></a>
@@ -92,10 +88,6 @@ via zero-shot learning and domain-specific pre/post-processing.
 3. "Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning" <a href="https://github.com/thanhlecongg/Invalidator"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/7475916"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 3. "VulCurator: A Vulnerability-Fixing Commit Detector" <a href="https://github.com/ntgiang71096/VFDetector"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/6792205#.YsG03-xByw4"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 2. "AutoPruner: Transformer-based Call Graph Pruning". <a href="https://github.com/soarsmu/AutoPruner"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/6369874#.YjWzmi8RppR"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
-
-
-
-
 
 ## Talks
 ### CHRONOS: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports

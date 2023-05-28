@@ -87,10 +87,11 @@ via zero-shot learning and domain-specific pre/post-processing.
 
 
 ## Open Sources
+1. "MiDas: Multi-granularity Detector for Vulnerability Fixes". <a href="https://github.com/soarsmu/midas"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/5565182#.Yv3lHuxBxO8"><img src="./assets/images/dataset.png" width="30" height="30"></a>
+1. "Chronos: Zero-Shot Identification of Libraries from Vulnerability Reports". <a href="https://github.com/soarsmu/Chronos"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://figshare.com/articles/software/Chronos-ICSE23/20787805"><img src="./assets/images/dataset.png" width="30" height="30"></a>
 3. "Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning" <a href="https://github.com/thanhlecongg/Invalidator"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/7475916"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 3. "VulCurator: A Vulnerability-Fixing Commit Detector" <a href="https://github.com/ntgiang71096/VFDetector"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/6792205#.YsG03-xByw4"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 2. "AutoPruner: Transformer-based Call Graph Pruning". <a href="https://github.com/soarsmu/AutoPruner"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/6369874#.YjWzmi8RppR"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
-1. "Chronos: Zero-Shot Identification of Libraries from Vulnerability Reports". <a href="https://github.com/soarsmu/Chronos"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://figshare.com/articles/software/Chronos-ICSE23/20787805"><img src="./assets/images/dataset.png" width="30" height="30"></a>
 
 
 

@@ -33,7 +33,7 @@ nav-menu: true
 <section id="conf">
 </section>
 
-### 2022
+### Conference Papers
 
 1. **[SANER'23] Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go** *by Ratnadira Widyasari, Zhao Zhipeng, **Thanh Le-Cong**, Hong Jin Kang and David Lo* at the IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track <a href="./pdf/SANER23_GithubTopic.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://figshare.com/s/dc6d69629442c6ac3bbb"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://figshare.com/s/dc6d69629442c6ac3bbb"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 - (One-line Abstract) An exploration study about the effectiveness of XML techniques on Github Topic Recommendation.
@@ -57,7 +57,7 @@ via zero-shot learning and domain-specific pre/post-processing.
 <section id="short">
 </section>
 
-### Prior
+### Short/Workshop Papers
 
 1. **[ESEC/FSE'22] VulCurator: A Vulnerability-Fixing Commit Detector** *by Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, and Bach Le and David Lo* at the ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Tool Demos Track <a href="./pdf/VulCurator.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/ntgiang71096/VFDetector"><img src="./assets/images/sourcecode.png" width="30" height="30"></a>.
 - (One-line Abstract) Identifying vulnerability-fixing commits by applying Large Language Model on multiple sources including code changes, commit messages and related issues. 

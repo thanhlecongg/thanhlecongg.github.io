@@ -89,6 +89,8 @@ via zero-shot learning and domain-specific pre/post-processing.
 
 4. **Can Code Summarization Succeed with Unseen Projects?** *by <u>Hung Nguyen</u>, **Thanh Le-Cong**, <u>Hung Le</u>, <u>Loc Nguyen</u>, Bach Le, Quyet-Thang Huynh, David Lo*, Under Review.
 
+5. **Are We Ready to Embrace Generative AI for Software Q&A??** *by Bowen Xu, Thanh-Dat Nguyen **Thanh Le-Cong**, Thong Hoang, Jiakun Liu, Kisub Kim, Chen Gong, Changan Niu, Chenyu Wang, Bach Le, David Lo*, Under Review.
+
 ## Open Sources
 1. "MiDas: Multi-granularity Detector for Vulnerability Fixes". <a href="https://github.com/soarsmu/midas"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/5565182#.Yv3lHuxBxO8"><img src="./assets/images/dataset.png" width="30" height="30"></a>
 1. "Chronos: Zero-Shot Identification of Libraries from Vulnerability Reports". <a href="https://github.com/soarsmu/Chronos"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://figshare.com/articles/software/Chronos-ICSE23/20787805"><img src="./assets/images/dataset.png" width="30" height="30"></a>

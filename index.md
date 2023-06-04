@@ -31,6 +31,7 @@ show_tile: false
 #### Ph.D Student, [CIS@The University of Melbourne](https://cis.unimelb.edu.au), Feb 2023 - Now
 *Funded by the Melbourne Research Scholarship*
 - Advisor: Dr. Bach Le and Prof. Toby Murray
+- Topic: Improving Trustworthiness of Program Repair Systems
 
 #### BSc, [SOICT@Hanoi University of Science and Technology](https://soict.hust.edu.vn/), Sep 2016 - Sep 2021
 - Advisor: Prof. Huynh Quyet Thang

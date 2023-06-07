@@ -27,7 +27,7 @@ show_tile: false
 - **[September 2023]** I am awarded Melbourne Graduate Scholarship of ~400K AUD for my 4-years Ph.D course. 
 
 
-([See more ...]())
+([See more ...](./0_news.html))
 
 ## Featured Publications
 *<sup>+</sup> denotes equal contribution*

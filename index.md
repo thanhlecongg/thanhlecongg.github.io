@@ -7,15 +7,21 @@ image: null
 author: null
 show_tile: false
 ---
-<table>
-  <tr>
-    <td style="vertical-align: middle;width: 22%;"><img src="assets/images/avatar.png" alt="Image of me"></td>
-    <td style="width: 78%;">
-      <p> Hello, I am Thanh Le-Cong (Lê Công Thành in Vietnamese), a first-year Ph.D. student at <a href="https://www.cis.unimelb.edu.au/"> CIS, The University of Melbourne </a>, working with <a href="https://xuanbachle.github.io/"> Dr. Bach Le </a> and <a href="https://people.eng.unimelb.edu.au/tobym/"> Prof. Toby Murray</a>. Prior to joining UoM, I worked as a research engineer at <a href="https://soarsmu.github.io/"> SOAR (SOftware Analytic Research)</a>, <a href="https://smu.edu.sg/"> Singapore Management University</a> under the advisor of <a href="http://www.mysmu.edu/faculty/davidlo/"> Prof. David Lo</a>. My research aim to improve developer productivity by creating automated solutions for managing, localizing, and resolving software bugs and vulnerabilities. Specifically, I am focusing on ensuring the reliability and trustworthiness of data-driven software debugging and bug management techniques. My current topic is improving the trustworthiness of automated program repair systems. See <a href="./1_research.html"> more</a> about my research. 
+
+<div class="row">
+  <div class="column left">
+      <p> Hello, I am Thanh Le-Cong (Lê Công Thành in Vietnamese), a first-year Ph.D. student at <a href="https://www.cis.unimelb.edu.au/"> CIS, The University of Melbourne </a>, working with <a href="https://xuanbachle.github.io/"> Dr. Bach Le </a> and <a href="https://people.eng.unimelb.edu.au/tobym/"> Prof. Toby Murray</a>. Prior to joining UoM, I worked as a research engineer at <a href="https://soarsmu.github.io/"> SOAR (SOftware Analytic Research)</a>, <a href="https://smu.edu.sg/"> Singapore Management University</a> under the advisor of <a href="http://www.mysmu.edu/faculty/davidlo/"> Prof. David Lo</a>. My research aim to improve developer productivity by creating automated solutions for managing, localizing, and resolving software bugs and vulnerabilities. Specifically, I am focusing on ensuring the reliability and trustworthiness of data-driven software debugging and bug management techniques. My current topic is improving the trustworthiness of automated program repair systems. See more about my <a href="./1_research.html"> research</a> and <a href="./2_publication.html"> publications</a>.
+      <ul class="actions">
+                    <li><a href="./pdf/ThanhLeCong_CV.pdf" download class="button icon fa-download">Download My CV</a></li>
+        </ul>
       </p>
-    </td>
-  </tr>
-</table>
+      
+
+  </div>
+  <div class="column right">
+    <img src="assets/images/avatar.png" alt="Nathaniel Nauman" width="500"> 
+  </div>
+</div>
 
 ## Lastest News
 
@@ -25,11 +31,9 @@ show_tile: false
 - **[December 2022]** Our paper entitled "[Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go](./2022/12/16/SANER.html)" is accepted by *SANER 2023*. 
 - **[December 2022]** Our paper entitled "[CHRONOS: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports](./2022/12/09/ICSE.html)" is accepted by *ICSE 2023*. 
 - **[September 2023]** I am awarded Melbourne Graduate Scholarship of ~400K AUD for my 4-years Ph.D course. 
+- [See more ...](./5_news.html)
 
-
-([See more ...](./0_news.html))
-
-## Featured Publications
+<!-- ## Featured Publications
 *<sup>+</sup> denotes equal contribution*
 
 1. **[TSE'23] Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning** by <strong>Thanh Le-Cong</strong>, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui and Quyet Thang Huynh at IEEE Transactions on Software Engineering (Just Accepted) ([PDF](./pdf/TSE_Invalidator.pdf), [Code](https://github.com/thanhlecongg/Invalidator), [Dataset](https://zenodo.org/record/7475916)).
@@ -44,6 +48,6 @@ via zero-shot learning and domain-specific pre/post-processing.
 - (One-line Abstract) Pruning false positives in static call graph via code features learned by Large Language Model and syntactic features extracted from original call graph.   
 
 4. **[ICSE'22] Toward the Analysis of Graph Neural Networks** *by Thanh-Dat Nguyen<sup>+</sup>, <strong>Thanh Le-Cong</strong><sup>+</sup>, ThanhVu H. Nguyen, Bach Le and Quyet-Thang Huynh* at the IEEE/ACM 44th International Conference on Software Engineering (ICSE) 2022, New Ideas and Emerging Results (NIER) Track
-- (One-line Abstract) Discovering formal properties of GNNs by converting them into FFNNs and reusing existing FFNNs analyses.
+- (One-line Abstract) Discovering formal properties of GNNs by converting them into FFNNs and reusing existing FFNNs analyses. -->
 
 

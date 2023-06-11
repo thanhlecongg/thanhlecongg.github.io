@@ -8,11 +8,14 @@ nav-menu: true
 
 ## Publications
 
-**Summary:**  ICSE x 2, ESEC/FSE x 2, TSEx 2, SANER x 1, ICSME x 1, ISSRE x 1
+**Summary:**  <a href="http://www.icse-conferences.org/" class="button special">ICSE x 2</a> <a href="https://www.esec-fse.org/" class="button special">ESEC/FSE x 2</a> <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32" class="button special">TSE x 2</a> <a href="https://dblp.org/db/conf/wcre/index.html" class="button special">SANER x 1</a> <a href="https://conferences.computer.org/icsm/" class="button special">ICSME x 1</a> <a href="https://en.wikipedia.org/wiki/ISSRE" class="button special">ISSRE x 1</a>
 
-<a href="#journal" class="button next scrolly">Journal Papers</a>
-<a href="#conf" class="button next scrolly">Conference Paper</a>
-<a href="#short" class="button next scrolly">Short/Workshop Papers</a>
+
+<a href="#journal" class="button icon fa-newspaper-o">Journal Papers</a>
+<a href="#conf" class="button icon fa-plane">Conference Paper</a>
+<a href="#short" class="button icon fa-book">Short/Workshop Papers</a>
+
+
 
 **Note:**
 - *<sup>+</sup> denotes equal contribution*;
@@ -30,7 +33,7 @@ nav-menu: true
 1. **[TSE'23] Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning** *by **Thanh Le-Cong**, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui and Quyet Thang Huynh* at the IEEE Transactions on Software Engineering <a href="./pdf/TSE_Invalidator.pdf"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/thanhlecongg/Invalidator"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/7475916"><img src="./assets/images/dataset.png" width="30" height="30"></a>.
 - (One-line Abstract) Reasoning about the correctness of APR-generated patches via program invariants and code representation learning.
 
-1. **[InfoSci'20] A multifactorial optimization paradigm for linkage tree genetic algorithm** *by Thi Thanh Binh Huynh, Dinh Thanh Pham, Ba Trung Tran, **Thanh Le-Cong**, Minh Hai Phong Le, Ananthram Swami, Thu Lam Bui* at the IEEE Transactions on Software Engineering <a href="https://www.sciencedirect.com/science/article/pii/S0020025520305570"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/thanhlecongg/MFLTGA"><img src="./assets/images/sourcecode.png" width="30" height="30"></a>.
+1. **[InfoSci'20] A multifactorial optimization paradigm for linkage tree genetic algorithm** *by Thi Thanh Binh Huynh, Dinh Thanh Pham, Ba Trung Tran, **Thanh Le-Cong**, Minh Hai Phong Le, Ananthram Swami, Thu Lam Bui* at the Elsevier Information Sciences <a href="https://www.sciencedirect.com/science/article/pii/S0020025520305570"><img src="./assets/images/PDF_file_icon.svg.png" width="25" height="30"></a>  <a href="https://github.com/thanhlecongg/MFLTGA"><img src="./assets/images/sourcecode.png" width="30" height="30"></a>.
 - (One-line Abstract) A new multitasking optimization paradigm for linkage tree genetic algorithm.
 
 <section id="conf">
@@ -89,7 +92,7 @@ via zero-shot learning and domain-specific pre/post-processing.
 
 4. **Can Code Summarization Succeed with Unseen Projects?** *by <u>Hung Nguyen</u>, **Thanh Le-Cong**, <u>Hung Le</u>, <u>Loc Nguyen</u>, Bach Le, Quyet-Thang Huynh, David Lo*, Under Review.
 
-5. **Are We Ready to Embrace Generative AI for Software Q&A??** *by Bowen Xu, Thanh-Dat Nguyen **Thanh Le-Cong**, Thong Hoang, Jiakun Liu, Kisub Kim, Chen Gong, Changan Niu, Chenyu Wang, Bach Le, David Lo*, Under Review.
+5. **Are We Ready to Embrace Generative AI for Software Q&A?** *by Bowen Xu, Thanh-Dat Nguyen **Thanh Le-Cong**, Thong Hoang, Jiakun Liu, Kisub Kim, Chen Gong, Changan Niu, Chenyu Wang, Bach Le, David Lo*, Under Review.
 
 ## Open Sources
 1. "MiDas: Multi-granularity Detector for Vulnerability Fixes". <a href="https://github.com/soarsmu/midas"><img src="./assets/images/sourcecode.png" width="30" height="30"></a> <a href="https://zenodo.org/record/5565182#.Yv3lHuxBxO8"><img src="./assets/images/dataset.png" width="30" height="30"></a>

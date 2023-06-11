@@ -6,6 +6,38 @@
 -->
 <html>
 
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    .column {
+      float: left;
+      padding: 10px;
+      /* height: 300px; Should be removed. Only for demonstration */
+    }
+    
+    .left {
+      width: 60%;
+    }
+    
+    .right {
+      width: 40%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+</head>
+
 {% include head.html %}
 
 <body>
@@ -40,21 +72,15 @@
                 <!-- <ul class="actions">
                     <li><a href="./cv.html" class="button next">My Resume</a></li>
                 </ul> -->
-                <ul class="actions">
+                <!-- <ul class="actions">
                     <li><a href="2_publication.html" class="button next">See all publications</a></li>
-                </ul>
+                </ul> -->
             </div>
         </section>
         <!-- One -->
-        <!-- {% include tiles.html %} -->
+        {% include tiles.html %}
 
     </div>
-
-    <!-- <div class="news">
-        <h2>News</h2> -->
-        
-    <!-- </div> -->
-
 
     {% include footer.html %}
 

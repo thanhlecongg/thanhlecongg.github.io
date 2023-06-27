@@ -103,7 +103,7 @@ nav-menu: true
    - **Acceptance Rate:** 22%
    - **One-line Abstract:** Discovering formal properties of GNNs by converting them into FFNNs and reusing existing FFNNs analyses.
 
----
+<!-- ---
 
 ### Under Review
 
@@ -122,7 +122,7 @@ nav-menu: true
    - **Authors**: <u> Hung Nguyen</u>, **Thanh Le-Cong**, Hung Le, Loc Nguyen, Bach Le, Quyet-Thang Huynh, David Lo
 
 5. **Are We Ready to Embrace Generative AI for Software Q&A?**
-   - **Authors**: Bowen Xu, Thanh-Dat Nguyen, **Thanh Le-Cong**, Thong Hoang, Jiakun Liu, Kisub Kim, Chen Gong, Changan Niu, Chenyu Wang, Bach Le, David Lo
+   - **Authors**: Bowen Xu, Thanh-Dat Nguyen, **Thanh Le-Cong**, Thong Hoang, Jiakun Liu, Kisub Kim, Chen Gong, Changan Niu, Chenyu Wang, Bach Le, David Lo -->
 
 <!-- ## Open Sources
 1. "MiDas: Multi-granularity Detector for Vulnerability Fixes". <a href="https://github.com/soarsmu/midas">[[Code]]</a> <a href="https://zenodo.org/record/5565182#.Yv3lHuxBxO8"><img src="./assets/images/dataset.png" width="30" height="30"></a>

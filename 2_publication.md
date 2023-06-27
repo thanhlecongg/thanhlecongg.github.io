@@ -44,7 +44,7 @@ nav-menu: true
 2. **[SANER'23] Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go**
    - **Authors**: Ratnadira Widyasari, Zhao Zhipeng, **Thanh Le-Cong**, Hong Jin Kang, and David Lo
    - **Venue**: IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track
-   - **Links**: [[PDF]](./pdf/SANER23_GithubTopic.pdf)  [[Code]](https://figshare.com/s/dc6d69629442c6ac3bbb)
+   - **Links**: [[DOI]](https://ieeexplore.ieee.org/abstract/document/10123501/) [[PDF]](./pdf/SANER23_GithubTopic.pdf)  [[Code]](https://figshare.com/s/dc6d69629442c6ac3bbb)
    - **Acceptance Rate:** 27%
    - **One-line Abstract:** An exploration study about the effectiveness of XML techniques on Github Topic Recommendation.
 
@@ -58,28 +58,28 @@ nav-menu: true
 4. **[ESEC/FSE'22] AutoPruner: Transformer-Based Call Graph Pruning** <img src="./assets/images/artifacts_available-removebg-preview.png"  width="50" height="50"> <img src="./assets/images/artifacts_evaluated_functional-removebg-preview.png"  width="50" height="50">
    - **Authors**: **Thanh Le-Cong**, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le, and Thang Huynh Quyet
    - **Venue**: ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Research Track
-   - **Links**: [[PDF]](./pdf/FSE_AutoPruner.pdf)  [[Code]](https://github.com/soarsmu/AutoPruner)
+   - **Links**: [[DOI]](https://dl.acm.org/doi/abs/10.1145/3540250.3549175) [[PDF]](./pdf/FSE_AutoPruner.pdf)  [[Code]](https://github.com/soarsmu/AutoPruner)
    - **Acceptance Rate:** 22%
    - **One-line Abstract:** Pruning false positives in static call graph via code features learned by Large Language Model and syntactic features extracted from original call graph.
 
 5. **[ICSME'22] FFL: Fine-grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning**
    - **Authors**: Thanh-Dat Nguyen, **Thanh Le-Cong**, Duc-Minh Luong, Van-Hai Duong, Bach Le, David Lo, and Quyet-Thang Huynh
    - **Venue**: IEEE 38th International Conference on Software Maintenance and Evolution (ICSME) 2022, Research Track
-   - **Links**: [[PDF]](./pdf/ICSME_FFL.pdf) [[Code]](https://github.com/FFL2022/FFL)
+   - **Links**: [[DOI]](https://ieeexplore.ieee.org/abstract/document/9978180/) [[PDF]](./pdf/ICSME_FFL.pdf) [[Code]](https://github.com/FFL2022/FFL)
    - **Acceptance Rate:** 23%
    - **One-line Abstract:** Automatically identifying fault locations in student programs by applying Graph Neural Network on a fine-grained graph-based representation of the program, which combines AST with test coverage information.
 
 6. **[ISSRE'21] Usability and Aesthetics: Better Together for Automated Repair of Web Pages**
    - **Authors**: **Thanh Le-Cong**, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen
    - **Venue**: IEEE 32nd International Symposium on Software Reliability Engineering (ISSRE) 2021, Research Track
-   - **Links**: [[PDF]](./pdf/ISSRE21.pdf)
+   - **Links**: [[DOI]](https://ieeexplore.ieee.org/abstract/document/9700390/) [[PDF]](./pdf/ISSRE21.pdf)
    - **Acceptance Rate:** 27%
    - **One-line Abstract:** Automatically repairing mobile-unfriendly web pages using Evolutionary Optimization.
 
 7. **[ICMLA'20] SAFL: A Self-Attention Scene Text Recognizer with Focal Loss**
    - **Authors**: Bao Hieu Tran<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, Huu Manh Nguyen, Duc Anh Le, Thanh Hung Nguyen, and Phi Le Nguyen
    - **Venue**: IEEE 19th International Conference on Machine Learning and Applications (ICMLA) 2020, Special Issues on Deep Learning
-   - **Links**: [[PDF]](https://arxiv.org/pdf/2201.00132.pdf)  [[Code]](https://github.com/thanhlecongg/SAFL)
+   - **Links**: [[DOI]](https://ieeexplore.ieee.org/abstract/document/9356232/) [[PDF]](https://arxiv.org/pdf/2201.00132.pdf)  [[Code]](https://github.com/thanhlecongg/SAFL)
    - **Acceptance Rate:** 25%
    - **One-line Abstract:** Automatically recognizing text in natural images using a Transformer model with Focal Loss.
 
@@ -92,14 +92,14 @@ nav-menu: true
 1. **[ESEC/FSE'22] VulCurator: A Vulnerability-Fixing Commit Detector**
    - **Authors**: Truong Giang Nguyen, **Thanh Le-Cong**, Hong Jin Kang, Bach Le, and David Lo
    - **Venue**: ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Tool Demos Track
-   - **Links**: [[PDF]](./pdf/VulCurator.pdf)  [[Code]](https://github.com/ntgiang71096/VFDetector)
+   - **Links**: [[DOI]](https://dl.acm.org/doi/abs/10.1145/3540250.3558936) [[PDF]](./pdf/VulCurator.pdf)  [[Code]](https://github.com/ntgiang71096/VFDetector)
    - **Acceptance Rate:** 56%
    - **One-line Abstract:** Identifying vulnerability-fixing commits by applying Large Language Model on multiple sources including code changes, commit messages, and related issues.
 
 2. **[ICSE'22] Toward the Analysis of Graph Neural Networks**
    - **Authors**: Thanh-Dat Nguyen<sup>+</sup>, **Thanh Le-Cong**<sup>+</sup>, ThanhVu H. Nguyen, Bach Le, and Quyet-Thang Huynh
    - **Venue**: IEEE/ACM 44th International Conference on Software Engineering (ICSE) 2022, New Ideas and Emerging Results (NIER) Track
-   - **Links**: [[PDF]](./pdf/ICSE_GNNInfer.pdf)
+   - **Links**: [[DOI]](https://dl.acm.org/doi/abs/10.1145/3510455.3512780) [[PDF]](./pdf/ICSE_GNNInfer.pdf)
    - **Acceptance Rate:** 22%
    - **One-line Abstract:** Discovering formal properties of GNNs by converting them into FFNNs and reusing existing FFNNs analyses.
 

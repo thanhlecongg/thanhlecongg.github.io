@@ -17,7 +17,7 @@ nav-menu: true
 		</header>
 		<p> Software is eating the world but more software means more complexity. In the current decade, software no longer operate in isolation, but interact with other one and execute in increasingly intricate ecosystem. As a result, there are more and more onerous burden of developing and maintaining software systems on software developers. To reduce the increasingly burden, we need better ways to support developers on their daily tasks. 
         </p> 
-        <p> My research interests lie on the task of detecting, managing and fixing bugs/vulnerability, which <a href="https://www.jbs.cam.ac.uk/insight/2013/research-by-cambridge-mbas-for-tech-firm-undo-finds-software-bugs-cost-the-industry-316-billion-a-year/"> cost ~50% of the programming time of a software developer on average</a>. My research goal is to create reliable and dependable automated solutions for supporting developer in bug/vulnerability detection, management and repair. Towards the goal, my current focus of research includes but is not limited to: <a href="#two-one" class="next scrolly">Automated Program Repair</a> and <a href="#two-two" class="next scrolly">Vulnerability Management</a>.
+        <p> My research interests lie on the task of detecting, managing and fixing bugs/vulnerability, which <a href="https://www.jbs.cam.ac.uk/insight/2013/research-by-cambridge-mbas-for-tech-firm-undo-finds-software-bugs-cost-the-industry-316-billion-a-year/"> cost ~50% of the programming time of a software developer on average</a>. My research goal is to create reliable and dependable automated solutions for supporting developer in bug/vulnerability detection, management and repair. Towards the goal, my current focus of research includes but is not limited to: <a href="#two-one" class="next scrolly">Automated Program Repair</a> and <a href="#two-two" class="next scrolly">Software Supply Chain Security</a>.
         </p>
 	</div>
 </section>
@@ -51,7 +51,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Vulnerability Management</h3>
+					<h3>Software Supply Chain Security</h3>
 				</header>
 				<p>Modern software development involves the heavy use of APIs and third-party components. The reliance increase security risks of software system as the API and third-party components can contain exploitable vulnerabilities. 
                 </p>

@@ -2,7 +2,7 @@
 layout: post_no_img
 title: Experiences
 description: Working, Teaching and Mentoring Experiences
-image: assets/images/391240.webp
+image: assets/images/bgexperience.webp
 nav-menu: true
 ---
 

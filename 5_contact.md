@@ -2,7 +2,7 @@
 layout: contact
 title: Contact Me
 description: Collaboration and Communication
-image: assets/images/banner.jpg
+image: assets/images/bgcontact.jpg
 nav-menu: true
 ---
 

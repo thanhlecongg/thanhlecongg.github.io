@@ -2,7 +2,7 @@
 layout: post
 title: Publications
 description: Peer-reviewed papers, Talks, and Open sources
-image: assets/images/page_publications.jpg
+image: assets/images/bgpublication.jpg
 nav-menu: true
 ---
 <a href="#journal" class="button icon fa-newspaper-o">Journal Papers</a>

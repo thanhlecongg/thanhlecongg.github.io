@@ -2,7 +2,7 @@
 layout: post
 title: Achievements
 description: Awards, Honours and Scholarship
-image: assets/images/pngtree-technology-achievements-future-black-gold-atmosphere-background-picture-image_1003827.png
+image: assets/images/bgachieve.png
 nav-menu: true
 ---
 

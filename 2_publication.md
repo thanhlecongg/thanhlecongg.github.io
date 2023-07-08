@@ -87,8 +87,15 @@ nav-menu: true
 </section>
 
 ### Short/Workshop Papers
+1. **[ASE'23] Are We Ready to Embrace Generative AI for Software Q&A?**
+   - **Authors**: Bowen Xu, Thanh-Dat Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Thong Hoang, Jiakun Liu, Kisub Kim, Chen Gong, Changan Niu, Chenyu Wang, Bach Le, David Lo
+   - **Venue**: IEEE/ACM 35th International Conference on Automated Software Engineering (ASE) 2023, New Ideas and Emerging Results (NIER) Track
+   - **Links**: [[PDF]](./coming_soon.html)  [[Code]](./coming_soon.html)
+   - **Acceptance Rate:** 36%
+   - **One-line Abstract:** Identifying vulnerability-fixing commits by applying Large Language Model on multiple sources including code changes, commit messages, and related issues.
 
-1. **[ESEC/FSE'22] VulCurator: A Vulnerability-Fixing Commit Detector**
+
+2. **[ESEC/FSE'22] VulCurator: A Vulnerability-Fixing Commit Detector**
    - **Authors**: Truong Giang Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Hong Jin Kang, Bach Le, and David Lo
    - **Venue**: ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Tool Demos Track
    - **Links**: [[DOI]](https://dl.acm.org/doi/abs/10.1145/3540250.3558936) [[PDF]](./pdf/VulCurator.pdf)  [[Code]](https://github.com/ntgiang71096/VFDetector)

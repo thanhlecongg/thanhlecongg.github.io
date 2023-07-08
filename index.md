@@ -24,7 +24,7 @@ show_tile: false
 </div>
 
 ## Lastest News
-
+- **[July 2023]** Our paper entitled "[Are We Ready to Embrace Generative AI for Software Q&A?](./coming_soon.html)" is accepted by *ASE 2023*. 
 - **[May 2023]** Our paper entitled "[Multi-granularity Detector for Vulnerability Fixes](./2023/05/18/TSE.html)" is accepted by *IEEE Transcations on Software Engineering*. 
 - **[March 2023]** Our paper entitled "[Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning](./2023/03/07/TSE.html)" is accepted by *IEEE Transcations on Software Engineering*. 
 - **[February 2023]** I become a PhD Student at University of Melbourne. 

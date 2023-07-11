@@ -92,7 +92,7 @@ nav-menu: true
    - **Venue**: IEEE/ACM 35th International Conference on Automated Software Engineering (ASE) 2023, New Ideas and Emerging Results (NIER) Track
    - **Links**: [[PDF]](./coming_soon.html)  [[Code]](./coming_soon.html)
    - **Acceptance Rate:** 36%
-   - **One-line Abstract:** Identifying vulnerability-fixing commits by applying Large Language Model on multiple sources including code changes, commit messages, and related issues.
+   - **One-line Abstract:** A comparative evaluation between ChatGPT-generated and Human-generated answers for Software Q&A. 
 
 
 2. **[ESEC/FSE'22] VulCurator: A Vulnerability-Fixing Commit Detector**

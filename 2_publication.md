@@ -51,7 +51,7 @@ nav-menu: true
 3. **[ICSE'23] Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports** <img src="./assets/images/artifacts_available-removebg-preview.png"  width="50" height="50"> <img src="./assets/images/artifacts_evaluated_functional-removebg-preview.png"  width="50" height="50">
    - **Authors**: Yunbo Lyu<sup>+</sup>, <strong style="color: black;">Thanh Le-Cong</strong><sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, and David Lo
    - **Venue**: IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track
-   - **Links**: [[PDF]](./pdf/ICSE_Chronos.pdf)  [[Code]](https://github.com/soarsmu/Chronos)
+   - **Links**: [[DOI]](https://ieeexplore.ieee.org/document/10172641) [[PDF]](./pdf/ICSE_Chronos.pdf)  [[Code]](https://github.com/soarsmu/Chronos)
    - **Acceptance Rate:** 26%
    - **One-line Abstract:** Practically identifying vulnerable libraries from vulnerability reports via zero-shot learning and domain-specific pre/post-processing.
 

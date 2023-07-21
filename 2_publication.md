@@ -90,7 +90,7 @@ nav-menu: true
 1. **[ASE'23] Are We Ready to Embrace Generative AI for Software Q&A?**
    - **Authors**: Bowen Xu, Thanh-Dat Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Thong Hoang, Jiakun Liu, Kisub Kim, Chen Gong, Changan Niu, Chenyu Wang, Bach Le, David Lo
    - **Venue**: IEEE/ACM 35th International Conference on Automated Software Engineering (ASE) 2023, New Ideas and Emerging Results (NIER) Track
-   - **Links**: [[PDF]](./coming_soon.html)  [[Code]](./coming_soon.html)
+   - **Links**: [[PDF]](./pdf/ASE_LLMQA.pdf)
    - **Acceptance Rate:** 36%
    - **One-line Abstract:** A comparative evaluation between ChatGPT-generated and Human-generated answers for Software Q&A. 
 

@@ -68,6 +68,7 @@ nav-menu: true
    - **Links**: [[DOI]](https://ieeexplore.ieee.org/abstract/document/9978180/) [[PDF]](./pdf/ICSME_FFL.pdf) [[Code]](https://github.com/FFL2022/FFL)
    - **Acceptance Rate:** 23%
    - **One-line Abstract:** Automatically identifying fault locations in student programs by applying Graph Neural Network on a fine-grained graph-based representation of the program, which combines AST with test coverage information.
+
 6. **[ISSRE'21] Usability and Aesthetics: Better Together for Automated Repair of Web Pages**
    - **Authors**: <strong style="color: black;">Thanh Le-Cong</strong>, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen
    - **Venue**: IEEE 32nd International Symposium on Software Reliability Engineering (ISSRE) 2021, Research Track

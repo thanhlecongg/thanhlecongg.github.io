@@ -10,7 +10,7 @@ tag: project
 Automated Program Repair is an emerging technology to alleviate the onerous burden of manually fixing bugs on developers. A substantial number of APR techniques have been proposed over the years with several breakthroughs that inspired potential practical adoption of APR. Unfortunately, <a href="https://arxiv.org/pdf/2108.13064.pdf"> developer's trust on APR-generated patches is still a challenge </a> for achieving greater adoption of APR on industry. 
 </p>
 <p>
-The goal of this theme is not only to enhance the trust of developer on APR-generated patches by providing supporting artifacts/information/evidents about APR-generated patches but also to improve the trustworthiness and reliability of APR systems. 
+The goal of this theme is not only to enhance the trust of developer on APR-generated patches by providing supporting artifacts/information/evidents about APR-generated patches but also to investigate unknown issues regarding the trustworthiness of APR systems. 
 </p>
 
 <p>

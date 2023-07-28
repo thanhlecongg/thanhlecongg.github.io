@@ -34,7 +34,7 @@ ChatGPT-generated answers are semantically similar, however, human-written answe
 1. **[TOSEM-Under Review] Refining ChatGPT-Generated Code: Characterizing and Mitigating Code Quality Issues?**
    - **Authors**: Yue Liu, <strong style="color: black;">Thanh Le-Cong</strong>,  Ratnadira Widyasari, Chakkrit Tantithamthavorn, Li Li, Bach Le, David Lo
    - **Venue**: Under Review, ACM Transactions on Software Engineering and Methodology
-   - **Links**: [[PDF]](./coming_soon.html)
+   - **Links**: [[PDF]](./pdf/TOSEM_LLMQuality.pdf)
    - **One-line Abstract:** An empirical study on code quality issues in ChatGPT-generated code. 
 
 2. **[ICSE'22] Toward the Analysis of Graph Neural Networks**

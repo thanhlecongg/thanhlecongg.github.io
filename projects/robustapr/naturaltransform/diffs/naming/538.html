@@ -1,0 +1,176 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+        .code-container {
+            display: flex;
+        }
+        
+        .code-container pre {
+            width: 50%;
+            margin: 0;
+        }
+        
+        /* Optional: Add some spacing between the two code blocks */
+        .code-container pre:first-child {
+            margin-right: 1rem;
+        }
+
+        .code-container pre:second-child {
+            margin-right: 1rem;
+        }
+
+        .added {
+            background-color: #aaff99; /* light green */
+        }
+
+        .removed {
+            background-color: #ffaa99; /* light red */
+        }
+        
+        .bold-text {
+          font-weight: bold;
+        }
+        
+        .highlight-bg {
+          background-color: rgb(254, 65, 65);
+        }
+
+        .larger-font {
+          font-size: 20px; /* Adjust the size as needed */
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" />
+    </head>
+    <body>
+    
+    <p class="larger-font"><span class="bold-text">Code Transformation:</span>
+     Variable Renaming - variable <span class="highlight-bg">type</span> is renamed to <span class="highlight-bg">result</span> 
+    </p>
+
+    <div class="code-container">
+    <pre><code class="language-java old">  protected final JsonDeserializer<Object> _findDeserializer(
+      DeserializationContext ctxt, String typeId) throws IOException {
+    JsonDeserializer<Object> deser = _deserializers.get(typeId);
+    if (deser == null) {
+      /* As per [Databind#305], need to provide contextual info. But for
+       * backwards compatibility, let's start by only supporting this
+       * for base class, not via interface. Later on we can add this
+       * to the interface, assuming deprecation at base class helps.
+       */
+      JavaType <span style="background-color: #fcea2a;">type</span> = _idResolver.typeFromId(ctxt, typeId);
+      if (<span style="background-color: #fcea2a;">type</span> == null) {
+        
+        deser = _findDefaultImplDeserializer(ctxt);
+        if (deser == null) {
+          
+          JavaType actual = _handleUnknownTypeId(ctxt, typeId, _idResolver, _baseType);
+          if (actual == null) { 
+            
+            return null;
+          }
+          
+          deser = ctxt.findContextualValueDeserializer(actual, _property);
+        }
+      } else {
+        /* 16-Dec-2010, tatu: Since nominal type we get here has no (generic) type parameters,
+         *   we actually now need to explicitly narrow from base type (which may have parameterization)
+         *   using raw type.
+         *
+         *   One complication, though; can not change 'type class' (simple type to container); otherwise
+         *   we may try to narrow a SimpleType (Object.class) into MapType (Map.class), losing actual
+         *   type in process (getting SimpleType of Map.class which will not work as expected)
+         */
+        if ((_baseType != null) && _baseType.getClass() == <span style="background-color: #fcea2a;">type</span>.getClass()) {
+          /* 09-Aug-2015, tatu: Not sure if the second part of the check makes sense;
+           *   but it appears to check that JavaType impl class is the same which is
+           *   important for some reason?
+           *   Disabling the check will break 2 Enum-related tests.
+           */
+          
+          
+          
+          
+          <span style="background-color: #fcea2a;">type</span> = ctxt.getTypeFactory().constructSpecializedType(_baseType, <span style="background-color: #fcea2a;">type</span>.getRawClass());
+        }
+        deser = ctxt.findContextualValueDeserializer(<span style="background-color: #fcea2a;">type</span>, _property);
+      }
+      _deserializers.put(typeId, deser);
+    }
+    return deser;
+  }
+</code></pre>
+<pre><code class="language-java new">  protected final JsonDeserializer<Object> _findDeserializer(
+      DeserializationContext ctxt, String typeId) throws IOException {
+    JsonDeserializer<Object> deser = _deserializers.get(typeId);
+    if (deser == null) {
+      /* As per [Databind#305], need to provide contextual info. But for
+       * backwards compatibility, let's start by only supporting this
+       * for base class, not via interface. Later on we can add this
+       * to the interface, assuming deprecation at base class helps.
+       */
+      JavaType <span style="background-color: #2afb00;">result</span> = _idResolver.typeFromId(ctxt, typeId);
+      if (<span style="background-color: #2afb00;">result</span> == null) {
+        
+        deser = _findDefaultImplDeserializer(ctxt);
+        if (deser == null) {
+          
+          JavaType actual = _handleUnknownTypeId(ctxt, typeId, _idResolver, _baseType);
+          if (actual == null) { 
+            
+            return null;
+          }
+          
+          deser = ctxt.findContextualValueDeserializer(actual, _property);
+        }
+      } else {
+        /* 16-Dec-2010, tatu: Since nominal type we get here has no (generic) type parameters,
+         *   we actually now need to explicitly narrow from base type (which may have parameterization)
+         *   using raw type.
+         *
+         *   One complication, though; can not change 'type class' (simple type to container); otherwise
+         *   we may try to narrow a SimpleType (Object.class) into MapType (Map.class), losing actual
+         *   type in process (getting SimpleType of Map.class which will not work as expected)
+         */
+        if ((_baseType != null) && _baseType.getClass() == <span style="background-color: #2afb00;">result</span>.getClass()) {
+          /* 09-Aug-2015, tatu: Not sure if the second part of the check makes sense;
+           *   but it appears to check that JavaType impl class is the same which is
+           *   important for some reason?
+           *   Disabling the check will break 2 Enum-related tests.
+           */
+          
+          
+          
+          
+          <span style="background-color: #2afb00;">result</span> = ctxt.getTypeFactory().constructSpecializedType(_baseType, <span style="background-color: #2afb00;">result</span>.getRawClass());
+        }
+        deser = ctxt.findContextualValueDeserializer(<span style="background-color: #2afb00;">result</span>, _property);
+      }
+      _deserializers.put(typeId, deser);
+    }
+    return deser;
+  }
+</code></pre>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js" integrity="sha512-xKcnbsdT0KMoA4yrozkqZM1XJVTrPsjdQwvigxlAlxEDu8YDvC/jl+LfVqn0fY3Vs6m2y4a89JCHEIA/Z9zpmQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/keep-markup/prism-keep-markup.min.js" integrity="sha512-dM7y7FL7I43Zij3bPyIiAOl4ebzK01P8pcEUb7RvOKdXlxjSPebYBnkDB+S05PuNGlLFjvzVNRzuctj5A4P3Kg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function() {
+            $(".old").children().each(function() {
+                $(this).html($(this).html().replace(/\*\*(.*?)\*\*/gm, "<span style='background-color: #FFAA99 !important'>$1</span>"));
+    });
+});
+
+        $(document).ready(function() {
+            $(".old").children().each(function() {
+                $(this).html($(this).html().replace(/\*\*(.*?)\*\*/gm, "<span style='background-color: #AAFF99 !important'>$1</span>"));
+    });
+});
+    </script>
+    </body>
+    </html>
+    

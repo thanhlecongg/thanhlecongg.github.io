@@ -28,12 +28,13 @@
         .removed {
             background-color: #ffaa99; /* light red */
         }
+        
         .bold-text {
           font-weight: bold;
         }
-
+        
         .highlight-bg {
-          background-color: yellow;
+          background-color: rgb(254, 65, 65);
         }
 
         .larger-font {
@@ -43,59 +44,54 @@
     <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" />
     </head>
     <body>
-    <p class="larger-font"><span class="bold-text">Code Transformation:</span> Variable name <span class="highlight-bg">value</span> is changed to <span class="highlight-bg">node</span></p>
+    
+    <p class="larger-font"><span class="bold-text">Code Transformation:</span>
+     Variable Renaming - variable <span class="highlight-bg">value</span> is renamed to <span class="highlight-bg">node</span> 
+    </p>
+
     <div class="code-container">
-    <pre><code class="language-java old">    
-    /*
-    Original Code
-    */
-    private Node tryFoldSimpleFunctionCall(Node n) {
+    <pre><code class="language-java old">  private Node tryFoldSimpleFunctionCall(Node n) {
     Preconditions.checkState(n.isCall());
     Node callTarget = n.getFirstChild();
-    if (callTarget != null && callTarget.isName() &&
-          callTarget.getString().equals("String")) {
-      // Fold String(a) to '' + (a) on immutable literals,
-      // which allows further optimizations
-      //
-      // We can't do this in the general case, because String(a) has
-      // slightly different semantics than '' + (a). See
-      // http://code.google.com/p/closure-compiler/issues/detail?id=759
-      Node <span style="background-color: #FFAA99;">value</span> = callTarget.getNext();
-      if (<span style="background-color: #FFAA99;">value</span> != null) {
-        Node addition = IR.add(
-            IR.string("").srcref(callTarget),
-            <span style="background-color: #FFAA99;">value</span>.detachFromParent());
+    if (callTarget != null && callTarget.isName() && callTarget.getString().equals("String")) {
+      
+      
+      
+      
+      
+      
+      Node <span style="background-color: #fcea2a;">value</span> = callTarget.getNext();
+      if (<span style="background-color: #fcea2a;">value</span> != null) {
+        Node addition = IR.add(IR.string("").srcref(callTarget), <span style="background-color: #fcea2a;">value</span>.detachFromParent());
         n.getParent().replaceChild(n, addition);
         reportCodeChange();
         return addition;
       }
     }
     return n;
-  }</code></pre>
-<pre><code class="language-java new">    
-    /*
-    Transformed Code
-    */
-    private Node tryFoldSimpleFunctionCall(Node n) {
-		Preconditions.checkState(n.isCall());
-		Node callTarget = n.getFirstChild();
-		if (callTarget != null && callTarget.isName() && callTarget.getString().equals("String")) {
-			// Fold String(a) to '' + (a) on immutable literals,
-			// which allows further optimizations
-			//
-			// We can't do this in the general case, because String(a) has
-			// slightly different semantics than '' + (a). See
-			// http://code.google.com/p/closure-compiler/issues/detail?id=759
-			Node <span style="background-color: #AAFF99;">node</span> = callTarget.getNext();
-			if (<span style="background-color: #AAFF99;">node</span> != null) {
-				Node addition = IR.add(IR.string("").srcref(callTarget), <span style="background-color: #AAFF99;">node</span>.detachFromParent());
-				n.getParent().replaceChild(n, addition);
-				reportCodeChange();
-				return addition;
-			}
-		}
-		return n;
-	}</code></pre>
+  }
+</code></pre>
+<pre><code class="language-java new">  private Node tryFoldSimpleFunctionCall(Node n) {
+    Preconditions.checkState(n.isCall());
+    Node callTarget = n.getFirstChild();
+    if (callTarget != null && callTarget.isName() && callTarget.getString().equals("String")) {
+      
+      
+      
+      
+      
+      
+      Node <span style="background-color: #2afb00;">node</span> = callTarget.getNext();
+      if (<span style="background-color: #2afb00;">node</span> != null) {
+        Node addition = IR.add(IR.string("").srcref(callTarget), <span style="background-color: #2afb00;">node</span>.detachFromParent());
+        n.getParent().replaceChild(n, addition);
+        reportCodeChange();
+        return addition;
+      }
+    }
+    return n;
+  }
+</code></pre>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>

@@ -1,0 +1,268 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+        .code-container {
+            display: flex;
+        }
+        
+        .code-container pre {
+            width: 50%;
+            margin: 0;
+        }
+        
+        /* Optional: Add some spacing between the two code blocks */
+        .code-container pre:first-child {
+            margin-right: 1rem;
+        }
+
+        .code-container pre:second-child {
+            margin-right: 1rem;
+        }
+
+        .added {
+            background-color: #aaff99; /* light green */
+        }
+
+        .removed {
+            background-color: #ffaa99; /* light red */
+        }
+        
+        .bold-text {
+          font-weight: bold;
+        }
+        
+        .highlight-bg {
+          background-color: rgb(254, 65, 65);
+        }
+
+        .larger-font {
+          font-size: 20px; /* Adjust the size as needed */
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" />
+    </head>
+    <body>
+    
+    <p class="larger-font"><span class="bold-text">Code Transformation:</span>
+     Variable Renaming - variable <span class="highlight-bg">txt</span> is renamed to <span class="highlight-bg">string</span> 
+    </p>
+
+    <div class="code-container">
+    <pre><code class="language-java old">  public String caverphone(String <span style="background-color: #fcea2a;">txt</span>) {
+    
+    
+
+    if (<span style="background-color: #fcea2a;">txt</span> == null || <span style="background-color: #fcea2a;">txt</span>.length() == 0) {
+      return "1111111111";
+    }
+
+    
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.toLowerCase(java.util.Locale.ENGLISH);
+
+    
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("[^a-z]", "");
+
+    
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("e$", ""); 
+
+    
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("^cough", "cou2f");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("^rough", "rou2f");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("^tough", "tou2f");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("^enough", "enou2f"); 
+    <span style="background-color: #fcea2a;">txt</span> =
+        <span style="background-color: #fcea2a;">txt</span>.replaceAll(
+            "^trough",
+            "trou2f"); 
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("^gn", "2n");
+
+    
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("^mb", "m2");
+
+    
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("cq", "2q");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("ci", "si");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("ce", "se");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("cy", "sy");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("tch", "2ch");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("c", "k");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("q", "k");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("x", "k");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("v", "f");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("dg", "2g");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("tio", "sio");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("tia", "sia");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("d", "t");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("ph", "fh");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("b", "p");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("sh", "s2");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("z", "s");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("^[aeiou]", "A");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("[aeiou]", "3");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("j", "y"); 
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("^y3", "Y3"); 
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("^y", "A"); 
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("y", "3"); 
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("3gh3", "3kh3");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("gh", "22");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("g", "k");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("s+", "S");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("t+", "T");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("p+", "P");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("k+", "K");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("f+", "F");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("m+", "M");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("n+", "N");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("w3", "W3");
+    
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("wh3", "Wh3");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("w$", "3"); 
+    
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("w", "2");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("^h", "A");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("h", "2");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("r3", "R3");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("r$", "3"); 
+    
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("r", "2");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("l3", "L3");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("l$", "3"); 
+    
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("l", "2");
+    
+    
+    
+
+    
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("2", "");
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("3$", "A"); 
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span>.replaceAll("3", "");
+
+    
+    <span style="background-color: #fcea2a;">txt</span> = <span style="background-color: #fcea2a;">txt</span> + "111111" + "1111"; 
+
+    
+    return <span style="background-color: #fcea2a;">txt</span>.substring(0, 10); 
+  }
+</code></pre>
+<pre><code class="language-java new">  public String caverphone(String <span style="background-color: #2afb00;">string</span>) {
+    
+    
+
+    if (<span style="background-color: #2afb00;">string</span> == null || <span style="background-color: #2afb00;">string</span>.length() == 0) {
+      return "1111111111";
+    }
+
+    
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.toLowerCase(java.util.Locale.ENGLISH);
+
+    
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("[^a-z]", "");
+
+    
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("e$", ""); 
+
+    
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("^cough", "cou2f");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("^rough", "rou2f");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("^tough", "tou2f");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("^enough", "enou2f"); 
+    <span style="background-color: #2afb00;">string</span> =
+        <span style="background-color: #2afb00;">string</span>.replaceAll(
+            "^trough",
+            "trou2f"); 
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("^gn", "2n");
+
+    
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("^mb", "m2");
+
+    
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("cq", "2q");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("ci", "si");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("ce", "se");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("cy", "sy");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("tch", "2ch");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("c", "k");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("q", "k");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("x", "k");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("v", "f");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("dg", "2g");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("tio", "sio");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("tia", "sia");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("d", "t");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("ph", "fh");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("b", "p");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("sh", "s2");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("z", "s");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("^[aeiou]", "A");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("[aeiou]", "3");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("j", "y"); 
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("^y3", "Y3"); 
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("^y", "A"); 
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("y", "3"); 
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("3gh3", "3kh3");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("gh", "22");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("g", "k");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("s+", "S");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("t+", "T");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("p+", "P");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("k+", "K");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("f+", "F");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("m+", "M");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("n+", "N");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("w3", "W3");
+    
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("wh3", "Wh3");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("w$", "3"); 
+    
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("w", "2");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("^h", "A");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("h", "2");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("r3", "R3");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("r$", "3"); 
+    
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("r", "2");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("l3", "L3");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("l$", "3"); 
+    
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("l", "2");
+    
+    
+    
+
+    
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("2", "");
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("3$", "A"); 
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span>.replaceAll("3", "");
+
+    
+    <span style="background-color: #2afb00;">string</span> = <span style="background-color: #2afb00;">string</span> + "111111" + "1111"; 
+
+    
+    return <span style="background-color: #2afb00;">string</span>.substring(0, 10); 
+  }
+</code></pre>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js" integrity="sha512-xKcnbsdT0KMoA4yrozkqZM1XJVTrPsjdQwvigxlAlxEDu8YDvC/jl+LfVqn0fY3Vs6m2y4a89JCHEIA/Z9zpmQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/keep-markup/prism-keep-markup.min.js" integrity="sha512-dM7y7FL7I43Zij3bPyIiAOl4ebzK01P8pcEUb7RvOKdXlxjSPebYBnkDB+S05PuNGlLFjvzVNRzuctj5A4P3Kg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function() {
+            $(".old").children().each(function() {
+                $(this).html($(this).html().replace(/\*\*(.*?)\*\*/gm, "<span style='background-color: #FFAA99 !important'>$1</span>"));
+    });
+});
+
+        $(document).ready(function() {
+            $(".old").children().each(function() {
+                $(this).html($(this).html().replace(/\*\*(.*?)\*\*/gm, "<span style='background-color: #AAFF99 !important'>$1</span>"));
+    });
+});
+    </script>
+    </body>
+    </html>
+    

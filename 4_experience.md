@@ -36,8 +36,9 @@ nav-menu: true
 
 ## Professional Services
 
-- Reviewer/Program Commitee: KSE'23
-- Sub-Reviewer: ICSE'23, SAC'23, KSE'22
+- Technical Program Commitee: [KSE](http://kse2023.actvn.edu.vn/)'23, [SOICT](https://soict.org/)'23
+- Reviewer: Elsevier Journal of Systems and Software, Elsevier Information and Software Technology
+- Sub-Reviewer: ICSE'23, SAC'23, KSE'22, FAIR'23
 - Student Volunteer: ICSE'23
 
 

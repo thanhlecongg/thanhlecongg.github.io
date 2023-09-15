@@ -81,7 +81,7 @@
     }
 
     
-    JsonDeserializer<Object> propDeser = findDeserializerFromAnnotation(<span style="background-color: #fcea2a;">ctxt</span>, mutator);
+    JsonDeserializer&lt;Object> propDeser = findDeserializerFromAnnotation(<span style="background-color: #fcea2a;">ctxt</span>, mutator);
     type = modifyTypeByAnnotation(<span style="background-color: #fcea2a;">ctxt</span>, mutator, type);
     TypeDeserializer typeDeser = type.getTypeHandler();
     SettableBeanProperty prop;
@@ -140,7 +140,7 @@
     }
 
     
-    JsonDeserializer<Object> propDeser = findDeserializerFromAnnotation(<span style="background-color: #2afb00;">feature</span>, mutator);
+    JsonDeserializer&lt;Object> propDeser = findDeserializerFromAnnotation(<span style="background-color: #2afb00;">feature</span>, mutator);
     type = modifyTypeByAnnotation(<span style="background-color: #2afb00;">feature</span>, mutator, type);
     TypeDeserializer typeDeser = type.getTypeHandler();
     SettableBeanProperty prop;

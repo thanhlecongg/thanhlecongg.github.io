@@ -32,9 +32,9 @@
         .bold-text {
           font-weight: bold;
         }
-
+        
         .highlight-bg {
-          background-color: yellow;
+          background-color: rgb(254, 65, 65);
         }
 
         .larger-font {
@@ -44,13 +44,13 @@
     <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" />
     </head>
     <body>
-    <p class="larger-font"><span class="bold-text">Code Transformation:</span> Swap two sides of the equality expression: <span class="highlight-bg">results != null</span> is changed to <span class="highlight-bg">null != results</span></p> 
+    
+    <p class="larger-font"><span class="bold-text">Code Transformation:</span>
+    SwitchRelation: Switch sides of highlighted relation expressions
+    </p>
+
     <div class="code-container">
-    <pre><code class="language-java old">    
-    /*
-    Original Code
-    */
-    JSType meet(JSType that) {
+    <pre><code class="language-java old">  JSType meet(JSType that) {
     UnionTypeBuilder builder = new UnionTypeBuilder(registry);
     for (JSType alternate : alternates) {
       if (alternate.isSubtype(that)) {
@@ -68,44 +68,42 @@
       builder.addAlternate(that);
     }
     JSType result = builder.build();
-    if (result <span style="background-color: #FFAA99;">!=</span> <span style="background-color: #FFAA99;">null</span>) {
+    if (result <span style="background-color: #fcea2a;">!=</span> <span style="background-color: #fcea2a;">null</span>) {
       return result;
     } else if (this.isObject() && that.isObject()) {
       return getNativeType(JSTypeNative.NO_OBJECT_TYPE);
     } else {
       return getNativeType(JSTypeNative.NO_TYPE);
     }
-  }</code></pre>
-<pre><code class="language-java new">    
-  /*
-  Transformed Code
-  */
-  JSType meet(JSType that) {
-		UnionTypeBuilder builder = new UnionTypeBuilder(registry);
-		for (JSType alternate : alternates) {
-			if (alternate.isSubtype(that)) {
-				builder.addAlternate(alternate);
-			}
-		}
+  }
+</code></pre>
+<pre><code class="language-java new">  JSType meet(JSType that) {
+    UnionTypeBuilder builder = new UnionTypeBuilder(registry);
+    for (JSType alternate : alternates) {
+      if (alternate.isSubtype(that)) {
+        builder.addAlternate(alternate);
+      }
+    }
 
-		if (that instanceof UnionType) {
-			for (JSType otherAlternate : ((UnionType) that).alternates) {
-				if (otherAlternate.isSubtype(this)) {
-					builder.addAlternate(otherAlternate);
-				}
-			}
-		} else if (that.isSubtype(this)) {
-			builder.addAlternate(that);
-		}
-		JSType result = builder.build();
-		if (<span style="background-color: #AAFF99;">null</span> <span style="background-color: #AAFF99;">!=</span> result) {
-			return result;
-		} else if (this.isObject() && that.isObject()) {
-			return getNativeType(JSTypeNative.NO_OBJECT_TYPE);
-		} else {
-			return getNativeType(JSTypeNative.NO_TYPE);
-		}
-	}</code></pre>
+    if (that instanceof UnionType) {
+      for (JSType otherAlternate : ((UnionType) that).alternates) {
+        if (otherAlternate.isSubtype(this)) {
+          builder.addAlternate(otherAlternate);
+        }
+      }
+    } else if (that.isSubtype(this)) {
+      builder.addAlternate(that);
+    }
+    JSType result = builder.build();
+    if (<span style="background-color: #2afb00;">null</span> <span style="background-color: #2afb00;">!=</span> result) {
+      return result;
+    } else if (this.isObject() && that.isObject()) {
+      return getNativeType(JSTypeNative.NO_OBJECT_TYPE);
+    } else {
+      return getNativeType(JSTypeNative.NO_TYPE);
+    }
+  }
+</code></pre>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>

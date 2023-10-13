@@ -24,13 +24,14 @@ show_tile: false
 </div>
 
 ## Lastest News
+- **[Oct 2023]** I have been awarded [Google PhD Fellowships](https://research.google/outreach/phd-fellowship/) in Programming Technology and Software Engineering. Huge thanks to my advisors, collegues and collaborators!
 - **[July 2023]** Our paper entitled "[Are We Ready to Embrace Generative AI for Software Q&A?](./coming_soon.html)" is accepted by *ASE 2023*. 
 - **[May 2023]** Our paper entitled "[Multi-granularity Detector for Vulnerability Fixes](./2023/05/18/TSE.html)" is accepted by *IEEE Transcations on Software Engineering*. 
 - **[March 2023]** Our paper entitled "[Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning](./2023/03/07/TSE.html)" is accepted by *IEEE Transcations on Software Engineering*. 
 - **[February 2023]** I become a PhD Student at University of Melbourne. 
 - **[December 2022]** Our paper entitled "[Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go](./2022/12/16/SANER.html)" is accepted by *SANER 2023*. 
 - **[December 2022]** Our paper entitled "[CHRONOS: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports](./2022/12/09/ICSE.html)" is accepted by *ICSE 2023*. 
-- **[September 2023]** I am awarded Melbourne Graduate Scholarship of ~400K AUD for my 4-years Ph.D course. 
+- **[September 2023]** I have been awarded Melbourne Graduate Scholarship of ~400K AUD for my 4-years Ph.D course. 
 - [See more ...](./5_news.html)
 
 <!-- ## Featured Publications

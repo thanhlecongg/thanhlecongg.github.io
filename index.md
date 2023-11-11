@@ -10,7 +10,9 @@ show_tile: false
 
 <div class="row">
   <div class="column left">
-      <p> Hello, I am Thanh Le-Cong (Lê Công Thành in Vietnamese), a first-year Ph.D. student at <a href="https://www.cis.unimelb.edu.au/"> CIS, The University of Melbourne </a>, working with <a href="https://xuanbachle.github.io/"> Dr. Bach Le </a> and <a href="https://people.eng.unimelb.edu.au/tobym/"> Prof. Toby Murray</a>. Prior to joining UoM, I worked as a research engineer at <a href="https://soarsmu.github.io/"> SOAR (SOftware Analytic Research)</a>, <a href="https://smu.edu.sg/"> Singapore Management University</a> under the advisor of <a href="http://www.mysmu.edu/faculty/davidlo/"> Prof. David Lo</a>. My research aim to improve developer productivity by creating automated solutions for managing, localizing, and resolving software bugs and vulnerabilities. Specifically, I am focusing on ensuring the reliability and trustworthiness of data-driven software debugging and bug management techniques. My current topic is improving the trustworthiness of automated program repair systems. See more about my <a href="./1_research.html"> research</a> and <a href="./2_publication.html"> publications</a>.
+      <p> Hello, I am Thanh Le-Cong (Lê Công Thành in Vietnamese), a first-year Ph.D. student at <a href="https://www.cis.unimelb.edu.au/"> CIS, The University of Melbourne </a>. I am fortunate to be advised by <a href="https://xuanbachle.github.io/"> Dr. Bach Le </a> and <a href="https://people.eng.unimelb.edu.au/tobym/"> Prof. Toby Murray</a>, and supported by Melbourne Graduate Scholarship and Google PhD Fellowship. Before joining UoM, I worked as a research engineer at <a href="https://soarsmu.github.io/"> SOAR (SOftware Analytic Research)</a>, <a href="https://smu.edu.sg/"> Singapore Management University</a> under the advisor of <a href="http://www.mysmu.edu/faculty/davidlo/"> Prof. David Lo</a>. 
+      </p>
+      <p> My passion lies in leveraging AI and data mining to tackle real-world challenges in software engineering and pushing the boundaries of programming technologies. My goal to is to build trustworthy AI-powered tools for supporting developers on software engineering tasks (AI4SE), especially bug fixing and management. Particular, I’m trying to explore the following research questions: (1) How reliable and depandable AI4SE tools?, (2) How can we improve their reliability and trustworthiness? and (3) How can we improve developers’ trust on these tools? If they are look interesting for you, let's see more about my <a href="./1_research.html"> research</a> and <a href="./2_publication.html"> publications</a>.
       <ul class="actions">
                     <li><a href="./pdf/ThanhLeCong_CV.pdf" download class="button icon fa-download">Download My CV</a></li>
         </ul>
@@ -24,6 +26,7 @@ show_tile: false
 </div>
 
 ## Lastest News
+
 - **[Oct 2023]** I have been awarded [Google PhD Fellowships](https://research.google/outreach/phd-fellowship/) in Programming Technology and Software Engineering. Huge thanks to my advisors, collegues and collaborators!
 - **[July 2023]** Our paper entitled "[Are We Ready to Embrace Generative AI for Software Q&A?](./coming_soon.html)" is accepted by *ASE 2023*. 
 - **[May 2023]** Our paper entitled "[Multi-granularity Detector for Vulnerability Fixes](./2023/05/18/TSE.html)" is accepted by *IEEE Transcations on Software Engineering*. 

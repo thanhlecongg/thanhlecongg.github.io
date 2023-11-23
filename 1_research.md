@@ -71,7 +71,7 @@ nav-menu: true
 					<h3>Large Language Models for SE-related tasks</h3>
 				</header>
 				<p>
-                Large Language Models (LLMs) have demonstrated remarkable performance on understanding and generating human-like responses, rendering them highly suitable for various applications such as code summarization or code generation. Unfortunately, while LLMs have shown great promise, the reliability of ChatGPT-generated responses are still questionable. 
+                Large Language Models (LLMs) have demonstrated remarkable performance on understanding and generating human-like responses, rendering them highly suitable for various applications such as code summarization or code generation. Unfortunately, while LLMs have shown great promise, the reliability of LLM-generated responses are still questionable. 
                 This theme is to explore unknown issues regarding the reliability of LLM-generated responses and propose effective solutions for identified issues. 				
                 </p>
 				<a href="./llm.html" class="button small icon fa-newspaper-o">Learn More</a>

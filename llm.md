@@ -24,22 +24,24 @@ ChatGPT-generated answers are semantically similar, however, human-written answe
 
 ### Related Publications
 
-1. **[ASE'23] Are We Ready to Embrace Generative AI for Software Q&A?**
-   - **Authors**: Bowen Xu, Thanh-Dat Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Thong Hoang, Jiakun Liu, Kisub Kim, Chen Gong, Changan Niu, Chenyu Wang, Bach Le, David Lo
-   - **Venue**: IEEE/ACM 35th International Conference on Automated Software Engineering (ASE) 2023, New Ideas and Emerging Results (NIER) Track
-   - **Links**: [[PDF]](./pdf/ASE_LLMQA.pdf)
-   - **Acceptance Rate:** 36%
-   - **One-line Abstract:** A comparative evaluation between ChatGPT-generated and Human-generated answers for Software Q&A. 
-
 1. **[TOSEM-Under Review] Refining ChatGPT-Generated Code: Characterizing and Mitigating Code Quality Issues?**
    - **Authors**: Yue Liu, <strong style="color: black;">Thanh Le-Cong</strong>,  Ratnadira Widyasari, Chakkrit Tantithamthavorn, Li Li, Bach Le, David Lo
    - **Venue**: Under Review, ACM Transactions on Software Engineering and Methodology
-   - **Links**: [[PDF]](./pdf/TOSEM_LLMQuality.pdf)
+   - **Links**: <a href="./pdf/TOSEM_LLMQuality.pdf"><img src="https://img.shields.io/badge/PDF-ChatGPTQuality-b31b1b.svg?style=for-the-badge">
    - **One-line Abstract:** An empirical study on code quality issues in ChatGPT-generated code. 
 
+1. **[ASE'23] Are We Ready to Embrace Generative AI for Software Q&A?**
+   - <i class="fa fa-users"></i> **Authors**: Bowen Xu, Thanh-Dat Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Thong Hoang, Jiakun Liu, Kisub Kim, Chen Gong, Changan Niu, Chenyu Wang, Bach Le, David Lo
+   - <i class="fa fa-book"></i> **Venue**: IEEE/ACM 35th International Conference on Automated Software Engineering (ASE) 2023, New Ideas and Emerging Results (NIER) Track
+   - <i class="fa fa-link"></i> **Links**:
+   <a href="./pdf/ASE_LLMQA.pdf"><img src="https://img.shields.io/badge/PDF-LLMQA-b31b1b.svg?style=for-the-badge">
+   - <i class="fa fa-percent"></i> **Acceptance Rate:** 36%
+   - <i class="fa fa-file"></i> **One-line Abstract:** A comparative evaluation between ChatGPT-generated and Human-generated answers for Software Q&A. 
+
 2. **[ICSE'22] Toward the Analysis of Graph Neural Networks**
-   - **Authors**: Thanh-Dat Nguyen<sup>+</sup>, <strong style="color: black;">Thanh Le-Cong</strong><sup>+</sup>, ThanhVu H. Nguyen, Bach Le, and Quyet-Thang Huynh
-   - **Venue**: IEEE/ACM 44th International Conference on Software Engineering (ICSE) 2022, New Ideas and Emerging Results (NIER) Track
-   - **Links**: [[DOI]](https://dl.acm.org/doi/abs/10.1145/3510455.3512780) [[PDF]](./pdf/ICSE_GNNInfer.pdf)
-   - **Acceptance Rate:** 22%
-   - **One-line Abstract:** Discovering formal properties of GNNs by converting them into FFNNs and reusing existing FFNNs analyses.
+   - <i class="fa fa-users"></i> **Authors**: Thanh-Dat Nguyen<sup>+</sup>, <strong style="color: black;">Thanh Le-Cong</strong><sup>+</sup>, ThanhVu H. Nguyen, Bach Le, and Quyet-Thang Huynh
+   - <i class="fa fa-book"></i> **Venue**: IEEE/ACM 44th International Conference on Software Engineering (ICSE) 2022, New Ideas and Emerging Results (NIER) Track
+   - <i class="fa fa-link"></i> **Links**: <a href="https://dl.acm.org/doi/abs/10.1145/3510455.3512780"><img src="https://img.shields.io/badge/DOI-ICSE 2022-green?style=for-the-badge">
+   <a href="./pdf/ICSE_GNNInfer.pdf"><img src="https://img.shields.io/badge/PDF-GNNInfer-b31b1b.svg?style=for-the-badge">
+   - <i class="fa fa-percent"></i> **Acceptance Rate:** 22%
+   - <i class="fa fa-file"></i> **One-line Abstract:** Discovering formal properties of GNNs by converting them into FFNNs and reusing existing FFNNs analyses.

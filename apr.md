@@ -24,21 +24,25 @@ To address this problem, my colleagues and I have proposed <a href="./pdf/TSE_In
 ### Related Publications
 
 1. **[TSE'23] Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning** 
-   - **Authors**: <strong style="color: black;">Thanh Le-Cong</strong>, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui and Quyet Thang Huynh
-   - **Venue**: IEEE Transactions on Software Engineering 
-   - **Links**: <a href="https://ieeexplore.ieee.org/document/10066209">[DOI]</a> <a href="./pdf/TSE_Invalidator.pdf">[PDF]</a>  <a href="https://github.com/thanhlecongg/Invalidator">[Code]</a>.
-   - **One-line Abstraction**: Reasoning about the correctness of APR-generated patches via program invariants and code representation learning.
+   - <i class="fa fa-users"></i> **Authors**: <strong style="color: black;">Thanh Le-Cong</strong>, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui and Quyet Thang Huynh
+   - <i class="fa fa-book"></i> **Venue**: IEEE Transactions on Software Engineering 
+   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/thanhlecongg/Invalidator/blob/main/overview.md"><img src="https://img.shields.io/badge/Page-Overview-orange?style=for-the-badge"> <a href="https://github.com/thanhlecongg/Invalidator/"><img src="https://img.shields.io/badge/Code-thanhlecongg/invalidator-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/document/10066209"><img src="https://img.shields.io/badge/DOI-IEEE TSE Volume 49 (2023)-green?style=for-the-badge">
+   <a href="./pdf/TSE_Invalidator.pdf"><img src="https://img.shields.io/badge/PDF-Invalidator-b31b1b.svg?style=for-the-badge">
+   - <i class="fa fa-file"></i> **One-line Abstract**: Reasoning about the correctness of APR-generated patches via program invariants and code representation learning.
 
 5. **[ICSME'22] FFL: Fine-grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning**
-   - **Authors**: Thanh-Dat Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Duc-Minh Luong, Van-Hai Duong, Bach Le, David Lo, and Quyet-Thang Huynh
-   - **Venue**: IEEE 38th International Conference on Software Maintenance and Evolution (ICSME) 2022, Research Track
-   - **Links**: [[DOI]](https://ieeexplore.ieee.org/abstract/document/9978180/) [[PDF]](./pdf/ICSME_FFL.pdf) [[Code]](https://github.com/FFL2022/FFL)
-   - **Acceptance Rate:** 23%
-   - **One-line Abstract:** Automatically identifying fault locations in student programs by applying Graph Neural Network on a fine-grained graph-based representation of the program, which combines AST with test coverage information.
+   - <i class="fa fa-users"></i> **Authors**: Thanh-Dat Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Duc-Minh Luong, Van-Hai Duong, Bach Le, David Lo, and Quyet-Thang Huynh
+   - <i class="fa fa-book"></i> **Venue**: IEEE 38th International Conference on Software Maintenance and Evolution (ICSME) 2022, Research Track
+   - <i class="fa fa-link"></i> **Links**: 
+   <a href="https://github.com/FFL2022/FFL"><img src="https://img.shields.io/badge/Code-FFL2022/FFL-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/abstract/document/9978180/"><img src="https://img.shields.io/badge/DOI-ICSME 2022-green?style=for-the-badge">
+   <a href="./pdf/ICSME_FFL.pdf"><img src="https://img.shields.io/badge/PDF-FFL-b31b1b.svg?style=for-the-badge">
+   - <i class="fa fa-percent"></i> **Acceptance Rate:** 23%
+   - <i class="fa fa-file"></i> **One-line Abstract:** Automatically identifying fault locations in student programs by applying Graph Neural Network on a fine-grained graph-based representation of the program, which combines AST with test coverage information.
 
 6. **[ISSRE'21] Usability and Aesthetics: Better Together for Automated Repair of Web Pages**
-   - **Authors**: <strong style="color: black;">Thanh Le-Cong</strong>, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen
-   - **Venue**: IEEE 32nd International Symposium on Software Reliability Engineering (ISSRE) 2021, Research Track
-   - **Links**: [[DOI]](https://ieeexplore.ieee.org/abstract/document/9700390/) [[PDF]](./pdf/ISSRE21.pdf)
-   - **Acceptance Rate:** 27%
-   - **One-line Abstract:** Automatically repairing mobile-unfriendly web pages using Evolutionary Optimization.
+   - <i class="fa fa-users"></i> **Authors**: <strong style="color: black;">Thanh Le-Cong</strong>, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen
+   - <i class="fa fa-book"></i> **Venue**: IEEE 32nd International Symposium on Software Reliability Engineering (ISSRE) 2021, Research Track
+   - <i class="fa fa-link"></i> **Links**: <a href="https://ieeexplore.ieee.org/abstract/document/9700390/"><img src="https://img.shields.io/badge/DOI-ISSRE 2021-green?style=for-the-badge">
+   <a href="./pdf/ISSRE21.pdf"><img src="https://img.shields.io/badge/PDF-ISSRE21-b31b1b.svg?style=for-the-badge">
+   - <i class="fa fa-percent"></i> **Acceptance Rate:** 27%
+   - <i class="fa fa-file"></i> **One-line Abstract:** Automatically repairing mobile-unfriendly web pages using Evolutionary Optimization.

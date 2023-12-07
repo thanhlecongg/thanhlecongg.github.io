@@ -16,9 +16,9 @@ show_tile: false
       </p>
       <p> My passion lies in leveraging AI and data mining to tackle real-world challenges in software engineering and pushing the boundaries of programming technologies. My goal to is to build trustworthy AI-powered tools for supporting developers on software engineering tasks (AI4SE), especially bug fixing and management. Particular, I’m trying to explore the following research questions: (1) How reliable and depandable AI4SE tools?, (2) How can we improve their reliability and trustworthiness? and (3) How can we improve developers’ trust on these tools? If they are look interesting for you, let's see more about my <a href="./1_research.html"> research</a> and <a href="./2_publication.html"> publications</a>. 
       </p>   
-      <p> 
+      <!-- <p> 
       <a href="./pdf/ThanhLeCong_CV.pdf" download class="button icon fa-download">Download My CV</a> 
-      </p>
+      </p> -->
       <br>
 </div>
 

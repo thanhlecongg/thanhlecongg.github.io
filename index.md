@@ -16,17 +16,15 @@ show_tile: false
       </p>
       <p> My passion lies in leveraging AI and data mining to tackle real-world challenges in software engineering and pushing the boundaries of programming technologies. My goal to is to build trustworthy AI-powered tools for supporting developers on software engineering tasks (AI4SE), especially bug fixing and management. Particular, I’m trying to explore the following research questions: (1) How reliable and depandable AI4SE tools?, (2) How can we improve their reliability and trustworthiness? and (3) How can we improve developers’ trust on these tools? If they are look interesting for you, let's see more about my <a href="./1_research.html"> research</a> and <a href="./2_publication.html"> publications</a>. 
       </p>   
-      <!-- <p> 
-      <a href="./pdf/ThanhLeCong_CV.pdf" download class="button icon fa-download">Download My CV</a> 
-      </p> -->
-      <br>
 </div>
 
-<p style="text-align:center;">
-<a href="./apr.html"><img src="https://img.shields.io/badge/Topic-Automated Program Repair-blue?style=for-the-badge"> 
-<a href="./llm.html"><img src="https://img.shields.io/badge/Topic-Large Language Models for SE-green?style=for-the-badge">
-<a href="./vm.html"><img src="https://img.shields.io/badge/Topic-Software Supply Chain Security-b31b1b.svg?style=for-the-badge">
-</p>
+## Research Topics
+<!-- <p style="text-align:center;">
+<img src="assets/images/avatar.png" alt="Nathaniel Nauman" width="400" style="margin-left: auto; margin-right: auto; border-radius: 50%; border-width: 5px">
+</p> -->
+  <a href="./apr.html"><img src="https://img.shields.io/badge/Topic-Automated Program Repair-blue?style=for-the-badge"> 
+  <a href="./llm.html"><img src="https://img.shields.io/badge/Topic-Large Language Models for SE-green?style=for-the-badge">
+  <a href="./vm.html"><img src="https://img.shields.io/badge/Topic-Software Supply Chain Security-b31b1b.svg?style=for-the-badge">
 
 
 ## Lastest News

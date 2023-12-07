@@ -22,11 +22,11 @@ show_tile: false
       <br>
 </div>
 
-## Research Topics
+<p style="text-align:center;">
 <a href="./apr.html"><img src="https://img.shields.io/badge/Topic-Automated Program Repair-blue?style=for-the-badge"> 
 <a href="./llm.html"><img src="https://img.shields.io/badge/Topic-Large Language Models for SE-green?style=for-the-badge">
 <a href="./vm.html"><img src="https://img.shields.io/badge/Topic-Software Supply Chain Security-b31b1b.svg?style=for-the-badge">
-
+</p>
 
 
 ## Lastest News

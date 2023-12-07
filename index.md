@@ -12,7 +12,6 @@ show_tile: false
 </p> -->
 
 <div class="row">
-  <!-- <div class="column left"> -->
       <p> Hello, I am Thanh Le-Cong (Lê Công Thành in Vietnamese), a first-year Ph.D. student at <a href="https://www.cis.unimelb.edu.au/"> CIS, The University of Melbourne </a>. I am fortunate to be advised by <a href="https://xuanbachle.github.io/"> Dr. Bach Le </a> and <a href="https://people.eng.unimelb.edu.au/tobym/"> Prof. Toby Murray</a>, and supported by Melbourne Graduate Scholarship and Google PhD Fellowship. Before joining UoM, I worked as a research engineer at <a href="https://soarsmu.github.io/"> SOAR (SOftware Analytic Research)</a>, <a href="https://smu.edu.sg/"> Singapore Management University</a> under the advisor of <a href="http://www.mysmu.edu/faculty/davidlo/"> Prof. David Lo</a>. 
       </p>
       <p> My passion lies in leveraging AI and data mining to tackle real-world challenges in software engineering and pushing the boundaries of programming technologies. My goal to is to build trustworthy AI-powered tools for supporting developers on software engineering tasks (AI4SE), especially bug fixing and management. Particular, I’m trying to explore the following research questions: (1) How reliable and depandable AI4SE tools?, (2) How can we improve their reliability and trustworthiness? and (3) How can we improve developers’ trust on these tools? If they are look interesting for you, let's see more about my <a href="./1_research.html"> research</a> and <a href="./2_publication.html"> publications</a>. 
@@ -20,7 +19,7 @@ show_tile: false
       <p> 
       <a href="./pdf/ThanhLeCong_CV.pdf" download class="button icon fa-download">Download My CV</a> 
       </p>
-
+      <br>
 </div>
 
 ## Research Topics

@@ -21,8 +21,9 @@ show_tile: false
     <img src="assets/images/avatar.png" alt="Nathaniel Nauman" width="500"> 
   </div>
 </div>
-<a href="./apr.html"><img src="https://img.shields.io/badge/Topic-Automated Program Repair-blue?style=for-the-badge"> <a href="./llm.html"><img src="https://img.shields.io/badge/Topic-Large Language Models for SE-green?style=for-the-badge">
-<a href="./vm.html"><img src="https://img.shields.io/badge/Topic-Software Supply Chain Security-b31b1b.svg?style=for-the-badge">   
+<br> <a href="./apr.html"><img src="https://img.shields.io/badge/Topic-Automated Program Repair-blue?style=for-the-badge"> 
+<br> <a href="./llm.html"><img src="https://img.shields.io/badge/Topic-Large Language Models for SE-green?style=for-the-badge">
+<br> <a href="./vm.html"><img src="https://img.shields.io/badge/Topic-Software Supply Chain Security-b31b1b.svg?style=for-the-badge">   
 <ul class="actions">
   <li><a href="./pdf/ThanhLeCong_CV.pdf" download class="button icon fa-download">Download My CV</a></li>
 </ul>

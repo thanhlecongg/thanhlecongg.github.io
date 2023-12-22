@@ -26,38 +26,37 @@ Towards this goal, my colleagues and I have designed a comprehensive array of no
 
 ### Related Publications
 
-1. **[TSE'23] MiDas: Multi-Granularity Detector for Vulnerability Fixes**
+
+1. **[TSE'23] MiDas: Multi-Granularity Detector for Vulnerability Fixes** |
    - <i class="fa fa-users"></i> **Authors**: Truong Giang Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Hong Jin Kang, Ratnadira Widyasari, Chengran Yang, Zhipeng Zhao, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Bach Le, and David Lo
    - <i class="fa fa-book"></i> **Venue**: IEEE Transactions on Software Engineering 
-   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/soarsmu/midas/blob/main/overview.md"><img src="https://img.shields.io/badge/Page-Overview-orange?style=for-the-badge"> <a href="https://github.com/soarsmu/midas"><img src="https://img.shields.io/badge/Code-soarsmu/midas-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/document/10138621/"><img src="https://img.shields.io/badge/DOI-IEEE TSE Volume 49 (2023)-green?style=for-the-badge">
-   <a href="./pdf/TSE_Midas.pdf"><img src="https://img.shields.io/badge/PDF-Midas-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-file"></i> **One-line Abstract**: Identifying vulnerability fixes by analyzing multi-granularity of code changes. 
    - <i class="fa fa-star"></i> <strong style="color: red;">Integrated to internal service of Huawei for managining vulnerability</strong>
+   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/soarsmu/midas/blob/main/overview.md"><img src="https://img.shields.io/badge/Overview-orange?style=for-the-badge"> <a href="https://github.com/soarsmu/midas"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/document/10138621/"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge"> <a href="./pdf/TSE_Midas.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
 
-3. **[ICSE'23] Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports** <img src="./assets/images/artifacts_available-removebg-preview.png"  width="50" height="50"> <img src="./assets/images/artifacts_evaluated_functional-removebg-preview.png"  width="50" height="50">
+3. **[ICSE'23] Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports** |
    - <i class="fa fa-users"></i> **Authors**: Yunbo Lyu<sup>+</sup>, <strong style="color: black;">Thanh Le-Cong</strong><sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, and David Lo
    - <i class="fa fa-book"></i> **Venue**: IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track
-   - <i class="fa fa-link"></i> **Links**: 
-   <a href="https://github.com/soarsmu/Chronos"><img src="https://img.shields.io/badge/Code-soarsmu/Chronos-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/document/10172641"><img src="https://img.shields.io/badge/DOI-ICSE 2023-green?style=for-the-badge">
-   <a href="./pdf/ICSE_Chronos.pdf"><img src="https://img.shields.io/badge/PDF-Chronos-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 26%
-   - <i class="fa fa-file"></i> **One-line Abstract:** Practically identifying vulnerable libraries from vulnerability reports via zero-shot learning and domain-specific pre/post-processing.
+   - <i class="fa fa-file"></i> **One-line Abstract:** Identifying vulnerable libraries from vulnerability reports via zero-shot learning and domain-specific mechanisms.
+   - <i class="fa fa-link"></i> **Links**: 
+   <a href="https://github.com/soarsmu/Chronos"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/document/10172641"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge">
+   <a href="./pdf/ICSE_Chronos.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
 
-4. **[ESEC/FSE'22] AutoPruner: Transformer-Based Call Graph Pruning** <img src="./assets/images/artifacts_available-removebg-preview.png"  width="50" height="50"> <img src="./assets/images/artifacts_evaluated_functional-removebg-preview.png"  width="50" height="50">
+4. **[ESEC/FSE'22] AutoPruner: Transformer-Based Call Graph Pruning** | 
    - <i class="fa fa-users"></i> **Authors**: <strong style="color: black;">Thanh Le-Cong</strong>, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le, and Thang Huynh Quyet
    - <i class="fa fa-book"></i> **Venue**: ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Research Track
-   - <i class="fa fa-link"></i> **Links**: 
-   <a href="https://github.com/soarsmu/midas/blob/main/overview.md"><img src="https://img.shields.io/badge/Page-Overview-orange?style=for-the-badge"> 
-   <a href="https://github.com/soarsmu/AutoPruner"><img src="https://img.shields.io/badge/Code-soarsmu/AutoPruner-blue?style=for-the-badge"> <a href="https://dl.acm.org/doi/abs/10.1145/3540250.3549175"><img src="https://img.shields.io/badge/DOI-FSE 2022-green?style=for-the-badge">
-   <a href="./pdf/FSE_AutoPruner.pdf"><img src="https://img.shields.io/badge/PDF-AutoPruner-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 22%
    - <i class="fa fa-file"></i> **One-line Abstract:** Pruning false positives in static call graph via code features learned by Large Language Model and syntactic features extracted from original call graph.
+   - <i class="fa fa-link"></i> **Links**: 
+   <a href="https://github.com/soarsmu/midas/blob/main/overview.md"><img src="https://img.shields.io/badge/Overview-orange?style=for-the-badge"> 
+   <a href="https://github.com/soarsmu/AutoPruner"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://dl.acm.org/doi/abs/10.1145/3540250.3549175"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge">
+   <a href="./pdf/FSE_AutoPruner.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
 
 
-2. **[ESEC/FSE'22] VulCurator: A Vulnerability-Fixing Commit Detector**
+2. **[ESEC/FSE'22] VulCurator: A Vulnerability-Fixing Commit Detector** |
    - <i class="fa fa-users"></i> **Authors**: Truong Giang Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Hong Jin Kang, Bach Le, and David Lo
    - <i class="fa fa-book"></i> **Venue**: ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Tool Demos Track
-   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/ntgiang71096/VFDetector"><img src="https://img.shields.io/badge/Code-ntgiang71096/VFDetector-blue?style=for-the-badge"> <a href="https://dl.acm.org/doi/abs/10.1145/3540250.3558936"><img src="https://img.shields.io/badge/DOI-FSE 2022-green?style=for-the-badge">
-   <a href="./pdf/VulCurator.pdf"><img src="https://img.shields.io/badge/PDF-VulCurator-b31b1b.svg?style=for-the-badge">   
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 56%
    - <i class="fa fa-file"></i> **One-line Abstract:** Identifying vulnerability-fixing commits by applying Large Language Model on multiple sources including code changes, commit messages, and related issues.
+   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/ntgiang71096/VFDetector"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://dl.acm.org/doi/abs/10.1145/3540250.3558936"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge">    <a href="./pdf/VulCurator.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">   

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Publications
+title: Selected Publications
 description: Peer-reviewed papers, Talks, and Open sources
 image: assets/images/bgpublication.jpg
 nav-menu: true
@@ -18,131 +18,130 @@ nav-menu: true
 
 ### Journal Papers
 
-1. **[TSE'23] MiDas: Multi-Granularity Detector for Vulnerability Fixes**
+1. **[TSE'23] MiDas: Multi-Granularity Detector for Vulnerability Fixes** |
    - <i class="fa fa-users"></i> **Authors**: Truong Giang Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Hong Jin Kang, Ratnadira Widyasari, Chengran Yang, Zhipeng Zhao, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Bach Le, and David Lo
    - <i class="fa fa-book"></i> **Venue**: IEEE Transactions on Software Engineering 
-   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/soarsmu/midas/blob/main/overview.md"><img src="https://img.shields.io/badge/Page-Overview-orange?style=for-the-badge"> <a href="https://github.com/soarsmu/midas"><img src="https://img.shields.io/badge/Code-soarsmu/midas-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/document/10138621/"><img src="https://img.shields.io/badge/DOI-IEEE TSE Volume 49 (2023)-green?style=for-the-badge">
-   <a href="./pdf/TSE_Midas.pdf"><img src="https://img.shields.io/badge/PDF-Midas-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-file"></i> **One-line Abstract**: Identifying vulnerability fixes by analyzing multi-granularity of code changes. 
    - <i class="fa fa-star"></i> <strong style="color: red;">Integrated to internal service of Huawei for managining vulnerability</strong>
+   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/soarsmu/midas/blob/main/overview.md"><img src="https://img.shields.io/badge/Overview-orange?style=for-the-badge"> <a href="https://github.com/soarsmu/midas"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/document/10138621/"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge"> <a href="./pdf/TSE_Midas.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
 
-1. **[TSE'23] Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning** 
+1. **[TSE'23] Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning** |
+
    - <i class="fa fa-users"></i> **Authors**: <strong style="color: black;">Thanh Le-Cong</strong>, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui and Quyet Thang Huynh
-   - <i class="fa fa-book"></i> **Venue**: IEEE Transactions on Software Engineering 
-   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/thanhlecongg/Invalidator/blob/main/overview.md"><img src="https://img.shields.io/badge/Page-Overview-orange?style=for-the-badge"> <a href="https://github.com/thanhlecongg/Invalidator/"><img src="https://img.shields.io/badge/Code-thanhlecongg/invalidator-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/document/10066209"><img src="https://img.shields.io/badge/DOI-IEEE TSE Volume 49 (2023)-green?style=for-the-badge">
-   <a href="./pdf/TSE_Invalidator.pdf"><img src="https://img.shields.io/badge/PDF-Invalidator-b31b1b.svg?style=for-the-badge">
+   - <i class="fa fa-book"></i> **Venue**: IEEE Transactions on Software Engineering
    - <i class="fa fa-file"></i> **One-line Abstract**: Reasoning about the correctness of APR-generated patches via program invariants and code representation learning.
+   - <i class="fa fa-star"></i> <strong style="color: red;"> Accepted for presentation at IEEE/ACM 46th International Conference on Software Engineering 2024 as a part of Journal-First Track </strong>
+   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/thanhlecongg/Invalidator/blob/main/overview.md"><img src="https://img.shields.io/badge/Overview-orange?style=for-the-badge"> <a href="https://github.com/thanhlecongg/Invalidator/"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/document/10066209"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge"> <a href="./pdf/TSE_Invalidator.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
 
-1. **[InfoSci'20] A multifactorial optimization paradigm for linkage tree genetic algorithm** 
+<!-- 1. **[InfoSci'20] A multifactorial optimization paradigm for linkage tree genetic algorithm** | 
    - <i class="fa fa-users"></i> **Authors**: Thi Thanh Binh Huynh, Dinh Thanh Pham, Ba Trung Tran, <strong style="color: black;">Thanh Le-Cong</strong>, Minh Hai Phong Le, Ananthram Swami, Thu Lam Bui
    - <i class="fa fa-book"></i> **Venue**: Elsevier Information Sciences 
-   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/thanhlecongg/MFLTGA"><img src="https://img.shields.io/badge/Code-thanhlecongg/MFLTGA-blue?style=for-the-badge"> <a href="https://www.sciencedirect.com/science/article/pii/S0020025520305570"><img src="https://img.shields.io/badge/DOI-Elservier Information Science Volume 540 (2020)-green?style=for-the-badge">
-   <a href="https://arxiv.org/abs/2005.03090"><img src="https://img.shields.io/badge/PDF-MFLTGA-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-file"></i> **One-line Abstract**: A new multitasking optimization paradigm for linkage tree genetic algorithm.
+   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/thanhlecongg/MFLTGA"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://www.sciencedirect.com/science/article/pii/S0020025520305570"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge"><a href="https://arxiv.org/abs/2005.03090"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge"> -->
 
 <section id="conf">
 </section>
 
 ### Conference Papers
 
-2. **[SANER'23] Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go**
+2. **[SANER'23] Topic Recommendation for GitHub Repositories: How Far Can Extreme Multi-Label Learning Go** |
+
+
    - <i class="fa fa-users"></i> **Authors**: Ratnadira Widyasari, Zhao Zhipeng, <strong style="color: black;">Thanh Le-Cong</strong>, Hong Jin Kang, and David Lo
-   - <i class="fa fa-book"></i> **Venue**: IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track
-   - <i class="fa fa-link"></i> **Links**: 
-   <a href="https://figshare.com/s/dc6d69629442c6ac3bbb"><img src="https://img.shields.io/badge/Code-Figshare/dc6d69-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/abstract/document/10123501/"><img src="https://img.shields.io/badge/DOI-SANER 2023-green?style=for-the-badge">
-   <a href="https://arxiv.org/pdf/2305.13884.pdf"><img src="https://img.shields.io/badge/arXiv-2305.13884-b31b1b.svg?style=for-the-badge">
+   - <i class="fa fa-book"></i> **Venue**: IEEE 30th International Conference on Software Analysis, Evolution and Reengineering (SANER) 2023, Research Track   
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 27%
    - <i class="fa fa-file"></i> **One-line Abstract:** An exploration study about the effectiveness of XML techniques on Github Topic Recommendation.
+   - <i class="fa fa-link"></i> **Links**: <a href="https://figshare.com/s/dc6d69629442c6ac3bbb"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/abstract/document/10123501/"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge">  <a href="https://arxiv.org/pdf/2305.13884.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
 
-3. **[ICSE'23] Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports** <img src="./assets/images/artifacts_available-removebg-preview.png"  width="50" height="50"> <img src="./assets/images/artifacts_evaluated_functional-removebg-preview.png"  width="50" height="50">
+3. **[ICSE'23] Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports** |
    - <i class="fa fa-users"></i> **Authors**: Yunbo Lyu<sup>+</sup>, <strong style="color: black;">Thanh Le-Cong</strong><sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, and David Lo
    - <i class="fa fa-book"></i> **Venue**: IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track
-   - <i class="fa fa-link"></i> **Links**: 
-   <a href="https://github.com/soarsmu/Chronos"><img src="https://img.shields.io/badge/Code-soarsmu/Chronos-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/document/10172641"><img src="https://img.shields.io/badge/DOI-ICSE 2023-green?style=for-the-badge">
-   <a href="./pdf/ICSE_Chronos.pdf"><img src="https://img.shields.io/badge/PDF-Chronos-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 26%
-   - <i class="fa fa-file"></i> **One-line Abstract:** Practically identifying vulnerable libraries from vulnerability reports via zero-shot learning and domain-specific pre/post-processing.
+   - <i class="fa fa-file"></i> **One-line Abstract:** Identifying vulnerable libraries from vulnerability reports via zero-shot learning and domain-specific mechanisms.
+   - <i class="fa fa-link"></i> **Links**: 
+   <a href="https://github.com/soarsmu/Chronos"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/document/10172641"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge">
+   <a href="./pdf/ICSE_Chronos.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
 
-4. **[ESEC/FSE'22] AutoPruner: Transformer-Based Call Graph Pruning** <img src="./assets/images/artifacts_available-removebg-preview.png"  width="50" height="50"> <img src="./assets/images/artifacts_evaluated_functional-removebg-preview.png"  width="50" height="50">
+4. **[ESEC/FSE'22] AutoPruner: Transformer-Based Call Graph Pruning** | 
    - <i class="fa fa-users"></i> **Authors**: <strong style="color: black;">Thanh Le-Cong</strong>, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le, and Thang Huynh Quyet
    - <i class="fa fa-book"></i> **Venue**: ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Research Track
-   - <i class="fa fa-link"></i> **Links**: 
-   <a href="https://github.com/soarsmu/midas/blob/main/overview.md"><img src="https://img.shields.io/badge/Page-Overview-orange?style=for-the-badge"> 
-   <a href="https://github.com/soarsmu/AutoPruner"><img src="https://img.shields.io/badge/Code-soarsmu/AutoPruner-blue?style=for-the-badge"> <a href="https://dl.acm.org/doi/abs/10.1145/3540250.3549175"><img src="https://img.shields.io/badge/DOI-FSE 2022-green?style=for-the-badge">
-   <a href="./pdf/FSE_AutoPruner.pdf"><img src="https://img.shields.io/badge/PDF-AutoPruner-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 22%
    - <i class="fa fa-file"></i> **One-line Abstract:** Pruning false positives in static call graph via code features learned by Large Language Model and syntactic features extracted from original call graph.
+   - <i class="fa fa-link"></i> **Links**: 
+   <a href="https://github.com/soarsmu/midas/blob/main/overview.md"><img src="https://img.shields.io/badge/Overview-orange?style=for-the-badge"> 
+   <a href="https://github.com/soarsmu/AutoPruner"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://dl.acm.org/doi/abs/10.1145/3540250.3549175"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge">
+   <a href="./pdf/FSE_AutoPruner.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
 
-5. **[ICSME'22] FFL: Fine-grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning**
+5. **[ICSME'22] FFL: Fine-grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning** |
    - <i class="fa fa-users"></i> **Authors**: Thanh-Dat Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Duc-Minh Luong, Van-Hai Duong, Bach Le, David Lo, and Quyet-Thang Huynh
    - <i class="fa fa-book"></i> **Venue**: IEEE 38th International Conference on Software Maintenance and Evolution (ICSME) 2022, Research Track
-   - <i class="fa fa-link"></i> **Links**: 
-   <a href="https://github.com/FFL2022/FFL"><img src="https://img.shields.io/badge/Code-FFL2022/FFL-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/abstract/document/9978180/"><img src="https://img.shields.io/badge/DOI-ICSME 2022-green?style=for-the-badge">
-   <a href="./pdf/ICSME_FFL.pdf"><img src="https://img.shields.io/badge/PDF-FFL-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 23%
    - <i class="fa fa-file"></i> **One-line Abstract:** Automatically identifying fault locations in student programs by applying Graph Neural Network on a fine-grained graph-based representation of the program, which combines AST with test coverage information.
+   - <i class="fa fa-link"></i> **Links**: 
+   <a href="https://github.com/FFL2022/FFL"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/abstract/document/9978180/"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge">
+   <a href="./pdf/ICSME_FFL.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
 
-6. **[ISSRE'21] Usability and Aesthetics: Better Together for Automated Repair of Web Pages**
+6. **[ISSRE'21] Usability and Aesthetics: Better Together for Automated Repair of Web Pages** |
    - <i class="fa fa-users"></i> **Authors**: <strong style="color: black;">Thanh Le-Cong</strong>, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen
    - <i class="fa fa-book"></i> **Venue**: IEEE 32nd International Symposium on Software Reliability Engineering (ISSRE) 2021, Research Track
-   - <i class="fa fa-link"></i> **Links**: <a href="https://ieeexplore.ieee.org/abstract/document/9700390/"><img src="https://img.shields.io/badge/DOI-ISSRE 2021-green?style=for-the-badge">
-   <a href="./pdf/ISSRE21.pdf"><img src="https://img.shields.io/badge/PDF-ISSRE21-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 27%
    - <i class="fa fa-file"></i> **One-line Abstract:** Automatically repairing mobile-unfriendly web pages using Evolutionary Optimization.
+   - <i class="fa fa-link"></i> **Links**: <a href="https://ieeexplore.ieee.org/abstract/document/9700390/"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge">
+   <a href="./pdf/ISSRE21.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
 
-7. **[ICMLA'20] SAFL: A Self-Attention Scene Text Recognizer with Focal Loss**
+<!-- 7. **[ICMLA'20] SAFL: A Self-Attention Scene Text Recognizer with Focal Loss**
    - <i class="fa fa-users"></i> **Authors**: Bao Hieu Tran<sup>+</sup>, <strong style="color: black;">Thanh Le-Cong</strong><sup>+</sup>, Huu Manh Nguyen, Duc Anh Le, Thanh Hung Nguyen, and Phi Le Nguyen
    - <i class="fa fa-book"></i> **Venue**: IEEE 19th International Conference on Machine Learning and Applications (ICMLA) 2020, Special Issues on Deep Learning
    - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/thanhlecongg/SAFL"><img src="https://img.shields.io/badge/Code-thanhlecongg/SAFL-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/abstract/document/9356232/"><img src="https://img.shields.io/badge/DOI-ICMLA 2020-green?style=for-the-badge">
    <a href="https://arxiv.org/pdf/2201.00132.pdf"><img src="https://img.shields.io/badge/PDF-Arxiv/2201.00132-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 25%
-   - <i class="fa fa-file"></i> **One-line Abstract:** Automatically recognizing text in natural images using a Transformer model with Focal Loss.
+   - <i class="fa fa-file"></i> **One-line Abstract:** Automatically recognizing text in natural images using a Transformer model with Focal Loss. -->
 
 
 <section id="short">
 </section>
 
 ### Short/Workshop Papers
-1. **[ASE'23] Are We Ready to Embrace Generative AI for Software Q&A?**
+1. **[ASE'23] Are We Ready to Embrace Generative AI for Software Q&A?** |
    - <i class="fa fa-users"></i> **Authors**: Bowen Xu, Thanh-Dat Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Thong Hoang, Jiakun Liu, Kisub Kim, Chen Gong, Changan Niu, Chenyu Wang, Bach Le, David Lo
    - <i class="fa fa-book"></i> **Venue**: IEEE/ACM 35th International Conference on Automated Software Engineering (ASE) 2023, New Ideas and Emerging Results (NIER) Track
-   - <i class="fa fa-link"></i> **Links**:
-   <a href="./pdf/ASE_LLMQA.pdf"><img src="https://img.shields.io/badge/PDF-LLMQA-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 36%
    - <i class="fa fa-file"></i> **One-line Abstract:** A comparative evaluation between ChatGPT-generated and Human-generated answers for Software Q&A. 
+   - <i class="fa fa-link"></i> **Links**:
+   <a href="./pdf/ASE_LLMQA.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
 
 
-2. **[ESEC/FSE'22] VulCurator: A Vulnerability-Fixing Commit Detector**
+2. **[ESEC/FSE'22] VulCurator: A Vulnerability-Fixing Commit Detector** |
    - <i class="fa fa-users"></i> **Authors**: Truong Giang Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Hong Jin Kang, Bach Le, and David Lo
    - <i class="fa fa-book"></i> **Venue**: ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Tool Demos Track
-   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/ntgiang71096/VFDetector"><img src="https://img.shields.io/badge/Code-ntgiang71096/VFDetector-blue?style=for-the-badge"> <a href="https://dl.acm.org/doi/abs/10.1145/3540250.3558936"><img src="https://img.shields.io/badge/DOI-FSE 2022-green?style=for-the-badge">
-   <a href="./pdf/VulCurator.pdf"><img src="https://img.shields.io/badge/PDF-VulCurator-b31b1b.svg?style=for-the-badge">   
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 56%
    - <i class="fa fa-file"></i> **One-line Abstract:** Identifying vulnerability-fixing commits by applying Large Language Model on multiple sources including code changes, commit messages, and related issues.
+   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/ntgiang71096/VFDetector"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://dl.acm.org/doi/abs/10.1145/3540250.3558936"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge">    <a href="./pdf/VulCurator.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">   
 
-2. **[ICSE'22] Toward the Analysis of Graph Neural Networks**
+
+2. **[ICSE'22] Toward the Analysis of Graph Neural Networks** |
    - <i class="fa fa-users"></i> **Authors**: Thanh-Dat Nguyen<sup>+</sup>, <strong style="color: black;">Thanh Le-Cong</strong><sup>+</sup>, ThanhVu H. Nguyen, Bach Le, and Quyet-Thang Huynh
    - <i class="fa fa-book"></i> **Venue**: IEEE/ACM 44th International Conference on Software Engineering (ICSE) 2022, New Ideas and Emerging Results (NIER) Track
-   - <i class="fa fa-link"></i> **Links**: <a href="https://dl.acm.org/doi/abs/10.1145/3510455.3512780"><img src="https://img.shields.io/badge/DOI-ICSE 2022-green?style=for-the-badge">
-   <a href="./pdf/ICSE_GNNInfer.pdf"><img src="https://img.shields.io/badge/PDF-GNNInfer-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 22%
    - <i class="fa fa-file"></i> **One-line Abstract:** Discovering formal properties of GNNs by converting them into FFNNs and reusing existing FFNNs analyses.
+   - <i class="fa fa-link"></i> **Links**: <a href="https://dl.acm.org/doi/abs/10.1145/3510455.3512780"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge">
+   <a href="./pdf/ICSE_GNNInfer.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
 
 
 
 ### Under Review
 
-1. **[TOSEM-Under Review] Refining ChatGPT-Generated Code: Characterizing and Mitigating Code Quality Issues?**
+1. **[TOSEM-Under Review] Refining ChatGPT-Generated Code: Characterizing and Mitigating Code Quality Issues?** |
    - **Authors**: Yue Liu, <strong style="color: black;">Thanh Le-Cong</strong>,  Ratnadira Widyasari, Chakkrit Tantithamthavorn, Li Li, Bach Le, David Lo
    - **Venue**: Under Review, ACM Transactions on Software Engineering and Methodology
-   - **Links**: <a href="./pdf/TOSEM_LLMQuality.pdf"><img src="https://img.shields.io/badge/PDF-ChatGPTQuality-b31b1b.svg?style=for-the-badge">
    - **One-line Abstract:** An empirical study on code quality issues in ChatGPT-generated code. 
+   - **Links**: <a href="./pdf/TOSEM_LLMQuality.pdf"><img src="https://img.shields.io/badge/PDF-ChatGPTQuality-b31b1b.svg?style=for-the-badge">
 
-1. **[SQJ-Under Review] Adversarial Patch Generation for Automatic Program Repair**
+1. **[SQJ-Under Review] Adversarial Patch Generation for Automatic Program Repair** |
    - **Authors**: Abdulaziz Alhefdhi, Hoa Khanh Dam, <strong style="color: black;">Thanh Le-Cong</strong>, Xuan-Bach D Le, Aditya Ghose
    - **Venue**: Under Review, Springer Software Quality Journal
-   - **Links**: <a href="https://arxiv.org/pdf/2012.11060.pdf"><img src="https://img.shields.io/badge/PDF-Arxiv/2012.11060-b31b1b.svg?style=for-the-badge">
    - **One-line Abstract:** An empirical study on code quality issues in ChatGPT-generated code. 
+   - **Links**: <a href="https://arxiv.org/pdf/2012.11060.pdf"><img src="https://img.shields.io/badge/PDF-Arxiv/2012.11060-b31b1b.svg?style=for-the-badge">
 
 <!-- ---
 1. **PatchZero: Zero-Shot Automatic Patch Correctness Assessment**

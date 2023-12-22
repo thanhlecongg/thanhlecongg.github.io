@@ -23,26 +23,33 @@ To address this problem, my colleagues and I have proposed <a href="./pdf/TSE_In
 
 ### Related Publications
 
-1. **[TSE'23] Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning** 
-   - <i class="fa fa-users"></i> **Authors**: <strong style="color: black;">Thanh Le-Cong</strong>, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui and Quyet Thang Huynh
-   - <i class="fa fa-book"></i> **Venue**: IEEE Transactions on Software Engineering 
-   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/thanhlecongg/Invalidator/blob/main/overview.md"><img src="https://img.shields.io/badge/Page-Overview-orange?style=for-the-badge"> <a href="https://github.com/thanhlecongg/Invalidator/"><img src="https://img.shields.io/badge/Code-thanhlecongg/invalidator-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/document/10066209"><img src="https://img.shields.io/badge/DOI-IEEE TSE Volume 49 (2023)-green?style=for-the-badge">
-   <a href="./pdf/TSE_Invalidator.pdf"><img src="https://img.shields.io/badge/PDF-Invalidator-b31b1b.svg?style=for-the-badge">
-   - <i class="fa fa-file"></i> **One-line Abstract**: Reasoning about the correctness of APR-generated patches via program invariants and code representation learning.
+1. **[TSE'23] Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning** |
 
-5. **[ICSME'22] FFL: Fine-grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning**
+   - <i class="fa fa-users"></i> **Authors**: <strong style="color: black;">Thanh Le-Cong</strong>, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui and Quyet Thang Huynh
+   - <i class="fa fa-book"></i> **Venue**: IEEE Transactions on Software Engineering
+   - <i class="fa fa-file"></i> **One-line Abstract**: Reasoning about the correctness of APR-generated patches via program invariants and code representation learning.
+   - <i class="fa fa-star"></i> <strong style="color: red;"> Accepted for presentation at IEEE/ACM 46th International Conference on Software Engineering 2024 as a part of Journal-First Track </strong>
+   - <i class="fa fa-link"></i> **Links**: <a href="https://github.com/thanhlecongg/Invalidator/blob/main/overview.md"><img src="https://img.shields.io/badge/Overview-orange?style=for-the-badge"> <a href="https://github.com/thanhlecongg/Invalidator/"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/document/10066209"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge"> <a href="./pdf/TSE_Invalidator.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
+
+5. **[ICSME'22] FFL: Fine-grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning** |
    - <i class="fa fa-users"></i> **Authors**: Thanh-Dat Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Duc-Minh Luong, Van-Hai Duong, Bach Le, David Lo, and Quyet-Thang Huynh
    - <i class="fa fa-book"></i> **Venue**: IEEE 38th International Conference on Software Maintenance and Evolution (ICSME) 2022, Research Track
-   - <i class="fa fa-link"></i> **Links**: 
-   <a href="https://github.com/FFL2022/FFL"><img src="https://img.shields.io/badge/Code-FFL2022/FFL-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/abstract/document/9978180/"><img src="https://img.shields.io/badge/DOI-ICSME 2022-green?style=for-the-badge">
-   <a href="./pdf/ICSME_FFL.pdf"><img src="https://img.shields.io/badge/PDF-FFL-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 23%
    - <i class="fa fa-file"></i> **One-line Abstract:** Automatically identifying fault locations in student programs by applying Graph Neural Network on a fine-grained graph-based representation of the program, which combines AST with test coverage information.
+   - <i class="fa fa-link"></i> **Links**: 
+   <a href="https://github.com/FFL2022/FFL"><img src="https://img.shields.io/badge/Code-blue?style=for-the-badge"> <a href="https://ieeexplore.ieee.org/abstract/document/9978180/"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge">
+   <a href="./pdf/ICSME_FFL.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
 
-6. **[ISSRE'21] Usability and Aesthetics: Better Together for Automated Repair of Web Pages**
+6. **[ISSRE'21] Usability and Aesthetics: Better Together for Automated Repair of Web Pages** |
    - <i class="fa fa-users"></i> **Authors**: <strong style="color: black;">Thanh Le-Cong</strong>, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen
    - <i class="fa fa-book"></i> **Venue**: IEEE 32nd International Symposium on Software Reliability Engineering (ISSRE) 2021, Research Track
-   - <i class="fa fa-link"></i> **Links**: <a href="https://ieeexplore.ieee.org/abstract/document/9700390/"><img src="https://img.shields.io/badge/DOI-ISSRE 2021-green?style=for-the-badge">
-   <a href="./pdf/ISSRE21.pdf"><img src="https://img.shields.io/badge/PDF-ISSRE21-b31b1b.svg?style=for-the-badge">
    - <i class="fa fa-percent"></i> **Acceptance Rate:** 27%
    - <i class="fa fa-file"></i> **One-line Abstract:** Automatically repairing mobile-unfriendly web pages using Evolutionary Optimization.
+   - <i class="fa fa-link"></i> **Links**: <a href="https://ieeexplore.ieee.org/abstract/document/9700390/"><img src="https://img.shields.io/badge/DOI-green?style=for-the-badge">
+   <a href="./pdf/ISSRE21.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg?style=for-the-badge">
+
+1. **[SQJ-Under Review] Adversarial Patch Generation for Automatic Program Repair** |
+   - **Authors**: Abdulaziz Alhefdhi, Hoa Khanh Dam, <strong style="color: black;">Thanh Le-Cong</strong>, Xuan-Bach D Le, Aditya Ghose
+   - **Venue**: Under Review, Springer Software Quality Journal
+   - **One-line Abstract:** An empirical study on code quality issues in ChatGPT-generated code. 
+   - **Links**: <a href="https://arxiv.org/pdf/2012.11060.pdf"><img src="https://img.shields.io/badge/PDF-Arxiv/2012.11060-b31b1b.svg?style=for-the-badge">

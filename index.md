@@ -28,7 +28,7 @@ show_tile: false
 
 
 ## Lastest News
-
+- **[Dec 2023]** Our TSE paper [Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning](./2023/03/07/TSE.html) is accepted for presentation as a part of Journal-First Track at ICSE 2024. See you in Lisbon!
 - **[Oct 2023]** I have been awarded [Google PhD Fellowships](https://research.google/outreach/phd-fellowship/) in Programming Technology and Software Engineering. Huge thanks to my advisors, collegues and collaborators!
 - **[July 2023]** Our paper entitled "[Are We Ready to Embrace Generative AI for Software Q&A?](./coming_soon.html)" is accepted by *ASE 2023*. 
 - **[May 2023]** Our paper entitled "[Multi-granularity Detector for Vulnerability Fixes](./2023/05/18/TSE.html)" is accepted by *IEEE Transcations on Software Engineering*. 

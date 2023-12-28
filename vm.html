@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script async src="https://rum.cronitor.io/script.js"></script>
+	<script>
+		window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
+		cronitor('config', { clientKey: 'd7b31d7abbb37752a51401f70577586f' });
+	</script>
+		<script src="https://kit.fontawesome.com/1a146c3d53.js" crossorigin="anonymous">
+            
+        </script>
+
+		<meta charset="UTF-8" />
+
+		<title>Thanh Le-Cong @ The University of Melbourne</title>
+		
+		<meta name="keywords" content="Thanh Le-Cong, Cong Thanh Le, Thanh Le-Cong SMU, Thanh Le-Cong University of Melbourne" />
+	 	<meta name="description" content="Homepage, Thanh Le-Cong, The University of Melbourne, Melbourne, Australia" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/fonts.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="fontawesome-free-6.5.1-web/css/fontawesome.css" rel="stylesheet">
+        <link href="fontawesome-free-6.5.1-web/css/brands.css" rel="stylesheet">
+        <link href="fontawesome-free-6.5.1-web/css/solid.css" rel="stylesheet">
+    </head>
+	
+	<body>
+        <nav>
+        <ul class="menu">
+          
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./publications.html">Publications</a></li>
+            <li><a href="./experiences.html">Experiences</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./travelmap.html">TravelMap</a></li>
+
+        </ul>
+        <hr/>
+        </nav>
+
+    
+    <h1 id="overview">Software Security</h1>
+    <hr>
+
+    <p>
+        <b>Motivation:</b> Modern software development involves the heavy use of APIs and third-party components. The reliance increase security risks of software system as the API and third-party components can contain exploitable vulnerabilities. 
+        </p>
+        <p>
+        <b>Approach:</b> This theme aim to mitigate these  risk by creating an advanced software composition analysis solution that scans dependency hierarchies and builds new deep learning architectures to analyse code and document repository data and flag vulnerabilities. 
+        Towards this goal, my colleagues and I have designed a comprehensive array of novel automated solutions that leveraged data-driven approaches to support developers and security practitioners in various tasks including: 
+        <li>
+            <b>Identifying vulnerability-fixing commits</b>: In practice, there is often a delay between the time a vulnerability is fixed and the time it is publicly disclosed, leading to a risk that OSS users are unaware of vulnerabilities in their applications. We proposed to automatically identify vulnerability-fixing commits by analyzing the commit <b>broadly</b>, e.g., using multiple information sources [<a href="./pdf/VulCurator.pdf">VulCurator (ESEC/FSE'22)</a>] and  <b>deeply</b>, e.g., using multiple granularities of code changes<a href="./pdf/TSE_Midas.pdf"> [Midas (TSE'23)</a>]. 
+        </li>
+        
+        <li>
+            <b> Identifying affected libraries from vulnerability reports</b>: To improve the security of software supply chains, developers must be alerted about vulnerable dependencies or libraries. However, vulnerability reports may not always explicitly list these affected libraries, requiring manual analysis. To automate this process, researchers have proposed using extreme multi-label learning (XML) to automatically identify libraries from vulnerability reports. However, we have found that previous studies did not consider the chronological order of reports, which can lead to a decline in performance when dealing with unseen libraries. To address this issue, we propose [<a href="./pdf/ICSE_Chronos.pdf">Chronos (ICSE'23)</a>], which utilizes a zero-shot learning model, ZestXML, along with a domain-specific data enhancement and time-aware adjustment to automatically identify affected libraries from vulnerability reports.
+        </li>
+        <li>
+        <b>Call graph analysis</b>: Call Graph Analysis is crucial to analyze the propagation of software vulnerabilities in software supply chain. Unfortunately, program analysis techniques for constructing call graphs are usually imprecise, causing a high false-positive rate on call graph analyses. To address this issue, we propose a novel technique, [<a href="./pdf/FSE_AutoPruner.pdf">AutoPruner (ESEC/FSE'22)</a>], that incorporates both structural information extracted from original call graph and statistical semantic information extracted from a large language model, i.e., CodeBERT, to learn how to effectively prune false positives in call graphs. 
+        </li>
+    </p>
+    <hr>
+    <h1 id="pubs">Related Publications</h1>
+    <hr>
+    <h3>[TSE] MiDas: Multi-Granularity Detector for Vulnerability Fixes</h3>
+    <ul>
+    <li><i class="fa fa-users"></i> <strong>Authors:</strong> Truong Giang Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Hong Jin Kang, Ratnadira Widyasari, Chengran Yang, Zhipeng Zhao, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Bach Le, and David Lo</li>
+    <li><i class="fa fa-book"></i> <strong>Venue:</strong> IEEE Transactions on Software Engineering</li>
+    <li><i class="fa fa-file"></i> <strong>One-line Abstract:</strong> Identifying vulnerability fixes by analyzing multi-granularity of code changes.</li>
+    <li><i class="fa fa-star"></i> <strong style="color: red;">Integrated to internal service of industry partners for managing vulnerability</strong></li>
+    <li><i class="fa fa-link"></i> <strong>Links:</strong> <a href="https://github.com/soarsmu/midas/blob/main/overview.md"><img src="https://img.shields.io/badge/Overview-orange"></a> <a href="https://github.com/soarsmu/midas"><img src="https://img.shields.io/badge/Code-blue"></a> <a href="https://ieeexplore.ieee.org/document/10138621/"><img src="https://img.shields.io/badge/DOI-green"></a> <a href="./pdf/TSE_Midas.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg"></a></li>
+    </ul>
+
+        <!-- Paper 3 -->
+        <h3>[ICSE'23] Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports</h3>
+        <ul>
+        <li><i class="fa fa-users"></i> <strong>Authors:</strong> Yunbo Lyu<sup>+</sup>, <strong style="color: black;">Thanh Le-Cong</strong><sup>+</sup>, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, and David Lo</li>
+        <li><i class="fa fa-book"></i> <strong>Venue:</strong> IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track [<strong>Acceptance Rate:</strong> 26%]</li>
+        <li><i class="fa fa-file"></i> <strong>One-line Abstract:</strong> Identifying vulnerable libraries from vulnerability reports via zero-shot learning and domain-specific mechanisms.</li>
+        <li><i class="fa fa-link"></i> <strong>Links:</strong> 
+        <a href="https://github.com/soarsmu/Chronos"><img src="https://img.shields.io/badge/Code-blue"></a> <a href="https://ieeexplore.ieee.org/document/10172641"><img src="https://img.shields.io/badge/DOI-green"></a>
+        <a href="./pdf/ICSE_Chronos.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg"></a></li>
+        </ul>
+    
+        </table>
+        
+        <table>
+        
+        <!-- Paper 4 -->
+        <h3>[ESEC/FSE'22] AutoPruner: Transformer-Based Call Graph Pruning</h3>
+        <ul>
+        <li><i class="fa fa-users"></i> <strong>Authors:</strong> <strong style="color: black;">Thanh Le-Cong</strong>, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le, and Thang Huynh Quyet</li>
+        <li><i class="fa fa-book"></i> <strong>Venue:</strong> ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Research Track [<strong>Acceptance Rate:</strong> 22%]</li>
+        <li><i class="fa fa-file"></i> <strong>One-line Abstract:</strong> Pruning false positives in static call graph via code features learned by Large Language Model and syntactic features extracted from the original call graph.</li>
+        <li><i class="fa fa-link"></i> <strong>Links:</strong> 
+        <a href="https://github.com/soarsmu/midas/blob/main/overview.md"><img src="https://img.shields.io/badge/Overview-orange"></a> 
+        <a href="https://github.com/soarsmu/AutoPruner"><img src="https://img.shields.io/badge/Code-blue"></a> <a href="https://dl.acm.org/doi/abs/10.1145/3540250.3549175"><img src="https://img.shields.io/badge/DOI-green"></a>
+        <a href="./pdf/FSE_AutoPruner.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg"></a></li>
+        </ul>
+    
+        
+        <h3>[ESEC/FSE'22] VulCurator: A Vulnerability-Fixing Commit Detector</h3>
+        <ul>
+        <li><i class="fa fa-users"></i> <strong>Authors:</strong> Truong Giang Nguyen, <strong style="color: black;">Thanh Le-Cong</strong>, Hong Jin Kang, Bach Le, and David Lo</li>
+        <li><i class="fa fa-book"></i> <strong>Venue:</strong> ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2022, Tool Demos Track [<strong>Acceptance Rate:</strong> 56%]</li>
+        <li><i class="fa fa-file"></i> <strong>One-line Abstract:</strong> Identifying vulnerability-fixing commits by applying Large Language Model on multiple sources including code changes, commit messages, and related issues.</li>
+        <li><i class="fa fa-link"></i> <strong>Links:</strong>
+            <a href="https://github.com/ntgiang71096/VFDetector"><img src="https://img.shields.io/badge/Code-blue"></a>
+            <a href="https://dl.acm.org/doi/abs/10.1145/3540250.3558936"><img src="https://img.shields.io/badge/DOI-green"></a>
+            <a href="./pdf/VulCurator.pdf"><img src="https://img.shields.io/badge/PDF-b31b1b.svg"></a>
+        </li>
+        </ul>
+
+    <footer>
+        <script src="js/math-code.js"></script>
+        <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+        <script async src="js/center-img.js"></script>
+        <hr>&copy; <a href="https://thanhlecongg.github.io">Thanh Le-Cong</a> 2023 | <a href="https://twitter.com/ThanhLeCong2705"><i class="fa-brands fa-twitter" style="color: #00bfff;"></i></a>
+        <a href="https://www.linkedin.com/in/thanhlecong/"><i class="fa-brands fa-linkedin" style="color: #0457e7;"></i></a>
+        <a href="https://github.com/thanhlecongg"> <i class="fa-brands fa-github"></i></a>
+        <a href="https://www.facebook.com/thanh.toanlamson"><i class="fa-brands fa-facebook" style="color: #005af5;"></i></a>
+      </footer>
+    
+    </body>
+</html>
+
+
+

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script async src="https://rum.cronitor.io/script.js"></script>
+	<script>
+		window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
+		cronitor('config', { clientKey: 'd7b31d7abbb37752a51401f70577586f' });
+	</script>
+		<script src="https://kit.fontawesome.com/1a146c3d53.js" crossorigin="anonymous">
+            
+        </script>
+
+		<meta charset="UTF-8" />
+
+		<title>Thanh Le-Cong @ The University of Melbourne</title>
+		
+		<meta name="keywords" content="Thanh Le-Cong, Cong Thanh Le, Thanh Le-Cong SMU, Thanh Le-Cong University of Melbourne" />
+	 	<meta name="description" content="Homepage, Thanh Le-Cong, The University of Melbourne, Melbourne, Australia" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/fonts.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="fontawesome-free-6.5.1-web/css/fontawesome.css" rel="stylesheet">
+        <link href="fontawesome-free-6.5.1-web/css/brands.css" rel="stylesheet">
+        <link href="fontawesome-free-6.5.1-web/css/solid.css" rel="stylesheet">
+    </head>
+  
+  <body>
+        <nav>
+        <ul class="menu">
+          
+          <li><a href="./index.html">Home</a></li>
+            <!-- <li><a href="./research.html">Research</a></li> -->
+            <li><a href="./publications.html">Publications</a></li>
+            <li><a href="./experiences.html">Experiences</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./travelmap.html">TravelMap</a></li>
+
+          
+        </ul>
+        <hr/>
+        </nav>
+
+    
+    
+    <h2 id="countries">Countries Traveled</h2>
+
+    <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+<div id="mapdiv" style="width: 953px; height: 450px;"></div>
+<!-- <div style="width: 1000px; font-size: 70%; padding: 5px 0; text-align: center; background-color: #535364; margin-top: 1px; color: #B4B4B7;"><a href="https://www.amcharts.com/visited_countries/" style="color: #B4B4B7;">Create your own visited countries map</a> or check out the <a href="https://www.amcharts.com/" style="color: #B4B4B7;">JavaScript Charts</a>.</div> -->
+<div style="width: 1000px; font-size: 70%; padding: 5px 0; text-align: center; margin-top: 1px; color: #B4B4B7;"></div>
+<script type="text/javascript">
+var map = AmCharts.makeChart("mapdiv",{
+type: "map",
+theme: "dark",
+projection: "mercator",
+panEventsEnabled : true,
+backgroundColor : "#748CB0",
+backgroundAlpha : 1,
+zoomControl: {
+zoomControlEnabled : true
+},
+dataProvider : {
+map : "worldHigh",
+getAreasFromMap : true,
+areas :
+[
+{
+  "id": "VN",
+  "showAsSelected": true
+},
+{
+  "id": "US",
+  "showAsSelected": true
+},
+{
+  "id": "CN",
+  "showAsSelected": true
+},
+{
+  "id": "AU",
+  "showAsSelected": true
+},
+{
+  "id": "SG",
+  "showAsSelected": true
+},
+{
+  "id": "FR",
+  "showAsSelected": true
+},
+{
+  "id": "DE",
+  "showAsSelected": true
+},
+{
+  "id": "IT",
+  "showAsSelected": true
+},
+{
+  "id": "CH",
+  "showAsSelected": true
+},
+{
+  "id": "ES",
+  "showAsSelected": true
+},
+{
+  "id": "JP",
+  "showAsSelected": true
+},
+{
+  "id": "TW",
+  "showAsSelected": true
+},
+{
+  "id": "MY",
+  "showAsSelected": true
+},
+{
+  "id": "TH",
+  "showAsSelected": true
+},
+{
+  "id": "MC",
+  "showAsSelected": true
+}
+]
+},
+areasSettings : {
+autoZoom : true,
+color : "#CCCCDB",
+colorSolid : "#96BD93",
+selectedColor : "#96BD93",
+outlineColor : "#666666",
+rollOverColor : "#E1E3DA",
+rollOverOutlineColor : "#000000"
+}
+});
+</script>
+
+<!-- <h2 id="cities">Cities Traveled</h2>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1-iAYUUA4QQ0cbrHZRoNBZaoja4CyFyg&ehbc=2E312F" width="1000" height="450"></iframe> -->
+
+<footer>
+  <script src="js/math-code.js"></script>
+  <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  <script async src="js/center-img.js"></script>
+  <hr>&copy; <a href="https://thanhlecongg.github.io">Thanh Le-Cong</a> 2023 | <a href="https://twitter.com/ThanhLeCong2705"><i class="fa-brands fa-twitter" style="color: #00bfff;"></i></a>
+  <a href="https://www.linkedin.com/in/thanhlecong/"><i class="fa-brands fa-linkedin" style="color: #0457e7;"></i></a>
+  <a href="https://github.com/thanhlecongg"> <i class="fa-brands fa-github"></i></a>
+  <a href="https://www.facebook.com/thanh.toanlamson"><i class="fa-brands fa-facebook" style="color: #005af5;"></i></a>
+</footer>
+    
+    </body>
+</html>
+
+
+

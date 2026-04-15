@@ -24,7 +24,7 @@ export default function Nav() {
   const pathname = usePathname();
 
   return (
-    <header className="border-b border-border sticky top-0 bg-background/95 backdrop-blur z-10">
+    <header className="border-b border-border sticky top-0 bg-background/95 backdrop-blur z-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 flex items-center justify-between h-14">
         {/* Site name links back to homepage */}
         <Link

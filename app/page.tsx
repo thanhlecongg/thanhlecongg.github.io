@@ -45,7 +45,7 @@ export default function HomePage() {
           priority
         />
 
-        <div className="relative z-10">
+        <div className="relative">
           {/* Affiliation — scholarly context */}
           <p className="text-xs uppercase tracking-widest text-muted-foreground mb-1.5 font-medium">
             {profile.department} &middot; {profile.university}

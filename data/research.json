@@ -1,0 +1,30 @@
+{
+  "statement": "Our research focuses on trustworthy automated programming — building reliable and secure software systems through AI. We work at the intersection of software engineering and artificial intelligence, combining formal reasoning with modern machine learning techniques to make software development safer and more productive.",
+  "areas": [
+    {
+      "id": "trustworthy-llm-code",
+      "title": "Trustworthy LLMs for Code",
+      "description": "Evaluating and improving the reliability, security, and correctness of large language models used for code synthesis and analysis.",
+      "keywords": ["LLMs", "code generation", "membership inference", "evaluation"]
+    },
+    {
+      "id": "automated-program-repair",
+      "title": "Automated Program Repair",
+      "description": "Developing AI-driven techniques for automated bug detection and repair, including patch correctness assessment and fault localization.",
+      "keywords": ["program repair", "patch correctness", "fault localization"]
+    },
+    {
+      "id": "software-security",
+      "title": "Software Security",
+      "description": "Analyzing vulnerabilities in modern software systems, including vulnerability-fixing commit classification and security testing.",
+      "keywords": ["vulnerability detection", "security testing", "backdoor detection"]
+    },
+    {
+      "id": "se-for-ai",
+      "title": "Software Engineering for AI",
+      "description": "Applying software engineering principles to improve AI systems — testing, debugging, and formal verification of ML models.",
+      "keywords": ["formal specification", "ML testing", "robustness evaluation"]
+    }
+  ],
+  "projects": []
+}

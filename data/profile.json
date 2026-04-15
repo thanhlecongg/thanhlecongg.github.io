@@ -1,0 +1,32 @@
+{
+  "name": "Thanh Le-Cong",
+  "title": "Incoming Assistant Professor",
+  "department": "Information Systems Technology and Design (ISTD)",
+  "university": "Singapore University of Technology and Design (SUTD)",
+  "email": "thanhlc@ieee.org",
+  "officeLocation": "",
+  "bio": "I am an incoming tenure-track Assistant Professor at the ISTD Pillar, Singapore University of Technology and Design (SUTD). I am currently completing my Ph.D. at the University of Melbourne, advised by Dr. Bach Le and Prof. Toby Murray. I am a recipient of the Google PhD Fellowship. My research focuses on trustworthy automated programming — building reliable and secure software systems through AI. I work on two main tracks: (1) evaluating and enhancing the trustworthiness of AI-based code synthesis and analysis, with a focus on large language models, and (2) creating AI-driven automated software debugging approaches emphasising bug detection and correction. My work has appeared at premier software engineering venues including ICSE, FSE, ASE, TOSEM, TSE, and ACL.",
+  "researchInterests": [
+    "Trustworthy AI for Software Engineering",
+    "Large Language Models for Code",
+    "Automated Program Repair",
+    "Software Testing & Analysis",
+    "Security"
+  ],
+  "socialLinks": {
+    "googleScholar": "https://scholar.google.com/citations?user=iaQgZHYAAAAJ&hl=en",
+    "dblp": "",
+    "github": "https://github.com/thanhlecongg",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/thanhlecong/",
+    "orcid": ""
+  },
+  "news": [
+    { "date": "2026-02", "text": "Served as PC member for ICSE 2027." },
+    { "date": "2026-01", "text": "Gave an invited talk at Phenikaa University." },
+    { "date": "2025-12", "text": "Announced incoming appointment as Assistant Professor at SUTD." },
+    { "date": "2025-12", "text": "Paper accepted at ICSE 2026 on membership inference attacks on LLMs for code." },
+    { "date": "2025-11", "text": "Presented PhD completion seminar at University of Melbourne." },
+    { "date": "2025-11", "text": "Gave an invited talk at SUTD on Trustworthy Automatic Programming." }
+  ]
+}

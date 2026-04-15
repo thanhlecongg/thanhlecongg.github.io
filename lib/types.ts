@@ -91,3 +91,46 @@ export interface ResearchData {
   areas: ResearchArea[];
   projects: Project[];
 }
+
+export interface TeachingRole {
+  id: string;
+  institution: string;
+  role: string;
+  /** e.g. "Jan 2024 – Present" */
+  period: string;
+  location?: string;
+  /** Optional list of course codes/names taught in this role */
+  courses?: string[];
+  highlights: string[];
+}
+
+export interface MentoredStudent {
+  name: string;
+  affiliation: string;
+  topic: string;
+  /** Publication references, e.g. "[J3]" */
+  papers?: string[];
+}
+
+export interface ResearchExperience {
+  id: string;
+  organization: string;
+  role: string;
+  period: string;
+  location: string;
+  type: "internship" | "visiting" | "employment" | "graduate";
+  supervisors?: string[];
+  highlights: string[];
+}
+
+export interface Education {
+  id: string;
+  institution: string;
+  degree: string;
+  field: string;
+  period: string;
+  location: string;
+  thesis?: string;
+  advisors?: string[];
+  highlights?: string[];
+}

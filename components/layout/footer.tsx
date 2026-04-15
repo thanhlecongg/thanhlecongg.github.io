@@ -13,6 +13,7 @@ export default function Footer() {
         <nav aria-label="Footer navigation" className="flex flex-wrap justify-center gap-x-5 gap-y-1">
           <Link href="/publications" className="hover:text-foreground transition-colors">Publications</Link>
           <Link href="/research" className="hover:text-foreground transition-colors">Research</Link>
+          <Link href="/experience" className="hover:text-foreground transition-colors">Experience</Link>
           <Link href="/group" className="hover:text-foreground transition-colors">Group</Link>
           <Link href="/teaching" className="hover:text-foreground transition-colors">Teaching</Link>
           <a

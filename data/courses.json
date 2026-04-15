@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "swen90010-2025s1",
+    "code": "SWEN90010",
+    "title": "High Integrity Systems Engineering",
+    "semester": "Spring",
+    "year": 2025,
+    "level": "graduate",
+    "description": "Master-level course covering formal methods and high-assurance software engineering. University of Melbourne."
+  },
+  {
+    "id": "cs591-2024f",
+    "code": "CS591/791",
+    "title": "Generative AI for Software Engineering",
+    "semester": "Fall",
+    "year": 2024,
+    "level": "graduate",
+    "description": "Graduate course at NC State University. Guest lecture on \"Reliability of Code Generation with LLMs\"."
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "unimelb-grad-researcher",
+    "organization": "University of Melbourne",
+    "role": "Graduate Researcher",
+    "period": "Feb 2023 – Feb 2026",
+    "location": "Melbourne, Australia",
+    "type": "graduate",
+    "supervisors": ["Prof. Toby Murray", "Dr. Bach Le"],
+    "highlights": [
+      "Conducted empirical studies and developed novel approaches for enhancing reliability of LLMs in Program Repair and Code Generation.",
+      "Supervised junior PhD and undergraduate students.",
+      "Funded by Melbourne Research Scholarship.",
+      "Awarded Google PhD Fellowship in Software Engineering and Programming Technology (one of two PhD students worldwide)."
+    ]
+  },
+  {
+    "id": "cispa-2025",
+    "organization": "University of Stuttgart / CISPA Helmholtz Center for Information Security",
+    "role": "Visiting Researcher",
+    "period": "July 2025 – Oct 2025",
+    "location": "Stuttgart, Germany",
+    "type": "visiting",
+    "supervisors": [
+      "Prof. Cristian Cadar (Imperial College London)",
+      "Prof. Michael Pradel (CISPA)"
+    ],
+    "highlights": [
+      "Working on specification inference with LLMs from natural language artifacts.",
+      "Our approach detected 6 previously unknown bugs in two widely-used Python libraries (Pandas and Scipy)."
+    ]
+  },
+  {
+    "id": "aws-2024",
+    "organization": "Amazon Web Services",
+    "role": "Applied Scientist II (Internship)",
+    "period": "June 2024 – Sep 2024",
+    "location": "Virginia, US",
+    "type": "internship",
+    "supervisors": [
+      "Dr. Brandon Paulsen",
+      "Dr. Joey Dodds",
+      "Prof. Daniel Kroening"
+    ],
+    "highlights": [
+      "Developed a repo-level code translation technique using LLMs and Automated Reasoning.",
+      "Translated key modules of a core library from C to Rust with formal proofs.",
+      "Received a return offer for next internship."
+    ]
+  },
+  {
+    "id": "smu-2022",
+    "organization": "Singapore Management University",
+    "role": "Research Engineer",
+    "period": "Jan 2022 – Jan 2023",
+    "location": "Singapore",
+    "type": "employment",
+    "supervisors": ["Prof. David Lo"],
+    "highlights": [
+      "Developed AI-enabled techniques for managing vulnerabilities in third-party software.",
+      "Collaborated with industry partners on deploying research papers in practice.",
+      "Published research papers at top-tier venues including FSE and ICSE."
+    ]
+  },
+  {
+    "id": "griffith-2019",
+    "organization": "Griffith University",
+    "role": "Visiting Scholar",
+    "period": "July 2019 – Aug 2019",
+    "location": "Australia",
+    "type": "visiting",
+    "supervisors": ["A/Prof. Henry Nguyen"],
+    "highlights": [
+      "Developed mathematical foundations for node embedding in large-scale graphs."
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-import type { Profile, Publication, TeamMember, Course, ResearchData, TeachingRole, ResearchExperience, Education } from "./types";
+import type { Profile, Publication, TeamMember, Course, ResearchData, TeachingRole, ResearchExperience, Education, PaperDetail } from "./types";
 
 // JSON imports are resolved at build time — safe for static export
 import profileData from "@/data/profile.json";
@@ -9,6 +9,12 @@ import researchData from "@/data/research.json";
 import teachingRolesData from "@/data/teaching-roles.json";
 import experiencesData from "@/data/experiences.json";
 import educationData from "@/data/education.json";
+import patchguruData from "@/data/papers/patchguru.json";
+
+/** Registry of all paper project pages — add new entries here as papers get pages */
+const PAPERS: Record<string, PaperDetail> = {
+  patchguru: patchguruData as PaperDetail,
+};
 
 export function getProfile(): Profile {
   return profileData as Profile;
@@ -40,4 +46,12 @@ export function getResearchExperiences(): ResearchExperience[] {
 
 export function getEducation(): Education[] {
   return educationData as Education[];
+}
+
+export function getPaperBySlug(slug: string): PaperDetail | null {
+  return PAPERS[slug] ?? null;
+}
+
+export function getPaperSlugs(): string[] {
+  return Object.keys(PAPERS);
 }

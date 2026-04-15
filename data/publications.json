@@ -2,7 +2,11 @@
   {
     "id": "2026-memory-efficient-llm-repair",
     "title": "Memory-Efficient Large Language Models for Program Repair with Semantic-Guided Patch Generation",
-    "authors": ["Thanh Le-Cong", "Bach Le", "Toby Murray"],
+    "authors": [
+      "Thanh Le-Cong",
+      "Bach Le",
+      "Toby Murray"
+    ],
     "year": 2026,
     "venue": "ICSE",
     "venueType": "conference",
@@ -10,37 +14,68 @@
       "arxiv": "https://arxiv.org/pdf/2410.16655",
       "code": "https://github.com/thanhlecongg/FLAMES"
     },
-    "tags": ["program repair", "LLM"]
+    "tags": [
+      "program repair",
+      "LLM"
+    ]
   },
   {
     "id": "2026-membership-inference-llm-code",
     "title": "How Do Semantically Equivalent Code Transformations Impact Membership Inference on LLMs for Code?",
-    "authors": ["Hua Yang", "Alejandro Velasco", "Thanh Le-Cong", "Md Nazmul Haque", "Bowen Xu", "Denys Poshyvanyk"],
+    "authors": [
+      "Hua Yang",
+      "Alejandro Velasco",
+      "Thanh Le-Cong",
+      "Md Nazmul Haque",
+      "Bowen Xu",
+      "Denys Poshyvanyk"
+    ],
     "year": 2026,
     "venue": "ICSE",
     "venueType": "conference",
     "links": {
       "arxiv": "https://arxiv.org/pdf/2512.15468"
     },
-    "tags": ["LLM", "security", "membership inference"]
+    "tags": [
+      "LLM",
+      "security",
+      "membership inference"
+    ]
   },
   {
     "id": "2026-patchguru-patch-oracle",
     "title": "PatchGuru: Patch Oracle Inference from Natural Language Artifacts with Large Language Models",
-    "authors": ["Thanh Le-Cong", "Bach Le", "Toby Murray", "Cristian Cadar", "Michael Pradel"],
+    "authors": [
+      "Thanh Le-Cong",
+      "Bach Le",
+      "Toby Murray",
+      "Cristian Cadar",
+      "Michael Pradel"
+    ],
     "year": 2026,
     "venue": "Under Review",
     "venueType": "preprint",
     "links": {
       "arxiv": "https://arxiv.org/pdf/2602.05270",
-      "code": "https://github.com/thanhlecongg/PatchGuru"
+      "code": "https://github.com/thanhlecongg/PatchGuru",
+      "projectPage": "/papers/patchguru"
     },
-    "tags": ["program repair", "LLM", "patch correctness"]
+    "tags": [
+      "program repair",
+      "LLM",
+      "patch correctness"
+    ]
   },
   {
     "id": "2026-functional-programming-llm-eval",
     "title": "Perish or Flourish? A Holistic Evaluation of Large Language Models for Code Generation in Functional Programming",
-    "authors": ["Nguyet-Anh H. Lang", "Eric Lang", "Thanh Le-Cong", "Bach Le", "Quyet-Thang Huynh"],
+    "authors": [
+      "Nguyet-Anh H. Lang",
+      "Eric Lang",
+      "Thanh Le-Cong",
+      "Bach Le",
+      "Quyet-Thang Huynh"
+    ],
     "year": 2026,
     "venue": "Under Review",
     "venueType": "preprint",
@@ -48,12 +83,21 @@
       "arxiv": "https://arxiv.org/pdf/2601.02060",
       "code": "https://github.com/thanhlecongg/FPEval"
     },
-    "tags": ["LLM", "code generation", "evaluation"]
+    "tags": [
+      "LLM",
+      "code generation",
+      "evaluation"
+    ]
   },
   {
     "id": "2025-reliable-eval-neural-program-repair",
     "title": "Toward Reliable Evaluation of Neural Program Repair with Natural Robustness Testing",
-    "authors": ["Thanh Le-Cong", "Dat Nguyen", "Bach Le", "Toby Murray"],
+    "authors": [
+      "Thanh Le-Cong",
+      "Dat Nguyen",
+      "Bach Le",
+      "Toby Murray"
+    ],
     "year": 2025,
     "venue": "TOSEM",
     "venueType": "journal",
@@ -61,24 +105,41 @@
       "arxiv": "https://arxiv.org/pdf/2402.11892.pdf",
       "code": "https://github.com/thanhlecongg/NaturalRobustnessNPR"
     },
-    "tags": ["program repair", "evaluation", "robustness"]
+    "tags": [
+      "program repair",
+      "evaluation",
+      "robustness"
+    ]
   },
   {
     "id": "2025-adversarial-patch-generation",
     "title": "Adversarial Patch Generation for Automated Program Repair",
-    "authors": ["Abdulaziz Alhefdhi", "Hoa Khanh Dam", "Thanh Le-Cong", "Bach Le", "Aditya Ghose"],
+    "authors": [
+      "Abdulaziz Alhefdhi",
+      "Hoa Khanh Dam",
+      "Thanh Le-Cong",
+      "Bach Le",
+      "Aditya Ghose"
+    ],
     "year": 2025,
     "venue": "SQJ",
     "venueType": "journal",
     "links": {
       "arxiv": "https://arxiv.org/pdf/2012.11060.pdf"
     },
-    "tags": ["program repair", "adversarial"]
+    "tags": [
+      "program repair",
+      "adversarial"
+    ]
   },
   {
     "id": "2025-llm-formal-spec-inference",
     "title": "Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference",
-    "authors": ["Thanh Le-Cong", "Bach Le", "Toby Murray"],
+    "authors": [
+      "Thanh Le-Cong",
+      "Bach Le",
+      "Toby Murray"
+    ],
     "year": 2025,
     "venue": "ACL",
     "venueType": "conference",
@@ -86,12 +147,22 @@
       "pdf": "https://aclanthology.org/2025.acl-long.1068.pdf",
       "code": "https://github.com/thanhlecongg/FormalBench"
     },
-    "tags": ["LLM", "formal specification", "program semantics"]
+    "tags": [
+      "LLM",
+      "formal specification",
+      "program semantics"
+    ]
   },
   {
     "id": "2025-jit-vulnerability-prediction-eval",
     "title": "Toward Realistic Evaluation of Just-In-Time Vulnerability Prediction",
-    "authors": ["Duong Nguyen", "Thanh Le-Cong", "Triet Huynh Minh Le", "M. Ali Babar", "Quyet-Thang Huynh"],
+    "authors": [
+      "Duong Nguyen",
+      "Thanh Le-Cong",
+      "Triet Huynh Minh Le",
+      "M. Ali Babar",
+      "Quyet-Thang Huynh"
+    ],
     "year": 2025,
     "venue": "ICSME",
     "venueType": "conference",
@@ -99,12 +170,22 @@
       "arxiv": "https://arxiv.org/pdf/2507.10729",
       "code": "https://github.com/AI4Code-HUST/VulGuard/"
     },
-    "tags": ["vulnerability", "evaluation"]
+    "tags": [
+      "vulnerability",
+      "evaluation"
+    ]
   },
   {
     "id": "2025-vulguard-tool",
     "title": "VulGuard: An Unified Tool for Evaluating Just-In-Time Vulnerability Prediction Models",
-    "authors": ["Duong Nguyen", "Duc-Manh Tran", "Thanh Le-Cong", "Triet Huynh Minh Le", "M. Ali Babar", "Quyet-Thang Huynh"],
+    "authors": [
+      "Duong Nguyen",
+      "Duc-Manh Tran",
+      "Thanh Le-Cong",
+      "Triet Huynh Minh Le",
+      "M. Ali Babar",
+      "Quyet-Thang Huynh"
+    ],
     "year": 2025,
     "venue": "ICSME",
     "venueType": "conference",
@@ -112,60 +193,118 @@
       "arxiv": "https://arxiv.org/pdf/2507.16685",
       "code": "https://github.com/AI4Code-HUST/VulGuard/"
     },
-    "tags": ["vulnerability", "tool"]
+    "tags": [
+      "vulnerability",
+      "tool"
+    ]
   },
   {
     "id": "2025-code-backdoor-detection",
     "title": "Signature in Code Backdoor Detection, how far are we?",
-    "authors": ["Quoc Hung Le", "Thanh Le-Cong", "Bach Le", "Bowen Xu"],
+    "authors": [
+      "Quoc Hung Le",
+      "Thanh Le-Cong",
+      "Bach Le",
+      "Bowen Xu"
+    ],
     "year": 2025,
     "venue": "Under Review",
     "venueType": "preprint",
     "links": {
       "arxiv": "https://arxiv.org/pdf/2510.13992"
     },
-    "tags": ["security", "backdoor detection"]
+    "tags": [
+      "security",
+      "backdoor detection"
+    ]
   },
   {
     "id": "2025-patchseeker-nvd-mapping",
     "title": "PatchSeeker: Mapping NVD Records to their Vulnerability-fixing Commits with LLM Generated Commits and Embeddings",
-    "authors": ["Huu Hung Nguyen", "Anh Tuan Nguyen", "Thanh Le-Cong", "Yikun Li", "Han Wei Ang", "Yide Yin", "Frank Liauw", "Shar Lwin Khin", "Ouh Eng Lieh", "Ting Zhang", "David Lo"],
+    "authors": [
+      "Huu Hung Nguyen",
+      "Anh Tuan Nguyen",
+      "Thanh Le-Cong",
+      "Yikun Li",
+      "Han Wei Ang",
+      "Yide Yin",
+      "Frank Liauw",
+      "Shar Lwin Khin",
+      "Ouh Eng Lieh",
+      "Ting Zhang",
+      "David Lo"
+    ],
     "year": 2025,
     "venue": "Under Review",
     "venueType": "preprint",
     "links": {
       "arxiv": "https://arxiv.org/pdf/2509.07540v1"
     },
-    "tags": ["vulnerability", "LLM", "NVD"]
+    "tags": [
+      "vulnerability",
+      "LLM",
+      "NVD"
+    ]
   },
   {
     "id": "2025-nvd-vfc-mapping-exploratory",
     "title": "Mapping NVD Records to Their VFCs: An Exploratory Study",
-    "authors": ["Huu-Hung Nguyen", "Duc-Manh Tran", "Yiran Cheng", "Thanh Le-Cong", "Hong Jin Kang", "Ratnadira Widyasari", "Shar Lwin Khin", "Ouh Eng Lieh", "Ting Zhang", "David Lo"],
+    "authors": [
+      "Huu-Hung Nguyen",
+      "Duc-Manh Tran",
+      "Yiran Cheng",
+      "Thanh Le-Cong",
+      "Hong Jin Kang",
+      "Ratnadira Widyasari",
+      "Shar Lwin Khin",
+      "Ouh Eng Lieh",
+      "Ting Zhang",
+      "David Lo"
+    ],
     "year": 2025,
     "venue": "TOSEM",
     "venueType": "journal",
     "links": {
       "arxiv": "https://arxiv.org/pdf/2506.09702"
     },
-    "tags": ["vulnerability", "NVD"]
+    "tags": [
+      "vulnerability",
+      "NVD"
+    ]
   },
   {
     "id": "2025-regression-repair-llm",
     "title": "From Empirical Evaluation to Context-Aware Enhancement: Repairing Regression Errors with LLMs",
-    "authors": ["Anh Ho", "Thanh Le-Cong", "Bach Le", "Christine Rizkallah"],
+    "authors": [
+      "Anh Ho",
+      "Thanh Le-Cong",
+      "Bach Le",
+      "Christine Rizkallah"
+    ],
     "year": 2025,
     "venue": "TOSEM",
     "venueType": "journal",
     "links": {
       "arxiv": "https://arxiv.org/pdf/2506.13182"
     },
-    "tags": ["program repair", "LLM", "regression"]
+    "tags": [
+      "program repair",
+      "LLM",
+      "regression"
+    ]
   },
   {
     "id": "2024-chatgpt-code-quality",
     "title": "Refining ChatGPT-Generated Code: Characterizing and Mitigating Code Quality Issues",
-    "authors": ["Yue Liu", "Thanh Le-Cong", "Ratnadira Widyasari", "Chakkrit Tantithamthavorn", "Li Li", "Bach Le", "David Lo"],
+    "authors": [
+      "Yue Liu",
+      "Thanh Le-Cong",
+      "Ratnadira Widyasari",
+      "Chakkrit Tantithamthavorn",
+      "Li Li",
+      "Bach Le",
+      "David Lo"
+    ],
     "year": 2024,
     "venue": "TOSEM",
     "venueType": "journal",
@@ -173,24 +312,50 @@
       "pdf": "https://dl.acm.org/doi/full/10.1145/3643674",
       "code": "https://github.com/yueyueL/ChatGPT-CodeGenAnalysis"
     },
-    "tags": ["LLM", "code quality", "ChatGPT"]
+    "tags": [
+      "LLM",
+      "code quality",
+      "ChatGPT"
+    ]
   },
   {
     "id": "2024-llm-patch-correctness",
     "title": "Leveraging Large Language Models for Automatic Patch Correctness Assessment",
-    "authors": ["Xin Zhou", "Bowen Xu", "Kisub Kim", "DongGyun Han", "Hung Nguyen", "Thanh Le-Cong", "Junda He", "Bach Le", "David Lo"],
+    "authors": [
+      "Xin Zhou",
+      "Bowen Xu",
+      "Kisub Kim",
+      "DongGyun Han",
+      "Hung Nguyen",
+      "Thanh Le-Cong",
+      "Junda He",
+      "Bach Le",
+      "David Lo"
+    ],
     "year": 2024,
     "venue": "TSE",
     "venueType": "journal",
     "links": {
       "pdf": "https://ieeexplore.ieee.org/document/10659742/"
     },
-    "tags": ["LLM", "patch correctness", "program repair"]
+    "tags": [
+      "LLM",
+      "patch correctness",
+      "program repair"
+    ]
   },
   {
     "id": "2024-legion-github-topic",
     "title": "LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss",
-    "authors": ["Yen-Trang Dang", "Thanh Le-Cong", "Phuc-Thanh Nguyen", "Anh M. T. Bui", "Phuong T. Nguyen", "Bach Le", "Quyet-Thang Huynh"],
+    "authors": [
+      "Yen-Trang Dang",
+      "Thanh Le-Cong",
+      "Phuc-Thanh Nguyen",
+      "Anh M. T. Bui",
+      "Phuong T. Nguyen",
+      "Bach Le",
+      "Quyet-Thang Huynh"
+    ],
     "year": 2024,
     "venue": "EASE",
     "venueType": "conference",
@@ -198,24 +363,48 @@
       "arxiv": "https://arxiv.org/pdf/2403.05873",
       "code": "https://github.com/AI4Code-HUST/LEGION"
     },
-    "tags": ["GitHub", "topic recommendation", "language models"]
+    "tags": [
+      "GitHub",
+      "topic recommendation",
+      "language models"
+    ]
   },
   {
     "id": "2024-sast-llm-vulnerability",
     "title": "Comparison of Static Application Security Testing Tools and Large Language Models for Repo-Level Vulnerability Detection",
-    "authors": ["Xin Zhou", "Duc-Manh Tran", "Thanh Le-Cong", "Ting Zhang", "Ivana Clairine Irsan", "Joshua Sumarlin", "Bach Le", "David Lo"],
+    "authors": [
+      "Xin Zhou",
+      "Duc-Manh Tran",
+      "Thanh Le-Cong",
+      "Ting Zhang",
+      "Ivana Clairine Irsan",
+      "Joshua Sumarlin",
+      "Bach Le",
+      "David Lo"
+    ],
     "year": 2024,
     "venue": "Under Review",
     "venueType": "preprint",
     "links": {
       "arxiv": "https://arxiv.org/pdf/2407.16235"
     },
-    "tags": ["vulnerability", "LLM", "SAST"]
+    "tags": [
+      "vulnerability",
+      "LLM",
+      "SAST"
+    ]
   },
   {
     "id": "2023-invalidator-patch-correctness",
     "title": "Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning",
-    "authors": ["Thanh Le-Cong", "Duc-Minh Luong", "Xuan Bach D. Le", "David Lo", "Nhat-Hoa Tran", "Bui Quang-Huy"],
+    "authors": [
+      "Thanh Le-Cong",
+      "Duc-Minh Luong",
+      "Xuan Bach D. Le",
+      "David Lo",
+      "Nhat-Hoa Tran",
+      "Bui Quang-Huy"
+    ],
     "year": 2023,
     "venue": "TSE",
     "venueType": "journal",
@@ -223,12 +412,28 @@
       "pdf": "https://dl.acm.org/doi/abs/10.1109/TSE.2023.3255177",
       "code": "https://github.com/thanhlecongg/Invalidator"
     },
-    "tags": ["patch correctness", "program repair"]
+    "tags": [
+      "patch correctness",
+      "program repair"
+    ]
   },
   {
     "id": "2023-midas-vulnerability-commit",
     "title": "MiDas: Multi-granularity Model for Vulnerability-fixing Commit Classification",
-    "authors": ["Truong-Giang Nguyen", "Thanh Le-Cong", "Hong Jin Kang", "Ratnadira Widyasari", "Chengran Yang", "Zhipeng Zhao", "Bowen Xu", "Jiayuan Zhou", "Xin Xia", "Ahmed E. Hassan", "Bach Le", "David Lo"],
+    "authors": [
+      "Truong-Giang Nguyen",
+      "Thanh Le-Cong",
+      "Hong Jin Kang",
+      "Ratnadira Widyasari",
+      "Chengran Yang",
+      "Zhipeng Zhao",
+      "Bowen Xu",
+      "Jiayuan Zhou",
+      "Xin Xia",
+      "Ahmed E. Hassan",
+      "Bach Le",
+      "David Lo"
+    ],
     "year": 2023,
     "venue": "TSE",
     "venueType": "journal",
@@ -236,24 +441,45 @@
       "pdf": "https://dl.acm.org/doi/10.1109/TSE.2023.3281275",
       "code": "https://github.com/soarsmu/midas"
     },
-    "tags": ["vulnerability", "commit classification"]
+    "tags": [
+      "vulnerability",
+      "commit classification"
+    ]
   },
   {
     "id": "2023-github-topic-extreme-ml",
     "title": "Extreme Multi-Label Learning for GitHub Topic Recommendation: How Far Are We?",
-    "authors": ["Ratnadira Widyasari", "Zhipeng Zhao", "Thanh Le-Cong", "Hong Jin Kang", "David Lo"],
+    "authors": [
+      "Ratnadira Widyasari",
+      "Zhipeng Zhao",
+      "Thanh Le-Cong",
+      "Hong Jin Kang",
+      "David Lo"
+    ],
     "year": 2023,
     "venue": "SANER",
     "venueType": "conference",
     "links": {
       "pdf": "https://ieeexplore.ieee.org/document/10123501/"
     },
-    "tags": ["GitHub", "topic recommendation"]
+    "tags": [
+      "GitHub",
+      "topic recommendation"
+    ]
   },
   {
     "id": "2023-chronos-library-identification",
     "title": "Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports",
-    "authors": ["Yunbo Lyu", "Thanh Le-Cong", "Hong Jin Kang", "Ratnadira Widyasari", "Zhipeng Zhao", "Bach Le", "Ming Li", "David Lo"],
+    "authors": [
+      "Yunbo Lyu",
+      "Thanh Le-Cong",
+      "Hong Jin Kang",
+      "Ratnadira Widyasari",
+      "Zhipeng Zhao",
+      "Bach Le",
+      "Ming Li",
+      "David Lo"
+    ],
     "year": 2023,
     "venue": "ICSE",
     "venueType": "conference",
@@ -261,24 +487,51 @@
       "arxiv": "https://arxiv.org/pdf/2301.03944",
       "code": "https://github.com/soarsmu/Chronos"
     },
-    "tags": ["vulnerability", "library identification"]
+    "tags": [
+      "vulnerability",
+      "library identification"
+    ]
   },
   {
     "id": "2023-generative-ai-software-qa",
     "title": "Are We Ready to Embrace Generative AI for Software Q&A?",
-    "authors": ["Bowen Xu", "Thanh-Dat Nguyen", "Thanh Le-Cong", "Thong Hoang", "Jiakun Liu", "Kisub Kim", "Chen Gong", "Changan Niu", "Chenyu Wang", "Bach Le", "David Lo"],
+    "authors": [
+      "Bowen Xu",
+      "Thanh-Dat Nguyen",
+      "Thanh Le-Cong",
+      "Thong Hoang",
+      "Jiakun Liu",
+      "Kisub Kim",
+      "Chen Gong",
+      "Changan Niu",
+      "Chenyu Wang",
+      "Bach Le",
+      "David Lo"
+    ],
     "year": 2023,
     "venue": "ASE",
     "venueType": "conference",
     "links": {
       "arxiv": "https://arxiv.org/pdf/2307.09765"
     },
-    "tags": ["LLM", "generative AI", "software Q&A"]
+    "tags": [
+      "LLM",
+      "generative AI",
+      "software Q&A"
+    ]
   },
   {
     "id": "2022-autopruner-call-graph",
     "title": "AutoPruner: Transformer-based Call Graph Pruning",
-    "authors": ["Thanh Le-Cong", "Hong Jin Kang", "Truong Giang Nguyen", "Stefanus Agus Haryono", "David Lo", "Bach Le", "Huynh Quyet Thang"],
+    "authors": [
+      "Thanh Le-Cong",
+      "Hong Jin Kang",
+      "Truong Giang Nguyen",
+      "Stefanus Agus Haryono",
+      "David Lo",
+      "Bach Le",
+      "Huynh Quyet Thang"
+    ],
     "year": 2022,
     "venue": "FSE",
     "venueType": "conference",
@@ -286,12 +539,22 @@
       "arxiv": "https://arxiv.org/pdf/2209.03230",
       "code": "https://github.com/soarsmu/AutoPruner"
     },
-    "tags": ["call graph", "program analysis"]
+    "tags": [
+      "call graph",
+      "program analysis"
+    ]
   },
   {
     "id": "2022-ffl-fault-localization",
     "title": "FFL: Fine-grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning",
-    "authors": ["Thanh-Dat Nguyen", "Thanh Le-Cong", "Duc-Minh Luong", "Van-Hai Duong", "Bach Le", "David Lo"],
+    "authors": [
+      "Thanh-Dat Nguyen",
+      "Thanh Le-Cong",
+      "Duc-Minh Luong",
+      "Van-Hai Duong",
+      "Bach Le",
+      "David Lo"
+    ],
     "year": 2022,
     "venue": "ICSME",
     "venueType": "conference",
@@ -299,24 +562,42 @@
       "pdf": "https://soarsmu.github.io/papers/2022/ICSME_FFL.pdf",
       "code": "https://github.com/FFL2022/FFL"
     },
-    "tags": ["fault localization", "student programs"]
+    "tags": [
+      "fault localization",
+      "student programs"
+    ]
   },
   {
     "id": "2022-analysis-graph-neural-networks",
     "title": "Towards the Analysis of Graph Neural Networks",
-    "authors": ["Thanh-Dat Nguyen", "Thanh Le-Cong", "ThanhVu H. Nguyen", "Bach Le", "Quyet-Thang Huynh"],
+    "authors": [
+      "Thanh-Dat Nguyen",
+      "Thanh Le-Cong",
+      "ThanhVu H. Nguyen",
+      "Bach Le",
+      "Quyet-Thang Huynh"
+    ],
     "year": 2022,
     "venue": "ICSE",
     "venueType": "conference",
     "links": {
       "arxiv": "https://arxiv.org/pdf/2201.00115"
     },
-    "tags": ["graph neural networks", "analysis"]
+    "tags": [
+      "graph neural networks",
+      "analysis"
+    ]
   },
   {
     "id": "2022-vulcurator-vulnerability-detector",
     "title": "VulCurator: A Vulnerability Fixing Commit Detector",
-    "authors": ["Truong-Giang Nguyen", "Thanh Le-Cong", "Hong Jin Kang", "Bach Le", "David Lo"],
+    "authors": [
+      "Truong-Giang Nguyen",
+      "Thanh Le-Cong",
+      "Hong Jin Kang",
+      "Bach Le",
+      "David Lo"
+    ],
     "year": 2022,
     "venue": "FSE",
     "venueType": "conference",
@@ -324,30 +605,52 @@
       "arxiv": "https://arxiv.org/pdf/2201.00115",
       "code": "https://github.com/ntgiang71096/vfdetector"
     },
-    "tags": ["vulnerability", "commit detection"]
+    "tags": [
+      "vulnerability",
+      "commit detection"
+    ]
   },
   {
     "id": "2021-better-together-web-repair",
     "title": "Better Together for Automated Repair of Web Pages",
-    "authors": ["Thanh Le-Cong", "Xuan Bach D. Le", "Quyet Thang Huynh", "Phi Le Nguyen"],
+    "authors": [
+      "Thanh Le-Cong",
+      "Xuan Bach D. Le",
+      "Quyet Thang Huynh",
+      "Phi Le Nguyen"
+    ],
     "year": 2021,
     "venue": "ISSRE",
     "venueType": "conference",
     "links": {
       "arxiv": "https://arxiv.org/pdf/2201.00117"
     },
-    "tags": ["program repair", "web pages"]
+    "tags": [
+      "program repair",
+      "web pages"
+    ]
   },
   {
     "id": "2020-multifactorial-optimization",
     "title": "A Multifactorial Optimization Paradigm for Linkage Tree Genetic Algorithm",
-    "authors": ["Thi Thanh Binh Huynh", "Dinh Thanh Pham", "Ba Trung Tran", "Thanh Le-Cong", "Minh Hai Phong Le", "Ananthram Swami", "Thu Lam Bui"],
+    "authors": [
+      "Thi Thanh Binh Huynh",
+      "Dinh Thanh Pham",
+      "Ba Trung Tran",
+      "Thanh Le-Cong",
+      "Minh Hai Phong Le",
+      "Ananthram Swami",
+      "Thu Lam Bui"
+    ],
     "year": 2020,
     "venue": "Information Sciences",
     "venueType": "journal",
     "links": {
       "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0020025520305570"
     },
-    "tags": ["optimization", "genetic algorithm"]
+    "tags": [
+      "optimization",
+      "genetic algorithm"
+    ]
   }
 ]

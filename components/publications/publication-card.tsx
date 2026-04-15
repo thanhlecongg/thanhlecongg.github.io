@@ -9,7 +9,9 @@ import {
   ChevronDown,
   ChevronUp,
   Quote,
+  ExternalLink,
 } from "lucide-react";
+import NextLink from "next/link";
 import { BibTexDialog } from "./bibtex-dialog";
 import type { Publication } from "@/lib/types";
 
@@ -121,6 +123,12 @@ export function PublicationCard({ publication: p }: PublicationCardProps) {
           </button>
         )}
         {p.bibtex && <BibTexDialog bibtex={p.bibtex} />}
+        {p.links.projectPage && (
+          <NextLink href={p.links.projectPage}
+            className={`${primaryChip} border border-primary/20`}>
+            <ExternalLink className="w-3 h-3" /> Project Page
+          </NextLink>
+        )}
       </div>
 
       {/* Collapsible abstract with subtle inset panel */}

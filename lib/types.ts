@@ -11,10 +11,38 @@ export interface Publication {
     arxiv?: string;
     code?: string;
     slides?: string;
+    /** Internal project page route e.g. "/papers/patchguru" */
+    projectPage?: string;
   };
   abstract?: string;
   bibtex?: string;
   tags?: string[];
+}
+
+export interface PaperDetail {
+  slug: string;
+  /** Must match a Publication id for back-linking */
+  publicationId: string;
+  title: string;
+  authors: string[];
+  venue: string;
+  venueType: "conference" | "journal" | "workshop" | "preprint";
+  year: number;
+  status?: string;
+  abstract: string;
+  tldr: string;
+  contributions: string[];
+  results?: string[];
+  links: {
+    arxiv?: string;
+    pdf?: string;
+    code?: string;
+    slides?: string;
+    demo?: string;
+    doi?: string;
+  };
+  bibtex: string;
+  tags: string[];
 }
 
 export interface TeamMember {

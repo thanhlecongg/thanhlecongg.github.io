@@ -1,0 +1,30 @@
+{
+  "slug": "patchguru",
+  "publicationId": "2026-patchguru-patch-oracle",
+  "title": "PatchGuru: Patch Oracle Inference from Natural Language Artifacts with Large Language Models",
+  "authors": ["Thanh Le-Cong", "Bach Le", "Toby Murray", "Michael Pradel", "Cristian Cadar"],
+  "venue": "Under Review",
+  "venueType": "preprint",
+  "year": 2026,
+  "status": "Under Review",
+  "tldr": "PatchGuru uses LLMs to extract developer intent from natural language artifacts (issues, commits, PRs) and synthesizes executable patch oracles — detecting 24 confirmed bugs across 400 real-world pull requests, including 12 previously unknown issues.",
+  "abstract": "Validating that a software patch correctly implements its intended behavior is a fundamental challenge in software engineering. Developers often leave rich intent signals in natural language (NL) artifacts — issue reports, commit messages, and pull request descriptions — yet these remain largely unexploited by automated tools. PatchGuru addresses this gap by using large language models (LLMs) to extract developer intent from NL artifacts and synthesize patch oracles as executable runtime assertions that compare pre- and post-patch program behavior. An iterative self-review mechanism identifies violated assertions and filters inconsistencies, progressively refining the generated specifications. Evaluated on 400 recent pull requests from four open-source Python projects, PatchGuru detects 24 confirmed bugs — including 12 previously unknown issues subsequently fixed by developers — at a precision of 0.62, significantly outperforming the prior state-of-the-art (Testora: 0.32 precision, 7 bugs detected). Each analysis costs approximately $0.07 and completes in under 9 minutes.",
+  "contributions": [
+    "A novel approach to patch oracle inference that leverages natural language artifacts (issue reports, commit messages, pull request descriptions) to extract developer intent using LLMs.",
+    "An iterative self-review mechanism that synthesizes, executes, and refines patch oracles as runtime assertions comparing pre- and post-patch behavior.",
+    "Evaluation on 400 real-world pull requests from four open-source Python projects, detecting 24 confirmed bugs including 12 previously unknown issues.",
+    "Significant improvement over state-of-the-art: 0.62 precision vs. 0.32 for Testora, and 24 bugs detected vs. 7."
+  ],
+  "results": [
+    "24 confirmed bugs detected across 400 pull requests from 4 open-source Python projects",
+    "12 previously unknown bugs, subsequently fixed by developers",
+    "0.62 precision — nearly 2× improvement over prior state-of-the-art (Testora: 0.32)",
+    "Average cost: ~$0.07 per pull request, ~8.9 minutes per analysis"
+  ],
+  "links": {
+    "arxiv": "https://arxiv.org/abs/2602.05270",
+    "code": "https://github.com/thanhlecongg/PatchGuru"
+  },
+  "bibtex": "@article{lecong2026patchguru,\n  title     = {PatchGuru: Patch Oracle Inference from Natural Language Artifacts with Large Language Models},\n  author    = {Le-Cong, Thanh and Le, Bach and Murray, Toby and Pradel, Michael and Cadar, Cristian},\n  journal   = {arXiv preprint arXiv:2602.05270},\n  year      = {2026}\n}",
+  "tags": ["program repair", "LLM", "patch correctness", "software testing", "automated reasoning"]
+}

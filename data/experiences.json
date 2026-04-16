@@ -5,7 +5,7 @@
     "role": "Graduate Researcher",
     "period": "Feb 2023 – Feb 2026",
     "location": "Melbourne, Australia",
-    "type": "graduate",
+    "type": "full-time",
     "supervisors": ["Prof. Toby Murray", "Dr. Bach Le"],
     "highlights": [
       "Conducted empirical studies and developed novel approaches for enhancing reliability of LLMs in Program Repair and Code Generation.",
@@ -24,8 +24,8 @@
       "Prof. Michael Pradel (CISPA)"
     ],
     "highlights": [
-      "Working on specification inference with LLMs from natural language artifacts.",
-      "Our approach detected 6 previously unknown bugs in two widely-used Python libraries (Pandas and Scipy)."
+      "Worked on specification inference with LLMs from natural language artifacts.",
+      "Our approach detected 24 confirmed bugs (including 12 previously unknown bugs) in four widely-used Python libraries."
     ]
   },
   {
@@ -34,7 +34,7 @@
     "role": "Applied Scientist II (Internship)",
     "period": "June 2024 – Sep 2024",
     "location": "Virginia, US",
-    "type": "internship",
+    "type": "visiting",
     "supervisors": [
       "Dr. Brandon Paulsen",
       "Dr. Joey Dodds",
@@ -52,12 +52,25 @@
     "role": "Research Engineer",
     "period": "Jan 2022 – Jan 2023",
     "location": "Singapore",
-    "type": "employment",
+    "type": "full-time",
     "supervisors": ["Prof. David Lo"],
     "highlights": [
       "Developed AI-enabled techniques for managing vulnerabilities in third-party software.",
       "Collaborated with industry partners on deploying research papers in practice.",
       "Published research papers at top-tier venues including FSE and ICSE."
+    ]
+  },
+  {
+    "id": "hust-mentor",
+    "organization": "Hanoi University of Science and Technology",
+    "role": "Research Mentor / Lead at AI4Code Lab",
+    "period": "Aug 2021 – Present",
+    "location": "Remote (Part-time)",
+    "type": "part-time",
+    "highlights": [
+      "Co-founded the AI4Code Lab with Prof. Quyet Thang Huynh; mentor to 5+ undergraduate research students annually.",
+      "Designed a training program and organized a weekly seminar series for undergraduate students.",
+      "Mentees have received full PhD scholarships from SMU, NCSU, University of Melbourne, and University of Sydney."
     ]
   },
   {

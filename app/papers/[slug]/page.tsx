@@ -70,6 +70,25 @@ export default async function PaperPage({ params }: Props) {
         </ul>
       </section>
 
+      {/* Approach figure */}
+      {paper.approachFigure && (
+        <section>
+          <h2 className="text-lg font-semibold text-foreground mb-4">Approach</h2>
+          <figure className="border border-border rounded-lg overflow-hidden bg-card p-4">
+            <img
+              src={paper.approachFigure.src}
+              alt={paper.approachFigure.alt}
+              className="w-full h-auto"
+            />
+            {paper.approachFigure.caption && (
+              <figcaption className="mt-3 text-xs text-muted-foreground leading-relaxed text-center">
+                {paper.approachFigure.caption}
+              </figcaption>
+            )}
+          </figure>
+        </section>
+      )}
+
       {/* Key results */}
       {paper.results && paper.results.length > 0 && (
         <section>

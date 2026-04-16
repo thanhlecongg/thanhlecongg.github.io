@@ -26,5 +26,10 @@
     "code": "https://github.com/thanhlecongg/PatchGuru"
   },
   "bibtex": "@article{lecong2026patchguru,\n  title     = {PatchGuru: Patch Oracle Inference from Natural Language Artifacts with Large Language Models},\n  author    = {Le-Cong, Thanh and Le, Bach and Murray, Toby and Pradel, Michael and Cadar, Cristian},\n  journal   = {arXiv preprint arXiv:2602.05270},\n  year      = {2026}\n}",
-  "tags": ["program repair", "LLM", "patch correctness", "software testing", "automated reasoning"]
+  "tags": ["program repair", "LLM", "patch correctness", "software testing", "automated reasoning"],
+  "approachFigure": {
+    "src": "/images/patchguru-architecture.svg",
+    "alt": "PatchGuru architecture diagram showing the three-phase workflow: Oracle Inference, Oracle Enhancement, and Self-Review",
+    "caption": "Figure 1. Overview of PatchGuru's workflow. A pull request feeds into Phase 1 (Oracle Inference), which synthesizes an executable patch oracle. The oracle is executed against pre/post-patch program states. Violations trigger Phase 3 (Self-Review) to confirm true bugs; clean executions enter Phase 2 (Oracle Enhancement) to generalize assertions and explore edge cases before re-execution."
+  }
 }

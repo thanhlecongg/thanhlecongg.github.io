@@ -4,26 +4,22 @@
     {
       "id": "trustworthy-llm-code",
       "title": "Trustworthy LLMs for Code",
-      "description": "Evaluating and improving the reliability, security, and correctness of large language models used for code synthesis and analysis.",
-      "keywords": ["LLMs", "code generation", "membership inference", "evaluation"]
+      "description": "Evaluating and improving the reliability, security, and correctness of large language models used for code synthesis and analysis."
     },
     {
-      "id": "automated-program-repair",
-      "title": "Automated Program Repair",
-      "description": "Developing AI-driven techniques for automated bug detection and repair, including patch correctness assessment and fault localization.",
-      "keywords": ["program repair", "patch correctness", "fault localization"]
+      "id": "automated-debugging",
+      "title": "Automated Debugging",
+      "description": "Developing AI-driven techniques for automated bug detection and repair"
     },
     {
       "id": "software-security",
       "title": "Software Security",
-      "description": "Analyzing vulnerabilities in modern software systems, including vulnerability-fixing commit classification and security testing.",
-      "keywords": ["vulnerability detection", "security testing", "backdoor detection"]
+      "description": "Analyzing vulnerabilities in modern software systems, including vulnerability-fixing commit classification and security testing."
     },
     {
       "id": "se-for-ai",
       "title": "Software Engineering for AI",
-      "description": "Applying software engineering principles to improve AI systems — testing, debugging, and formal verification of ML models.",
-      "keywords": ["formal specification", "ML testing", "robustness evaluation"]
+      "description": "Applying software engineering principles to improve AI systems — testing, debugging, and formal verification of ML models."
     }
   ],
   "projects": []

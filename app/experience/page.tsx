@@ -64,7 +64,7 @@ export default function ExperiencePage() {
 
       {/* Research & Industry */}
       <section>
-        <h2 className="text-xl font-semibold text-foreground mb-5">Research & Industry</h2>
+        <h2 className="text-xl font-semibold text-foreground mb-5">Research Experiences</h2>
         <div className="space-y-5">
           {experiences.map((exp) => (
             <ExperienceCard key={exp.id} exp={exp} />

@@ -1,24 +1,21 @@
 import type { ResearchExperience } from "@/lib/types";
 
 const TYPE_BADGE: Record<ResearchExperience["type"], string> = {
-  graduate:   "bg-emerald-50 text-emerald-700 border border-emerald-200 dark:bg-emerald-950 dark:text-emerald-300 dark:border-emerald-800",
-  visiting:   "bg-violet-50 text-violet-700 border border-violet-200 dark:bg-violet-950 dark:text-violet-300 dark:border-violet-800",
-  internship: "bg-blue-50 text-blue-700 border border-blue-200 dark:bg-blue-950 dark:text-blue-300 dark:border-blue-800",
-  employment: "bg-teal-50 text-teal-700 border border-teal-200 dark:bg-teal-950 dark:text-teal-300 dark:border-teal-800",
+  "full-time": "bg-emerald-50 text-emerald-700 border border-emerald-200 dark:bg-emerald-950 dark:text-emerald-300 dark:border-emerald-800",
+  "part-time": "bg-orange-50 text-orange-700 border border-orange-200 dark:bg-orange-950 dark:text-orange-300 dark:border-orange-800",
+  visiting:    "bg-violet-50 text-violet-700 border border-violet-200 dark:bg-violet-950 dark:text-violet-300 dark:border-violet-800",
 };
 
 const TYPE_LABEL: Record<ResearchExperience["type"], string> = {
-  graduate:   "Graduate",
-  visiting:   "Visiting",
-  internship: "Internship",
-  employment: "Full-time",
+  "full-time": "Full-time",
+  "part-time": "Part-time",
+  visiting:    "Visiting",
 };
 
 const ACCENT: Record<ResearchExperience["type"], string> = {
-  graduate:   "border-l-emerald-400",
-  visiting:   "border-l-violet-400",
-  internship: "border-l-blue-400",
-  employment: "border-l-teal-400",
+  "full-time": "border-l-emerald-400",
+  "part-time": "border-l-orange-400",
+  visiting:    "border-l-violet-400",
 };
 
 export function ExperienceCard({ exp }: { exp: ResearchExperience }) {

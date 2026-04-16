@@ -43,6 +43,8 @@ export interface PaperDetail {
   };
   bibtex: string;
   tags: string[];
+  /** Optional path (relative to /public) for an approach/architecture figure */
+  approachFigure?: { src: string; alt: string; caption?: string };
 }
 
 export interface TeamMember {
@@ -99,7 +101,7 @@ export interface ResearchArea {
   id: string;
   title: string;
   description: string;
-  keywords: string[];
+  keywords?: string[];
 }
 
 export interface Project {
@@ -146,7 +148,7 @@ export interface ResearchExperience {
   role: string;
   period: string;
   location: string;
-  type: "internship" | "visiting" | "employment" | "graduate";
+  type: "full-time" | "part-time" | "visiting";
   supervisors?: string[];
   highlights: string[];
 }

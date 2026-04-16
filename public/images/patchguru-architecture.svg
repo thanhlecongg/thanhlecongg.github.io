@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 510" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#64748b"/>
+    </marker>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#ef4444"/>
+    </marker>
+  </defs>
+
+  <!-- ─── Background ─── -->
+  <rect width="980" height="510" fill="#ffffff" rx="12"/>
+
+  <!-- ══════════════════════════════════════════════
+       PHASE 1: Oracle Inference  (dashed blue group)
+  ══════════════════════════════════════════════ -->
+  <rect x="130" y="55" width="215" height="275" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="6 3"/>
+  <text x="237" y="350" text-anchor="middle" font-size="10.5" fill="#2563eb" font-weight="700" letter-spacing="0.3">Phase 1: Oracle Inference</text>
+
+  <!-- Gather NL Artifacts -->
+  <rect x="148" y="78" width="180" height="38" rx="5" fill="#ffffff" stroke="#93c5fd" stroke-width="1.2"/>
+  <text x="238" y="101" text-anchor="middle" font-size="11.5" fill="#1e40af" font-weight="500">Gather NL Artifacts</text>
+
+  <!-- Extract Function Context -->
+  <rect x="148" y="148" width="180" height="38" rx="5" fill="#ffffff" stroke="#93c5fd" stroke-width="1.2"/>
+  <text x="238" y="171" text-anchor="middle" font-size="11.5" fill="#1e40af" font-weight="500">Extract Function Context</text>
+
+  <!-- Synthesize Patch Oracle -->
+  <rect x="148" y="218" width="180" height="38" rx="5" fill="#ffffff" stroke="#93c5fd" stroke-width="1.2"/>
+  <text x="238" y="241" text-anchor="middle" font-size="11.5" fill="#1e40af" font-weight="500">Synthesize Patch Oracle</text>
+
+  <!-- Arrows inside Phase 1 (vertical) -->
+  <line x1="238" y1="116" x2="238" y2="148" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr)"/>
+  <line x1="238" y1="186" x2="238" y2="218" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr)"/>
+
+  <!-- ─── Pull Request input ─── -->
+  <rect x="18" y="78" width="100" height="38" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="68" y="95" text-anchor="middle" font-size="11" fill="#334155" font-weight="600">Pull Request</text>
+  <text x="68" y="109" text-anchor="middle" font-size="10" fill="#64748b">(𝒞, 𝒟)</text>
+
+  <!-- Arrow PR → Gather NL -->
+  <line x1="118" y1="97" x2="148" y2="97" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr)"/>
+
+  <!-- ─── Arrow Phase1 → Execute (elbow) ─── -->
+  <!-- from Synthesize right (328,237) → elbow → Execute left (390,182) -->
+  <polyline points="328,237 365,237 365,182 390,182" fill="none" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr)"/>
+  <text x="345" y="229" font-size="10" fill="#64748b">𝒪</text>
+
+  <!-- ══════════════════════════════════════════════
+       EXECUTE COMPARISON PROGRAM (amber)
+  ══════════════════════════════════════════════ -->
+  <rect x="390" y="157" width="183" height="55" rx="6" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="481" y="179" text-anchor="middle" font-size="11.5" fill="#78350f" font-weight="600">Execute Comparison</text>
+  <text x="481" y="196" text-anchor="middle" font-size="11.5" fill="#78350f" font-weight="600">Program</text>
+
+  <!-- Error Repair (dashed, below Execute) -->
+  <rect x="405" y="240" width="152" height="34" rx="5" fill="#f8fafc" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 2"/>
+  <text x="481" y="261" text-anchor="middle" font-size="10.5" fill="#64748b">Error Repair</text>
+
+  <!-- Double arrows between Execute and Error Repair -->
+  <line x1="459" y1="212" x2="459" y2="240" stroke="#94a3b8" stroke-width="1.2" marker-end="url(#arr)"/>
+  <line x1="503" y1="240" x2="503" y2="212" stroke="#94a3b8" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- ─── Execution Status diamond ─── -->
+  <!-- Execute right (573,184) → diamond left -->
+  <line x1="573" y1="184" x2="608" y2="184" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr)"/>
+  <polygon points="636,157 668,184 636,211 604,184" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1.5"/>
+  <text x="636" y="180" text-anchor="middle" font-size="9.5" fill="#0c4a6e">Execution</text>
+  <text x="636" y="193" text-anchor="middle" font-size="9.5" fill="#0c4a6e">Status?</text>
+
+  <!-- ══════════════════════════════════════════════
+       PHASE 3: Self-Review  (dashed violet group)
+       VIOLATION path goes UP then RIGHT into this group
+  ══════════════════════════════════════════════ -->
+  <!-- VIOLATION arrow: diamond top → up → right → LLM Self-Review top -->
+  <polyline points="636,157 636,72 800,72 800,82" fill="none" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr)"/>
+  <text x="714" y="65" text-anchor="middle" font-size="10" fill="#64748b">VIOLATION</text>
+
+  <rect x="695" y="55" width="240" height="240" rx="8" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="6 3"/>
+  <text x="815" y="313" text-anchor="middle" font-size="10.5" fill="#7c3aed" font-weight="700" letter-spacing="0.3">Phase 3: Self-Review</text>
+
+  <!-- LLM Self-Review -->
+  <rect x="715" y="82" width="200" height="38" rx="5" fill="#ffffff" stroke="#c4b5fd" stroke-width="1.2"/>
+  <text x="815" y="105" text-anchor="middle" font-size="11.5" fill="#4c1d95" font-weight="500">LLM-based Self-Review</text>
+
+  <!-- Arrow LLM-SR → True Positive diamond -->
+  <line x1="815" y1="120" x2="815" y2="150" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr)"/>
+
+  <!-- True Positive? diamond -->
+  <polygon points="815,150 847,178 815,206 783,178" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.3"/>
+  <text x="815" y="173" text-anchor="middle" font-size="9.5" fill="#4c1d95">True</text>
+  <text x="815" y="186" text-anchor="middle" font-size="9.5" fill="#4c1d95">Positive?</text>
+
+  <!-- YES → Bug Report (arrow down from diamond bottom) -->
+  <line x1="815" y1="206" x2="815" y2="225" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr)"/>
+  <text x="826" y="220" font-size="10" fill="#64748b">Yes</text>
+
+  <!-- Bug Report box -->
+  <rect x="715" y="225" width="200" height="38" rx="5" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="815" y="248" text-anchor="middle" font-size="11.5" fill="#991b1b" font-weight="600">Bug Report</text>
+
+  <!-- NO (Enhance Oracle) → loop back to Execute
+       From True Pos diamond left (783,178) → left → down → up into Execute top-left -->
+  <polyline points="783,178 670,178 670,310 375,310 375,157 390,157" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#arr)"/>
+  <text x="726" y="172" font-size="10" fill="#64748b">No (enhance)</text>
+
+  <!-- ══════════════════════════════════════════════
+       NO_VIOLATION path  →  Phase 2: Oracle Enhancement
+  ══════════════════════════════════════════════ -->
+  <!-- Arrow from Exec Status bottom (636,211) → down → left → into Phase 2 -->
+  <polyline points="636,211 636,330 250,330 250,355" fill="none" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr)"/>
+  <text x="580" y="323" font-size="10" fill="#64748b">NO_VIOLATION</text>
+
+  <rect x="130" y="355" width="525" height="128" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="6 3"/>
+  <text x="393" y="497" text-anchor="middle" font-size="10.5" fill="#15803d" font-weight="700" letter-spacing="0.3">Phase 2: Oracle Enhancement</text>
+
+  <!-- Generalize Assertions -->
+  <rect x="148" y="375" width="185" height="38" rx="5" fill="#ffffff" stroke="#86efac" stroke-width="1.2"/>
+  <text x="240" y="398" text-anchor="middle" font-size="11.5" fill="#14532d" font-weight="500">Generalize Assertions</text>
+
+  <!-- Arrow Generalize → Explore -->
+  <line x1="333" y1="394" x2="353" y2="394" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr)"/>
+
+  <!-- Explore Edge Cases -->
+  <rect x="353" y="375" width="185" height="38" rx="5" fill="#ffffff" stroke="#86efac" stroke-width="1.2"/>
+  <text x="446" y="398" text-anchor="middle" font-size="11.5" fill="#14532d" font-weight="500">Explore Edge Cases</text>
+
+  <!-- Arrow Explore → Iter Limit diamond -->
+  <line x1="538" y1="394" x2="573" y2="394" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr)"/>
+
+  <!-- Iteration Limit? diamond (inside Phase 2, right side) -->
+  <polygon points="605,370 637,394 605,418 573,394" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.3"/>
+  <text x="605" y="389" text-anchor="middle" font-size="9" fill="#14532d">Iteration</text>
+  <text x="605" y="402" text-anchor="middle" font-size="9" fill="#14532d">Limit?</text>
+
+  <!-- YES → Validation Report (right from diamond) -->
+  <line x1="637" y1="394" x2="680" y2="394" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr)"/>
+  <text x="658" y="388" font-size="10" fill="#64748b">Yes</text>
+
+  <!-- Validation Report ℛ -->
+  <rect x="680" y="375" width="185" height="38" rx="5" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+  <text x="772" y="398" text-anchor="middle" font-size="11.5" fill="#14532d" font-weight="600">Validation Report ℛ</text>
+
+  <!-- NO → loop back to Execute top-left
+       From Iter Limit bottom (605,418) → down → left → up into Execute -->
+  <polyline points="605,418 605,470 375,470 375,157 390,157" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#arr)"/>
+  <text x="490" y="464" font-size="10" fill="#64748b">No (re-execute)</text>
+
+  <!-- ─── Figure caption ─── -->
+  <text x="490" y="503" text-anchor="middle" font-size="10.5" fill="#94a3b8">Figure 1. Overview of PatchGuru's workflow.</text>
+</svg>

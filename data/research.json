@@ -1,26 +1,77 @@
 {
-  "statement": "Our research focuses on trustworthy automated programming — building reliable and secure software systems through AI. We work at the intersection of software engineering and artificial intelligence, combining formal reasoning with modern machine learning techniques to make software development safer and more productive.",
+  "statement": "Our research focuses on trustworthy automated programming for building reliable and secure software systems. We work at the intersection of software engineering and artificial intelligence, combining symbolic reasoning with modern machine learning techniques to make software development safer and more productive.",
   "areas": [
     {
       "id": "trustworthy-llm-code",
       "title": "Trustworthy LLMs for Code",
-      "description": "Evaluating and improving the reliability, security, and correctness of large language models used for code synthesis and analysis."
+      "description": "Evaluating and improving the reliability, security, and correctness of large language models used for code synthesis and analysis.",
+      "relatedPapers": [
+        "2025-llm-formal-spec-inference",
+        "2026-functional-programming-llm-eval",
+        "2024-chatgpt-code-quality"
+      ]
     },
     {
       "id": "automated-debugging",
       "title": "Automated Debugging",
-      "description": "Developing AI-driven techniques for automated bug detection and repair"
+      "description": "Developing AI-driven techniques for automated bug detection and repair, enabling systems to identify errors, analyze their causes, and generate fixes with minimal human intervention.",
+      "relatedPapers": [
+        "2026-memory-efficient-llm-repair",
+        "2026-patchguru-patch-oracle",
+        "2023-invalidator-patch-correctness"
+      ]
     },
     {
       "id": "software-security",
       "title": "Software Security",
-      "description": "Analyzing vulnerabilities in modern software systems, including vulnerability-fixing commit classification and security testing."
+      "description": "Analyzing vulnerabilities in modern software systems, including vulnerability-fixing commit classification and security testing.",
+      "relatedPapers": [
+        "2023-midas-vulnerability-commit",
+        "2023-chronos-library-identification",
+        "2025-jit-vulnerability-prediction-eval"
+      ]
     },
     {
-      "id": "se-for-ai",
-      "title": "Software Engineering for AI",
-      "description": "Applying software engineering principles to improve AI systems — testing, debugging, and formal verification of ML models."
+      "id": "ai-security",
+      "title": "AI Security",
+      "description": "Investigating security risks in AI systems, e.g., backdoor detection, adversarial robustness, and membership inference attacks.",
+      "relatedPapers": [
+        "2025-code-backdoor-detection",
+        "2026-membership-inference-llm-code",
+        "2022-analysis-graph-neural-networks"
+      ]
     }
   ],
-  "projects": []
+  "projects": [
+    {
+      "id": "flames",
+      "title": "FLAMES — Memory-Efficient LLM Program Repair",
+      "description": "Semantic-guided patch generation with memory-efficient large language models. Reduces GPU memory footprint while maintaining repair quality on standard benchmarks.",
+      "status": "active",
+      "links": {
+        "github": "https://github.com/thanhlecongg/FLAMES",
+        "paper": "https://arxiv.org/pdf/2410.16655"
+      }
+    },
+    {
+      "id": "patchguru",
+      "title": "PatchGuru — Patch Oracle Inference",
+      "description": "Infers patch correctness oracles from natural language artifacts (issue reports, commit messages) using LLMs, enabling automated patch validation without formal specs.",
+      "status": "active",
+      "links": {
+        "github": "https://github.com/thanhlecongg/PatchGuru",
+        "paper": "https://arxiv.org/pdf/2602.05270"
+      }
+    },
+    {
+      "id": "formalbench",
+      "title": "FormalBench — LLM Formal Specification Inference",
+      "description": "Comprehensive benchmark and evaluation framework for assessing LLMs' ability to reason about program semantics and infer formal specifications.",
+      "status": "active",
+      "links": {
+        "github": "https://github.com/thanhlecongg/FormalBench",
+        "paper": "https://aclanthology.org/2025.acl-long.1068.pdf"
+      }
+    }
+  ]
 }

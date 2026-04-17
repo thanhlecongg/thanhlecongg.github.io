@@ -1,5 +1,17 @@
 [
   {
+    "id": "sutd-assistant-professor",
+    "organization": "Singapore University of Technology and Design (SUTD)",
+    "role": "Assistant Professor",
+    "period": "May 2026 – Present",
+    "location": "Singapore",
+    "type": "full-time",
+    "highlights": [
+      "Tenure-track Assistant Professor at the ISTD Pillar.",
+      "Leading research group on trustworthy automated programming, focusing on reliable and secure software development with LLMs."
+    ]
+  },
+  {
     "id": "unimelb-grad-researcher",
     "organization": "University of Melbourne",
     "role": "Graduate Researcher",

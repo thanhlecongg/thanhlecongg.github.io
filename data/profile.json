@@ -1,17 +1,17 @@
 {
   "name": "Thanh Le-Cong",
-  "title": "Incoming Assistant Professor",
+  "title": "Assistant Professor",
   "department": "Information Systems Technology and Design (ISTD)",
   "university": "Singapore University of Technology and Design (SUTD)",
   "email": "thanhlc@ieee.org",
   "officeLocation": "",
-  "bio": "I am an (incoming) tenure-track Assistant Professor at the ISTD Pillar, Singapore University of Technology and Design (SUTD). I am currently completing my Ph.D. at the University of Melbourne, advised by Dr. Bach Le and Prof. Toby Murray. I was one of two recipients of the Google PhD Fellowship in Software Engineering and Programming Technology in 2023. My research focuses on trustworthy automated programming — building reliable and secure software systems through AI. I work on two main tracks: (1) evaluating and enhancing the trustworthiness of AI-based code synthesis and analysis, with a focus on large language models, and (2) creating AI-driven automated software debugging approaches emphasising bug/vulnerability detection and repair. My work has published at premier software engineering venues including ICSE, FSE, ASE, TOSEM, TSE, and ACL.",
+  "bio": "I am a tenure-track Assistant Professor at the ISTD Pillar, Singapore University of Technology and Design (SUTD). I am currently completing my Ph.D. at the University of Melbourne, advised by Dr. Bach Le and Prof. Toby Murray. I was one of two recipients of the Google PhD Fellowship in Software Engineering and Programming Technology in 2023. My research focuses on trustworthy automated programming for building reliable and secure software systems. I work on two main tracks: (1) evaluating and enhancing the trustworthiness of AI-enabled software development and (2) developing AI-driven automated software debugging approaches, focusing vulnerability detection and repair. My work has published at premier software engineering, e.g., ICSE, FSE, TOSEM, TSE, and natural language processing venues, e.g., ACL.",
   "researchInterests": [
     "Trustworthy AI for Software Engineering",
     "Large Language Models for Code",
     "Automated Program Repair",
     "Software Testing & Analysis",
-    "Security"
+    "Software Security"
   ],
   "socialLinks": {
     "googleScholar": "https://scholar.google.com/citations?user=iaQgZHYAAAAJ&hl=en",

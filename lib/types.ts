@@ -52,12 +52,18 @@ export interface TeamMember {
   name: string;
   /** Current role in the research group */
   role: "phd" | "postdoc" | "masters" | "undergrad" | "alumni" | "collaborator";
+  /** Which group this member belongs to */
+  category: "sutd-member" | "hust-mentee" | "alumni";
   photo?: string;
   website?: string;
   email?: string;
   joined?: number; // year
   graduated?: number; // year (alumni only)
+  /** Where the alumni is now, e.g. "PhD Student, University of Sydney" */
+  currentPosition?: string;
   research?: string; // short research description
+  /** Publication IDs (from publications.json) co-authored with this member */
+  papers?: string[];
 }
 
 export interface Course {
@@ -102,6 +108,8 @@ export interface ResearchArea {
   title: string;
   description: string;
   keywords?: string[];
+  /** Publication IDs from publications.json to show as linked papers under this area */
+  relatedPapers?: string[];
 }
 
 export interface Project {

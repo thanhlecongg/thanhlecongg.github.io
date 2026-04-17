@@ -10,10 +10,12 @@ import teachingRolesData from "@/data/teaching-roles.json";
 import experiencesData from "@/data/experiences.json";
 import educationData from "@/data/education.json";
 import patchguruData from "@/data/papers/patchguru.json";
+import fpevalData from "@/data/papers/fpeval.json";
 
 /** Registry of all paper project pages — add new entries here as papers get pages */
 const PAPERS: Record<string, PaperDetail> = {
   patchguru: patchguruData as PaperDetail,
+  fpeval: fpevalData as PaperDetail,
 };
 
 export function getProfile(): Profile {

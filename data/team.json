@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "id": "nguyet-anh-lang",
+    "name": "Nguyet-Anh H. Lang",
+    "role": "undergrad",
+    "category": "hust-mentee",
+    "research": "Trustworthy LLMs for Code",
+    "joined": 2024,
+    "papers": ["2026-functional-programming-llm-eval"]
+  },
+  {
+    "id": "phong-au",
+    "name": "Trung-Phong Au",
+    "role": "undergrad",
+    "category": "hust-mentee",
+    "research": "Software Security",
+    "joined": 2024,
+    "papers": []
+  },
+  {
+    "id": "duy-phong",
+    "name": "Duy-Phong Trinh",
+    "role": "undergrad",
+    "category": "hust-mentee",
+    "research": "Software Security",
+    "joined": 2024,
+    "papers": []
+  },
+  {
+    "id": "duong-nguyen",
+    "name": "Duong Nguyen",
+    "role": "alumni",
+    "category": "alumni",
+    "research": "Software Security",
+    "papers": ["2025-jit-vulnerability-prediction-eval", "2025-vulguard-tool"]
+  },
+  {
+    "id": "anh-ho",
+    "name": "Anh Ho",
+    "role": "alumni",
+    "category": "alumni",
+    "research": "Automated Debugging",
+    "currentPosition": "PhD Student, University of Melbourne",
+    "papers": ["2025-regression-repair-llm"]
+  },
+  {
+    "id": "yen-trang-dang",
+    "name": "Yen-Trang Dang",
+    "role": "alumni",
+    "category": "alumni",
+    "research": "Software Security",
+    "currentPosition": "PhD Student, University of Sydney",
+    "papers": ["2024-legion-github-topic"]
+  },
+  {
+    "id": "duc-manh-tran",
+    "name": "Duc-Manh Tran",
+    "role": "alumni",
+    "category": "alumni",
+    "research": "Software Security",
+    "currentPosition": "PhD Student, University of Sydney",
+    "papers": ["2025-vulguard-tool", "2025-nvd-vfc-mapping-exploratory", "2024-sast-llm-vulnerability"]
+  },
+  {
+    "id": "huu-hung-nguyen",
+    "name": "Huu-Hung Nguyen",
+    "role": "alumni",
+    "category": "alumni",
+    "research": "Software Security",
+    "currentPosition": "PhD Student, Singapore Management University",
+    "papers": ["2025-patchseeker-nvd-mapping", "2025-nvd-vfc-mapping-exploratory"]
+  },
+  {
+    "id": "quoc-hung-le",
+    "name": "Quoc-Hung Le",
+    "role": "alumni",
+    "category": "alumni",
+    "research": "AI Security",
+    "currentPosition": "PhD Student, North Carolina State University",
+    "papers": ["2025-code-backdoor-detection"]
+  },
+  {
+    "id": "duc-minh-luong",
+    "name": "Duc-Minh Luong",
+    "role": "alumni",
+    "category": "alumni",
+    "research": "Automated Debugging",
+    "papers": ["2023-invalidator-patch-correctness", "2022-ffl-fault-localization"]
+  }
+]

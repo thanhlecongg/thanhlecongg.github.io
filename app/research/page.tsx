@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { SectionHeader } from "@/components/ui/section-header";
-import { Badge } from "@/components/ui/badge";
-import { getResearchData } from "@/lib/data-loaders";
+import { ResearchAreaCard } from "@/components/research/research-area-card";
+import { getResearchData, getPublications } from "@/lib/data-loaders";
+import type { Publication } from "@/lib/types";
 
 export const metadata: Metadata = { title: "Research" };
 
@@ -36,6 +37,11 @@ const AREA_COLORS = [
 export default function ResearchPage() {
   const { statement, areas, projects } = getResearchData();
 
+  /** Build ID → Publication lookup for resolving relatedPapers in area cards */
+  const pubMap = new Map<string, Publication>(
+    getPublications().map((p) => [p.id, p])
+  );
+
   return (
     <div>
       <SectionHeader title="Research" />
@@ -54,35 +60,14 @@ export default function ResearchPage() {
         Research Areas
       </h2>
       <div className="grid sm:grid-cols-2 gap-4 mb-12">
-        {areas.map((area, idx) => {
-          const colors = AREA_COLORS[idx % AREA_COLORS.length];
-          return (
-            <div
-              key={area.id}
-              className={`border border-border border-l-4 rounded-lg p-5
-                          transition-all duration-200 shadow-sm
-                          ${colors.border} ${colors.bg} ${colors.hover}`}
-            >
-              <h3 className="font-semibold text-foreground mb-1">{area.title}</h3>
-              <p className="text-sm text-muted-foreground mb-3">
-                {area.description}
-              </p>
-              {area.keywords && area.keywords.length > 0 && (
-                <div className="flex flex-wrap gap-1">
-                  {area.keywords.map((kw) => (
-                    <Badge
-                      key={kw}
-                      variant="outline"
-                      className={`text-xs border ${colors.badge}`}
-                    >
-                      {kw}
-                    </Badge>
-                  ))}
-                </div>
-              )}
-            </div>
-          );
-        })}
+        {areas.map((area, idx) => (
+          <ResearchAreaCard
+            key={area.id}
+            area={area}
+            colors={AREA_COLORS[idx % AREA_COLORS.length]}
+            pubMap={pubMap}
+          />
+        ))}
       </div>
 
       {/* Active projects — only rendered when data exists */}

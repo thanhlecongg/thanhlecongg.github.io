@@ -13,7 +13,11 @@ import {
 } from "lucide-react";
 import NextLink from "next/link";
 import { BibTexDialog } from "./bibtex-dialog";
+import { getBibtex } from "@/lib/bibtex-utils";
 import type { Publication } from "@/lib/types";
+import teamData from "@/data/team.json";
+
+const STUDENT_NAMES = new Set(teamData.map((m) => m.name));
 
 interface PublicationCardProps {
   publication: Publication;
@@ -35,7 +39,7 @@ const CARD_ACCENT: Record<string, string> = {
   preprint:   "border-l-muted-foreground/30",
 };
 
-/** Author list — site owner rendered in primary color + semibold */
+/** Author list — site owner in primary color, students underlined */
 function AuthorList({ authors }: { authors: string[] }) {
   return (
     <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
@@ -43,6 +47,8 @@ function AuthorList({ authors }: { authors: string[] }) {
         <span key={i}>
           {author === "Thanh Le-Cong" ? (
             <strong className="font-semibold text-primary">{author}</strong>
+          ) : STUDENT_NAMES.has(author) ? (
+            <span className="underline underline-offset-2 decoration-muted-foreground/60">{author}</span>
           ) : (
             author
           )}
@@ -122,7 +128,7 @@ export function PublicationCard({ publication: p }: PublicationCardProps) {
               : <><ChevronDown className="w-3 h-3" /> Abstract</>}
           </button>
         )}
-        {p.bibtex && <BibTexDialog bibtex={p.bibtex} />}
+        <BibTexDialog bibtex={getBibtex(p)} />
         {p.links.projectPage && (
           <NextLink href={p.links.projectPage}
             className={`${primaryChip} border border-primary/20`}>

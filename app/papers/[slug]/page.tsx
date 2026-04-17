@@ -3,8 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { getPaperBySlug, getPaperSlugs } from "@/lib/data-loaders";
+import { normalizeBibtex } from "@/lib/bibtex-utils";
 import { PaperHero } from "@/components/papers/paper-hero";
 import { PaperLinks } from "@/components/papers/paper-links";
+import { BibtexBlock } from "@/components/publications/bibtex-block";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -106,14 +108,7 @@ export default async function PaperPage({ params }: Props) {
       {/* BibTeX */}
       <section>
         <h2 className="text-lg font-semibold text-foreground mb-3">Citation</h2>
-        <div className="bg-muted/50 border border-border rounded-lg overflow-hidden">
-          <div className="flex items-center justify-between px-4 py-2 border-b border-border text-xs text-muted-foreground font-medium">
-            BibTeX
-          </div>
-          <pre className="text-xs text-foreground/95 font-mono leading-relaxed p-4 overflow-x-auto whitespace-pre-wrap break-words">
-            {paper.bibtex}
-          </pre>
-        </div>
+        <BibtexBlock bibtex={normalizeBibtex(paper.bibtex)} />
       </section>
 
       {/* Tags */}

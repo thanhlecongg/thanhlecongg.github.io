@@ -2,6 +2,7 @@ import Image from "next/image";
 import { buttonVariants } from "@/components/ui/button";
 import { SocialLinks } from "@/components/about/social-links";
 import { NewsItem } from "@/components/about/news-item";
+import { RecruitmentNotice } from "@/components/group/recruitment-notice";
 import { getProfile } from "@/lib/data-loaders";
 
 /**
@@ -98,6 +99,11 @@ export default function HomePage() {
           {/* Social / academic profile links */}
           <SocialLinks links={profile.socialLinks} className="mt-4" />
         </div>
+      </section>
+
+      {/* Recruitment notice */}
+      <section>
+        <RecruitmentNotice />
       </section>
 
       {/* News feed */}

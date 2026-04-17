@@ -13,6 +13,10 @@ export default function PublicationsPage() {
         title="Publications"
         description={`${publications.length} publications`}
       />
+      <p className="text-xs text-muted-foreground mb-6">
+        <strong className="font-semibold text-primary">Bold</strong> = me &nbsp;·&nbsp;{" "}
+        <span className="underline underline-offset-2 decoration-muted-foreground/60">Underlined</span> = student / mentee
+      </p>
       <PublicationList publications={publications} />
     </div>
   );

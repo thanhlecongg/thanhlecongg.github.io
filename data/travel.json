@@ -1,0 +1,20 @@
+{
+  "visitedCountries": [
+    { "name": "Vietnam",       "id": "704", "label": "Born here. 0 successful escapes. Wife and daughter remain undefeated.",                        "photo": "/images/travel/vietnam.jpg" },
+    { "name": "Singapore",     "id": "702", "label": "Left once. Then, came back. Singapore knew I'd return."},
+    { "name": "Australia",     "id": "036", "label": "3 wonderful years, 1 PhD, many nice friends, 0 kangaroo attacks. Statistically impressive.",   "photo": "/images/travel/australia.jpg" },
+    { "name": "United States", "id": "840" },
+    { "name": "Japan",         "id": "392" },
+    { "name": "China",         "id": "156" },
+    { "name": "Taiwan",        "id": "158" },
+    { "name": "Thailand",      "id": "764" },
+    { "name": "Malaysia",      "id": "458" },
+    { "name": "Germany",       "id": "276" },
+    { "name": "France",        "id": "250" },
+    { "name": "Austria",       "id": "040" },
+    { "name": "Switzerland",   "id": "756" },
+    { "name": "Netherlands",   "id": "528" },
+    { "name": "Spain",         "id": "724" },
+    { "name": "Italy",         "id": "380" }
+  ]
+}

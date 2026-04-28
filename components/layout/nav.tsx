@@ -13,6 +13,7 @@ const navLinks = [
   { href: "/experience", label: "Experience" },
   { href: "/group", label: "Group" },
   { href: "/teaching", label: "Teaching" },
+  { href: "/travel", label: "Travel" },
 ];
 
 /** Returns true when the current pathname matches the nav link's route or any sub-route. */

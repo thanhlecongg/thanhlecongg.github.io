@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Crimson_Pro } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Nav from "@/components/layout/nav";
 import Footer from "@/components/layout/footer";
@@ -40,6 +41,11 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${crimsonPro.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <Script
+          src="https://cloud.umami.is/script.js"
+          data-website-id="4017db2e-d81f-48e3-a304-2d4fba9eded9"
+          strategy="afterInteractive"
+        />
         <ThemeProvider>
           <Nav />
           <main className="flex-1 max-w-4xl mx-auto w-full px-4 py-8 sm:px-6">

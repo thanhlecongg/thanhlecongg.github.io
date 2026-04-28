@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { buttonVariants } from "@/components/ui/button";
 import { SocialLinks } from "@/components/about/social-links";
-import { NewsItem } from "@/components/about/news-item";
+import { NewsList } from "@/components/about/news-list";
 import { RecruitmentNotice } from "@/components/group/recruitment-notice";
 import { getProfile } from "@/lib/data-loaders";
 
@@ -25,6 +25,7 @@ export default function HomePage() {
     <div className="space-y-10">
       {/* Hero: subtle blue→violet gradient bg — adds warmth without shouting */}
       <section className="flex flex-col sm:flex-row gap-8 items-start pt-6 pb-10 border-b border-border
+                          animate-in fade-in slide-in-from-bottom-4 duration-500
                           relative overflow-hidden rounded-xl
                           bg-gradient-to-br from-blue-50/70 via-violet-50/40 to-transparent
                           dark:from-blue-950/30 dark:via-violet-950/20 dark:to-transparent
@@ -37,7 +38,7 @@ export default function HomePage() {
 
         <Image
           src="/images/profile.jpg"
-          alt={profile.name}
+          alt={`Profile photo of ${profile.name}`}
           width={180}
           height={180}
           className="rounded-full border-4 border-white shadow-lg flex-shrink-0
@@ -102,23 +103,19 @@ export default function HomePage() {
       </section>
 
       {/* Recruitment notice */}
-      <section>
+      <section className="animate-in fade-in slide-in-from-bottom-4 duration-500 delay-150">
         <RecruitmentNotice />
       </section>
 
       {/* News feed */}
       {profile.news.length > 0 && (
-        <section>
+        <section className="animate-in fade-in slide-in-from-bottom-4 duration-500 delay-300">
           {/* Colored section accent — left border in indigo */}
           <h2 className="text-xl font-semibold text-foreground mb-4
                          pl-3 border-l-4 border-indigo-400 dark:border-indigo-500">
             News
           </h2>
-          <ul className="space-y-2">
-            {profile.news.map((item, i) => (
-              <NewsItem key={i} index={i} date={item.date} text={item.text} />
-            ))}
-          </ul>
+          <NewsList news={profile.news} />
         </section>
       )}
     </div>

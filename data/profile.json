@@ -22,11 +22,11 @@
     "orcid": ""
   },
   "news": [
-    { "date": "2026-02", "text": "Served as PC member for ICSE 2027." },
-    { "date": "2026-01", "text": "Gave an invited talk at Phenikaa University." },
-    { "date": "2025-12", "text": "Announced incoming appointment as Assistant Professor at SUTD." },
-    { "date": "2025-12", "text": "Paper accepted at ICSE 2026 on membership inference attacks on LLMs for code." },
-    { "date": "2025-11", "text": "Presented PhD completion seminar at University of Melbourne." },
-    { "date": "2025-11", "text": "Gave an invited talk at SUTD on Trustworthy Automatic Programming." }
+    { "date": "2026-04", "text": "Excited to share that I have graduated with my PhD from the University of Melbourne." },
+    { "date": "2026-02", "text": "Invited to serve on the PC of ICSE and FSE 2027." },
+    { "date": "2026-01", "text": "Glad to give an invited talk on Software Security at Phenikaa University." },
+    { "date": "2025-12", "text": "Happy to share that our papers on LLM-based program repair and membership inference attacks accepted at ICSE 2026." },
+    { "date": "2025-11", "text": "Excited to share that I have successfully presented my PhD completion seminar at the University of Melbourne." },
+    { "date": "2025-11", "text": "Glad to give an invited talk on Trustworthy Automatic Programming at SUTD." }
   ]
 }

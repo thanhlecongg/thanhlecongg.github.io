@@ -1,6 +1,6 @@
 {
   "visitedCountries": [
-    { "name": "Vietnam",       "id": "704", "label": "Born here. 0 successful escapes. Wife and daughter remain undefeated.",                        "photo": "/images/travel/vietnam.jpg" },
+    { "name": "Vietnam",       "id": "704", "label": "Born here. 0 successful escapes. My wife and daughter remain undefeated.",                        "photo": "/images/travel/vietnam.jpg" },
     { "name": "Singapore",     "id": "702", "label": "Left once. Then, came back. Singapore knew I'd return."},
     { "name": "Australia",     "id": "036", "label": "3 wonderful years, 1 PhD, many nice friends, 0 kangaroo attacks. Statistically impressive.",   "photo": "/images/travel/australia.jpg" },
     { "name": "United States", "id": "840" },

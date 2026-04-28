@@ -37,8 +37,8 @@ export default function Nav() {
           {profile.name}
         </Link>
 
-        {/* Desktop: nav links + theme toggle */}
-        <div className="hidden sm:flex items-center gap-1 flex-shrink-0">
+        {/* Desktop: nav links + theme toggle — md breakpoint prevents overflow with 7 items */}
+        <div className="hidden md:flex items-center gap-1 flex-shrink-0">
           <nav aria-label="Main navigation" className="flex gap-1">
             {navLinks.map(({ href, label }) => {
               const active = isActiveLink(href, pathname);
@@ -63,7 +63,7 @@ export default function Nav() {
         </div>
 
         {/* Mobile: theme toggle + hamburger button */}
-        <div className="flex sm:hidden items-center gap-2">
+        <div className="flex md:hidden items-center gap-2">
           <ThemeToggle />
           <button
             aria-label={menuOpen ? "Close menu" : "Open menu"}
@@ -93,7 +93,7 @@ export default function Nav() {
       {menuOpen && (
         <nav
           aria-label="Mobile navigation"
-          className="sm:hidden border-t border-border bg-background/95 backdrop-blur px-4 py-2 flex flex-col"
+          className="md:hidden border-t border-border bg-background/95 backdrop-blur px-4 py-2 flex flex-col"
         >
           {navLinks.map(({ href, label }) => {
             const active = isActiveLink(href, pathname);

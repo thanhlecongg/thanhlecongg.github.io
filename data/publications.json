@@ -1,5 +1,54 @@
 [
   {
+    "id": "2025-nvd-vfc-mapping-exploratory",
+    "title": "Mapping NVD Records to Their Vulnerability-fixing Commits: How Hard is It?",
+    "authors": [
+      "Huu-Hung Nguyen",
+      "Ting Zhang",
+      "Duc-Manh Tran",
+      "Yiran Cheng",
+      "Thanh Le-Cong",
+      "Hong Jin Kang",
+      "Ratnadira Widyasari",
+      "Shar Lwin Khin",
+      "Ouh Eng Lieh",
+      "David Lo"
+    ],
+    "year": 2026,
+    "venue": "TOSEM",
+    "venueType": "journal",
+    "links": {
+      "arxiv": "https://arxiv.org/pdf/2506.09702",
+      "code": "https://github.com/hungkien05/VFC-from-NVD-study"
+    },
+    "tags": [
+      "vulnerability",
+      "NVD"
+    ],
+    "bibtex": "@article{nguyen2025nvdvfc,\n  title={Mapping NVD Records to Their VFCs: How Hard is it?},\n  author={Nguyen, Huu Hung and Tran, Duc Manh and Cheng, Yiran and Le-Cong, Thanh and Kang, Hong Jin and Widyasari, Ratnadira and Khin, Shar Lwin and Lieh, Ouh Eng and Zhang, Ting and Lo, David},\n  journal={arXiv preprint arXiv:2506.09702},\n  year={2025},\n  eprint={2506.09702},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2506.09702}\n}"
+  },
+  {
+    "id": "2026-code-backdoor-detection",
+    "title": "Optimizing Spectral Signature in Code Backdoor Detection",
+    "authors": [
+      "Quoc-Hung Le",
+      "Thanh Le-Cong",
+      "Bach Le",
+      "Bowen Xu"
+    ],
+    "year": 2026,
+    "venue": "ICSME",
+    "venueType": "conference",
+    "links": {
+      "arxiv": "https://arxiv.org/pdf/2510.13992"
+    },
+    "tags": [
+      "security",
+      "backdoor detection"
+    ],
+    "bibtex": "@inproceedings{nguyen2026signature,\n title={Optimizing Spectral Signature in Code Backdoor Detection},\n author={Le, Quoc-Hung and Le-Cong, Thanh and Le, Bach and Xu, Bowen},\n booktitle={2026 IEEE International Conference on Software Maintenance and Evolution (ICSME)},\n pages={945--949},\n year={2026},\n organization={IEEE}}"
+  },
+  {
     "id": "2026-memory-efficient-llm-repair",
     "title": "Memory-Efficient Large Language Models for Program Repair with Semantic-Guided Patch Generation",
     "authors": [
@@ -75,9 +124,9 @@
     "authors": [
       "Nguyet-Anh H. Lang",
       "Eric Lang",
-      "Thanh Le-Cong",
       "Bach Le",
-      "Quyet-Thang Huynh"
+      "Quyet-Thang Huynh",
+      "Thanh Le-Cong"
     ],
     "year": 2026,
     "venue": "Under Review",
@@ -93,6 +142,105 @@
       "evaluation"
     ],
     "bibtex": "@article{lang2026fpeval,\n  title={Perish or Flourish? A Holistic Evaluation of Large Language Models for Code Generation in Functional Programming},\n  author={Lang, Nguyet-Anh H. and Lang, Eric and Le-Cong, Thanh and Le, Bach and Huynh, Quyet-Thang},\n  journal={arXiv preprint arXiv:2601.02060},\n  year={2026},\n  eprint={2601.02060},\n  archivePrefix={arXiv},\n  primaryClass={cs.PL},\n  doi={10.48550/arXiv.2601.02060}\n}"
+  },
+  {
+    "id": "2026-fpmoe-functional-code-generation",
+    "title": "FPMoE: A Sparse Mixture-of-Experts Approach to Functional Code Generation",
+    "authors": [
+      "Loc Pham",
+      "Nguyet-Anh H. Lang",
+      "Thanh Le-Cong"
+    ],
+    "year": 2026,
+    "venue": "Under Review",
+    "venueType": "preprint",
+    "links": {
+      "arxiv": "https://arxiv.org/pdf/2605.27849"
+    },
+    "tags": [
+      "code generation",
+      "functional programming",
+      "LLM",
+      "MoE"
+    ],
+    "bibtex": "@article{pham2026fpmoe,\n  title={FPMoE: A Sparse Mixture-of-Experts Approach to Functional Code Generation},\n  author={Pham, Loc and Lang, Nguyet-Anh H. and Le-Cong, Thanh},\n  journal={arXiv preprint arXiv:2605.27849},\n  year={2026},\n  eprint={2605.27849},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2605.27849}\n}"
+  },
+  {
+    "id": "2025-patchseeker-nvd-mapping",
+    "title": "PatchSeeker: Mapping NVD Records to their Vulnerability-fixing Commits with LLM Generated Commits and Embeddings",
+    "authors": [
+      "Huu-Hung Nguyen",
+      "Anh-Tuan Nguyen",
+      "Thanh Le-Cong",
+      "Yikun Li",
+      "Han Wei Ang",
+      "Yide Yin",
+      "Frank Liauw",
+      "Shar Lwin Khin",
+      "Ouh Eng Lieh",
+      "Ting Zhang",
+      "David Lo"
+    ],
+    "year": 2026,
+    "venue": "Under Review",
+    "venueType": "preprint",
+    "links": {
+      "arxiv": "https://arxiv.org/pdf/2509.07540v1"
+    },
+    "tags": [
+      "vulnerability",
+      "LLM",
+      "NVD"
+    ],
+    "bibtex": "@article{nguyen2025patchseeker,\n  title={PatchSeeker: Mapping NVD Records to their Vulnerability-fixing Commits with LLM Generated Commits and Embeddings},\n  author={Nguyen, Huu Hung and Nguyen, Anh Tuan and Le-Cong, Thanh and Li, Yikun and Ang, Han Wei and Yin, Yide and Liauw, Frank and Khin, Shar Lwin and Lieh, Ouh Eng and Zhang, Ting and Lo, David},\n  journal={arXiv preprint arXiv:2509.07540},\n  year={2025},\n  eprint={2509.07540},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE}\n}"
+  },
+  {
+    "id": "2025-regression-repair-llm",
+    "title": "From Empirical Evaluation to Context-Aware Enhancement: Repairing Regression Errors with LLMs",
+    "authors": [
+      "Anh Ho",
+      "Thanh Le-Cong",
+      "Bach Le",
+      "Christine Rizkallah"
+    ],
+    "year": 2026,
+    "venue": "Under Review",
+    "venueType": "preprint",
+    "links": {
+      "arxiv": "https://arxiv.org/pdf/2506.13182"
+    },
+    "tags": [
+      "program repair",
+      "LLM",
+      "regression"
+    ],
+    "bibtex": "@article{ho2025regression,\n  title={From Empirical Evaluation to Context-Aware Enhancement: Repairing Regression Errors with LLMs},\n  author={Ho, Anh and Le-Cong, Thanh and Le, Bach and Rizkallah, Christine},\n  journal={arXiv preprint arXiv:2506.13182},\n  year={2025},\n  eprint={2506.13182},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2506.13182}\n}"
+  },
+  {
+    "id": "2024-sast-llm-vulnerability",
+    "title": "Comparison of Static Application Security Testing Tools and Large Language Models for Repo-Level Vulnerability Detection",
+    "authors": [
+      "Xin Zhou",
+      "Duc-Manh Tran",
+      "Thanh Le-Cong",
+      "Ting Zhang",
+      "Ivana Clairine Irsan",
+      "Joshua Sumarlin",
+      "Bach Le",
+      "David Lo"
+    ],
+    "year": 2026,
+    "venue": "Under Review",
+    "venueType": "preprint",
+    "links": {
+      "arxiv": "https://arxiv.org/pdf/2407.16235"
+    },
+    "tags": [
+      "vulnerability",
+      "LLM",
+      "SAST"
+    ],
+    "bibtex": "@article{zhou2024sast,\n  title={Comparison of Static Application Security Testing Tools and Large Language Models for Repo-level Vulnerability Detection},\n  author={Zhou, Xin and Tran, Duc-Manh and Le-Cong, Thanh and Zhang, Ting and Irsan, Ivana Clairine and Sumarlin, Joshua and Le, Bach and Lo, David},\n  journal={arXiv preprint arXiv:2407.16235},\n  year={2024},\n  eprint={2407.16235},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2407.16235}\n}"
   },
   {
     "id": "2025-reliable-eval-neural-program-repair",
@@ -209,105 +357,6 @@
     "bibtex": "@article{nguyen2025vulguard,\n  title={VulGuard: An Unified Tool for Evaluating Just-In-Time Vulnerability Prediction Models},\n  author={Nguyen, Duong and Tran-Duc, Manh and Le-Cong, Thanh and Le, Triet Huynh Minh and Babar, M. Ali and Huynh, Quyet-Thang},\n  journal={arXiv preprint arXiv:2507.16685},\n  year={2025},\n  eprint={2507.16685},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2507.16685}\n}"
   },
   {
-    "id": "2025-code-backdoor-detection",
-    "title": "Signature in Code Backdoor Detection, how far are we?",
-    "authors": [
-      "Quoc-Hung Le",
-      "Thanh Le-Cong",
-      "Bach Le",
-      "Bowen Xu"
-    ],
-    "year": 2025,
-    "venue": "Under Review",
-    "venueType": "preprint",
-    "links": {
-      "arxiv": "https://arxiv.org/pdf/2510.13992"
-    },
-    "tags": [
-      "security",
-      "backdoor detection"
-    ],
-    "bibtex": "@inproceedings{nguyen2025vulguard,\n title={VulGuard: An Unified Tool for Evaluating Just-In-Time Vulnerability Prediction Models},\n author={Nguyen, Duong and Tran-Duc, Manh and Le-Cong, Thanh and Le, Triet Huynh Minh and Babar, M Ali and Huynh, Quyet-Thang},\n booktitle={2025 IEEE International Conference on Software Maintenance and Evolution (ICSME)},\n pages={945--949},\n year={2025},\n organization={IEEE}}"
-  },
-  {
-    "id": "2025-patchseeker-nvd-mapping",
-    "title": "PatchSeeker: Mapping NVD Records to their Vulnerability-fixing Commits with LLM Generated Commits and Embeddings",
-    "authors": [
-      "Huu-Hung Nguyen",
-      "Anh-Tuan Nguyen",
-      "Thanh Le-Cong",
-      "Yikun Li",
-      "Han Wei Ang",
-      "Yide Yin",
-      "Frank Liauw",
-      "Shar Lwin Khin",
-      "Ouh Eng Lieh",
-      "Ting Zhang",
-      "David Lo"
-    ],
-    "year": 2025,
-    "venue": "Under Review",
-    "venueType": "preprint",
-    "links": {
-      "arxiv": "https://arxiv.org/pdf/2509.07540v1"
-    },
-    "tags": [
-      "vulnerability",
-      "LLM",
-      "NVD"
-    ],
-    "bibtex": "@article{nguyen2025patchseeker,\n  title={PatchSeeker: Mapping NVD Records to their Vulnerability-fixing Commits with LLM Generated Commits and Embeddings},\n  author={Nguyen, Huu Hung and Nguyen, Anh Tuan and Le-Cong, Thanh and Li, Yikun and Ang, Han Wei and Yin, Yide and Liauw, Frank and Khin, Shar Lwin and Lieh, Ouh Eng and Zhang, Ting and Lo, David},\n  journal={arXiv preprint arXiv:2509.07540},\n  year={2025},\n  eprint={2509.07540},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE}\n}"
-  },
-  {
-    "id": "2025-nvd-vfc-mapping-exploratory",
-    "title": "Mapping NVD Records to Their VFCs: An Exploratory Study",
-    "authors": [
-      "Huu-Hung Nguyen",
-      "Duc-Manh Tran",
-      "Yiran Cheng",
-      "Thanh Le-Cong",
-      "Hong Jin Kang",
-      "Ratnadira Widyasari",
-      "Shar Lwin Khin",
-      "Ouh Eng Lieh",
-      "Ting Zhang",
-      "David Lo"
-    ],
-    "year": 2025,
-    "venue": "Under Review",
-    "venueType": "preprint",
-    "links": {
-      "arxiv": "https://arxiv.org/pdf/2506.09702"
-    },
-    "tags": [
-      "vulnerability",
-      "NVD"
-    ],
-    "bibtex": "@article{nguyen2025nvdvfc,\n  title={Mapping NVD Records to Their VFCs: How Hard is it?},\n  author={Nguyen, Huu Hung and Tran, Duc Manh and Cheng, Yiran and Le-Cong, Thanh and Kang, Hong Jin and Widyasari, Ratnadira and Khin, Shar Lwin and Lieh, Ouh Eng and Zhang, Ting and Lo, David},\n  journal={arXiv preprint arXiv:2506.09702},\n  year={2025},\n  eprint={2506.09702},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2506.09702}\n}"
-  },
-  {
-    "id": "2025-regression-repair-llm",
-    "title": "From Empirical Evaluation to Context-Aware Enhancement: Repairing Regression Errors with LLMs",
-    "authors": [
-      "Anh Ho",
-      "Thanh Le-Cong",
-      "Bach Le",
-      "Christine Rizkallah"
-    ],
-    "year": 2025,
-    "venue": "Under Review",
-    "venueType": "preprint",
-    "links": {
-      "arxiv": "https://arxiv.org/pdf/2506.13182"
-    },
-    "tags": [
-      "program repair",
-      "LLM",
-      "regression"
-    ],
-    "bibtex": "@article{ho2025regression,\n  title={From Empirical Evaluation to Context-Aware Enhancement: Repairing Regression Errors with LLMs},\n  author={Ho, Anh and Le-Cong, Thanh and Le, Bach and Rizkallah, Christine},\n  journal={arXiv preprint arXiv:2506.13182},\n  year={2025},\n  eprint={2506.13182},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2506.13182}\n}"
-  },
-  {
     "id": "2024-chatgpt-code-quality",
     "title": "Refining ChatGPT-Generated Code: Characterizing and Mitigating Code Quality Issues",
     "authors": [
@@ -385,32 +434,6 @@
       "language models"
     ],
     "bibtex": "@article{dang2024legion,\n  title={LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss},\n  author={Dang, Yen-Trang and Le-Cong, Thanh and Nguyen, Phuc-Thanh and Bui, Anh M. T. and Nguyen, Phuong T. and Le, Bach and Huynh, Quyet-Thang},\n  journal={arXiv preprint arXiv:2403.05873},\n  year={2024},\n  eprint={2403.05873},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2403.05873}\n}"
-  },
-  {
-    "id": "2024-sast-llm-vulnerability",
-    "title": "Comparison of Static Application Security Testing Tools and Large Language Models for Repo-Level Vulnerability Detection",
-    "authors": [
-      "Xin Zhou",
-      "Duc-Manh Tran",
-      "Thanh Le-Cong",
-      "Ting Zhang",
-      "Ivana Clairine Irsan",
-      "Joshua Sumarlin",
-      "Bach Le",
-      "David Lo"
-    ],
-    "year": 2024,
-    "venue": "Under Review",
-    "venueType": "preprint",
-    "links": {
-      "arxiv": "https://arxiv.org/pdf/2407.16235"
-    },
-    "tags": [
-      "vulnerability",
-      "LLM",
-      "SAST"
-    ],
-    "bibtex": "@article{zhou2024sast,\n  title={Comparison of Static Application Security Testing Tools and Large Language Models for Repo-level Vulnerability Detection},\n  author={Zhou, Xin and Tran, Duc-Manh and Le-Cong, Thanh and Zhang, Ting and Irsan, Ivana Clairine and Sumarlin, Joshua and Le, Bach and Lo, David},\n  journal={arXiv preprint arXiv:2407.16235},\n  year={2024},\n  eprint={2407.16235},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2407.16235}\n}"
   },
   {
     "id": "2023-invalidator-patch-correctness",

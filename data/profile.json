@@ -22,6 +22,10 @@
     "orcid": ""
   },
   "news": [
+    { "date": "2026-05", "text": "Glad to share that our paper on backdoor defense for Code LLMs accepted at ICSME 2026." },
+    { "date": "2026-05", "text": "Glad to share that our emprical study on mining VFCs from NVD is accepted at ACM TOSEM." },
+    { "date": "2026-05", "text": "Invited to be Chair of Data/AI Models Track of EASE 2027." },
+    { "date": "2026-05", "text": "Excited to share that I officially joined SUTD." },
     { "date": "2026-04", "text": "Excited to share that I have graduated with my PhD from the University of Melbourne." },
     { "date": "2026-02", "text": "Invited to serve on the PC of ICSE and FSE 2027." },
     { "date": "2026-01", "text": "Glad to give an invited talk on Software Security at Phenikaa University." },

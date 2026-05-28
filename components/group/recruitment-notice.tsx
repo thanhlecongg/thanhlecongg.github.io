@@ -12,7 +12,7 @@ export function RecruitmentNotice() {
       </h2>
 
       <p className="text-sm text-foreground/85 leading-relaxed mb-4">
-        I am actively recruiting motivated <strong>PhD students</strong> and{" "}
+        I am actively recruiting motivated <strong>(fully-funded) PhD students</strong> and{" "}
         <strong>research assistants</strong>. Feel free to reach out if your
         interests overlap with my research areas.{" "}
         <a href="/join" className="text-primary hover:underline underline-offset-2 font-medium">

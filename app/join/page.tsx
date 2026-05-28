@@ -59,7 +59,7 @@ export default function JoinPage() {
         <p className="text-foreground/85 leading-relaxed">
           I am actively looking for motivated <strong>PhD students</strong> and{" "}
           <strong>research assistants</strong> to join my group at{" "}
-          <strong>SUTD (Singapore University of Technology and Design)</strong>.
+          <strong>Singapore University of Technology and Design (SUTD)</strong>.
           I welcome applicants from diverse backgrounds — if your interests intersect
           with any of the research areas below, please reach out.
         </p>

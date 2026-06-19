@@ -77,7 +77,6 @@ const highlighted    = countries.filter((c): c is typeof c & { label: string } =
 export default function TravelPage() {
   return (
     <div className="space-y-10 pt-6">
-      
       {/* ── World map + legend ── */}
       <div className="space-y-2">
         <TravelMapLoader />
@@ -94,6 +93,70 @@ export default function TravelPage() {
           </span>
         </div>
       </div>
+
+      {/* ── Travel highlights ── */}
+      <section className="space-y-4">
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h2 className="text-2xl font-semibold tracking-tight">Visited places</h2>
+            <p className="text-sm text-muted-foreground">
+              {countries.length} countries across {continentCount} continents, with {highlighted.length} highlighted stories.
+            </p>
+          </div>
+          <p className="text-sm text-muted-foreground">
+            Hover the map for a quick label, or open a card for the longer story.
+          </p>
+        </div>
+
+        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+          {countries.map((country) => {
+            const style = HIGHLIGHT_STYLES[country.id];
+            const hasPhoto = Boolean((country as { photo?: string }).photo);
+
+            return (
+              <article
+                key={country.id}
+                className="group overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-transform duration-200 hover:-translate-y-0.5"
+              >
+                <div className="relative aspect-[4/3] bg-muted">
+                  {hasPhoto ? (
+                    <Image
+                      src={(country as { photo: string }).photo}
+                      alt={country.name}
+                      fill
+                      className="object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
+                    />
+                  ) : (
+                    <div className="absolute inset-0 bg-gradient-to-br from-muted to-muted/40" />
+                  )}
+
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
+                  <div className="absolute left-4 top-4">
+                    <span
+                      className={[
+                        "inline-flex rounded-full border px-2.5 py-1 text-xs font-semibold backdrop-blur-sm",
+                        style?.card ?? "border-white/20 bg-black/40 text-white",
+                      ].join(" ")}
+                    >
+                      {country.name}
+                    </span>
+                  </div>
+                </div>
+
+                <div className="space-y-2 p-4 min-w-0">
+                  <h3 className={["text-lg font-semibold", style?.name ?? ""].join(" ").trim()}>
+                    {country.name}
+                  </h3>
+                  <p className="text-sm leading-6 text-muted-foreground break-words whitespace-normal">
+                    {country.label ?? "A place I have visited."}
+                  </p>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
 
     </div>
   );

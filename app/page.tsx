@@ -4,6 +4,7 @@ import { SocialLinks } from "@/components/about/social-links";
 import { NewsList } from "@/components/about/news-list";
 import { RecruitmentNotice } from "@/components/group/recruitment-notice";
 import { getProfile } from "@/lib/data-loaders";
+import { Download, Mail } from "lucide-react";
 
 /**
  * Curated academic badge palette — pastel tints with accessible contrast.
@@ -24,7 +25,7 @@ export default function HomePage() {
   return (
     <div className="space-y-10">
       {/* Hero: subtle blue→violet gradient bg — adds warmth without shouting */}
-      <section className="flex flex-col sm:flex-row gap-8 items-start pt-6 pb-10 border-b border-border
+      <section className="grid gap-8 md:grid-cols-[240px_minmax(0,1fr)] md:items-start pt-6 pb-10 border-b border-border
                           animate-in fade-in slide-in-from-bottom-4 duration-500
                           relative overflow-hidden rounded-xl
                           bg-gradient-to-br from-blue-50/70 via-violet-50/40 to-transparent
@@ -36,16 +37,52 @@ export default function HomePage() {
                         dark:from-blue-800/20 dark:to-violet-800/15
                         blur-3xl pointer-events-none" />
 
-        <Image
-          src="/images/profile.jpg"
-          alt={`Profile photo of ${profile.name}`}
-          width={180}
-          height={180}
-          className="rounded-full border-4 border-white shadow-lg flex-shrink-0
-                     ring-2 ring-blue-200/60 dark:ring-blue-700/40
-                     dark:border-slate-800"
-          priority
-        />
+        <div className="relative flex w-full flex-col items-center gap-4 md:items-start">
+          <Image
+            src="/images/profile.webp"
+            alt={`Profile photo of ${profile.name}`}
+            width={220}
+            height={220}
+            className="h-[220px] w-[220px] rounded-full border-4 border-white object-cover shadow-lg flex-shrink-0
+                       ring-2 ring-blue-200/60 dark:ring-blue-700/40
+                       dark:border-slate-800"
+            priority
+          />
+
+          <div className="w-[220px] rounded-2xl border border-border/70 bg-background/70 p-4 shadow-sm backdrop-blur-sm">
+            <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+              Contact
+            </p>
+
+            <div className="mt-3 flex flex-col gap-3">
+              <a
+                href="/cv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={buttonVariants({
+                  size: "sm",
+                  className: "w-full justify-center gap-2",
+                })}
+              >
+                <Download className="h-4 w-4" />
+                Download CV
+              </a>
+              <a
+                href={`mailto:${profile.email}`}
+                className={buttonVariants({
+                  variant: "outline",
+                  size: "sm",
+                  className: "w-full justify-center gap-2",
+                })}
+              >
+                <Mail className="h-4 w-4" />
+                {profile.email}
+              </a>
+            </div>
+
+            <SocialLinks links={profile.socialLinks} className="mt-4" />
+          </div>
+        </div>
 
         <div className="relative">
           {/* Affiliation — scholarly context */}
@@ -62,7 +99,7 @@ export default function HomePage() {
             {profile.title}
           </p>
 
-          <p className="text-foreground/85 leading-relaxed max-w-prose">
+          <p className="text-foreground/85 leading-relaxed max-w-prose text-justify hyphens-auto">
             {profile.bio}
           </p>
 
@@ -78,27 +115,6 @@ export default function HomePage() {
               </span>
             ))}
           </div>
-
-          {/* Quick-action buttons */}
-          <div className="flex gap-3 mt-5 flex-wrap">
-            <a
-              href="/cv.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={buttonVariants({ size: "sm" })}
-            >
-              Download CV
-            </a>
-            <a
-              href={`mailto:${profile.email}`}
-              className={buttonVariants({ variant: "outline", size: "sm" })}
-            >
-              {profile.email}
-            </a>
-          </div>
-
-          {/* Social / academic profile links */}
-          <SocialLinks links={profile.socialLinks} className="mt-4" />
         </div>
       </section>
 

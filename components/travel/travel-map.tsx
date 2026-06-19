@@ -38,6 +38,9 @@ const labelledMarkers = travelData.visitedCountries
 // Clip-path circle center for the photo bubble, offset above the dot
 const PHOTO_CY = -26;  // y-offset of photo center in marker-local coords
 const PHOTO_R  = 16;   // photo circle radius
+const MARKER_X_SHIFT: Record<string, number> = {
+  "036": -14,
+};
 
 interface Tooltip { x: number; y: number; name: string; label?: string }
 interface Lightbox { photo: string; name: string; label: string }
@@ -112,11 +115,19 @@ export default function TravelMap() {
       >
         {tooltip && (
           <div
-            className="absolute z-20 px-2.5 py-1.5 text-xs bg-popover text-popover-foreground border border-border rounded-lg shadow-md pointer-events-none whitespace-nowrap"
-            style={{ left: tooltip.x, top: tooltip.y, transform: "translate(-50%, -130%)" }}
+            className="absolute z-20 max-w-[min(18rem,calc(100vw-2rem))] px-2.5 py-1.5 text-xs bg-popover text-popover-foreground border border-border rounded-lg shadow-md pointer-events-none whitespace-normal break-words"
+            style={{
+              left: tooltip.x,
+              top: tooltip.y,
+              transform: "translate(-50%, -130%)",
+            }}
           >
             <span className="font-semibold">{tooltip.name}</span>
-            {tooltip.label && <span className="ml-1.5 text-muted-foreground">· {tooltip.label}</span>}
+            {tooltip.label && (
+              <span className="block mt-0.5 text-muted-foreground leading-snug">
+                {tooltip.label}
+              </span>
+            )}
           </div>
         )}
 
@@ -158,48 +169,50 @@ export default function TravelMap() {
           {labelledMarkers.map(m => {
             const r    = REGION_COLORS[m.id];
             const ring = r ? (isDark ? r.dark : r.light) : "#3b82f6";
+            const xShift = MARKER_X_SHIFT[m.id] ?? 0;
             return (
               <Marker key={m.id} coordinates={m.coordinates}>
+                <g transform={`translate(${xShift}, 0)`}>
+                  {/* ── Photo bubble (only when photo exists) ── */}
+                  {m.photo && (
+                    <>
+                      {/* Solid stem connecting dot to photo bubble */}
+                      <line
+                        x1={0} y1={-5}
+                        x2={0} y2={PHOTO_CY + PHOTO_R}
+                        stroke="white" strokeWidth={2}
+                        opacity={0.9}
+                        style={{ pointerEvents: "none" }}
+                      />
+                      {/* Circular photo thumbnail */}
+                      <image
+                        href={m.photo}
+                        x={-PHOTO_R} y={PHOTO_CY - PHOTO_R}
+                        width={PHOTO_R * 2} height={PHOTO_R * 2}
+                        clipPath={`url(#clip-${m.id})`}
+                        preserveAspectRatio="xMidYMid slice"
+                        style={{ cursor: "pointer" }}
+                        onClick={() => setLightbox({ photo: m.photo!, name: m.name, label: m.label! })}
+                        onMouseEnter={evt => handleEnter(evt as unknown as React.MouseEvent, m.id, m.name)}
+                        onMouseLeave={() => setTooltip(null)}
+                      />
+                      {/* White border around photo */}
+                      <circle cx={0} cy={PHOTO_CY} r={PHOTO_R} fill="none" stroke="white" strokeWidth={2} style={{ pointerEvents: "none" }} />
+                    </>
+                  )}
 
-                {/* ── Photo bubble (only when photo exists) ── */}
-                {m.photo && (
-                  <>
-                    {/* Solid stem connecting dot to photo bubble */}
-                    <line
-                      x1={0} y1={-5}
-                      x2={0} y2={PHOTO_CY + PHOTO_R}
-                      stroke="white" strokeWidth={2}
-                      opacity={0.9}
-                      style={{ pointerEvents: "none" }}
-                    />
-                    {/* Circular photo thumbnail */}
-                    <image
-                      href={m.photo}
-                      x={-PHOTO_R} y={PHOTO_CY - PHOTO_R}
-                      width={PHOTO_R * 2} height={PHOTO_R * 2}
-                      clipPath={`url(#clip-${m.id})`}
-                      preserveAspectRatio="xMidYMid slice"
-                      style={{ cursor: "pointer" }}
-                      onClick={() => setLightbox({ photo: m.photo!, name: m.name, label: m.label! })}
-                      onMouseEnter={evt => handleEnter(evt as unknown as React.MouseEvent, m.id, m.name)}
-                      onMouseLeave={() => setTooltip(null)}
-                    />
-                    {/* White border around photo */}
-                    <circle cx={0} cy={PHOTO_CY} r={PHOTO_R} fill="none" stroke="white" strokeWidth={2} style={{ pointerEvents: "none" }} />
-                  </>
-                )}
-
-                {/* ── Pulsing dot — always visible ── */}
-                <circle r={9} fill="none" stroke={ring} strokeWidth={2} className="pulse-ring" />
-                <circle
-                  r={5}
-                  fill="white"
-                  stroke={ring}
-                  strokeWidth={2}
-                  style={{ cursor: "pointer" }}
-                  onMouseEnter={evt => handleEnter(evt as unknown as React.MouseEvent, m.id, m.name)}
-                  onMouseLeave={() => setTooltip(null)}
-                />
+                  {/* ── Pulsing dot — always visible ── */}
+                  <circle r={9} fill="none" stroke={ring} strokeWidth={2} className="pulse-ring" />
+                  <circle
+                    r={5}
+                    fill="white"
+                    stroke={ring}
+                    strokeWidth={2}
+                    style={{ cursor: "pointer" }}
+                    onMouseEnter={evt => handleEnter(evt as unknown as React.MouseEvent, m.id, m.name)}
+                    onMouseLeave={() => setTooltip(null)}
+                  />
+                </g>
 
               </Marker>
             );

@@ -22,6 +22,8 @@ export default function GroupPage() {
       />
 
       <div className="space-y-8">
+        <RecruitmentNotice />
+
         <section>
           <h2 className="text-base font-semibold text-muted-foreground uppercase tracking-wide mb-3 border-b border-border pb-2">
             Group Members @ SUTD
@@ -29,7 +31,9 @@ export default function GroupPage() {
           {sutdMembers.length > 0 ? (
             <MemberGrid members={sutdMembers} publications={publications} />
           ) : (
-            <RecruitmentNotice />
+            <p className="text-sm text-muted-foreground">
+              No SUTD members are listed right now.
+            </p>
           )}
         </section>
 

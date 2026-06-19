@@ -16,7 +16,7 @@ interface NewsListProps {
 export function NewsList({ news }: NewsListProps) {
   const [expanded, setExpanded] = useState(false);
   const visible = expanded ? news : news.slice(0, INITIAL_VISIBLE);
-  const hiddenCount = news.length - INITIAL_VISIBLE;
+  const hiddenCount = Math.max(0, news.length - INITIAL_VISIBLE);
 
   return (
     <>
@@ -27,6 +27,7 @@ export function NewsList({ news }: NewsListProps) {
       </ul>
       {hiddenCount > 0 && (
         <button
+          type="button"
           onClick={() => setExpanded((v) => !v)}
           className="mt-3 text-sm text-primary hover:text-primary/80 transition-colors font-medium"
         >

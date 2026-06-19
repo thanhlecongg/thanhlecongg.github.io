@@ -1,4 +1,5 @@
 import type { TeamMember, Publication } from "@/lib/types";
+import { ExternalLink } from "lucide-react";
 
 const ROLE_LABELS: Record<string, string> = {
   phd: "PhD Student",
@@ -50,9 +51,23 @@ export function MemberCard({ member, publications }: MemberCardProps) {
     <div className="flex flex-col gap-1.5 h-full">
       {/* Name + role */}
       <div className="flex items-start justify-between gap-2">
-        <span className="text-sm font-semibold text-foreground leading-snug">
-          {member.name}
-        </span>
+        <div className="min-w-0">
+          {member.website ? (
+            <a
+              href={member.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-sm font-semibold text-foreground leading-snug hover:text-primary transition-colors"
+            >
+              <span className="truncate">{member.name}</span>
+              <ExternalLink className="w-3 h-3 shrink-0" />
+            </a>
+          ) : (
+            <span className="text-sm font-semibold text-foreground leading-snug">
+              {member.name}
+            </span>
+          )}
+        </div>
         <span className={`shrink-0 text-xs px-2 py-0.5 rounded-full font-medium ${colors.badge}`}>
           {ROLE_LABELS[member.role] ?? member.role}
         </span>
@@ -94,14 +109,5 @@ export function MemberCard({ member, publications }: MemberCardProps) {
   );
 
   const cardClass = `rounded-lg border border-border border-l-4 ${colors.border} ${colors.bg} p-3 hover:brightness-95 dark:hover:brightness-110 transition-all`;
-
-  if (member.website) {
-    return (
-      <a href={member.website} target="_blank" rel="noopener noreferrer" className={cardClass}>
-        {inner}
-      </a>
-    );
-  }
-
-  return <div className={cardClass}>{inner}</div>;
+  return <article className={cardClass}>{inner}</article>;
 }

@@ -1,10 +1,18 @@
 "use client";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 import profile from "@/data/profile.json";
-import { ThemeToggle } from "@/components/layout/theme-toggle";
+
+const ThemeToggle = dynamic(
+  () => import("@/components/layout/theme-toggle").then((mod) => mod.ThemeToggle),
+  {
+    ssr: false,
+    loading: () => <div className="w-8 h-8" />,
+  }
+);
 
 const navLinks = [
   { href: "/", label: "About" },
@@ -25,9 +33,31 @@ function isActiveLink(href: string, pathname: string): boolean {
 export default function Nav() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+  const headerRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    if (!menuOpen) return;
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setMenuOpen(false);
+    };
+
+    const onPointerDown = (event: PointerEvent) => {
+      if (!headerRef.current?.contains(event.target as Node)) {
+        setMenuOpen(false);
+      }
+    };
+
+    window.addEventListener("keydown", onKeyDown);
+    window.addEventListener("pointerdown", onPointerDown);
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      window.removeEventListener("pointerdown", onPointerDown);
+    };
+  }, [menuOpen]);
 
   return (
-    <header className="border-b border-border sticky top-0 bg-background/95 backdrop-blur z-50">
+    <header ref={headerRef} className="border-b border-border sticky top-0 bg-background/95 backdrop-blur z-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 flex items-center justify-between h-14">
         {/* Site name links back to homepage */}
         <Link

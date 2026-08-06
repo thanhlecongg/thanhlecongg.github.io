@@ -46,6 +46,7 @@
       "security",
       "backdoor detection"
     ],
+    "award": "IEEE TCSE Distinguished Paper Award",
     "bibtex": "@inproceedings{nguyen2026signature,\n title={Optimizing Spectral Signature in Code Backdoor Detection},\n author={Le, Quoc-Hung and Le-Cong, Thanh and Le, Bach and Xu, Bowen},\n booktitle={2026 IEEE International Conference on Software Maintenance and Evolution (ICSME)},\n pages={945--949},\n year={2026},\n organization={IEEE}}"
   },
   {

@@ -10,6 +10,7 @@ import {
   ChevronUp,
   Quote,
   ExternalLink,
+  Award,
 } from "lucide-react";
 import NextLink from "next/link";
 import { BibTexDialog } from "./bibtex-dialog";
@@ -70,14 +71,22 @@ export function PublicationCard({ publication: p }: PublicationCardProps) {
       className={`bg-card border border-border border-l-4 ${accentClass}
                   rounded-lg p-5 transition-shadow duration-200 hover:shadow-sm`}
     >
-      {/* Top row: venue badge */}
-      <div className="flex items-start justify-between gap-2 mb-2">
+      {/* Top row: venue badge + award badge */}
+      <div className="flex items-start justify-between gap-2 mb-2 flex-wrap">
         <span
           className={`inline-block text-xs font-semibold px-2 py-0.5 rounded border
                       ${VENUE_COLORS[p.venueType] ?? VENUE_COLORS.preprint}`}
         >
           {p.venue}
         </span>
+        {p.award && (
+          <span className="inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded border
+                            bg-amber-50 text-amber-700 border-amber-200
+                            dark:bg-amber-950 dark:text-amber-300 dark:border-amber-800">
+            <Award className="w-3 h-3" />
+            {p.award}
+          </span>
+        )}
       </div>
 
       {/* Title — serif font for scholarly weight */}

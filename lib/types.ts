@@ -17,6 +17,8 @@ export interface Publication {
   abstract?: string;
   bibtex?: string;
   tags?: string[];
+  /** Award received by this publication, e.g. "IEEE TCSE Distinguished Paper Award" */
+  award?: string;
 }
 
 export interface PaperDetail {

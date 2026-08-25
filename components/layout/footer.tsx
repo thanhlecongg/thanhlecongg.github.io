@@ -14,8 +14,8 @@ export default function Footer() {
           <Link href="/publications" className="hover:text-foreground transition-colors">Publications</Link>
           <Link href="/research" className="hover:text-foreground transition-colors">Research</Link>
           <Link href="/experience" className="hover:text-foreground transition-colors">Experience</Link>
-          <Link href="/group" className="hover:text-foreground transition-colors">Group</Link>
-          <Link href="/teaching" className="hover:text-foreground transition-colors">Teaching</Link>
+          <Link href="/join" className="hover:text-foreground transition-colors">Openings</Link>
+          <Link href="/travel" className="hover:text-foreground transition-colors">Travel</Link>
           <a
             href={`mailto:${profile.email}`}
             className="hover:text-foreground transition-colors"

@@ -5,39 +5,18 @@
     "role": "Assistant Professor",
     "period": "May 2026 – Present",
     "location": "Singapore",
-    "type": "full-time",
-    "highlights": [
-      "Tenure-track Assistant Professor at the ISTD Pillar.",
-      "Leading research group on trustworthy automated programming, focusing on reliable and secure software development with LLMs."
-    ]
-  },
-  {
-    "id": "unimelb-grad-researcher",
-    "organization": "University of Melbourne",
-    "role": "Graduate Researcher",
-    "period": "Feb 2023 – Feb 2026",
-    "location": "Melbourne, Australia",
-    "type": "full-time",
-    "supervisors": ["Prof. Toby Murray", "Dr. Bach Le"],
-    "highlights": [
-      "Conducted empirical studies and developed novel approaches for enhancing reliability of LLMs in Program Repair and Code Generation.",
-      "Supervised junior PhD and undergraduate students."
-    ]
+    "type": "full-time"
   },
   {
     "id": "cispa-2025",
-    "organization": "University of Stuttgart / CISPA Helmholtz Center for Information Security",
+    "organization": "University of Stuttgart / CISPA",
     "role": "Visiting Researcher",
     "period": "July 2025 – Oct 2025",
     "location": "Stuttgart, Germany",
     "type": "visiting",
-    "supervisors": [
+    "hosts": [
       "Prof. Cristian Cadar (Imperial College London)",
       "Prof. Michael Pradel (CISPA)"
-    ],
-    "highlights": [
-      "Worked on specification inference with LLMs from natural language artifacts.",
-      "Our approach detected 24 confirmed bugs (including 12 previously unknown bugs) in four widely-used Python libraries."
     ]
   },
   {
@@ -47,15 +26,10 @@
     "period": "June 2024 – Sep 2024",
     "location": "Virginia, US",
     "type": "visiting",
-    "supervisors": [
+    "hosts": [
       "Dr. Brandon Paulsen",
       "Dr. Joey Dodds",
       "Prof. Daniel Kroening"
-    ],
-    "highlights": [
-      "Developed a repo-level code translation technique using LLMs and Automated Reasoning.",
-      "Translated key modules of a core library from C to Rust with formal proofs.",
-      "Received a return offer for next internship."
     ]
   },
   {
@@ -65,36 +39,6 @@
     "period": "Jan 2022 – Jan 2023",
     "location": "Singapore",
     "type": "full-time",
-    "supervisors": ["Prof. David Lo"],
-    "highlights": [
-      "Developed AI-enabled techniques for managing vulnerabilities in third-party software.",
-      "Collaborated with industry partners on deploying research papers in practice.",
-      "Published research papers at top-tier venues including FSE and ICSE."
-    ]
-  },
-  {
-    "id": "hust-mentor",
-    "organization": "Hanoi University of Science and Technology",
-    "role": "Co-supervisor at AI4Code Lab",
-    "period": "Aug 2021 – Present",
-    "location": "Remote (Part-time)",
-    "type": "part-time",
-    "highlights": [
-      "Co-founded the AI4Code Lab with Prof. Quyet Thang Huynh; mentor to 5+ undergraduate research students annually.",
-      "Designed a training program and organized a weekly seminar series for undergraduate students.",
-      "Mentees have received full PhD scholarships from University of Melbourne, and University of Sydney, North Carolina State University, Singapore Management University and Nanyang Technological University."
-    ]
-  },
-  {
-    "id": "griffith-2019",
-    "organization": "Griffith University",
-    "role": "Visiting Scholar",
-    "period": "July 2019 – Aug 2019",
-    "location": "Australia",
-    "type": "visiting",
-    "supervisors": ["A/Prof. Henry Nguyen"],
-    "highlights": [
-      "Developed mathematical foundations for node embedding in large-scale graphs."
-    ]
+    "supervisors": ["Prof. David Lo"]
   }
 ]

@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import { BookmarkCheck } from "lucide-react";
 import { BibtexBlock } from "./bibtex-block";
 
 interface BibTexDialogProps {
@@ -17,12 +16,9 @@ export function BibTexDialog({ bibtex }: BibTexDialogProps) {
       <button
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
-        className="inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-md font-medium
-                   transition-colors cursor-pointer bg-muted text-muted-foreground
-                   hover:text-foreground hover:bg-muted/70"
+        className="text-[12.5px] text-muted-foreground border-b border-border pb-px transition-colors cursor-pointer hover:text-primary hover:border-primary"
       >
-        <BookmarkCheck className="w-3 h-3" />
-        Cite
+        BibTeX
       </button>
 
       {/* Inline BibTeX panel */}

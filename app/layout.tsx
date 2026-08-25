@@ -1,24 +1,26 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Crimson_Pro } from "next/font/google";
+import { Public_Sans, Source_Serif_4, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/layout/nav";
 import Footer from "@/components/layout/footer";
-import { AnalyticsConsent } from "@/components/layout/analytics-consent";
+import { Analytics } from "@/components/layout/analytics";
 import { ThemeProvider } from "@/components/layout/theme-provider";
 import profile from "@/data/profile.json";
 
-const geistSans = Geist({
+const publicSans = Public_Sans({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
+/** Mono for eyebrow labels, dates, venue tags */
+const plexMono = IBM_Plex_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  weight: ["400", "500"],
 });
 
 /** Scholarly serif for headings — conveys academic authority */
-const crimsonPro = Crimson_Pro({
+const sourceSerif = Source_Serif_4({
   variable: "--font-heading",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
@@ -26,7 +28,7 @@ const crimsonPro = Crimson_Pro({
 
 export const metadata: Metadata = {
   title: { default: profile.name, template: `%s | ${profile.name}` },
-  description: `Academic homepage of ${profile.name}, ${profile.title} at ${profile.university}`,
+  description: `${profile.name} is a tenure-track ${profile.title} at ${profile.university}, working at the intersection of software engineering, artificial intelligence, and cybersecurity.`,
 };
 
 export default function RootLayout({
@@ -38,7 +40,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable} ${crimsonPro.variable} h-full antialiased`}
+      className={`${publicSans.variable} ${plexMono.variable} ${sourceSerif.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         {/* Skip link — lets keyboard users bypass the nav on every page */}
@@ -54,7 +56,7 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
-          <AnalyticsConsent />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>

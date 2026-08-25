@@ -19,8 +19,7 @@ const navLinks = [
   { href: "/publications", label: "Publications" },
   { href: "/research", label: "Research" },
   { href: "/experience", label: "Experience" },
-  { href: "/group", label: "Group" },
-  { href: "/teaching", label: "Teaching" },
+  { href: "/join", label: "Openings" },
   { href: "/travel", label: "Travel" },
 ];
 
@@ -62,12 +61,13 @@ export default function Nav() {
         {/* Site name links back to homepage */}
         <Link
           href="/"
-          className="font-semibold text-foreground hover:text-primary transition-colors truncate mr-4"
+          className="text-[17px] font-bold tracking-tight text-foreground hover:text-primary transition-colors truncate mr-4"
+          style={{ fontFamily: "var(--font-heading), Georgia, serif" }}
         >
           {profile.name}
         </Link>
 
-        {/* Desktop: nav links + theme toggle — md breakpoint prevents overflow with 7 items */}
+        {/* Desktop: nav links + theme toggle */}
         <div className="hidden md:flex items-center gap-1 flex-shrink-0">
           <nav aria-label="Main navigation" className="flex gap-1">
             {navLinks.map(({ href, label }) => {

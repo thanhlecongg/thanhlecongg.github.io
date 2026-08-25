@@ -1,76 +1,66 @@
 {
-  "statement": "Our research focuses on trustworthy automated programming for building reliable and secure software systems. We work at the intersection of software engineering and artificial intelligence, combining symbolic reasoning with modern machine learning techniques to make software development safer and more productive.",
+  "statement": "Software is too important to be unreliable or insecure. It underpins our digital world and increasingly controls physical systems. Yet software is increasingly being created and changed faster than people can review it, accelerated by AI-powered development. My research pursues two complementary goals: building intelligent tools that can automatically audit software, find and repair bugs and vulnerabilities, and establishing the methods needed to assure that these tools and the broader AI-enabled systems are reliable and secure.",
   "areas": [
     {
-      "id": "trustworthy-llm-code",
-      "title": "Trustworthy LLMs for Code",
-      "description": "Evaluating and improving the reliability, security, and correctness of large language models used for code synthesis and analysis.",
+      "id": "ai-for-se-security",
+      "title": "AI for Software Engineering and Security",
+      "description": "Software development is moving beyond what human review alone can keep pace with. We develop AI-enabled methods that audit code and software artifacts, identify defects and vulnerabilities, trace them to their causes, generate repairs, and validate that proposed fixes are correct. Our goal is to turn AI into a dependable engineering partner that helps developers build and maintain reliable, secure software at scale.",
       "relatedPapers": [
-        "2025-llm-formal-spec-inference",
-        "2026-functional-programming-llm-eval",
-        "2024-chatgpt-code-quality"
-      ]
-    },
-    {
-      "id": "automated-debugging",
-      "title": "Automated Debugging",
-      "description": "Developing AI-driven techniques for automated bug detection and repair, enabling systems to identify errors, analyze their causes, and generate fixes with minimal human intervention.",
-      "relatedPapers": [
-        "2026-memory-efficient-llm-repair",
         "2026-patchguru-patch-oracle",
-        "2023-invalidator-patch-correctness"
+        "2026-memory-efficient-llm-repair",
+        "2026-athena-vulnerability-library-identification"
       ]
     },
     {
-      "id": "software-security",
-      "title": "Software Security",
-      "description": "Analyzing vulnerabilities in modern software systems, including vulnerability-fixing commit classification and security testing.",
+      "id": "assurance-ai-software",
+      "title": "Assurance for AI-Enabled Software",
+      "description": "AI is increasingly used both to create software and as a core component of software systems, from coding assistants to autonomous agents. Failures and vulnerabilities in these systems can propagate into generated code, automated decisions, and real-world actions. We develop rigorous evaluations, realistic benchmarks, and practical defences to understand these risks and improve the reliability and security of AI-assisted development and AI-powered software.",
       "relatedPapers": [
-        "2023-midas-vulnerability-commit",
-        "2023-chronos-library-identification",
-        "2025-jit-vulnerability-prediction-eval"
-      ]
-    },
-    {
-      "id": "ai-security",
-      "title": "AI Security",
-      "description": "Investigating security risks in AI systems, e.g., backdoor detection, adversarial robustness, and membership inference attacks.",
-      "relatedPapers": [
-        "2025-code-backdoor-detection",
+        "2026-code-backdoor-detection",
         "2026-membership-inference-llm-code",
-        "2022-analysis-graph-neural-networks"
+        "2025-llm-formal-spec-inference"
       ]
     }
   ],
   "projects": [
     {
-      "id": "flames",
-      "title": "FLAMES — Memory-Efficient LLM Program Repair",
-      "description": "Semantic-guided patch generation with memory-efficient large language models. Reduces GPU memory footprint while maintaining repair quality on standard benchmarks.",
-      "status": "active",
-      "links": {
-        "github": "https://github.com/thanhlecongg/FLAMES",
-        "paper": "https://arxiv.org/pdf/2410.16655"
-      }
-    },
-    {
       "id": "patchguru",
-      "title": "PatchGuru — Patch Oracle Inference",
-      "description": "Infers patch correctness oracles from natural language artifacts (issue reports, commit messages) using LLMs, enabling automated patch validation without formal specs.",
+      "title": "PatchGuru",
+      "description": "Infers patch oracles from the natural language artifacts of a pull request, enabling automated patch validation without hand-written specifications.",
       "status": "active",
       "links": {
         "github": "https://github.com/thanhlecongg/PatchGuru",
-        "paper": "https://arxiv.org/pdf/2602.05270"
+        "paper": "/pdfs/2026-patchguru-patch-oracle.pdf"
       }
     },
     {
       "id": "formalbench",
-      "title": "FormalBench — LLM Formal Specification Inference",
-      "description": "Comprehensive benchmark and evaluation framework for assessing LLMs' ability to reason about program semantics and infer formal specifications.",
+      "title": "FormalBench",
+      "description": "Benchmark and evaluation framework for assessing whether language models can infer formal specifications and reason about program semantics.",
       "status": "active",
       "links": {
         "github": "https://github.com/thanhlecongg/FormalBench",
-        "paper": "https://aclanthology.org/2025.acl-long.1068.pdf"
+        "paper": "/pdfs/2025-llm-formal-spec-inference.pdf"
+      }
+    },
+    {
+      "id": "flames",
+      "title": "FLAMES",
+      "description": "Semantic-guided patch generation that cuts the GPU memory needed for LLM-based program repair while holding repair quality on standard benchmarks.",
+      "status": "active",
+      "links": {
+        "github": "https://github.com/thanhlecongg/FLAMES",
+        "paper": "/pdfs/2026-memory-efficient-llm-repair.pdf"
+      }
+    },
+    {
+      "id": "vulguard",
+      "title": "VulGuard",
+      "description": "Unified tool for training and evaluating just-in-time vulnerability prediction models under realistic data settings.",
+      "status": "active",
+      "links": {
+        "github": "https://github.com/AI4Code-HUST/VulGuard/",
+        "paper": "/pdfs/2025-vulguard-tool.pdf"
       }
     }
   ]

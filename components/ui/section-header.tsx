@@ -5,12 +5,12 @@ interface SectionHeaderProps {
 
 export function SectionHeader({ title, description }: SectionHeaderProps) {
   return (
-    <div className="mb-8 border-b border-border pb-4">
-      <h1 className="text-3xl font-bold tracking-tight text-foreground">
+    <div className="mb-10 flex flex-col gap-2">
+      <h1 className="text-[clamp(1.875rem,4.6vw,2.5rem)] font-bold tracking-tight text-foreground">
         {title}
       </h1>
       {description && (
-        <p className="mt-2 text-muted-foreground">{description}</p>
+        <p className="text-sm text-muted-foreground">{description}</p>
       )}
     </div>
   );

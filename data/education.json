@@ -3,28 +3,20 @@
     "id": "phd-unimelb",
     "institution": "University of Melbourne",
     "degree": "PhD",
-    "field": "Engineering and IT",
-    "period": "Feb 2023 – May 2026",
+    "field": "Computing and Information Systems",
+    "period": "Feb 2023 – Feb 2026",
     "location": "Melbourne, Australia",
-    "thesis": "Towards Reliable AI-assisted Program Repair",
-    "advisors": ["Prof. Toby Murray", "Dr. Bach Le"],
-    "highlights": [
-      "Funded by Melbourne Research Scholarship.",
-      "Awarded Google PhD Fellowship in Software Engineering and Programming Technology. (only recipient in Software Engineering in 2023)"
-    ]
+    "thesis": "Reliable Automatic Software Bug Fixing with Large Language Models",
+    "advisors": ["Prof. Toby Murray", "Dr. Bach Le"]
   },
   {
     "id": "be-hust",
     "institution": "Hanoi University of Science and Technology",
-    "degree": "Bachelor of Engineer",
+    "degree": "Bachelor of Engineering",
     "field": "Information Technology",
     "period": "Aug 2016 – Aug 2021",
     "location": "Hanoi, Vietnam",
     "thesis": "Automated Patch Validation for Program Repair",
-    "advisors": ["Prof. Quyet-Thang Huynh"],
-    "highlights": [
-      "Awarded Best Undergraduate Thesis Award (Top 1 in cohort).",
-      "Selected for Talented Program (Top 30 in Admission)."
-    ]
+    "advisors": ["Prof. Quyet-Thang Huynh"]
   }
 ]

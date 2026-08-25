@@ -1,0 +1,37 @@
+[
+  {
+    "year": "2027",
+    "role": "Chair, Data and AI Models Track",
+    "venue": "The 31st International Conference on Evaluation and Assessment in Software Engineering (EASE 2027)"
+  },
+  {
+    "year": "2026",
+    "role": "Chair, Software Engineering Track",
+    "venue": "The 15th International Symposium on Information and Communication Technology (SoICT 2026)"
+  },
+  {
+    "year": "2025-Now",
+    "role": "Program Committee Member",
+    "venues": [
+      "ICSE 2027, Research Track",
+      "FSE 2027, Research Track",
+      "FORGE 2026, Research Track",
+      "EASE 2025-2026, Data and AI Models Track",
+      "MSR 2025, Research Track"
+    ]
+  },
+  {
+    "year": "2023-Now",
+    "role": "Journal Reviewer",
+    "venues": [
+      "IEEE Transactions on Software Engineering (TSE)",
+      "ACM Transactions on Software Engineering and Methodology (TOSEM)",
+      "Empirical Software Engineering (EMSE)",
+      "IEEE Transactions on Reliability (TR)",
+      "Software Quality Journal (SQJ)",
+      "Information and Software Technology (IST)",
+      "Journal of Systems and Software (JSS)",
+      "Automated Software Engineering (ASE)"
+    ]
+  }
+]

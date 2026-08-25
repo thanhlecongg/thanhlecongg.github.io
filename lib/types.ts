@@ -2,17 +2,19 @@ export interface Publication {
   id: string;
   title: string;
   authors: string[];
+  /** Authors who contributed equally as co-first authors */
+  coFirstAuthors?: string[];
   year: number;
   venue: string;
   venueType: "conference" | "journal" | "workshop" | "preprint";
+  /** Track within the venue, e.g. "Research Track", "NIER Track", "Tool Track", "Main", "Findings" */
+  track?: string;
   links: {
     pdf?: string;
     doi?: string;
     arxiv?: string;
     code?: string;
     slides?: string;
-    /** Internal project page route e.g. "/papers/patchguru" */
-    projectPage?: string;
   };
   abstract?: string;
   bibtex?: string;
@@ -21,62 +23,16 @@ export interface Publication {
   award?: string;
 }
 
-export interface PaperDetail {
-  slug: string;
-  /** Must match a Publication id for back-linking */
-  publicationId: string;
-  title: string;
-  authors: string[];
-  venue: string;
-  venueType: "conference" | "journal" | "workshop" | "preprint";
-  year: number;
-  status?: string;
-  abstract: string;
-  tldr: string;
-  contributions: string[];
-  results?: string[];
-  links: {
-    arxiv?: string;
-    pdf?: string;
-    code?: string;
-    slides?: string;
-    demo?: string;
-    doi?: string;
-  };
-  bibtex: string;
-  tags: string[];
-  /** Optional path (relative to /public) for an approach/architecture figure */
-  approachFigure?: { src: string; alt: string; caption?: string };
-}
-
-export interface TeamMember {
-  id: string;
-  name: string;
-  /** Current role in the research group */
-  role: "phd" | "postdoc" | "masters" | "undergrad" | "alumni" | "collaborator";
-  /** Which group this member belongs to */
-  category: "sutd-member" | "hust-mentee" | "alumni";
-  photo?: string;
-  website?: string;
-  email?: string;
-  joined?: number; // year
-  graduated?: number; // year (alumni only)
-  /** Where the alumni is now, e.g. "PhD Student, University of Sydney" */
-  currentPosition?: string;
-  research?: string; // short research description
-  /** Publication IDs (from publications.json) co-authored with this member */
-  papers?: string[];
-}
-
 export interface Course {
   id: string;
   code: string;
   title: string;
-  semester: string;
-  year: number;
-  level: "undergraduate" | "graduate";
-  description?: string;
-  syllabusUrl?: string;
+  /** e.g. "From 2027", "Semester 1, 2025", "Fall 2024" */
+  term: string;
+  level: "Undergraduate" | "Master's" | "Graduate";
+  description: string;
+  /** Role held while teaching, e.g. "Academic Tutor — 3 weekly tutorial classes, 30 students each" */
+  role?: string;
 }
 
 export interface NewsItem {
@@ -93,7 +49,6 @@ export interface Profile {
   email: string;
   officeLocation?: string;
   bio: string;
-  researchInterests: string[];
   socialLinks: {
     googleScholar?: string;
     dblp?: string;
@@ -132,35 +87,16 @@ export interface ResearchData {
   projects: Project[];
 }
 
-export interface TeachingRole {
-  id: string;
-  institution: string;
-  role: string;
-  /** e.g. "Jan 2024 – Present" */
-  period: string;
-  location?: string;
-  /** Optional list of course codes/names taught in this role */
-  courses?: string[];
-  highlights: string[];
-}
-
-export interface MentoredStudent {
-  name: string;
-  affiliation: string;
-  topic: string;
-  /** Publication references, e.g. "[J3]" */
-  papers?: string[];
-}
-
 export interface ResearchExperience {
   id: string;
   organization: string;
   role: string;
   period: string;
   location: string;
-  type: "full-time" | "part-time" | "visiting";
+  type: "full-time" | "part-time" | "visiting" | "internship";
   supervisors?: string[];
-  highlights: string[];
+  hosts?: string[];
+  highlights?: string[];
 }
 
 export interface Education {
@@ -173,4 +109,17 @@ export interface Education {
   thesis?: string;
   advisors?: string[];
   highlights?: string[];
+}
+
+export interface Award {
+  year: string;
+  title: string;
+  org: string;
+}
+
+export interface ServiceItem {
+  year: string;
+  role: string;
+  venue?: string;
+  venues?: string[];
 }

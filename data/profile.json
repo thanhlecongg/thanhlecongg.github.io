@@ -3,16 +3,9 @@
   "title": "Assistant Professor",
   "department": "Information Systems Technology and Design (ISTD)",
   "university": "Singapore University of Technology and Design (SUTD)",
-  "email": "thanhlc@ieee.org",
+  "email": "congthanh_le@sutd.edu.sg",
   "officeLocation": "",
-  "bio": "Thanh Le-Cong is an Assistant Professor at the ISTD Pillar, Singapore University of Technology and Design (SUTD). He received his PhD from the University of Melbourne in 2026 under the supervision of Dr. Bach Le and Prof. Toby Murray. His research focuses on Software Engineering, especially AI-based Software Engineering and Software Security. He particularly focuses on developing trustworthy AI systems for building reliable and secure software. His research has been published in leading AI and SE venues, such as ICSE, FSE, TOSEM, TSE, and ACL, and was recognised with the Google PhD Fellowship in 2023.",
-  "researchInterests": [
-    "Trustworthy AI for Software Engineering",
-    "Large Language Models for Code",
-    "Automated Program Repair",
-    "Software Testing & Analysis",
-    "Software Security"
-  ],
+  "bio": "Thanh Le-Cong is a tenure-track Assistant Professor in the Information Systems Technology and Design Pillar (ISTD) at the Singapore University of Technology and Design (SUTD). He received his PhD in Computing and Information Systems from the University of Melbourne. His research lies at the intersection of software engineering, artificial intelligence, and cybersecurity. He develops AI methods to audit software and detect and repair bugs and vulnerabilities, as well as assurance techniques for AI-assisted development and AI-powered systems such as autonomous AI agents. His work appears in top-tier SE and AI venues (e.g., ICSE, FSE, TSE, TOSEM, and ACL), and he received the Google PhD Fellowship in 2023.",
   "socialLinks": {
     "googleScholar": "https://scholar.google.com/citations?user=iaQgZHYAAAAJ&hl=en",
     "dblp": "",
@@ -22,16 +15,11 @@
     "orcid": ""
   },
   "news": [
+    { "date": "2026-08", "text": "Glad to share that our two papers, led by my undergraduate interns, on vulnerability-affected library identification and LLMs for functional programming are accepted at EMNLP 2026." },
     { "date": "2026-07", "text": "Glad to share that our ICSME paper has been awarded TCSE Distinguished Paper Award." },
     { "date": "2026-05", "text": "Glad to share that our paper on backdoor defense for Code LLMs is accepted at ICSME 2026." },
     { "date": "2026-05", "text": "Glad to share that our emprical study on mining VFCs from NVD is accepted at ACM TOSEM." },
     { "date": "2026-05", "text": "Invited to be Chair of Data/AI Models Track of EASE 2027." },
-    { "date": "2026-05", "text": "Excited to share that I officially joined SUTD." },
-    { "date": "2026-04", "text": "Excited to share that I have graduated with my PhD from the University of Melbourne." },
-    { "date": "2026-02", "text": "Invited to serve on the PC of ICSE and FSE 2027." },
-    { "date": "2026-01", "text": "Glad to give an invited talk on Software Security at Phenikaa University." },
-    { "date": "2025-12", "text": "Happy to share that our papers on LLM-based program repair and membership inference attacks accepted at ICSE 2026." },
-    { "date": "2025-11", "text": "Excited to share that I have successfully presented my PhD completion seminar at the University of Melbourne." },
-    { "date": "2025-11", "text": "Glad to give an invited talk on Trustworthy Automatic Programming at SUTD." }
+    { "date": "2026-05", "text": "Excited to share that I officially joined SUTD." }
   ]
 }

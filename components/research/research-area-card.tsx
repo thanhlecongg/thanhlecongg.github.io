@@ -1,85 +1,58 @@
-import { Badge } from "@/components/ui/badge";
 import type { ResearchArea, Publication } from "@/lib/types";
-
-interface AreaColors {
-  border: string;
-  bg: string;
-  hover: string;
-  badge: string;
-}
 
 interface Props {
   area: ResearchArea;
-  colors: AreaColors;
+  /** e.g. "01" */
+  num: string;
   /** Lookup map of publication ID → Publication for resolving relatedPapers */
   pubMap: Map<string, Publication>;
 }
 
 /** Resolves the best external link from a publication's links object */
 function resolvePaperLink(pub: Publication): string | undefined {
-  return pub.links.projectPage ?? pub.links.arxiv ?? pub.links.pdf ?? pub.links.doi;
+  return pub.links.arxiv ?? pub.links.pdf ?? pub.links.doi;
 }
 
-/** Card for a single research area — shows description, keywords, and linked papers */
-export function ResearchAreaCard({ area, colors, pubMap }: Props) {
+/** Numbered row for a research area — description alongside its representative papers */
+export function ResearchAreaCard({ area, num, pubMap }: Props) {
   const relatedPubs = (area.relatedPapers ?? [])
     .map((id) => pubMap.get(id))
     .filter((p): p is Publication => p !== undefined);
 
   return (
-    <div
-      className={`border border-border border-l-4 rounded-lg p-5
-                  transition-all duration-200 shadow-sm
-                  ${colors.border} ${colors.bg} ${colors.hover}`}
-    >
-      <h3 className="font-semibold text-foreground mb-1">{area.title}</h3>
-      <p className="text-sm text-muted-foreground mb-3">{area.description}</p>
-
-      {area.keywords && area.keywords.length > 0 && (
-        <div className="flex flex-wrap gap-1 mb-3">
-          {area.keywords.map((kw) => (
-            <Badge
-              key={kw}
-              variant="outline"
-              className={`text-xs border ${colors.badge}`}
-            >
-              {kw}
-            </Badge>
-          ))}
-        </div>
-      )}
-
-      {relatedPubs.length > 0 && (
-        <div className="mt-2 space-y-1">
-          <p className="text-xs font-medium text-muted-foreground uppercase tracking-wide mb-1.5">
-            Related Papers
-          </p>
-          <ul className="space-y-1">
+    <div className="flex flex-col gap-4 py-7 border-t border-border first:border-t-0">
+      <div className="flex items-baseline gap-4">
+        <span className="font-mono text-[12.5px] font-medium tracking-widest text-primary">{num}</span>
+        <h3 className="text-[clamp(1.375rem,2.8vw,1.6875rem)] font-bold tracking-tight leading-snug text-foreground"
+            style={{ fontFamily: "var(--font-heading), Georgia, serif" }}>
+          {area.title}
+        </h3>
+      </div>
+      <div className="flex flex-wrap gap-x-12 gap-y-4 items-start">
+        <p className="flex-1 min-w-[280px] text-pretty text-[15px] leading-relaxed text-muted-foreground">
+          {area.description}
+        </p>
+        {relatedPubs.length > 0 && (
+          <div className="flex-1 min-w-[320px] flex flex-col gap-1.5">
+            <p className="eyebrow">Representative papers</p>
             {relatedPubs.map((pub) => {
               const href = resolvePaperLink(pub);
               return (
-                <li key={pub.id} className="text-xs text-foreground/80 leading-snug flex gap-1.5 items-start">
-                  <span className="text-muted-foreground mt-0.5 flex-shrink-0">›</span>
-                  {href ? (
-                    <a
-                      href={href}
-                      target={href.startsWith("/") ? undefined : "_blank"}
-                      rel={href.startsWith("/") ? undefined : "noopener noreferrer"}
-                      className="hover:underline hover:text-foreground transition-colors"
-                    >
-                      {pub.title} <span className="text-muted-foreground">({pub.venue ?? ""} {pub.year})</span>
-                    </a>
-                  ) : (
-                    <span>
-                      {pub.title} <span className="text-muted-foreground">({pub.venue ?? ""} {pub.year})</span>
-                    </span>
-                  )}
-                </li>
+                <a
+                  key={pub.id}
+                  href={href ?? "#"}
+                  target={href && !href.startsWith("/") ? "_blank" : undefined}
+                  rel={href && !href.startsWith("/") ? "noopener noreferrer" : undefined}
+                  className="flex flex-col gap-0.5 py-1.5 border-b border-border/70 text-foreground/85 hover:text-primary transition-colors"
+                >
+                  <span className="text-[13.5px] font-medium leading-snug">{pub.title}</span>
+                  <span className="font-mono text-[11px] text-muted-foreground">{pub.venue} · {pub.year}</span>
+                </a>
               );
             })}
-          </ul>
-        </div>
-      )}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

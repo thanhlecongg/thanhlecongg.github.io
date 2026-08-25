@@ -1,0 +1,20 @@
+[
+  {
+    "id": "unimelb-swen90010",
+    "code": "SWEN90010",
+    "title": "High Integrity Systems Engineering",
+    "term": "Semester 1, 2025",
+    "level": "Master's",
+    "description": "University of Melbourne.",
+    "role": "Academic Tutor — 3 weekly tutorial classes, 30 students each"
+  },
+  {
+    "id": "ncsu-cs591",
+    "code": "CS591/791",
+    "title": "Generative AI for Software Engineering",
+    "term": "Fall 2024",
+    "level": "Graduate",
+    "description": "North Carolina State University.",
+    "role": "Guest Lecturer — \"Reliability of Code Generation with LLMs\""
+  }
+]

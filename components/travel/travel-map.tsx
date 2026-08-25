@@ -8,18 +8,10 @@ import travelData from "@/data/travel.json";
 
 const GEO_URL = "/data/world-110m.json";
 
-const REGION_MAP = [
-  { ids: ["704","702","764","458"], light:"#0d9488", dark:"#2dd4bf", hl:"#0f766e", hd:"#5eead4" },
-  { ids: ["392","156","158"],       light:"#d97706", dark:"#fbbf24", hl:"#b45309", hd:"#fde68a" },
-  { ids: ["036"],                   light:"#7c3aed", dark:"#a78bfa", hl:"#6d28d9", hd:"#c4b5fd" },
-  { ids: ["840"],                   light:"#2563eb", dark:"#60a5fa", hl:"#1d4ed8", hd:"#93c5fd" },
-  { ids: ["276","250","040","756","528","724","380"],
-                                    light:"#e11d48", dark:"#fb7185", hl:"#be123c", hd:"#fda4af" },
-];
-
-const REGION_COLORS = Object.fromEntries(
-  REGION_MAP.flatMap(r => r.ids.map(id => [id, r]))
-);
+// A single accent for every visited country — matches the site's one-blue palette
+const VISITED = {
+  light: "#3860cf", dark: "#7c9bf0", hl: "#2c4aa8", hd: "#a5bdf5",
+};
 
 const MARKER_COORDS: Record<string, [number, number]> = {
   "704": [105.85, 16.86],
@@ -29,6 +21,9 @@ const MARKER_COORDS: Record<string, [number, number]> = {
 
 const visitedIdSet = new Set(travelData.visitedCountries.map(c => c.id));
 const idToCountry  = Object.fromEntries(travelData.visitedCountries.map(c => [c.id, c]));
+const REGION_COLORS = Object.fromEntries(
+  Array.from(visitedIdSet).map(id => [id, VISITED])
+);
 
 // All labelled countries with known coordinates → always get a pulsing dot
 const labelledMarkers = travelData.visitedCountries

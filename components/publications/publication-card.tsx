@@ -1,157 +1,93 @@
-"use client";
-import { useState } from "react";
-import {
-  FileText,
-  Link as LinkIcon,
-  BookOpen,
-  Code2,
-  Presentation,
-  ChevronDown,
-  ChevronUp,
-  Quote,
-  ExternalLink,
-  Award,
-} from "lucide-react";
-import NextLink from "next/link";
 import { BibTexDialog } from "./bibtex-dialog";
 import { getBibtex } from "@/lib/bibtex-utils";
 import type { Publication } from "@/lib/types";
 
 interface PublicationCardProps {
   publication: Publication;
+  /** Show the year next to the venue — used in grouped buckets like "Before 2023" */
+  showYear?: boolean;
 }
 
-/** Venue badge color map — semantic colors per publication type */
-const VENUE_COLORS: Record<string, string> = {
-  conference: "bg-blue-50 text-blue-700 border-blue-200 dark:bg-blue-950 dark:text-blue-300 dark:border-blue-800",
-  journal:    "bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-950 dark:text-emerald-300 dark:border-emerald-800",
-  workshop:   "bg-amber-50 text-amber-700 border-amber-200 dark:bg-amber-950 dark:text-amber-300 dark:border-amber-800",
-  preprint:   "bg-muted text-muted-foreground border-border",
-};
-
-/** Left-border accent color per venue type */
-const CARD_ACCENT: Record<string, string> = {
-  conference: "border-l-blue-400",
-  journal:    "border-l-emerald-400",
-  workshop:   "border-l-amber-400",
-  preprint:   "border-l-muted-foreground/30",
-};
-
-/** Author list — site owner in primary color */
-function AuthorList({ authors }: { authors: string[] }) {
+/** Author list — site owner emphasized, with optional co-first authorship markers */
+function AuthorList({
+  authors,
+  coFirstAuthors = [],
+}: {
+  authors: string[];
+  coFirstAuthors?: string[];
+}) {
   return (
-    <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
-      {authors.map((author, i) => (
-        <span key={i}>
-          {author === "Thanh Le-Cong" ? (
-            <strong className="font-semibold text-primary">{author}</strong>
-          ) : (
-            author
-          )}
-          {i < authors.length - 1 ? ", " : ""}
-        </span>
-      ))}
-    </p>
+    <div className="flex flex-col gap-0.5">
+      <p className="text-[13.5px] text-muted-foreground leading-relaxed">
+        {authors.map((author, i) => (
+          <span key={i}>
+            {author === "Thanh Le-Cong" ? (
+              <strong className="font-semibold text-foreground">{author}</strong>
+            ) : (
+              author
+            )}
+            {coFirstAuthors.includes(author) && (
+              <sup className="ml-0.5 font-medium text-primary" aria-label="co-first author">†</sup>
+            )}
+            {i < authors.length - 1 ? ", " : ""}
+          </span>
+        ))}
+      </p>
+      {coFirstAuthors.length > 0 && (
+        <span className="text-[11px] text-muted-foreground">† Co-first authors</span>
+      )}
+    </div>
   );
 }
 
 /** Shared chip style for all action links */
-const chipBase =
-  "inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-md font-medium transition-colors cursor-pointer";
-const primaryChip = `${chipBase} bg-primary/8 text-primary hover:bg-primary/15`;
-const mutedChip   = `${chipBase} bg-muted text-muted-foreground hover:text-foreground hover:bg-muted/70`;
+const chipBase = "text-[12.5px] text-muted-foreground border-b border-border pb-px transition-colors cursor-pointer hover:text-primary hover:border-primary";
 
-export function PublicationCard({ publication: p }: PublicationCardProps) {
-  const [showAbstract, setShowAbstract] = useState(false);
-
-  const accentClass = CARD_ACCENT[p.venueType] ?? CARD_ACCENT.preprint;
-
+export function PublicationCard({ publication: p, showYear }: PublicationCardProps) {
   return (
-    <article
-      className={`bg-card border border-border border-l-4 ${accentClass}
-                  rounded-lg p-5 transition-shadow duration-200 hover:shadow-sm`}
-    >
-      {/* Top row: venue badge + award badge */}
-      <div className="flex items-start justify-between gap-2 mb-2 flex-wrap">
-        <span
-          className={`inline-block text-xs font-semibold px-2 py-0.5 rounded border
-                      ${VENUE_COLORS[p.venueType] ?? VENUE_COLORS.preprint}`}
-        >
+    <article className="flex flex-wrap gap-x-6 gap-y-2 py-3.5 px-4 -mx-4 rounded-[10px] border-b border-border/70 hover:bg-card transition-colors">
+      <div className="flex-none w-[100px] flex flex-col items-start gap-1.5 pt-0.5">
+        <span className="font-mono text-[11px] font-medium uppercase tracking-wide text-foreground/85 underline decoration-primary/30 decoration-2 underline-offset-4">
           {p.venue}
         </span>
+        {p.track && (
+          <span className="font-mono text-[11px] text-muted-foreground">{p.track}</span>
+        )}
+        {showYear && (
+          <span className="font-mono text-[11px] text-muted-foreground">{p.year}</span>
+        )}
         {p.award && (
-          <span className="inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded border
-                            bg-amber-50 text-amber-700 border-amber-200
-                            dark:bg-amber-950 dark:text-amber-300 dark:border-amber-800">
-            <Award className="w-3 h-3" />
-            {p.award}
-          </span>
+          <span className="text-[11px] leading-snug text-amber-700 dark:text-amber-400">★ {p.award}</span>
         )}
       </div>
 
-      {/* Title — serif font for scholarly weight */}
-      <h3 className="text-[1.05rem] font-semibold text-foreground leading-snug mb-1.5"
-          style={{ fontFamily: "var(--font-heading), Georgia, serif" }}>
-        {p.title}
-      </h3>
+      <div className="flex-1 min-w-[280px] flex flex-col gap-1.5">
+        <h3 className="text-[19px] font-semibold text-foreground leading-snug"
+            style={{ fontFamily: "var(--font-heading), Georgia, serif" }}>
+          {p.title}
+        </h3>
 
-      {/* Authors — own name in primary blue */}
-      <AuthorList authors={p.authors} />
+        <AuthorList authors={p.authors} coFirstAuthors={p.coFirstAuthors} />
 
-      {/* Action chips row */}
-      <div className="flex flex-wrap gap-1.5">
-        {p.links.pdf && (
-          <a href={p.links.pdf} target="_blank" rel="noopener noreferrer" className={primaryChip}>
-            <FileText className="w-3 h-3" /> PDF
-          </a>
-        )}
-        {p.links.doi && (
-          <a href={p.links.doi} target="_blank" rel="noopener noreferrer" className={primaryChip}>
-            <LinkIcon className="w-3 h-3" /> DOI
-          </a>
-        )}
-        {p.links.arxiv && (
-          <a href={p.links.arxiv} target="_blank" rel="noopener noreferrer" className={primaryChip}>
-            <BookOpen className="w-3 h-3" /> arXiv
-          </a>
-        )}
-        {p.links.code && (
-          <a href={p.links.code} target="_blank" rel="noopener noreferrer" className={primaryChip}>
-            <Code2 className="w-3 h-3" /> Code
-          </a>
-        )}
-        {p.links.slides && (
-          <a href={p.links.slides} target="_blank" rel="noopener noreferrer" className={primaryChip}>
-            <Presentation className="w-3 h-3" /> Slides
-          </a>
-        )}
-        {p.abstract && (
-          <button onClick={() => setShowAbstract((v) => !v)} className={mutedChip}>
-            {showAbstract
-              ? <><ChevronUp className="w-3 h-3" /> Hide</>
-              : <><ChevronDown className="w-3 h-3" /> Abstract</>}
-          </button>
-        )}
-        <BibTexDialog bibtex={getBibtex(p)} />
-        {p.links.projectPage && (
-          <NextLink href={p.links.projectPage}
-            className={`${primaryChip} border border-primary/20`}>
-            <ExternalLink className="w-3 h-3" /> Project Page
-          </NextLink>
-        )}
-      </div>
-
-      {/* Collapsible abstract with subtle inset panel */}
-      {showAbstract && p.abstract && (
-        <div className="mt-4 bg-muted/40 border border-border rounded-md p-4">
-          <div className="flex items-center gap-1.5 mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            <Quote className="w-3 h-3" /> Abstract
-          </div>
-          <p className="text-sm text-foreground/90 leading-relaxed">
-            {p.abstract}
-          </p>
+        <div className="flex flex-wrap gap-x-4 gap-y-1 mt-1 items-center">
+          {p.links.pdf && (
+            <a href={p.links.pdf} target="_blank" rel="noopener noreferrer" className={chipBase}>PDF</a>
+          )}
+          {p.links.doi && (
+            <a href={p.links.doi} target="_blank" rel="noopener noreferrer" className={chipBase}>DOI</a>
+          )}
+          {p.links.arxiv && (
+            <a href={p.links.arxiv} target="_blank" rel="noopener noreferrer" className={chipBase}>arXiv</a>
+          )}
+          {p.links.code && (
+            <a href={p.links.code} target="_blank" rel="noopener noreferrer" className={chipBase}>Code</a>
+          )}
+          {p.links.slides && (
+            <a href={p.links.slides} target="_blank" rel="noopener noreferrer" className={chipBase}>Slides</a>
+          )}
+          <BibTexDialog bibtex={getBibtex(p)} />
         </div>
-      )}
+      </div>
     </article>
   );
 }

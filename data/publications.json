@@ -1,5 +1,55 @@
 [
   {
+    "id": "2026-athena-vulnerability-library-identification",
+    "title": "Athena: Vulnerability-Affected Library Identification via Knowledge Graph Completion",
+    "authors": [
+      "Phong Trinh Duy",
+      "Trang Dang Yen",
+      "Huu Hung Nguyen",
+      "Huynh Quyet Thang",
+      "Bach Le",
+      "Dieu Hoang Vu",
+      "David Lo",
+      "Thanh Le-Cong"
+    ],
+    "year": 2026,
+    "venue": "EMNLP",
+    "venueType": "conference",
+    "track": "Main",
+    "links": {},
+    "tags": [
+      "vulnerability",
+      "knowledge graph",
+      "library identification"
+    ],
+    "bibtex": "@inproceedings{duy2026athena,\n  title={Athena: Vulnerability-Affected Library Identification via Knowledge Graph Completion},\n  author={Duy, Phong Trinh and Yen, Trang Dang and Nguyen, Huu Hung and Thang, Huynh Quyet and Le, Bach and Vu, Dieu Hoang and Lo, David and Le-Cong, Thanh},\n  booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)},\n  year={2026}\n}"
+  },
+  {
+    "id": "2026-functional-programming-llm-eval",
+    "title": "Perish or Flourish? A Holistic Evaluation of Large Language Models for Code Generation in Functional Programming",
+    "authors": [
+      "Nguyet-Anh H. Lang",
+      "Eric Lang",
+      "Bach Le",
+      "Quyet-Thang Huynh",
+      "Thanh Le-Cong"
+    ],
+    "year": 2026,
+    "venue": "EMNLP",
+    "venueType": "conference",
+    "track": "Findings",
+    "links": {
+      "pdf": "/pdfs/2026-functional-programming-llm-eval.pdf",
+      "code": "https://github.com/thanhlecongg/FPEval"
+    },
+    "tags": [
+      "LLM",
+      "code generation",
+      "evaluation"
+    ],
+    "bibtex": "@inproceedings{lang2026fpeval,\n  title={Perish or Flourish? A Holistic Evaluation of Large Language Models for Code Generation in Functional Programming},\n  author={Lang, Nguyet-Anh H. and Lang, Eric and Le-Cong, Thanh and Le, Bach and Huynh, Quyet-Thang},\n  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2026},\n  year={2026}\n}"
+  },
+  {
     "id": "2025-nvd-vfc-mapping-exploratory",
     "title": "Mapping NVD Records to Their Vulnerability-fixing Commits: How Hard is It?",
     "authors": [
@@ -17,15 +67,16 @@
     "year": 2026,
     "venue": "TOSEM",
     "venueType": "journal",
+    "track": "Journal",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2506.09702",
+      "pdf": "/pdfs/2025-nvd-vfc-mapping-exploratory.pdf",
       "code": "https://github.com/hungkien05/VFC-from-NVD-study"
     },
     "tags": [
       "vulnerability",
       "NVD"
     ],
-    "bibtex": "@article{nguyen2025nvdvfc,\n  title={Mapping NVD Records to Their VFCs: How Hard is it?},\n  author={Nguyen, Huu Hung and Tran, Duc Manh and Cheng, Yiran and Le-Cong, Thanh and Kang, Hong Jin and Widyasari, Ratnadira and Khin, Shar Lwin and Lieh, Ouh Eng and Zhang, Ting and Lo, David},\n  journal={arXiv preprint arXiv:2506.09702},\n  year={2025},\n  eprint={2506.09702},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2506.09702}\n}"
+    "bibtex": "@article{nguyen2026nvdvfc,\n  title={Mapping NVD Records to Their Vulnerability-fixing Commits: How Hard is It?},\n  author={Nguyen, Huu Hung and Zhang, Ting and Tran, Duc Manh and Cheng, Yiran and Le-Cong, Thanh and Kang, Hong Jin and Widyasari, Ratnadira and Khin, Shar Lwin and Lieh, Ouh Eng and Lo, David},\n  journal={ACM Transactions on Software Engineering and Methodology},\n  year={2026},\n  month={may},\n  publisher={ACM},\n  doi={10.1145/3817046},\n  url={https://doi.org/10.1145/3817046}\n}"
   },
   {
     "id": "2026-code-backdoor-detection",
@@ -39,15 +90,16 @@
     "year": 2026,
     "venue": "ICSME",
     "venueType": "conference",
+    "track": "Research Track",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2510.13992"
+      "pdf": "/pdfs/2026-code-backdoor-detection.pdf"
     },
     "tags": [
       "security",
       "backdoor detection"
     ],
     "award": "IEEE TCSE Distinguished Paper Award",
-    "bibtex": "@inproceedings{nguyen2026signature,\n title={Optimizing Spectral Signature in Code Backdoor Detection},\n author={Le, Quoc-Hung and Le-Cong, Thanh and Le, Bach and Xu, Bowen},\n booktitle={2026 IEEE International Conference on Software Maintenance and Evolution (ICSME)},\n pages={945--949},\n year={2026},\n organization={IEEE}}"
+    "bibtex": "@inproceedings{le2026signature,\n  title={Optimizing Spectral Signature in Code Backdoor Detection},\n  author={Le, Quoc-Hung and Le-Cong, Thanh and Le, Xuan-Bach D. and Xu, Bowen},\n  booktitle={2026 IEEE International Conference on Software Maintenance and Evolution (ICSME)},\n  year={2026},\n  publisher={IEEE}\n}"
   },
   {
     "id": "2026-memory-efficient-llm-repair",
@@ -60,15 +112,16 @@
     "year": 2026,
     "venue": "ICSE",
     "venueType": "conference",
+    "track": "Research Track",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2410.16655",
+      "pdf": "/pdfs/2026-memory-efficient-llm-repair.pdf",
       "code": "https://github.com/thanhlecongg/FLAMES"
     },
     "tags": [
       "program repair",
       "LLM"
     ],
-    "bibtex": "@article{lecong2026flames,\n  title={Memory-Efficient Large Language Models for Program Repair with Semantic-Guided Patch Generation},\n  author={Le-Cong, Thanh and Le, Bach and Murray, Toby},\n  journal={arXiv preprint arXiv:2410.16655},\n  year={2026},\n  eprint={2410.16655},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  note={Accepted to ICSE 2026, Research Track},\n  doi={10.48550/arXiv.2410.16655}\n}"
+    "bibtex": "@inproceedings{lecong2026flames,\n  title={Memory-Efficient Large Language Models for Program Repair with Semantic-Guided Patch Generation},\n  author={Le-Cong, Thanh and Le, Bach and Murray, Toby},\n  booktitle={Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)},\n  year={2026},\n  publisher={ACM}\n}"
   },
   {
     "id": "2026-membership-inference-llm-code",
@@ -84,15 +137,16 @@
     "year": 2026,
     "venue": "ICSE",
     "venueType": "conference",
+    "track": "Research Track",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2512.15468"
+      "pdf": "/pdfs/2026-membership-inference-llm-code.pdf"
     },
     "tags": [
       "LLM",
       "security",
       "membership inference"
     ],
-    "bibtex": "@article{yang2026mia,\n  title={How Do Semantically Equivalent Code Transformations Impact Membership Inference on LLMs for Code?},\n  author={Yang, Hua and Velasco, Alejandro and Le-Cong, Thanh and Haque, Md Nazmul and Xu, Bowen and Poshyvanyk, Denys},\n  journal={arXiv preprint arXiv:2512.15468},\n  year={2025},\n  eprint={2512.15468},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2512.15468}\n}"
+    "bibtex": "@inproceedings{yang2026membership,\n  title={How Do Semantically Equivalent Code Transformations Impact Membership Inference on {LLM}s for Code?},\n  author={Yang, Hua and Velasco, Alejandro and Le-Cong, Thanh and Haque, Md Nazmul and Xu, Bowen and Poshyvanyk, Denys},\n  booktitle={Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)},\n  year={2026},\n  publisher={ACM}\n}"
   },
   {
     "id": "2026-patchguru-patch-oracle",
@@ -105,44 +159,18 @@
       "Michael Pradel"
     ],
     "year": 2026,
-    "venue": "Under Review",
+    "venue": "arXiv",
     "venueType": "preprint",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2602.05270",
-      "code": "https://github.com/thanhlecongg/PatchGuru",
-      "projectPage": "/papers/patchguru"
+      "pdf": "/pdfs/2026-patchguru-patch-oracle.pdf",
+      "code": "https://github.com/thanhlecongg/PatchGuru"
     },
     "tags": [
       "program repair",
       "LLM",
       "patch correctness"
     ],
-    "bibtex": "@article{lecong2026patchguru,\n  title={PatchGuru: Patch Oracle Inference from Natural Language Artifacts with Large Language Models},\n  author={Le-Cong, Thanh and Le, Bach and Murray, Toby and Pradel, Michael and Cadar, Cristian},\n  journal={arXiv preprint arXiv:2602.05270},\n  year={2026},\n  eprint={2602.05270},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2602.05270}\n}"
-  },
-  {
-    "id": "2026-functional-programming-llm-eval",
-    "title": "Perish or Flourish? A Holistic Evaluation of Large Language Models for Code Generation in Functional Programming",
-    "authors": [
-      "Nguyet-Anh H. Lang",
-      "Eric Lang",
-      "Bach Le",
-      "Quyet-Thang Huynh",
-      "Thanh Le-Cong"
-    ],
-    "year": 2026,
-    "venue": "Under Review",
-    "venueType": "preprint",
-    "links": {
-      "arxiv": "https://arxiv.org/pdf/2601.02060",
-      "code": "https://github.com/thanhlecongg/FPEval",
-      "projectPage": "/papers/fpeval"
-    },
-    "tags": [
-      "LLM",
-      "code generation",
-      "evaluation"
-    ],
-    "bibtex": "@article{lang2026fpeval,\n  title={Perish or Flourish? A Holistic Evaluation of Large Language Models for Code Generation in Functional Programming},\n  author={Lang, Nguyet-Anh H. and Lang, Eric and Le-Cong, Thanh and Le, Bach and Huynh, Quyet-Thang},\n  journal={arXiv preprint arXiv:2601.02060},\n  year={2026},\n  eprint={2601.02060},\n  archivePrefix={arXiv},\n  primaryClass={cs.PL},\n  doi={10.48550/arXiv.2601.02060}\n}"
+    "bibtex": "@article{lecong2026patchguru,\n  title={PatchGuru: Patch Oracle Inference from Natural Language Artifacts with Large Language Models},\n  author={Le-Cong, Thanh and Le, Bach and Murray, Toby and Cadar, Cristian and Pradel, Michael},\n  journal={arXiv preprint arXiv:2602.05270},\n  year={2026},\n  eprint={2602.05270},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2602.05270}\n}"
   },
   {
     "id": "2026-fpmoe-functional-code-generation",
@@ -153,10 +181,10 @@
       "Thanh Le-Cong"
     ],
     "year": 2026,
-    "venue": "Under Review",
+    "venue": "arXiv",
     "venueType": "preprint",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2605.27849"
+      "pdf": "/pdfs/2026-fpmoe-functional-code-generation.pdf"
     },
     "tags": [
       "code generation",
@@ -182,11 +210,11 @@
       "Ting Zhang",
       "David Lo"
     ],
-    "year": 2026,
-    "venue": "Under Review",
+    "year": 2025,
+    "venue": "arXiv",
     "venueType": "preprint",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2509.07540v1"
+      "pdf": "/pdfs/2025-patchseeker-nvd-mapping.pdf"
     },
     "tags": [
       "vulnerability",
@@ -204,11 +232,11 @@
       "Bach Le",
       "Christine Rizkallah"
     ],
-    "year": 2026,
-    "venue": "Under Review",
+    "year": 2025,
+    "venue": "arXiv",
     "venueType": "preprint",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2506.13182"
+      "pdf": "/pdfs/2025-regression-repair-llm.pdf"
     },
     "tags": [
       "program repair",
@@ -230,11 +258,11 @@
       "Bach Le",
       "David Lo"
     ],
-    "year": 2026,
-    "venue": "Under Review",
+    "year": 2024,
+    "venue": "arXiv",
     "venueType": "preprint",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2407.16235"
+      "pdf": "/pdfs/2024-sast-llm-vulnerability.pdf"
     },
     "tags": [
       "vulnerability",
@@ -255,8 +283,9 @@
     "year": 2025,
     "venue": "TOSEM",
     "venueType": "journal",
+    "track": "Journal",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2402.11892.pdf",
+      "pdf": "/pdfs/2025-reliable-eval-neural-program-repair.pdf",
       "code": "https://github.com/thanhlecongg/NaturalRobustnessNPR"
     },
     "tags": [
@@ -264,7 +293,7 @@
       "evaluation",
       "robustness"
     ],
-    "bibtex": "@article{le2025towards,\n title={Towards reliable evaluation of neural program repair with natural robustness testing},\n author={Le-Cong, Thanh and Nguyen, Dat and Le, Bach and Murray, Toby},\n journal={ACM Transactions on Software Engineering and Methodology},\n volume={34},\n number={7},\n pages={1--44},\n year={2025},\n publisher={ACM New York, NY}}"
+    "bibtex": "@article{lecong2025reliable,\n  title={Towards Reliable Evaluation of Neural Program Repair with Natural Robustness Testing},\n  author={Le-Cong, Thanh and Nguyen, Dat and Le, Bach and Murray, Toby},\n  journal={ACM Transactions on Software Engineering and Methodology},\n  volume={34},\n  number={7},\n  pages={1--44},\n  year={2025},\n  month={aug},\n  publisher={ACM},\n  doi={10.1145/3716167},\n  url={https://doi.org/10.1145/3716167}\n}"
   },
   {
     "id": "2025-adversarial-patch-generation",
@@ -279,14 +308,15 @@
     "year": 2025,
     "venue": "SQJ",
     "venueType": "journal",
+    "track": "Journal",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2012.11060.pdf"
+      "pdf": "/pdfs/2025-adversarial-patch-generation.pdf"
     },
     "tags": [
       "program repair",
       "adversarial"
     ],
-    "bibtex": "@article{alhefdhi2025adversarial,\n  title={Adversarial Patch Generation for Automated Program Repair},\n  author={Alhefdhi, Abdulaziz and Dam, Hoa Khanh and Le-Cong, Thanh and Le, Bach and Ghose, Aditya},\n  journal={arXiv preprint arXiv:2012.11060},\n  year={2020},\n  eprint={2012.11060},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2012.11060}\n}"
+    "bibtex": "@article{alhefdhi2025adversarial,\n  title={Adversarial Patch Generation for Automated Program Repair},\n  author={Alhefdhi, Abdulaziz and Dam, Hoa Khanh and Le-Cong, Thanh and Le, Bach and Ghose, Aditya},\n  journal={Software Quality Journal},\n  volume={33},\n  number={1},\n  pages={12},\n  year={2025},\n  month={jan},\n  publisher={Springer},\n  doi={10.1007/s11219-025-09709-4},\n  url={https://doi.org/10.1007/s11219-025-09709-4}\n}"
   },
   {
     "id": "2025-llm-formal-spec-inference",
@@ -299,8 +329,9 @@
     "year": 2025,
     "venue": "ACL",
     "venueType": "conference",
+    "track": "Main",
     "links": {
-      "pdf": "https://aclanthology.org/2025.acl-long.1068.pdf",
+      "pdf": "/pdfs/2025-llm-formal-spec-inference.pdf",
       "code": "https://github.com/thanhlecongg/FormalBench"
     },
     "tags": [
@@ -323,15 +354,16 @@
     "year": 2025,
     "venue": "ICSME",
     "venueType": "conference",
+    "track": "Research Track",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2507.10729",
+      "pdf": "/pdfs/2025-jit-vulnerability-prediction-eval.pdf",
       "code": "https://github.com/AI4Code-HUST/VulGuard/"
     },
     "tags": [
       "vulnerability",
       "evaluation"
     ],
-    "bibtex": "@inproceedings{nguyen2025toward,\n title={Toward realistic evaluations of just-in-time vulnerability prediction},\n author={Nguyen, Duong and Le-Cong, Thanh and Le, Triet Huynh Minh and Babar, M Ali and Huynh, Quyet-Thang},\n booktitle={2025 IEEE International Conference on Software Maintenance and Evolution (ICSME)},\n pages={1--10},\n year={2025},\n organization={IEEE}}"
+    "bibtex": "@inproceedings{nguyen2025realistic,\n  title={Toward Realistic Evaluations of Just-In-Time Vulnerability Prediction},\n  author={Nguyen, Duong and Le-Cong, Thanh and Le, Triet Huynh Minh and Babar, M. Ali and Huynh, Quyet-Thang},\n  booktitle={2025 IEEE International Conference on Software Maintenance and Evolution (ICSME)},\n  pages={1--10},\n  year={2025},\n  month={sep},\n  publisher={IEEE},\n  doi={10.1109/ICSME64153.2025.00023},\n  url={https://doi.org/10.1109/ICSME64153.2025.00023}\n}"
   },
   {
     "id": "2025-vulguard-tool",
@@ -347,15 +379,16 @@
     "year": 2025,
     "venue": "ICSME",
     "venueType": "conference",
+    "track": "Tool Track",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2507.16685",
+      "pdf": "/pdfs/2025-vulguard-tool.pdf",
       "code": "https://github.com/AI4Code-HUST/VulGuard/"
     },
     "tags": [
       "vulnerability",
       "tool"
     ],
-    "bibtex": "@article{nguyen2025vulguard,\n  title={VulGuard: An Unified Tool for Evaluating Just-In-Time Vulnerability Prediction Models},\n  author={Nguyen, Duong and Tran-Duc, Manh and Le-Cong, Thanh and Le, Triet Huynh Minh and Babar, M. Ali and Huynh, Quyet-Thang},\n  journal={arXiv preprint arXiv:2507.16685},\n  year={2025},\n  eprint={2507.16685},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2507.16685}\n}"
+    "bibtex": "@inproceedings{nguyen2025vulguard,\n  title={VulGuard: An Unified Tool for Evaluating Just-In-Time Vulnerability Prediction Models},\n  author={Nguyen, Duong and Tran-Duc, Manh and Le-Cong, Thanh and Le, Triet Huynh Minh and Babar, M. Ali and Huynh, Quyet-Thang},\n  booktitle={2025 IEEE International Conference on Software Maintenance and Evolution (ICSME)},\n  pages={945--949},\n  year={2025},\n  month={sep},\n  publisher={IEEE},\n  doi={10.1109/ICSME64153.2025.00112},\n  url={https://doi.org/10.1109/ICSME64153.2025.00112}\n}"
   },
   {
     "id": "2024-chatgpt-code-quality",
@@ -372,8 +405,9 @@
     "year": 2024,
     "venue": "TOSEM",
     "venueType": "journal",
+    "track": "Journal",
     "links": {
-      "pdf": "https://dl.acm.org/doi/full/10.1145/3643674",
+      "pdf": "/pdfs/2024-chatgpt-code-quality.pdf",
       "code": "https://github.com/yueyueL/ChatGPT-CodeGenAnalysis"
     },
     "tags": [
@@ -400,6 +434,7 @@
     "year": 2024,
     "venue": "TSE",
     "venueType": "journal",
+    "track": "Journal",
     "links": {
       "pdf": "https://ieeexplore.ieee.org/document/10659742/"
     },
@@ -425,8 +460,9 @@
     "year": 2024,
     "venue": "EASE",
     "venueType": "conference",
+    "track": "Research Track",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2403.05873",
+      "pdf": "/pdfs/2024-legion-github-topic.pdf",
       "code": "https://github.com/AI4Code-HUST/LEGION"
     },
     "tags": [
@@ -434,7 +470,7 @@
       "topic recommendation",
       "language models"
     ],
-    "bibtex": "@article{dang2024legion,\n  title={LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss},\n  author={Dang, Yen-Trang and Le-Cong, Thanh and Nguyen, Phuc-Thanh and Bui, Anh M. T. and Nguyen, Phuong T. and Le, Bach and Huynh, Quyet-Thang},\n  journal={arXiv preprint arXiv:2403.05873},\n  year={2024},\n  eprint={2403.05873},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2403.05873}\n}"
+    "bibtex": "@inproceedings{dang2024legion,\n  title={{LEGION}: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss},\n  author={Dang, Yen-Trang and Le-Cong, Thanh and Nguyen, Phuc-Thanh and Bui, Anh M. T. and Nguyen, Phuong T. and Le, Bach and Huynh, Quyet-Thang},\n  booktitle={Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering},\n  pages={181--190},\n  year={2024},\n  month={jun},\n  publisher={ACM},\n  doi={10.1145/3661167.3661168},\n  url={https://doi.org/10.1145/3661167.3661168}\n}"
   },
   {
     "id": "2023-invalidator-patch-correctness",
@@ -450,8 +486,9 @@
     "year": 2023,
     "venue": "TSE",
     "venueType": "journal",
+    "track": "Journal",
     "links": {
-      "pdf": "https://dl.acm.org/doi/abs/10.1109/TSE.2023.3255177",
+      "pdf": "/pdfs/2023-invalidator-patch-correctness.pdf",
       "code": "https://github.com/thanhlecongg/Invalidator"
     },
     "tags": [
@@ -480,8 +517,9 @@
     "year": 2023,
     "venue": "TSE",
     "venueType": "journal",
+    "track": "Journal",
     "links": {
-      "pdf": "https://dl.acm.org/doi/10.1109/TSE.2023.3281275",
+      "pdf": "/pdfs/2023-midas-vulnerability-commit.pdf",
       "code": "https://github.com/soarsmu/midas"
     },
     "tags": [
@@ -503,6 +541,7 @@
     "year": 2023,
     "venue": "SANER",
     "venueType": "conference",
+    "track": "Research Track",
     "links": {
       "pdf": "https://ieeexplore.ieee.org/document/10123501/"
     },
@@ -525,11 +564,16 @@
       "Ming Li",
       "David Lo"
     ],
+    "coFirstAuthors": [
+      "Yunbo Lyu",
+      "Thanh Le-Cong"
+    ],
     "year": 2023,
     "venue": "ICSE",
     "venueType": "conference",
+    "track": "Research Track",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2301.03944",
+      "pdf": "/pdfs/2023-chronos-library-identification.pdf",
       "code": "https://github.com/soarsmu/Chronos"
     },
     "tags": [
@@ -557,8 +601,9 @@
     "year": 2023,
     "venue": "ASE",
     "venueType": "conference",
+    "track": "NIER Track",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2307.09765"
+      "pdf": "/pdfs/2023-generative-ai-software-qa.pdf"
     },
     "tags": [
       "LLM",
@@ -582,15 +627,16 @@
     "year": 2022,
     "venue": "FSE",
     "venueType": "conference",
+    "track": "Research Track",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2209.03230",
+      "pdf": "/pdfs/2022-autopruner-call-graph.pdf",
       "code": "https://github.com/soarsmu/AutoPruner"
     },
     "tags": [
       "call graph",
       "program analysis"
     ],
-    "bibtex": "@inproceedings{lecong2022autopruner,\n  title={AutoPruner: Transformer-based Call Graph Pruning},\n  author={Le-Cong, Thanh and Kang, Hong Jin and Nguyen, Truong Giang and Haryono, Stefanus Agus and Lo, David and Le, Xuan-Bach D. and Huynh, Quyet-Thang},\n  booktitle={Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2022)},\n  year={2022},\n  eprint={2209.03230},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2209.03230}\n}"
+    "bibtex": "@inproceedings{lecong2022autopruner,\n  title={AutoPruner: Transformer-based Call Graph Pruning},\n  author={Le-Cong, Thanh and Kang, Hong Jin and Nguyen, Truong Giang and Haryono, Stefanus Agus and Lo, David and Le, Xuan-Bach D. and Huynh, Quyet-Thang},\n  booktitle={Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},\n  pages={520--532},\n  year={2022},\n  month={nov},\n  publisher={ACM},\n  doi={10.1145/3540250.3549175},\n  url={https://doi.org/10.1145/3540250.3549175}\n}"
   },
   {
     "id": "2022-ffl-fault-localization",
@@ -606,15 +652,16 @@
     "year": 2022,
     "venue": "ICSME",
     "venueType": "conference",
+    "track": "Research Track",
     "links": {
-      "pdf": "https://soarsmu.github.io/papers/2022/ICSME_FFL.pdf",
+      "pdf": "/pdfs/2022-ffl-fault-localization.pdf",
       "code": "https://github.com/FFL2022/FFL"
     },
     "tags": [
       "fault localization",
       "student programs"
     ],
-    "bibtex": "@inproceedings{nguyen2022ffl,\n  title={{FFL}: Fine-Grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning},\n  author={Nguyen, Thanh-Dat and Le-Cong, Thanh and Luong, Duc-Minh and Duong, Van-Hai and Le, Xuan Bach D. and Lo, David and Huynh, Quyet-Thang},\n  booktitle={2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)},\n  year={2022},\n  publisher={IEEE}\n}"
+    "bibtex": "@inproceedings{nguyen2022ffl,\n  title={{FFL}: Fine-Grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning},\n  author={Nguyen, Thanh-Dat and Le-Cong, Thanh and Luong, Duc-Minh and Duong, Van-Hai and Le, Xuan-Bach D. and Lo, David and Huynh, Quyet-Thang},\n  booktitle={2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)},\n  pages={151--162},\n  year={2022},\n  month={oct},\n  publisher={IEEE},\n  doi={10.1109/ICSME55016.2022.00022},\n  url={https://doi.org/10.1109/ICSME55016.2022.00022}\n}"
   },
   {
     "id": "2022-analysis-graph-neural-networks",
@@ -626,17 +673,22 @@
       "Bach Le",
       "Quyet-Thang Huynh"
     ],
+    "coFirstAuthors": [
+      "Thanh-Dat Nguyen",
+      "Thanh Le-Cong"
+    ],
     "year": 2022,
     "venue": "ICSE",
     "venueType": "conference",
+    "track": "NIER Track",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2201.00115"
+      "pdf": "/pdfs/2022-analysis-graph-neural-networks.pdf"
     },
     "tags": [
       "graph neural networks",
       "analysis"
     ],
-    "bibtex": "@inproceedings{nguyen2022gnn,\n  title={Towards the Analysis of Graph Neural Networks},\n  author={Nguyen, Thanh-Dat and Le-Cong, Thanh and Nguyen, ThanhVu H. and Le, Xuan-Bach D. and Huynh, Quyet-Thang},\n  booktitle={44th International Conference on Software Engineering (ICSE 2022)},\n  year={2022},\n  eprint={2201.00115},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  note={NIER Track},\n  doi={10.48550/arXiv.2201.00115}\n}"
+    "bibtex": "@inproceedings{nguyen2022gnn,\n  title={Toward the Analysis of Graph Neural Networks},\n  author={Nguyen, Thanh-Dat and Le-Cong, Thanh and Nguyen, ThanhVu H. and Le, Xuan-Bach D. and Huynh, Quyet-Thang},\n  booktitle={Proceedings of the ACM/IEEE 44th International Conference on Software Engineering: New Ideas and Emerging Results},\n  pages={116--120},\n  year={2022},\n  month={may},\n  publisher={ACM},\n  doi={10.1145/3510455.3512780},\n  url={https://doi.org/10.1145/3510455.3512780}\n}"
   },
   {
     "id": "2022-vulcurator-vulnerability-detector",
@@ -651,8 +703,9 @@
     "year": 2022,
     "venue": "FSE",
     "venueType": "conference",
+    "track": "Tool Track",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2201.00115",
+      "pdf": "/pdfs/2022-vulcurator-vulnerability-detector.pdf",
       "code": "https://github.com/ntgiang71096/vfdetector"
     },
     "tags": [
@@ -673,14 +726,15 @@
     "year": 2021,
     "venue": "ISSRE",
     "venueType": "conference",
+    "track": "Research Track",
     "links": {
-      "arxiv": "https://arxiv.org/pdf/2201.00117"
+      "pdf": "/pdfs/2021-better-together-web-repair.pdf"
     },
     "tags": [
       "program repair",
       "web pages"
     ],
-    "bibtex": "@inproceedings{lecong2021webrepair,\n  title={Usability and Aesthetics: Better Together for Automated Repair of Web Pages},\n  author={Le-Cong, Thanh and Le, Xuan Bach D. and Huynh, Quyet-Thang and Nguyen, Phi-Le},\n  booktitle={2021 IEEE 32nd International Symposium on Software Reliability Engineering (ISSRE 2021)},\n  year={2021},\n  eprint={2201.00117},\n  archivePrefix={arXiv},\n  primaryClass={cs.SE},\n  doi={10.48550/arXiv.2201.00117}\n}"
+    "bibtex": "@inproceedings{lecong2021webrepair,\n  title={Usability and Aesthetics: Better Together for Automated Repair of Web Pages},\n  author={Le-Cong, Thanh and Le, Xuan-Bach D. and Huynh, Quyet-Thang and Nguyen, Phi-Le},\n  booktitle={2021 IEEE 32nd International Symposium on Software Reliability Engineering (ISSRE)},\n  pages={173--183},\n  year={2021},\n  month={oct},\n  publisher={IEEE},\n  doi={10.1109/ISSRE52982.2021.00029},\n  url={https://doi.org/10.1109/ISSRE52982.2021.00029}\n}"
   },
   {
     "id": "2020-multifactorial-optimization",
@@ -697,8 +751,9 @@
     "year": 2020,
     "venue": "Information Sciences",
     "venueType": "journal",
+    "track": "Journal",
     "links": {
-      "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0020025520305570"
+      "pdf": "/pdfs/2020-multifactorial-optimization.pdf"
     },
     "tags": [
       "optimization",

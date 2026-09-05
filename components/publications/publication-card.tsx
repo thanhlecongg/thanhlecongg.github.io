@@ -41,7 +41,17 @@ function AuthorList({
 }
 
 /** Shared chip style for all action links */
-const chipBase = "text-[12.5px] text-muted-foreground border-b border-border pb-px transition-colors cursor-pointer hover:text-primary hover:border-primary";
+const chipBase = "text-[12.5px] border-b pb-px transition-colors cursor-pointer";
+
+/** Neutral chip style — used for links that appear on nearly every card (PDF, Code) */
+const chipNeutral = "text-muted-foreground border-border hover:text-foreground hover:border-foreground/50";
+
+/** Per-link-type color, reserved for the less common link types so it signals "extra resource" */
+const linkColors = {
+  doi: "text-violet-600/80 dark:text-violet-400/80 border-violet-600/30 dark:border-violet-400/30 hover:text-violet-600 dark:hover:text-violet-400 hover:border-violet-600 dark:hover:border-violet-400",
+  arxiv: "text-orange-600/80 dark:text-orange-400/80 border-orange-600/30 dark:border-orange-400/30 hover:text-orange-600 dark:hover:text-orange-400 hover:border-orange-600 dark:hover:border-orange-400",
+  slides: "text-teal-600/80 dark:text-teal-400/80 border-teal-600/30 dark:border-teal-400/30 hover:text-teal-600 dark:hover:text-teal-400 hover:border-teal-600 dark:hover:border-teal-400",
+} as const;
 
 export function PublicationCard({ publication: p, showYear }: PublicationCardProps) {
   return (
@@ -71,19 +81,19 @@ export function PublicationCard({ publication: p, showYear }: PublicationCardPro
 
         <div className="flex flex-wrap gap-x-4 gap-y-1 mt-1 items-center">
           {p.links.pdf && (
-            <a href={p.links.pdf} target="_blank" rel="noopener noreferrer" className={chipBase}>PDF</a>
+            <a href={p.links.pdf} target="_blank" rel="noopener noreferrer" className={`${chipBase} ${chipNeutral}`}>PDF</a>
           )}
           {p.links.doi && (
-            <a href={p.links.doi} target="_blank" rel="noopener noreferrer" className={chipBase}>DOI</a>
+            <a href={p.links.doi} target="_blank" rel="noopener noreferrer" className={`${chipBase} ${linkColors.doi}`}>DOI</a>
           )}
           {p.links.arxiv && (
-            <a href={p.links.arxiv} target="_blank" rel="noopener noreferrer" className={chipBase}>arXiv</a>
+            <a href={p.links.arxiv} target="_blank" rel="noopener noreferrer" className={`${chipBase} ${linkColors.arxiv}`}>arXiv</a>
           )}
           {p.links.code && (
-            <a href={p.links.code} target="_blank" rel="noopener noreferrer" className={chipBase}>Code</a>
+            <a href={p.links.code} target="_blank" rel="noopener noreferrer" className={`${chipBase} ${chipNeutral}`}>Code</a>
           )}
           {p.links.slides && (
-            <a href={p.links.slides} target="_blank" rel="noopener noreferrer" className={chipBase}>Slides</a>
+            <a href={p.links.slides} target="_blank" rel="noopener noreferrer" className={`${chipBase} ${linkColors.slides}`}>Slides</a>
           )}
           <BibTexDialog bibtex={getBibtex(p)} />
         </div>

@@ -93,7 +93,7 @@ export interface ResearchExperience {
   role: string;
   period: string;
   location: string;
-  type: "full-time" | "part-time" | "visiting" | "internship";
+  type: "full-time" | "part-time" | "visiting" | "internship" | "honorary";
   supervisors?: string[];
   hosts?: string[];
   highlights?: string[];

@@ -16,7 +16,10 @@
     "venue": "EMNLP",
     "venueType": "conference",
     "track": "Main",
-    "links": {},
+    "links": {
+      "pdf": "/pdfs/2026-athena-emnlp.pdf",
+      "code": "https://github.com/thanhlecongg/Athena"
+    },
     "tags": [
       "vulnerability",
       "knowledge graph",

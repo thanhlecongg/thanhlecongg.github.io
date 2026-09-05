@@ -3,7 +3,7 @@
   "areas": [
     {
       "id": "ai-for-se-security",
-      "title": "AI for Software Engineering and Security",
+      "title": "AI for Software Engineering",
       "description": "Software development is moving beyond what human review alone can keep pace with. We develop AI-enabled methods that audit code and software artifacts, identify defects and vulnerabilities, trace them to their causes, generate repairs, and validate that proposed fixes are correct. Our goal is to turn AI into a dependable engineering partner that helps developers build and maintain reliable, secure software at scale.",
       "relatedPapers": [
         "2026-patchguru-patch-oracle",

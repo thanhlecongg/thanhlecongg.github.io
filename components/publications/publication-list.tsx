@@ -40,7 +40,7 @@ export function PublicationList({ publications }: PublicationListProps) {
 
   const years = useMemo(() => {
     const set = new Set<string>();
-    for (const p of publications) if (p.year >= 2024) set.add(String(p.year));
+    for (const p of publications) if (p.year >= 2023) set.add(String(p.year));
     return Array.from(set).sort((a, b) => Number(b) - Number(a));
   }, [publications]);
 

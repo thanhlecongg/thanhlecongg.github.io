@@ -17,6 +17,7 @@ const TYPE_LABEL: Record<string, string> = {
   "full-time": "Full-time",
   visiting: "Visiting",
   internship: "Industry internship",
+  honorary: "Honorary",
 };
 
 export default function ExperiencePage() {

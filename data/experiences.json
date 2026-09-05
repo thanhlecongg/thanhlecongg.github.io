@@ -8,6 +8,14 @@
     "type": "full-time"
   },
   {
+    "id": "unimelb-honorary-fellow",
+    "organization": "University of Melbourne",
+    "role": "Honorary Fellow (Level B)",
+    "period": "Sep 2026 – Present",
+    "location": "Melbourne, Australia",
+    "type": "honorary"
+  },
+  {
     "id": "cispa-2025",
     "organization": "University of Stuttgart / CISPA",
     "role": "Visiting Researcher",

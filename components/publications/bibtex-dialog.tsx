@@ -12,11 +12,11 @@ export function BibTexDialog({ bibtex }: BibTexDialogProps) {
 
   return (
     <span className="inline-block">
-      {/* Trigger chip — consistent with PDF/Code/arXiv chips */}
+      {/* Trigger chip — neutral, since this toggles an inline panel rather than opening an external link */}
       <button
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
-        className="text-[12.5px] text-muted-foreground border-b border-border pb-px transition-colors cursor-pointer hover:text-primary hover:border-primary"
+        className="text-[12.5px] text-muted-foreground border-b border-border pb-px transition-colors cursor-pointer hover:text-foreground hover:border-foreground/50"
       >
         BibTeX
       </button>

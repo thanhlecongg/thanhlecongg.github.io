@@ -5,7 +5,7 @@
   "university": "Singapore University of Technology and Design (SUTD)",
   "email": "congthanh_le@sutd.edu.sg",
   "officeLocation": "",
-  "bio": "I am a tenure-track Assistant Professor at the Singapore University of Technology and Design (SUTD) and an Honorary Fellow at the University of Melbourne. My research lies at the intersection of software engineering, artificial intelligence, and cybersecurity. The overarching goal of my research is to improve the reliability and security of software and AI systems, enabling their trustworthy and safe deployment in real-world applications. Toward this goal, I develop automated techniques for auditing and debugging both traditional software and AI-powered systems. If you are interested in my research, please feel free to get in touch.",
+  "bio": "I am a tenure-track Assistant Professor at the Singapore University of Technology and Design (SUTD) and an Honorary Fellow at the University of Melbourne. My research lies at the intersection of software engineering, artificial intelligence, and cybersecurity. The overarching goal of my research is to improve the reliability and security of software and AI systems, enabling their secure and safe deployment in real-world applications. Toward this goal, I develop automated techniques for auditing, debugging and improving both traditional software and AI-powered systems. If you are interested in my research, please feel free to get in touch.",
   "socialLinks": {
     "googleScholar": "https://scholar.google.com/citations?user=iaQgZHYAAAAJ&hl=en",
     "dblp": "",
@@ -15,12 +15,14 @@
     "orcid": ""
   },
   "news": [
-    { "date": "2026-09", "text": "Honoured to be appointed an Honorary Fellow at the University of Melbourne, my PhD alma mater." },
-    { "date": "2026-08", "text": "Glad to share that our two papers, led by my undergraduate interns, on vulnerability-affected library identification and LLMs for functional programming are accepted at EMNLP 2026." },
-    { "date": "2026-07", "text": "Glad to share that our ICSME paper has been awarded TCSE Distinguished Paper Award." },
-    { "date": "2026-05", "text": "Glad to share that our paper on backdoor defense for Code LLMs is accepted at ICSME 2026." },
-    { "date": "2026-05", "text": "Glad to share that our emprical study on mining VFCs from NVD is accepted at ACM TOSEM." },
-    { "date": "2026-05", "text": "Invited to be Chair of Data/AI Models Track of EASE 2027." },
-    { "date": "2026-05", "text": "Excited to share that I officially joined SUTD." }
+    { "date": "2026-09", "text": "I am honoured to editoral board of Springer Software Quality Journal (SQJ) as associate editor. Please consider submit your work to SQJ!" },
+    { "date": "2026-09", "text": "I am glad to share that our paper on regression bug repair has been accepted at ACM TOSEM." },
+    { "date": "2026-09", "text": "I amd honoured to be appointed an Honorary Fellow at the University of Melbourne, my PhD alma mater." },
+    { "date": "2026-08", "text": "I am glad to share that our two papers, led by my undergraduate interns, on vulnerability-affected library identification and LLMs for functional programming are accepted at EMNLP 2026." },
+    { "date": "2026-07", "text": "I am glad to share that our ICSME paper on backdoor defense has been awarded TCSE Distinguished Paper Award." },
+    { "date": "2026-05", "text": "I am glad to share that our paper on backdoor defense for Code LLMs is accepted at ICSME 2026." },
+    { "date": "2026-05", "text": "I am glad to share that our emprical study on mining VFCs from NVD is accepted at ACM TOSEM." },
+    { "date": "2026-05", "text": "I am honoured to join EASE 2027's Organising Committee as Co-chair of Data/AI Models Track" },
+    { "date": "2026-05", "text": "I am excited to share that I officially joined SUTD as tenure-track Assistant Professor." }
   ]
 }

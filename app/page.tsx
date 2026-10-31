@@ -11,6 +11,13 @@ const FEATURED_METRICS = [
   { value: "$0.07", label: "per PR" },
 ] as const;
 
+const SWECC_METRICS = [
+  { value: "823", label: "machine-checkable policies" },
+  { value: "500", label: "tasks" },
+  { value: "12", label: "open-source repositories" },
+  { value: "43.1%", label: "policies violated" },
+] as const;
+
 const FEATURED_LIBRARIES = ["pandas", "SciPy", "marshmallow", "Keras"] as const;
 
 export default function HomePage() {
@@ -19,10 +26,14 @@ export default function HomePage() {
     (publication) => publication.id === "2026-patchguru-patch-oracle",
   );
 
+  const sweCC = getPublications().find(
+    (publication) => publication.id === "2026-swe-cc-policy-compliance",
+  );
+
   return (
     <div className="flex flex-col gap-12">
       <section className="flex flex-wrap gap-6 gap-x-12 items-start">
-        <div className="flex-none w-[180px] min-w-[150px] flex flex-col gap-4">
+        <div className="flex-none w-full max-w-[220px] mx-auto sm:mx-0 sm:w-[180px] sm:max-w-none flex flex-col gap-4">
           <Image
             src="/images/profile.webp"
             alt={`Profile photo of ${profile.name}`}
@@ -62,10 +73,11 @@ export default function HomePage() {
 
       {profile.news.length > 0 && <NewsList news={profile.news} />}
 
-      {patchGuru && (
+      {(patchGuru || sweCC) && (
         <section className="flex flex-col gap-4">
           <h2 className="eyebrow pb-3 border-b border-border">Featured work</h2>
 
+          {patchGuru && (
           <article className="flex flex-col gap-3">
             <div className="flex flex-wrap items-center gap-2 text-[11px] uppercase tracking-wide">
               <span className="text-primary font-semibold border border-primary/25 bg-primary/[0.06] rounded-full px-2.5 py-0.5">
@@ -132,6 +144,69 @@ export default function HomePage() {
               </div>
             </div>
           </article>
+          )}
+          {sweCC && patchGuru && <div className="border-t border-border my-4" />}
+
+          {sweCC && (
+          <article className="flex flex-col gap-3">
+            <div className="flex flex-wrap items-center gap-2 text-[11px] uppercase tracking-wide">
+              <span className="text-primary font-semibold border border-primary/25 bg-primary/[0.06] rounded-full px-2.5 py-0.5">
+                Current work
+              </span>
+              <span className="text-muted-foreground font-medium">
+                {sweCC.venue} · {sweCC.year}
+              </span>
+            </div>
+
+            <h3 className="text-[clamp(21px,2.6vw,26px)] font-bold tracking-tight leading-tight text-foreground">
+              {sweCC.title}
+            </h3>
+
+            <p className="max-w-3xl text-[15px] leading-relaxed text-foreground/80">
+              Passing unit tests does not make an agent&rsquo;s patch acceptable for merging. SWE-CC
+              converts developer documentation from open-source repositories into machine-checkable
+              policies and audits both what coding agents do while working and what they finally
+              deliver. Across four LLMs and two agent scaffolds, we found that functionally correct patches still
+              violated 43.1% of applicable policies.
+            </p>
+
+            <div className="flex flex-wrap gap-2 mt-1">
+              {sweCC.links.arxiv && (
+                <a
+                  href={sweCC.links.arxiv}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[12.5px] text-foreground/70 border border-border rounded-md px-2.5 py-1 hover:border-primary/50 hover:text-primary transition-colors"
+                >
+                  arXiv
+                </a>
+              )}
+              {sweCC.links.code && (
+                <a
+                  href={sweCC.links.code}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[12.5px] text-foreground/70 border border-border rounded-md px-2.5 py-1 hover:border-primary/50 hover:text-primary transition-colors"
+                >
+                  Code
+                </a>
+              )}
+            </div>
+
+            <div className="border-t border-border mt-3 pt-5 flex flex-wrap gap-8">
+              {SWECC_METRICS.map((metric) => (
+                <div key={metric.label} className="flex flex-col gap-1">
+                  <div className="text-[30px] font-bold tracking-tight leading-none text-primary"
+                       style={{ fontFamily: "var(--font-heading), Georgia, serif" }}>
+                    {metric.value}
+                  </div>
+                  <div className="text-[13.5px] leading-tight text-muted-foreground">{metric.label}</div>
+                </div>
+              ))}
+            </div>
+          </article>
+          )}
+
         </section>
       )}
     </div>

@@ -6,7 +6,8 @@ export function RecruitmentNotice() {
         Join my group at SUTD
       </h2>
       <p className="flex-1 min-w-[280px] text-[15px] leading-relaxed text-foreground/80">
-        I am actively recruiting <strong className="font-semibold text-foreground">fully-funded PhD students</strong>,
+        I have finished recruiting PhD students for the January intake and am now only recruiting{" "}
+        <strong className="font-semibold text-foreground">fully-funded PhD students for the Fall intake</strong>,
         to work on trustworthy AI for software engineering. See details in the {" "}
         {" "}
         <a href="/join" className="text-primary hover:underline underline-offset-2">

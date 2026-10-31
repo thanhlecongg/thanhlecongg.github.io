@@ -10,7 +10,7 @@ const OPENINGS = [
     status: "Open",
     open: true,
     detail:
-      "I am actively recruiting PhD students for the next intake (Spring 2027). I am looking for well-motivated students with strong foundations in software engineering, cybersecurity or artificial intelligence. All PhD positions are fully funded via scholarships, e.g, SUTD PhD Scholarship, AISG Fellowship, A*STAR's SINGA award, and Vingroup Scholarship. I am happy to discuss potential research directions and funding routes with interested applicants.",
+      "I have finished recruiting PhD students for the January 2027 intake. I am now only recruiting for the Fall intake (Fall 2027). I am looking for well-motivated students with strong foundations in software engineering, cybersecurity or artificial intelligence. All PhD positions are fully funded via scholarships, e.g, SUTD PhD Scholarship, AISG Fellowship, A*STAR's SINGA award, and Vingroup Scholarship. I am happy to discuss potential research directions and funding routes with interested applicants.",
     links: [
       { label: "SUTD PhD programme", href: "https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/" },
       { label: "AISG PhD Fellowship", href: "https://aisingapore.org/research/phd-fellowship-programme/" },
@@ -87,12 +87,12 @@ export default function JoinPage() {
         <div className="mt-7 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-border pt-5 text-[12.5px] text-muted-foreground">
           <span className="inline-flex items-center gap-2 font-medium text-foreground/80">
             <span className="h-2 w-2 rounded-full bg-primary shadow-[0_0_0_4px_color-mix(in_oklab,var(--primary)_12%,transparent)]" />
-            Recruiting for the next intake
+            Recruiting for the Fall 2027 intake only
           </span>
           <span aria-hidden="true" className="hidden h-3 w-px bg-border sm:block" />
-          <span>Deadline: September 30, 2026</span>
+          <span>January 2027 intake: filled</span>
           <span aria-hidden="true" className="hidden h-3 w-px bg-border sm:block" />
-          <span>Updated August 2026.</span>
+          <span>Updated October 2026.</span>
         </div>
       </section>
 
